@@ -358,7 +358,7 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="w-full max-w-7xl mx-auto px-6 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-4">
           {/* Security & Safety */}
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300">
             <div className="mb-4 w-68">
