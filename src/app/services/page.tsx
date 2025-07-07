@@ -240,7 +240,7 @@ When you create a Deupoad Account, we ask for some personal info. By providing a
                 <ul className="list pl-6">
                     <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">1. Click Create Account button on header.</li>
                     <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">2. Enter your email address.</li>
-                    <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">3. In the "Full name" field, enter your name.</li>
+                    <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">3. In the `&#34;`Full name`&#34;` field, enter your name.</li>
                     <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">4. Enter and confirm your password.</li>
                     <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">5. Click Create Account.</li>
                 </ul>

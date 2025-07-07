@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Network } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const AIPlatformSection = () => {
   const features = [
@@ -48,7 +48,7 @@ const AIPlatformSection = () => {
         {/* Main Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-semibold font-['Urbanist'] leading-[58px] max-w-4xl mx-auto">
-            Industry's only AI-Native platform for complex infrastructure management
+            Industrys only AI-Native platform for complex infrastructure management
           </h2>
         </div>
 

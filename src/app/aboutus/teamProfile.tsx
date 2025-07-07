@@ -1,5 +1,4 @@
 import React from 'react';
-import { User } from 'lucide-react';
 
 const TeamProfilesSection = () => {
   // Sample team data - replace with your actual team member images

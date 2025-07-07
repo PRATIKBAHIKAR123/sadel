@@ -307,8 +307,8 @@ export default function LandingPage() {
                 Work on the go
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                Stay connected and productive wherever you are with Sodar's
-                on-the-go solutions. Whether you're traveling, working remotely,
+                Stay connected and productive wherever you are with Sodars
+                on-the-go solutions. Whether youre traveling, working remotely,
                 or switching between locations, our tools keep your workflow
                 seamless. Access, collaborate, and manage tasks anytime—without
                 being tied to a desk.
@@ -331,9 +331,9 @@ export default function LandingPage() {
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-8">
                 Access your important folders even without an internet
-                connection. Sadel lets you stay organized and in control,
-                anytime, anywhere. Work seamlessly offline and sync
-                automatically when you're back online.
+                connection.Sadel lets you stay organized and in control,
+                anytime, anywhere.Work seamlessly offline and sync
+                automatically when youre back online.
               </p>
 
               {/* CTA Button */}

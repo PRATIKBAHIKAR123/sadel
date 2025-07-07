@@ -74,12 +74,9 @@ export default function FlexibleDeploymentOptions() {
             1024: { slidesPerView: 3, spaceBetween: -80 },
             768: { slidesPerView: 1.3, spaceBetween: -60 },
           }}
-          onSlideChange={(swiper) => {
-            // force update to re-render for text color/opacity
-            // (Swiper handles active/inactive classes, but for text, we need to check index)
-          }}
+          
         >
-          {tabKeys.map((tab, idx) => (
+          {tabKeys.map((tab) => (
             <SwiperSlide key={tab}>
               {({ isActive }) => (
                 <div className={`bg-white rounded-2xl p-8 shadow-sm h-full flex flex-col justify-between swiper-card transition-all duration-300 ${isActive ? '' : 'opacity-60'}`}>
