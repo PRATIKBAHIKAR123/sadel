@@ -1,6 +1,7 @@
 "use client"
 
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import Link from "next/link";
 import { useState } from "react";
 
 const Footer = () => {
@@ -73,29 +74,29 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-gray-800 mb-6">Useful Links</h3>
             <ul className="space-y-3">
               <li>
-                <a href="/" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="/" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Product
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/aboutus" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="/aboutus" className="text-gray-600 hover:text-gray-800 transition-colors">
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="/services" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Contact us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -105,29 +106,29 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-gray-800 mb-6">Resources</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Knowledge Base
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
                   API
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Press Release
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Support
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
