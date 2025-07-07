@@ -54,6 +54,8 @@ const TeachingTechCarousel = () => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024;
+
   // Always return 3 slides for the grid
   const getVisibleSlides = () => {
     const visibleSlides = [];
@@ -103,7 +105,7 @@ const TeachingTechCarousel = () => {
                 <div
                   key={`${slide.id}-${currentSlide}-${index}`}
                   className="bg-white p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 min-h-[220px] sm:min-h-[260px] md:min-h-[280px] flex flex-col items-center text-center"
-                  style={{ display: (index === 2 && window?.innerWidth < 1024) ? 'none' : undefined }}
+                  style={{ display: (index === 2 && isMobile) ? 'none' : undefined }}
                 >
                   {/* Icon Container */}
                   <div className="mb-4 sm:mb-6 p-3 sm:p-4 bg-gray-50 rounded-full">
