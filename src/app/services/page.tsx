@@ -250,6 +250,28 @@ When you create a Deupoad Account, we ask for some personal info. By providing a
                 <img src="Images/Untit design 1.png" alt="Create Account" className="w-auto h-64 absolute -bottom-12 right-5"/>
             </div>
         </div>
+        <div className="flex gap-4 mt-8">
+            <div className="flex items-start justify-center mb-6">
+                <div className="w-20 h-20 bg-[#f9d300] rounded-full flex items-center justify-center text-white text-[40px] font-black font-['Urbanist'] leading-none">
+                    2.
+                </div>
+            </div>
+            <div className="flex flex-col gap-4">
+                <div className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-9">Upload files from desktop</div>
+                <div className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
+When you create a Deupoad Account, we ask for some personal info. By providing accurate info, you can help keep your account secure and make our services more useful.
+                </div>
+                <ul className="list pl-6">
+                    <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">1. On your computer, go to drive.google.com.</li>
+                    <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">2. At the top left, click New and then  Upload Files or Upload Folder.</li>
+                    <li className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">3. Choose the file or folder you want to upload.</li>
+                </ul>
+            </div>
+            <div className="w-full h-full flex items-center justify-center relative">
+                <img src="Images/Screenshot 2025-06-29 at 9.19.49 PM 3.png" className="h-64 w-full"/>
+                <img src="Images/Untit design 3.png" alt="Create Account" className="w-auto h-64 absolute -bottom-12 left-5"/>
+            </div>
+        </div>
         </div>
       </div>
             </div>
