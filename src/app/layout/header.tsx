@@ -3,6 +3,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
+import Link from 'next/link';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -22,8 +23,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           
           {/* Logo */}
-          <img src="/Images/Untdesign 1.png" alt="Sadel Logo" className="h-8 w-auto" />
-
+          <Link href="/">
+            <img src="/Images/Untdesign 1.png" alt="Sadel Logo" className="h-8 w-auto cursor-pointer" />
+          </Link>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navigationItems.map((item) => (
