@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight, Smartphone, Monitor, Presentation } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Smartphone, Monitor } from 'lucide-react';
 
 // const getSlidesToShow = () => {
 //   if (typeof window === 'undefined') return 1;
@@ -16,21 +16,21 @@ const TeachingTechCarousel = () => {
   const slides = [
     {
       id: 1,
-      icon: <img src="Images/image 14.png" alt="Smartphone Icon" className="w-12 h-12 text-blue-500" />,
-      title: "Hold Meetings Everywhere",
-      description: "Have Meetings In You Office Anywhere"
+      icon: <img src="Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />,
+      title: "Natural Writing",
+      description: "A Quick Response rate and zero bonding tech makes pen Stroke Smooth"
     },
     {
       id: 2,
-      icon: <Monitor className="w-12 h-12 text-orange-500" />,
-      title: "Interactive Screens",
-      description: "Have Touch Screens With Easy Control"
+      icon: <img src="Images/download.png" alt="Smartphone Icon" className="w-16 h-16" />,
+      title: "Built For Speed",
+      description: "High Speed Gigabit Ethernet Ensure Faster Transmission of class files"
     },
     {
       id: 3,
-      icon: <Presentation className="w-12 h-12 text-blue-600" />,
-      title: "Master Series BenQ",
-      description: "Advance Master BenQ Series To Enhance Quality"
+      icon: <img src="Images/security.png" alt="Smartphone Icon" className="w-18 h-16" />,
+      title: "Certified Dustproof",
+      description: "Meeting IP5X Standards, the RE Operates consistently even in dust"
     },
     {
       id: 4,

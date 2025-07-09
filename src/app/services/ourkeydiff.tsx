@@ -1,11 +1,11 @@
-import { 
-  Shield, 
-  User, 
-  Users, 
-  Upload, 
-  Share2, 
-  FileText,
-  CheckCircle
+import {
+  
+  
+  // Users,
+  // Upload,
+  // Share2,
+  // FileText,
+  // CheckCircle
 } from 'lucide-react';
 
 interface FeatureItem {
@@ -27,12 +27,12 @@ const FeatureCard: React.FC<{ category: FeatureCategory }> = ({ category }) => {
         </div>
         <h3 className=" text-[#0b0d0e] text-2xl font-semibold font-['Urbanist'] leading-9">{category.title}</h3>
       </div>
-      
+
       <div className="space-y-3">
         {category.items.map((item, index) => (
           <div key={index} className="flex items-center gap-3">
-            <CheckCircle className="w-4 h-4 text-gray-500 flex-shrink-0" />
-            <span className="justify-start text-[#5c5f6e] text-base font-semibold font-['Urbanist'] leading-none">{item.text}</span>
+            {/* <CheckCircle className="w-4 h-4 text-gray-500 flex-shrink-0" /> */}
+            <span className="justify-start text-[#7A7A7A] text-base font-semibold font-['Urbanist'] leading-none">{item.text}</span>
           </div>
         ))}
       </div>
@@ -40,78 +40,60 @@ const FeatureCard: React.FC<{ category: FeatureCategory }> = ({ category }) => {
   );
 };
 
-export default function OurKey(){
-      const categories: FeatureCategory[] = [
+export default function OurKey() {
+  const categories: FeatureCategory[] = [
     {
-      icon: <Shield className="w-5 h-5" />,
-      title: "Authentication",
+      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      title: "Be Transparent",
       items: [
-        { text: "Registration" },
-        { text: "Login / Logout" },
-        { text: "Reset password" }
+        { text: "We believe in open, honest, and consistent communication across all levels.Everyone deserves access to clear information, no matter their role in the organization." }
       ]
     },
     {
-      icon: <User className="w-5 h-5" />,
-      title: "Account",
+      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      title: "Calculated Decisions",
       items: [
-        { text: "Profile" },
-        { text: "Access token" },
-        { text: "Subscription" },
-        { text: "Notifications" }
+        { text: "We rely on collaboration and data - driven insights to make smart, strategic decisions that serve the best interest of our business and our people." }
       ]
     },
     {
-      icon: <Users className="w-5 h-5" />,
-      title: "Teams",
+      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      title: "Value Each Other",
       items: [
-        { text: "Team management" },
-        { text: "Invitations" },
-        { text: "Navigation" }
+        { text: "We lift each other up, celebrate wins, and communicate with honesty and respect.We care deeply about our team’s success and support one another through every step." }
       ]
     },
     {
-      icon: <Upload className="w-5 h-5" />,
-      title: "File Upload",
+      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      title: "Embrace Innovation",
       items: [
-        { text: "Upload file" },
-        { text: "File Editing" },
-        { text: "Zip file" },
-        { text: "Browsing files" },
-        { text: "Trash item" },
-        { text: "Favorite folder" }
+        { text: "We welcome new ideas, tools, and technologies to stay ahead.Innovation drives us to keep improving and deliver smarter, future - ready solutions." }
       ]
     },
     {
-      icon: <Share2 className="w-5 h-5" />,
-      title: "File Sharing",
+      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      title: "Take Ownership",
       items: [
-        { text: "Edit sharing" },
-        { text: "Share browsing" },
-        { text: "Manage sharing" },
-        { text: "Share uploading" }
+        { text: "We hold ourselves accountable—from start to finish.Every task, challenge, and achievement is owned with responsibility and integrity." }
       ]
     },
     {
-      icon: <FileText className="w-5 h-5" />,
-      title: "File Request",
+      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      title: "Deliver with Excellence",
       items: [
-        { text: "File request management" },
-        { text: "File editing" },
-        { text: "Request browsing" },
-        { text: "Request uploading" }
+        { text: "We are committed to quality and precision.Our goal is to consistently exceed expectations and deliver impactful results in everything we do." }
       ]
-    }
+    },
   ];
-    return(
-        <div className="max-w-7xl mx-auto px-8 flex flex-col">
-                       <div className="text-center text-5xl font-semibold font-['Urbanist'] leading-[64px]"><span className="text-[#0b0d0e]">Our</span><span className="text-[#f9d300]"> Key Differentiators</span></div>
-                       <div className="text-center justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis tincidunt sem. Sed interdum eget tellus vel aliquet. Vestibulum nibh dolor</div>
-                               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {categories.map((category, index) => (
-            <FeatureCard key={index} category={category} />
-          ))}
-        </div>
-                      </div>
-    )
+  return (
+    <div className="max-w-7xl mx-auto px-8 flex flex-col">
+      <div className="text-center text-5xl font-semibold font-['Urbanist'] leading-[64px]"><span className="text-[#0b0d0e]">Our</span><span className="text-[#f9d300]"> Key Differentiators</span></div>
+      <div className="text-center max-w-5xl justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis tincidunt sem. Sed interdum eget tellus vel aliquet. Vestibulum nibh dolor</div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {categories.map((category, index) => (
+          <FeatureCard key={index} category={category} />
+        ))}
+      </div>
+    </div>
+  )
 }

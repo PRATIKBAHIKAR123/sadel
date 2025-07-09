@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-8">
             {/* Logo */}
             <div>
-              <img src="Images/Untdesign 1.png" alt="Sadel Logo" className="h-12 mb-4" />
+              <img src="/Images/Untdesign 1.png" alt="Sadel Logo" className="h-12 mb-4" />
               <p className="text-[#7f7f7f] text-base font-normal font-['Figtree'] leading-tight">Smart Infrastructure Simplified</p>
             </div>
 
@@ -79,7 +79,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="/portfolio" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Product
                 </Link>
               </li>
@@ -94,7 +94,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="/contact-us" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Contact us
                 </Link>
               </li>
@@ -121,7 +121,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors">
+                <Link href="/blog" className="text-gray-600 hover:text-gray-800 transition-colors">
                   Blog
                 </Link>
               </li>

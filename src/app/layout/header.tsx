@@ -22,7 +22,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           
           {/* Logo */}
-          <img src="Images/Untdesign 1.png" alt="Sadel Logo" className="h-8 w-auto" />
+          <img src="/Images/Untdesign 1.png" alt="Sadel Logo" className="h-8 w-auto" />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
