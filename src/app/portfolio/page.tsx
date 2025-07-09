@@ -70,22 +70,23 @@ export default function PortfolioPage() {
   return (
     <div className="w-full min-h-screen bg-[#fff]">
       {/* Hero Section */}
-      <div className="bg-yellow-50 py-16 px-6">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
-          <div className="flex-1 space-y-6">
+      <div className="bg-yellow-50 py-8 sm:py-12 md:py-16 px-4 sm:px-6">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8 sm:gap-12">
+          <div className="flex-1 space-y-4 sm:space-y-6 text-center lg:text-left">
             <Slide direction="left" triggerOnce>
-              <h1 className="text-4xl md:text-5xl font-bold text-black font-['Urbanist'] leading-tight mb-4">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black font-['Urbanist'] leading-tight sm:leading-normal mb-4">
                 Optimize your office <span>operations.</span>
               </h1>
-              <p className="text-gray-600 text-lg max-w-xl mb-6">
-                Digitalization has streamlined and simplified various manufacturing processes. With SADEL, manufacturers of any scale can build a central repository to improve information integrity at a reduced operational cost.              </p>
-              <div className="flex gap-4">
-                <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-md transition-colors">Get Started</button>
-                <button className="bg-white border border-gray-300 text-black font-semibold px-6 py-3 rounded-md transition-colors">Learn More</button>
+              <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 mb-6">
+                Digitalization has streamlined and simplified various manufacturing processes. With SADEL, manufacturers of any scale can build a central repository to improve information integrity at a reduced operational cost.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+                <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-md transition-colors w-full sm:w-auto">Get Started</button>
+                <button className="bg-white border border-gray-300 text-black font-semibold px-6 py-3 rounded-md transition-colors w-full sm:w-auto">Learn More</button>
               </div>
             </Slide>
           </div>
-          <div className="flex-1 flex justify-end relative min-h-[340px] md:min-h-[400px]">
+          <div className="flex-1 flex justify-center lg:justify-end relative min-h-[280px] sm:min-h-[340px] md:min-h-[400px]">
             {/* Screen image inside Fade */}
             <Fade direction="right" triggerOnce>
               <Image
@@ -93,7 +94,7 @@ export default function PortfolioPage() {
                 alt="Screen"
                 width={480}
                 height={320}
-                className="rounded-2xl shadow-lg object-cover w-full max-w-[480px] h-auto z-0"
+                className="rounded-2xl shadow-lg object-cover w-full max-w-[320px] sm:max-w-[400px] md:max-w-[480px] h-auto z-0"
               />
             </Fade>
 
@@ -103,214 +104,210 @@ export default function PortfolioPage() {
               alt="Girl"
               width={220}
               height={340}
-              className="absolute right-0 bottom-0 w-[160px] md:w-[220px] h-auto object-contain z-10"
+              className="absolute right-0 bottom-0 w-[120px] sm:w-[160px] md:w-[220px] h-auto object-contain z-10"
             />
           </div>
-
-
-
         </div>
       </div>
 
       {/* Product Features Section */}
-      <div className="max-w-7xl bg-secondary mx-auto px-4 md:px-0 py-16">
-        <Fade direction="left" triggerOnce>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
-              Unique Software <span className="text-yellow-400">Designed For Users</span>
-            </h2>
-            <p className="text-gray-600 text-lg max-w-4xl mx-auto">
-              SADEL, a platform that adheres to ISO 27001 and SOC-2 compliance, enables you to effectively create, organize, and manage your resources, while getting rid of any outdated or duplicated information from your system.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-6">
-            {/* Card 1 */}
-            <div className="bg-[#FFFFFF] rounded-2xl p-8 shadow-sm flex flex-col items-start">
-              <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
-                <img src="/Images/diagram.png" alt="icon" className="w-6 h-6" />
-              </div>
-              <h3 className="text-lg font-bold mb-2 text-black">Reduce cost</h3>
-              <p className="text-gray-500">Manage all files, from quality manuals and SOPs to contracts and orders, cost-effectively with SADEL.</p>
+      <div className="bg-secondary">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16">
+          <Fade direction="left" triggerOnce>
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
+                Unique Software <span className="text-yellow-400">Designed For Users</span>
+              </h2>
+              <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto">
+                SADEL, a platform that adheres to ISO 27001 and SOC-2 compliance, enables you to effectively create, organize, and manage your resources, while getting rid of any outdated or duplicated information from your system.
+              </p>
             </div>
 
-            {/* Card 2 */}
-            <div className="bg-[#FFFFFF] rounded-2xl p-8 shadow-sm flex flex-col items-start">
-              <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
-                <img src="/Images/peoples.png" alt="icon" className="w-6 h-6" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 p-4 sm:p-6">
+              {/* Card 1 */}
+              <div className="bg-[#FFFFFF] rounded-2xl p-6 sm:p-8 shadow-sm flex flex-col items-start">
+                <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
+                  <img src="/Images/diagram.png" alt="icon" className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-bold mb-2 text-black">Reduce cost</h3>
+                <p className="text-gray-500 text-sm sm:text-base">Manage all files, from quality manuals and SOPs to contracts and orders, cost-effectively with SADEL.</p>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-black">Reduce clutter</h3>
-              <p className="text-gray-500">Organize your documents in Team Folders with sub-folders. Search using file name, location, or type.</p>
-            </div>
 
-            {/* Card 3 */}
-            <div className="bg-[#FFFFFF] rounded-2xl p-8 shadow-sm flex flex-col items-start">
-              <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
-                <img src="/Images/sidebar.png" alt="icon" className="w-6 h-6" />
+              {/* Card 2 */}
+              <div className="bg-[#FFFFFF] rounded-2xl p-6 sm:p-8 shadow-sm flex flex-col items-start">
+                <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
+                  <img src="/Images/peoples.png" alt="icon" className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-bold mb-2 text-black">Reduce clutter</h3>
+                <p className="text-gray-500 text-sm sm:text-base">Organize your documents in Team Folders with sub-folders. Search using file name, location, or type.</p>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-black">Reduce the error</h3>
-              <p className="text-gray-500">Use an updated SOP in a Folder to avoid production line disasters. Changes reflect immediately, preventing data errors.</p>
-            </div>
-          </div>
 
-        </Fade>
+              {/* Card 3 */}
+              <div className="bg-[#FFFFFF] rounded-2xl p-6 sm:p-8 shadow-sm flex flex-col items-start md:col-span-2 lg:col-span-1">
+                <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
+                  <img src="/Images/sidebar.png" alt="icon" className="w-6 h-6" />
+                </div>
+                <h3 className="text-lg font-bold mb-2 text-black">Reduce the error</h3>
+                <p className="text-gray-500 text-sm sm:text-base">Use an updated SOP in a Folder to avoid production line disasters. Changes reflect immediately, preventing data errors.</p>
+              </div>
+            </div>
+          </Fade>
+        </div>
       </div>
 
       {/* Product Cards Section - Redesigned */}
-      <div className="max-w-7xl bg-secondary mx-auto px-4 md:px-0 py-16">
-        <Fade cascade>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
-              Our Top Featured <span className="text-yellow-400">You Won&apos;t Find Anywhere</span>
-            </h2>
-            <p className="text-gray-600 text-lg max-w-4xl mx-auto">
-              SADEL provides a platform for employees from different departments to collaborate using real-time data. By collaborating at every stage, from concept to production, teams can produce products more efficiently.
-            </p>
-          </div>
-          <div className="flex flex-col gap-8 max-w-5xl mx-auto">
-            {/* Card 1 */}
-            <div className="flex flex-col md:flex-row items-center bg-yellow-50 rounded-2xl p-8 md:p-12 gap-8 shadow-sm">
-              <div className="flex-1 text-left">
-                <h3 className="text-4xl font-bold mb-2 text-black font-['Urbanist']">Streamline<br />information flow</h3>
-                <p className="text-gray-600 max-w-md">Use a Private Team Folder for confidential files, and the Public Team Folder for public documents like HR policies and safety manuals.</p>
-              </div>
-              <div className="flex-1 flex justify-center">
-                <Image src="/Images/Screenshot.png" alt="Streamline information flow" width={340} height={200} className="rounded-xl object-contain" />
-              </div>
+      <div className="bg-secondary">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16">
+          <Fade cascade>
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
+                Our Top Featured <span className="text-yellow-400">You Won&apos;t Find Anywhere</span>
+              </h2>
+              <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto">
+                SADEL provides a platform for employees from different departments to collaborate using real-time data. By collaborating at every stage, from concept to production, teams can produce products more efficiently.
+              </p>
             </div>
-            {/* Card 2 */}
-            <div className="flex flex-col md:flex-row items-center bg-[#FFCBA8] rounded-2xl p-8 md:p-12 gap-8 shadow-sm">
-              {/* 🖼️ Image on the left */}
-              <div className="flex-1 flex justify-center relative min-h-[200px] md:min-h-[220px]">
-                {/* Display image as background */}
-                <Image
-                  src="/Images/Screenshot2.png"
-                  alt="Offer specific access levels"
-                  width={340}
-                  height={200}
-                  className="rounded-xl object-contain w-full max-w-[340px] h-auto z-0"
-                />
-                {/* Professional girl image overlayed */}
-                <Image
-                  src="/Images/professional.png"
-                  alt="Professional Girl"
-                  width={120}
-                  height={200}
-                  className="absolute left-0 bottom-0 w-[90px] md:w-[120px] h-auto object-contain z-10 p-0"
-                />
+            <div className="flex flex-col gap-6 sm:gap-8 max-w-5xl mx-auto">
+              {/* Card 1 */}
+              <div className="flex flex-col lg:flex-row items-center bg-yellow-50 rounded-2xl p-6 sm:p-8 md:p-12 gap-6 sm:gap-8 shadow-sm">
+                <div className="flex-1 text-center lg:text-left">
+                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 text-black font-['Urbanist']">Streamline<br />information flow</h3>
+                  <p className="text-gray-600 text-sm sm:text-base max-w-md mx-auto lg:mx-0">Use a Private Team Folder for confidential files, and the Public Team Folder for public documents like HR policies and safety manuals.</p>
+                </div>
+                <div className="flex-1 flex justify-center">
+                  <Image src="/Images/Screenshot.png" alt="Streamline information flow" width={340} height={200} className="rounded-xl object-contain w-full max-w-[280px] sm:max-w-[340px]" />
+                </div>
               </div>
 
-              {/* 📝 Text on the right */}
-              <div className="flex-1 text-left">
-                <h3 className="text-4xl font-bold mb-2 text-black font-['Urbanist']">
-                  Offer specific<br />access levels
-                </h3>
-                <p className="text-gray-600 max-w-md">
-                  Give your production team the resources they need. With SADEL, grant them access to design files without giving them access to the main folder.
+              {/* Card 2 */}
+              <div className="flex flex-col lg:flex-row items-center bg-[#FFCBA8] rounded-2xl p-6 sm:p-8 md:p-12 gap-6 sm:gap-8 shadow-sm">
+                {/* 🖼️ Image on the left */}
+                <div className="flex-1 flex justify-center relative min-h-[180px] sm:min-h-[200px] md:min-h-[220px] order-2 lg:order-1">
+                  {/* Display image as background */}
+                  <Image
+                    src="/Images/Screenshot2.png"
+                    alt="Offer specific access levels"
+                    width={340}
+                    height={200}
+                    className="rounded-xl object-contain w-full max-w-[280px] sm:max-w-[340px] h-auto z-0"
+                  />
+                  {/* Professional girl image overlayed */}
+                  <Image
+                    src="/Images/professional.png"
+                    alt="Professional Girl"
+                    width={120}
+                    height={200}
+                    className="absolute left-0 bottom-0 w-[70px] sm:w-[90px] md:w-[120px] h-auto object-contain z-10 p-0"
+                  />
+                </div>
+
+                {/* 📝 Text on the right */}
+                <div className="flex-1 text-center lg:text-left order-1 lg:order-2">
+                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 text-black font-['Urbanist']">
+                    Offer specific<br />access levels
+                  </h3>
+                  <p className="text-gray-600 text-sm sm:text-base max-w-md mx-auto lg:mx-0">
+                    Give your production team the resources they need. With SADEL, grant them access to design files without giving them access to the main folder.
+                  </p>
+                </div>
+              </div>
+
+              {/* Card 3 */}
+              <div className="flex flex-col lg:flex-row items-center bg-[#FFF5B9] rounded-2xl p-6 sm:p-8 md:p-12 gap-6 sm:gap-8 shadow-sm">
+                <div className="flex-1 text-center lg:text-left">
+                  <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 text-black font-['Urbanist']">Engage with third-party stakeholders</h3>
+                  <p className="text-gray-600 text-sm sm:text-base max-w-md mx-auto lg:mx-0">Collaborate with vendors, suppliers, and partners while retaining control over files. Share password-protected documents to ensure restricted access to important resources.</p>
+                </div>
+                <div className="flex-1 flex justify-center">
+                  <Image src="/Images/Screenshot3.png" alt="Engage with third-party stakeholders" width={340} height={200} className="rounded-xl object-contain w-full max-w-[280px] sm:max-w-[340px]" />
+                </div>
+              </div>
+            </div>
+          </Fade>
+        </div>
+      </div>
+
+      {/* Supervise and Control Team Files Section */}
+      <div className="w-full bg-[#fafbfc] py-12 sm:py-16 md:py-20">
+        <div className="max-w-5xl mx-auto flex flex-col lg:flex-row gap-8 sm:gap-12 px-4 sm:px-6 md:px-8">
+          {/* Right: Feature cards */}
+          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            {/* Card 1 - No shadow */}
+            <div className="rounded-2xl p-4 sm:p-6 flex gap-4 items-start md:col-span-2">
+              <div>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
+                  Supervise and control<br />team files
+                </h2>
+                <p className="text-gray-600 text-sm sm:text-base">
+                  With a single dashboard, administrators can access a comprehensive overview of all files and storage information. This includes tracking actions performed and documents deleted, allowing you to maintain a record of all activity within your organization.
                 </p>
               </div>
             </div>
 
-            {/* Card 3 */}
-            <div className="flex flex-col md:flex-row items-center bg-[#FFF5B9] rounded-2xl p-8 md:p-12 gap-8 shadow-sm">
-              <div className="flex-1 text-left">
-                <h3 className="text-4xl font-bold mb-2 text-black font-['Urbanist']">Engage with third-party stakeholders</h3>
-                <p className="text-gray-600 max-w-md">Collaborate with vendors, suppliers, and partners while retaining control over files. Share password-protected documents to ensure restricted access to important resources.</p>
-              </div>
-              <div className="flex-1 flex justify-center">
-                <Image src="/Images/Screenshot3.png" alt="Engage with third-party stakeholders" width={340} height={200} className="rounded-xl object-contain" />
-              </div>
-            </div>
-          </div>
-        </Fade>
-      </div>
-
-      {/* Supervise and Control Team Files Section */}
-      <div className="w-full bg-[#fafbfc] py-20">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-12 px-4 md:px-0">
-
-
-          {/* Right: Feature cards */}
-          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Card 1 - No shadow */}
-            <div className=" rounded-2xl p-6 flex gap-4 items-start">
-              {/* <span className="flex-shrink-0 w-12 h-12 rounded-full bg-yellow-400 flex items-center justify-center text-2xl mt-1"></span> */}
-              <div>
-                <h2 className="text-4xl font-bold text-black font-['Urbanist'] mb-4">
-                  Supervise and control<br />team files
-                </h2>                <p className="text-gray-600 text-sm">
-                  With a single dashboard, administrators can access a comprehensive overview of all files and storage information. This includes tracking actions performed and documents deleted, allowing you to maintain a record of all activity within your organization.                </p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-6 flex gap-4 items-start shadow-sm">
-              <span className="flex-shrink-0 w-12 h-12 rounded-full bg-[#F9D400] flex items-center justify-center text-2xl mt-1"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="24" cy="24" r="24" fill="#F9D400" />
-                <path d="M24 10V24L34.64 29.32C33.08 33.24 29.3 36 24.98 36C18.92 36 14 31.08 14 25C14 18.92 18.92 14 24 14V10ZM26 12.04C30.78 12.48 34.52 16.22 34.96 21H26V12.04Z" fill="white" />
-              </svg>
+            <div className="bg-white rounded-2xl p-4 sm:p-6 flex gap-4 items-start shadow-sm">
+              <span className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#F9D400] flex items-center justify-center text-lg sm:text-2xl mt-1">
+                <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 sm:w-8 sm:h-8">
+                  <circle cx="24" cy="24" r="24" fill="#F9D400" />
+                  <path d="M24 10V24L34.64 29.32C33.08 33.24 29.3 36 24.98 36C18.92 36 14 31.08 14 25C14 18.92 18.92 14 24 14V10ZM26 12.04C30.78 12.48 34.52 16.22 34.96 21H26V12.04Z" fill="white" />
+                </svg>
               </span>
               <div>
-                <h3 className="font-bold text-lg text-black mb-1">Manage activity report</h3>
-                <p className="text-gray-600 text-sm">
+                <h3 className="font-bold text-base sm:text-lg text-black mb-1">Manage activity report</h3>
+                <p className="text-gray-600 text-xs sm:text-sm">
                   Create comprehensive reports that provide details on the activities of each member in your team, including the number of file uploads, edits, downloads, and previews. These reports can be viewed at both the team and Team Folder level.
                 </p>
               </div>
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white rounded-2xl p-6 flex gap-4 items-start shadow-sm">
-              <span className="flex-shrink-0 w-12 h-12 rounded-full bg-[#F9D400] flex items-center justify-center text-2xl mt-1"><svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="60" cy="60" r="60" fill="#F9D400" />
-
-                <path d="M85 35L45 55C43.5 55.7 43.6 57.7 45 58.3L59 64L65 78.5C65.7 80 67.7 80 68.3 78.5L89 39C89.8 37.3 87.7 35.2 85 35Z" fill="white" />
-              </svg>
+            <div className="bg-white rounded-2xl p-4 sm:p-6 flex gap-4 items-start shadow-sm">
+              <span className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#F9D400] flex items-center justify-center text-lg sm:text-2xl mt-1">
+                <svg width="24" height="24" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 sm:w-8 sm:h-8">
+                  <circle cx="60" cy="60" r="60" fill="#F9D400" />
+                  <path d="M85 35L45 55C43.5 55.7 43.6 57.7 45 58.3L59 64L65 78.5C65.7 80 67.7 80 68.3 78.5L89 39C89.8 37.3 87.7 35.2 85 35Z" fill="white" />
+                </svg>
               </span>
               <div>
-                <h3 className="font-bold text-lg text-black mb-1">Restrict external sharing</h3>
-                <p className="text-gray-600 text-sm font-['Urbanist']">
+                <h3 className="font-bold text-base sm:text-lg text-black mb-1">Restrict external sharing</h3>
+                <p className="text-gray-600 text-xs sm:text-sm font-['Urbanist']">
                   An organization can incur significant costs when designs are leaked before launch. SADEL offers the ability to control file sharing outside of the team, giving you the option to decide whether employees can share files externally.
                 </p>
               </div>
             </div>
 
             {/* Card 3 */}
-            <div className="bg-white rounded-2xl p-6 flex gap-4 items-start shadow-sm">
-              <span className="flex-shrink-0 w-12 h-12 rounded-full bg-[#F9D400] flex items-center justify-center text-2xl mt-1"><svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="60" cy="60" r="60" fill="#F9D400" />
-
-                <path d="M85 35L45 55C43.5 55.7 43.6 57.7 45 58.3L59 64L65 78.5C65.7 80 67.7 80 68.3 78.5L89 39C89.8 37.3 87.7 35.2 85 35Z" fill="white" />
-              </svg>
+            <div className="bg-white rounded-2xl p-4 sm:p-6 flex gap-4 items-start shadow-sm md:col-span-2">
+              <span className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#F9D400] flex items-center justify-center text-lg sm:text-2xl mt-1">
+                <svg width="24" height="24" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 sm:w-8 sm:h-8">
+                  <circle cx="60" cy="60" r="60" fill="#F9D400" />
+                  <path d="M85 35L45 55C43.5 55.7 43.6 57.7 45 58.3L59 64L65 78.5C65.7 80 67.7 80 68.3 78.5L89 39C89.8 37.3 87.7 35.2 85 35Z" fill="white" />
+                </svg>
               </span>
               <div>
-                <h3 className="font-bold text-lg text-black mb-1">Restrict external sharing</h3>
-                <p className="text-gray-600 text-sm font-['Urbanist']">
+                <h3 className="font-bold text-base sm:text-lg text-black mb-1">Restrict external sharing</h3>
+                <p className="text-gray-600 text-xs sm:text-sm font-['Urbanist']">
                   An organization can incur significant costs when designs are leaked before launch. SADEL offers the ability to control file sharing outside of the team, giving you the option to decide whether employees can share files externally.
                 </p>
               </div>
             </div>
-
-            {/* Card 4 */}
-            
           </div>
         </div>
       </div>
 
-
-
       {/* Company Trust Section */}
-      <div className="max-w-5xl  mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16">
         <Fade cascade>
-          <div className="justify-start text-[#0e0f10] text-5xl font-bold font-['Urbanist'] leading-[72px]">
+          <div className="text-center sm:text-left text-[#0e0f10] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px] mb-6 sm:mb-8">
             Top company trust us
           </div>
-          <div className="grid grid-cols-3 md:grid-cols-5 gap-3 mt-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 mt-6 sm:mt-8">
             {companies.map((c, idx: number) => (
               <div
                 key={idx}
-                className="bg-white rounded-l shadow-sm  transition-shadow duration-300 p-8 flex items-center justify-center"
+                className="bg-white rounded-lg shadow-sm transition-shadow duration-300 p-4 sm:p-6 md:p-8 flex items-center justify-center hover:shadow-md"
               >
-                <div className="h-9 w-auto">
-                  <img src={c.img} alt={c.name} className="w-full h-full" />
+                <div className="h-6 sm:h-8 md:h-9 w-auto">
+                  <img src={c.img} alt={c.name} className="w-full h-full object-contain" />
                 </div>
               </div>
             ))}
@@ -318,28 +315,27 @@ export default function PortfolioPage() {
         </Fade>
       </div>
 
-
       {/* Testimonials Section */}
-      <div className="py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="py-12 sm:py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8">
           <Fade cascade>
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
                 Testimonial
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
               {testimonials.map((testimonial, index) => (
                 <Slide direction="up" key={index}>
-                  <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-100">
-                    <p className="text-gray-600 text-base leading-relaxed mb-6">
+                  <div className="bg-white rounded-lg p-6 sm:p-8 shadow-sm border border-gray-100">
+                    <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
                       {testimonial.content}
                     </p>
 
-                    <div className="flex items-center justify-between">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
                       <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 rounded-full overflow-hidden">
+                        <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden">
                           <img
                             src={testimonial.avatar}
                             alt={testimonial.name}
@@ -347,8 +343,8 @@ export default function PortfolioPage() {
                           />
                         </div>
                         <div>
-                          <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                          <p className="text-sm text-gray-500">{testimonial.role}</p>
+                          <h4 className="font-semibold text-gray-900 text-sm sm:text-base">{testimonial.name}</h4>
+                          <p className="text-xs sm:text-sm text-gray-500">{testimonial.role}</p>
                         </div>
                       </div>
 
@@ -356,7 +352,7 @@ export default function PortfolioPage() {
                         {[...Array(testimonial.rating)].map((_, i) => (
                           <Star
                             key={i}
-                            className="w-4 h-4 fill-yellow-400 text-yellow-400"
+                            className="w-3 h-3 sm:w-4 sm:h-4 fill-yellow-400 text-yellow-400"
                           />
                         ))}
                       </div>
@@ -370,22 +366,37 @@ export default function PortfolioPage() {
       </div>
 
       {/* Call to Action Section */}
-      <div className="bg-yellow-50 py-8">
-        <div className="max-w-7xl mx-auto p-12 flex flex-col md:flex-row items-center gap-8">
-          <div className="flex-1">
+      <div className="bg-yellow-50 py-8 sm:py-12">
+        <div className="max-w-7xl mx-auto p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-6 sm:gap-8">
+          <div className="flex-1 text-center lg:text-left">
             <Fade direction="left" triggerOnce>
-              <p className="text-yellow-400 text-sm">Sign up for updates</p>
-              <h2 className="text-2xl md:text-3xl font-bold text-black mb-4 font-['Urbanist']">Cut down on expenses while improving productivity.</h2>
-              <form className="flex gap-4 mt-4">
-                <input type="email" placeholder="Enter your email" className="px-4 py-3 border border-gray-200 rounded-l-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent w-full max-w-xs" />
-                <button type="submit" className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-r-md transition-colors">Notify Me</button>
+              <p className="text-yellow-400 text-xs sm:text-sm">Sign up for updates</p>
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 font-['Urbanist']">Cut down on expenses while improving productivity.</h2>
+              <form className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-4 max-w-md mx-auto lg:mx-0">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="px-4 py-3 border border-gray-200 rounded-md sm:rounded-l-md sm:rounded-r-none focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent w-full"
+                />
+                <button
+                  type="submit"
+                  className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-md sm:rounded-l-none sm:rounded-r-md transition-colors w-full sm:w-auto"
+                >
+                  Notify Me
+                </button>
               </form>
-              <p className="text-gray-400 text-xs mt-2">You can unsubscribe anytime.Read our  <span className="text-yellow-400">privacy policy</span></p>
+              <p className="text-gray-400 text-xs mt-2">You can unsubscribe anytime. Read our <span className="text-yellow-400">privacy policy</span></p>
             </Fade>
           </div>
           <div className="flex-1 flex justify-center">
             <Fade direction="right" triggerOnce>
-              <Image src="/Images/Mail-bro.png" alt="Call to Action" width={320} height={280} />
+              <Image
+                src="/Images/Mail-bro.png"
+                alt="Call to Action"
+                width={320}
+                height={280}
+                className="w-full max-w-[280px] sm:max-w-[320px] h-auto"
+              />
             </Fade>
           </div>
         </div>
