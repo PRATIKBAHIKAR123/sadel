@@ -11,7 +11,7 @@ export default function ContactPage() {
         <div className="w-full min-h-screen">
             {/* Hero Section */}
             <div className="bg-[#F9D400] py-12 px-4">
-                <div className=" max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-20">
+                <div className=" max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-20 relative">
                     {/* Left: Contact Info */}
                     <Fade direction="left" triggerOnce>
                         <div className="flex-1 space-y-10">
@@ -21,40 +21,12 @@ export default function ContactPage() {
                             <p className="text-gray-700 ml-0 md:ml-10 text-lg mb-8">
                                 Our team would love to hear from you!
                             </p>
-                            <div className="space-y-8 ml-0 md:ml-10">
-                                <div className="flex items-center gap-4">
-                                    <span className="bg-yellow-400 p-3 rounded-full flex items-center justify-center">
-                                        <img src="/Images/map.svg" alt="icon" className="w-6 h-6" />
-                                    </span>
-                                    <div>
-                                        <div className="font-bold text-black">Address</div>
-                                        <div className="text-gray-700 font-semibold">17224 S. Figueroa Street, Gardena, CA 90248, USA</div>
-                                    </div>
-                                </div>
-                                <div className="flex items-center gap-4">
-                                    <span className="bg-yellow-400 p-3 rounded-full flex items-center justify-center">
-                                        <img src="/Images/envelope.png" alt="icon" className="w-6 h-6" />
-                                    </span>
-                                    <div>
-                                        <div className="font-bold text-black">Email</div>
-                                        <div className="text-gray-700 font-semibold">hello@SADEL.com</div>
-                                    </div>
-                                </div>
-                                <div className="flex items-center gap-4">
-                                    <span className="bg-yellow-400 p-3 rounded-full flex items-center justify-center">
-                                        <img src="/Images/phone.png" alt="icon" className="w-6 h-6" />
-                                    </span>
-                                    <div>
-                                        <div className="font-bold text-black">Phone</div>
-                                        <div className="text-gray-700 font-semibold">+1 415 800-3128</div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </Fade>
                     {/* Right: Contact Form */}
-                    <Fade direction="right" triggerOnce>
-                        <div className="flex-1 bg-white rounded-2xl shadow-2xl p-10 mt-8 md:mt-0">
+                    <Fade direction="right" triggerOnce className="w-[440px] absolute right-0 transform translate-y-1/2">
+                        <div className=" bg-white rounded-2xl shadow-2xl p-10 mt-8 md:mt-0">
                             <form className="space-y-6">
                                 <div>
                                     <input type="text" placeholder="Your name" className="w-full px-4 py-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-sm" />
@@ -82,7 +54,37 @@ export default function ContactPage() {
                     </Fade>
                 </div>
             </div>
-
+            <div className="max-w-5xl mx-auto  py-20 px-4">
+                <div className="space-y-8">
+                    <div className="flex items-center gap-4">
+                        <span className="bg-yellow-400 p-3 rounded-full flex items-center justify-center">
+                            <img src="/Images/map.svg" alt="icon" className="w-6 h-6" />
+                        </span>
+                        <div>
+                            <div className="font-bold text-black">Address</div>
+                            <div className="text-gray-700 font-semibold">17224 S. Figueroa Street, Gardena, CA 90248, USA</div>
+                        </div>
+                    </div>
+                    <div className="flex items-center gap-4">
+                        <span className="bg-yellow-400 p-3 rounded-full flex items-center justify-center">
+                            <img src="/Images/envelope.png" alt="icon" className="w-6 h-6" />
+                        </span>
+                        <div>
+                            <div className="font-bold text-black">Email</div>
+                            <div className="text-gray-700 font-semibold">hello@SADEL.com</div>
+                        </div>
+                    </div>
+                    <div className="flex items-center gap-4">
+                        <span className="bg-yellow-400 p-3 rounded-full flex items-center justify-center">
+                            <img src="/Images/phone.png" alt="icon" className="w-6 h-6" />
+                        </span>
+                        <div>
+                            <div className="font-bold text-black">Phone</div>
+                            <div className="text-gray-700 font-semibold">+1 415 800-3128</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             {/* Contact Us Cards Section */}
             <div className="bg-yellow-50 py-20 px-4">
                 <div className="max-w-5xl mx-auto">
