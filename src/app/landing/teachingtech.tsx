@@ -1,7 +1,7 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight, Smartphone, Monitor } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const TeachingTechCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -27,18 +27,18 @@ const TeachingTechCarousel = () => {
       title: "Certified Dustproof",
       description: "Meeting IP5X Standards, the RE Operates consistently even in dust"
     },
-    {
-      id: 4,
-      icon: <Smartphone className="w-12 h-12 text-green-500" />,
-      title: "Virtual Classrooms",
-      description: "Connect Students From Anywhere In The World"
+    { 
+      id: 1,
+      icon: <img src="Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />,
+      title: "Natural Writing",
+      description: "A Quick Response rate and zero bonding tech makes pen Stroke Smooth"
     },
     {
-      id: 5,
-      icon: <Monitor className="w-12 h-12 text-purple-500" />,
-      title: "Smart Whiteboards",
-      description: "Digital Writing And Drawing Solutions"
-    }
+      id: 2,
+      icon: <img src="Images/download.png" alt="Smartphone Icon" className="w-16 h-16" />,
+      title: "Built For Speed",
+      description: "High Speed Gigabit Ethernet Ensure Faster Transmission of class files"
+    },
   ];
 
   // Handle responsive breakpoints

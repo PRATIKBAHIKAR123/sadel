@@ -1,7 +1,7 @@
 "use client";
 import { Fade, Slide } from "react-awesome-reveal";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { Star } from 'lucide-react';
 import "../globals.css";
 
@@ -67,6 +67,13 @@ const testimonials = [
 ];
 
 export default function PortfolioPage() {
+  const [email, setEmail] = useState('');
+
+  const handleSubscribe = () => {
+    // Handle newsletter subscription
+    console.log('Subscribing email:', email);
+    setEmail('');
+  };
   return (
     <div className="w-full min-h-screen bg-[#fff]">
       {/* Hero Section */}
@@ -372,19 +379,28 @@ export default function PortfolioPage() {
             <Fade direction="left" triggerOnce>
               <p className="text-yellow-400 text-xs sm:text-sm">Sign up for updates</p>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 font-['Urbanist']">Cut down on expenses while improving productivity.</h2>
-              <form className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-4 max-w-md mx-auto lg:mx-0">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="px-4 py-3 border border-gray-200 rounded-md sm:rounded-l-md sm:rounded-r-none focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent w-full"
-                />
-                <button
-                  type="submit"
-                  className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-md sm:rounded-l-none sm:rounded-r-md transition-colors w-full sm:w-auto"
-                >
-                  Notify Me
-                </button>
-              </form>
+              <div>
+                <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-3 sm:mb-4">
+                  Subscribe to Our Newsletter
+                </h3>
+                <div className="flex flex-col sm:flex-row gap-2 sm:gap-0">
+                  <div className="flex-1 relative">
+                    <input
+                      type="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="Your email address"
+                      className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-200 rounded-md sm:rounded-l-md sm:rounded-r-none focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-sm sm:text-base"
+                    />
+                  </div>
+                  <button
+                    onClick={handleSubscribe}
+                    className="bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-md sm:rounded-l-none sm:rounded-r-md transition-colors duration-200 text-sm sm:text-base"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
               <p className="text-gray-400 text-xs mt-2">You can unsubscribe anytime. Read our <span className="text-yellow-400">privacy policy</span></p>
             </Fade>
           </div>
