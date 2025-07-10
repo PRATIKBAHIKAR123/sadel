@@ -59,15 +59,13 @@ const Header = () => {
               </button>
             </div>
 
-            {/* Sign In Button */}
-            <button className="text-gray-600 hover:text-gray-900 px-4 py-2 text-sm xl:text-base font-medium border border-gray-300 rounded-md transition-all duration-200 hover:border-gray-400 hover:bg-gray-50">
+            {/* <button className="text-gray-600 hover:text-gray-900 px-4 py-2 text-sm xl:text-base font-medium border border-gray-300 rounded-md transition-all duration-200 hover:border-gray-400 hover:bg-gray-50">
               Sign In
             </button>
 
-            {/* Create Account Button */}
             <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-4 py-2 text-sm xl:text-base font-medium rounded-md transition-all duration-200 hover:shadow-md">
               Create an account
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile Menu Button */}
