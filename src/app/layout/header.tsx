@@ -11,6 +11,7 @@ const Header = () => {
   const navigationItems = [
     { name: 'Features', href: '#' },
     { name: 'Solutions', href: '#' },
+    { name: 'Services', href: '#' },
     { name: 'NFT Store', href: '#' },
     { name: 'Pricing', href: '#' },
     { name: 'Developers', href: '#' },
