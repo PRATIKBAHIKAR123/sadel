@@ -1,4 +1,3 @@
-
 "use client"
 
 import React, { useState } from 'react';
@@ -7,16 +6,49 @@ import Link from 'next/link';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const navigationItems = [
     { name: 'Features', href: '#' },
     { name: 'Solutions', href: '#' },
-    { name: 'Services', href: '#' },
+    { name: 'Services', href: '#', hasDropdown: true },
     { name: 'NFT Store', href: '#' },
     { name: 'Pricing', href: '#' },
     { name: 'Developers', href: '#' },
     { name: 'Resource', href: '#' },
   ];
+
+  const servicesDropdownData = {
+    'Security': [
+      { name: 'Managed SOC Services', href: '/services/managedSOC' },
+      { name: 'Azure Security', href: '/services/azure-security-service' },
+      { name: 'Defender for Endpoint', href: '/services/defenderforEndpoint' },
+      { name: 'Email Security', href: '/services/email-security' },
+      { name: 'Microsoft Cloud App Security', href: '/services/microsoft-cloud-app-security' },
+      { name: 'Defender for Identity', href: '/services/defender-for-identity' },
+      { name: 'VAPT', href: '#' },
+      { name: 'Network and Security Services', href: '#' },
+      { name: 'Identity and Access Management', href: '#' },
+    ],
+    'Consulting Services': [
+      { name: 'Azure Consulting Services', href: '#' },
+      { name: 'Azure Virtual Desktop', href: '#' },
+      { name: 'Citrix Consulting', href: '#' },
+      { name: 'PKI Consulting', href: '#' },
+      { name: 'Active Directory Consulting', href: '#' },
+      { name: 'Modern WorkPlace', href: '#' },
+      { name: 'Professional Labs - AI Solutions', href: '#' },
+      { name: 'Professional Labs - Data Driven Solutions', href: '#' },
+      { name: 'Software Development Services', href: '#' },
+    ],
+    'Support and Market Research': [
+      { name: 'Cloud Managed Service', href: '#' },
+      { name: 'IT Training', href: '#' },
+      { name: 'Market Research', href: '#' },
+      { name: 'Website & App Development', href: '#' },
+      { name: 'IT Help Desk', href: '#' },
+    ],
+  };
 
   return (
     <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
@@ -35,13 +67,57 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-6 xl:space-x-8">
             {navigationItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm xl:text-base font-medium transition-colors duration-200 hover:bg-gray-50 rounded-md"
-              >
-                {item.name}
-              </a>
+              <div key={item.name} className="relative">
+                {item.hasDropdown ? (
+                  <div
+                    className="relative"
+                    onMouseEnter={() => setIsServicesOpen(true)}
+                    onMouseLeave={() => setIsServicesOpen(false)}
+                  >
+                    <button className="flex items-center text-gray-600 hover:text-gray-900 px-3 py-2 text-sm xl:text-base font-medium transition-colors duration-200 hover:bg-gray-50 rounded-md">
+                      {item.name}
+                      <ChevronDown className="ml-1 h-4 w-4" />
+                    </button>
+                    
+                    {/* Services Dropdown */}
+                    {isServicesOpen && (
+                      <div className="absolute top-full left-1/2 transform -translate-x-1/2 w-screen max-w-5xl bg-white border border-gray-200 rounded-lg shadow-xl z-50">
+                        <div className="p-8">
+                          <div className="grid grid-cols-3 gap-8">
+                            {Object.entries(servicesDropdownData).map(([category, items]) => (
+                              <div key={category} className="space-y-4">
+                                <h3 className="text-lg font-semibold text-gray-900 border-b-2 border-blue-600 pb-2">
+                                  {category}
+                                </h3>
+                                <ul className="space-y-2">
+                                  {items.map((service) => (
+                                    <li key={service.name}>
+                                      <Link
+                                        href={service.href}
+                                        onClick={() => setIsServicesOpen(false)}
+                                        className="text-gray-600 hover:text-blue-600 text-sm hover:underline transition-colors duration-200 block py-1"
+                                      >
+                                        {service.name}
+                                      </Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <a
+                    href={item.href}
+                    className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm xl:text-base font-medium transition-colors duration-200 hover:bg-gray-50 rounded-md"
+                  >
+                    {item.name}
+                  </a>
+                )}
+              </div>
             ))}
           </nav>
 
@@ -59,14 +135,6 @@ const Header = () => {
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
             </div>
-
-            {/* <button className="text-gray-600 hover:text-gray-900 px-4 py-2 text-sm xl:text-base font-medium border border-gray-300 rounded-md transition-all duration-200 hover:border-gray-400 hover:bg-gray-50">
-              Sign In
-            </button>
-
-            <button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 px-4 py-2 text-sm xl:text-base font-medium rounded-md transition-all duration-200 hover:shadow-md">
-              Create an account
-            </button> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -91,14 +159,53 @@ const Header = () => {
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200 shadow-lg">
               {/* Navigation Items */}
               {navigationItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-600 hover:text-gray-900 block px-3 py-3 text-base font-medium rounded-md hover:bg-gray-50 transition-colors duration-200"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {item.name}
-                </a>
+                <div key={item.name}>
+                  {item.hasDropdown ? (
+                    <div>
+                      <button
+                        onClick={() => setIsServicesOpen(!isServicesOpen)}
+                        className="flex items-center justify-between w-full text-gray-600 hover:text-gray-900 px-3 py-3 text-base font-medium rounded-md hover:bg-gray-50 transition-colors duration-200"
+                      >
+                        {item.name}
+                        <ChevronDown className={`h-4 w-4 transition-transform duration-200 ${isServicesOpen ? 'rotate-180' : ''}`} />
+                      </button>
+                      
+                      {/* Mobile Services Dropdown */}
+                      {isServicesOpen && (
+                        <div className="ml-4 mt-2 space-y-4">
+                          {Object.entries(servicesDropdownData).map(([category, items]) => (
+                            <div key={category} className="space-y-2">
+                              <h4 className="text-sm font-semibold text-gray-900 border-b border-gray-200 pb-1">
+                                {category}
+                              </h4>
+                              <ul className="space-y-1">
+                                {items.map((service) => (
+                                  <li key={service.name}>
+                                    <a
+                                      href={service.href}
+                                      className="text-gray-600 hover:text-blue-600 text-sm block py-1 pl-2 hover:bg-gray-50 rounded transition-colors duration-200"
+                                      onClick={() => setIsMobileMenuOpen(false)}
+                                    >
+                                      {service.name}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <a
+                      href={item.href}
+                      className="text-gray-600 hover:text-gray-900 block px-3 py-3 text-base font-medium rounded-md hover:bg-gray-50 transition-colors duration-200"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {item.name}
+                    </a>
+                  )}
+                </div>
               ))}
               
               {/* Mobile Actions */}
@@ -115,18 +222,6 @@ const Header = () => {
                 >
                   English
                 </button>
-                {/* <button 
-                  className="w-full text-left text-gray-600 hover:text-gray-900 block px-3 py-3 text-base font-medium border border-gray-300 rounded-md hover:bg-gray-50 transition-colors duration-200"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Sign In
-                </button>
-                <button 
-                  className="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 block px-3 py-3 text-base font-medium rounded-md transition-colors duration-200 hover:shadow-md"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Create an account
-                </button> */}
               </div>
             </div>
           </div>

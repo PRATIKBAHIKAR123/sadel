@@ -63,7 +63,7 @@ const AIPlatformSection = () => {
               {/* Icon and Percentage */}
               <div className="flex items-center mb-4">
                 <div className="bg-yellow-400 rounded-lg p-3 mr-4">
-                  <img src="Images/Group.png" alt='Icon' className='w-6 h-6' />
+                  <img src="/Images/Group.png" alt='Icon' className='w-6 h-6' />
                 </div>
                 <span className="text-[#2d3c58] text-[22px] font-semibold font-['Plus_Jakarta_Sans'] capitalize leading-relaxed">
                   {feature.percentage}

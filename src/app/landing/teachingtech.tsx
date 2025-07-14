@@ -11,31 +11,31 @@ const TeachingTechCarousel = () => {
   const slides = [
     {
       id: 1,
-      icon: <img src="Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />,
+      icon: <img src="/Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />,
       title: "Natural Writing",
       description: "A Quick Response rate and zero bonding tech makes pen Stroke Smooth"
     },
     {
       id: 2,
-      icon: <img src="Images/download.png" alt="Smartphone Icon" className="w-16 h-16" />,
+      icon: <img src="/Images/download.png" alt="Smartphone Icon" className="w-16 h-16" />,
       title: "Built For Speed",
       description: "High Speed Gigabit Ethernet Ensure Faster Transmission of class files"
     },
     {
       id: 3,
-      icon: <img src="Images/security.png" alt="Smartphone Icon" className="w-18 h-16" />,
+      icon: <img src="/Images/security.png" alt="Smartphone Icon" className="w-18 h-16" />,
       title: "Certified Dustproof",
       description: "Meeting IP5X Standards, the RE Operates consistently even in dust"
     },
     { 
       id: 1,
-      icon: <img src="Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />,
+      icon: <img src="/Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />,
       title: "Natural Writing",
       description: "A Quick Response rate and zero bonding tech makes pen Stroke Smooth"
     },
     {
       id: 2,
-      icon: <img src="Images/download.png" alt="Smartphone Icon" className="w-16 h-16" />,
+      icon: <img src="/Images/download.png" alt="Smartphone Icon" className="w-16 h-16" />,
       title: "Built For Speed",
       description: "High Speed Gigabit Ethernet Ensure Faster Transmission of class files"
     },

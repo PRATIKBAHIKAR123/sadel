@@ -6,37 +6,37 @@ export default function ItSolutions() {
   const services = [
     {
       id: 1,
-      iconSrc: "Images/database 1.png", // Replace with your actual icon path
+      iconSrc: "/Images/database 1.png", // Replace with your actual icon path
       title: "Managed SOC Service",
       description: "Ensure 24/7 monitoring and threat detection with Sadel's Managed SOC, giving your organization full control over data access and real-time security incident response."
     },
     {
       id: 2,
-      iconSrc: "Images/rotate-left 1.png", // Replace with your actual icon path
+      iconSrc: "/Images/rotate-left 1.png", // Replace with your actual icon path
       title: "Azure Security",
       description: "Protect your cloud environment with enterprise-grade encryption, automated backups, and quick disaster recovery using Microsoft Azure's trusted security framework."
     },
     {
       id: 3,
-      iconSrc: "Images/laptop-mobile 2.png", // Replace with your actual icon path
+      iconSrc: "/Images/laptop-mobile 2.png", // Replace with your actual icon path
       title: "Defender for Endpoint",
       description: "Secure your devices against modern threats with intelligent endpoint protection—using real-time monitoring, threat detection, and secure login protocols."
     },
     {
       id: 4,
-      iconSrc: "Images/database 1.png", // Replace with your actual icon path
+      iconSrc: "/Images/database 1.png", // Replace with your actual icon path
       title: "Email Security",
       description: "Safeguard communication channels with advanced email threat protection, spam filtering, and controlled data access to prevent phishing and data leaks."
     },
     {
       id: 5,
-      iconSrc: "Images/rotate-left 1.png", // Replace with your actual icon path
+      iconSrc: "/Images/rotate-left 1.png", // Replace with your actual icon path
       title: "Microsoft Cloud App Security",
       description: "Gain full visibility and control over cloud apps—monitor user behavior, detect risky activities, and enforce security policies with intelligent analytics."
     },
     {
       id: 6,
-      iconSrc: "Images/laptop-mobile 2.png", // Replace with your actual icon path
+      iconSrc: "/Images/laptop-mobile 2.png", // Replace with your actual icon path
       title: "Defender for Identity",
       description: "Protect user identities across systems by detecting unusual login behaviors, compromised credentials, and unauthorized access attempts in real time."
     }
@@ -65,7 +65,7 @@ export default function ItSolutions() {
           {/* Right Illustration */}
           <div className="relative">
             {/* Background Elements */}
-            <img src="Images/Frame (10).png" alt="Background Element" className="w-full h-auto" />
+            <img src="/Images/Frame (10).png" alt="Background Element" className="w-full h-auto" />
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ export default function ItSolutions() {
             <div className="flex gap-4">
               <div className="flex items-start justify-center mb-4 sm:mb-6">
                 <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#f9d300] rounded-full flex items-center justify-center text-white text-2xl sm:text-[40px] font-black font-['Urbanist'] leading-none">
-                  <img src="Images/megaphone 1.png" alt="icon" className="h-6 w-6 sm:h-8 sm:w-8" />
+                  <img src="/Images/megaphone 1.png" alt="icon" className="h-6 w-6 sm:h-8 sm:w-8" />
                 </div>
               </div>
               <div className="flex flex-col gap-3 sm:gap-4">
@@ -89,7 +89,7 @@ export default function ItSolutions() {
             <div className="flex gap-4">
               <div className="flex items-start justify-center mb-4 sm:mb-6">
                 <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#f9d300] rounded-full flex items-center justify-center text-white text-2xl sm:text-[40px] font-black font-['Urbanist'] leading-none">
-                  <img src="Images/user-crown 1.png" alt="icon" className="h-6 w-6 sm:h-8 sm:w-8" />
+                  <img src="/Images/user-crown 1.png" alt="icon" className="h-6 w-6 sm:h-8 sm:w-8" />
                 </div>
               </div>
               <div className="flex flex-col gap-3 sm:gap-4">
@@ -103,7 +103,7 @@ export default function ItSolutions() {
             <div className="flex gap-4">
               <div className="flex items-start justify-center mb-4 sm:mb-6">
                 <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#f9d300] rounded-full flex items-center justify-center text-white text-2xl sm:text-[40px] font-black font-['Urbanist'] leading-none">
-                  <img src="Images/sack-dollar 1.png" alt="icon" className="h-6 w-6 sm:h-8 sm:w-8" />
+                  <img src="/Images/sack-dollar 1.png" alt="icon" className="h-6 w-6 sm:h-8 sm:w-8" />
                 </div>
               </div>
               <div className="flex flex-col gap-3 sm:gap-4">
@@ -115,7 +115,7 @@ export default function ItSolutions() {
             </div>
           </div>
           <div className="w-full h-auto">
-            <img src="Images/Group 363.png" alt="banner" className="w-full h-auto" />
+            <img src="/Images/Group 363.png" alt="banner" className="w-full h-auto" />
           </div>
         </div>
       </div>
@@ -127,7 +127,7 @@ export default function ItSolutions() {
             <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] leading-normal">
               Sadel delivers future-ready IT solutions that protect, grow, and adapt with your business.            </p>
             <div className="h-48 sm:h-64 mt-4 sm:mt-6">
-              <img src="Images/Frame (12).png" alt="image" className="h-full w-auto" />
+              <img src="/Images/Frame (12).png" alt="image" className="h-full w-auto" />
             </div>
           </div>
           <div className="bg-[#fffcec] rounded-2xl sm:rounded-3xl p-4 sm:p-6 col-span-1 lg:col-span-2 text-left flex flex-col w-full">
@@ -138,7 +138,7 @@ export default function ItSolutions() {
               We simplify technology to boost productivity, drive innovation, and support your business goals.
             </p>
             <div className="h-48 sm:h-64 mt-4 sm:mt-6 flex justify-center w-full">
-              <img src="Images/Frame (11).png" alt="image" className="h-full w-auto" />
+              <img src="/Images/Frame (11).png" alt="image" className="h-full w-auto" />
             </div>
           </div>
 
@@ -201,7 +201,7 @@ export default function ItSolutions() {
           {/* Right Illustration */}
           <div className="relative">
             {/* Background Elements */}
-            <img src="Images/banner solutions.png" alt="Background Element" className="w-full h-auto" />
+            <img src="/Images/banner solutions.png" alt="Background Element" className="w-full h-auto" />
           </div>
         </div>
       </div>

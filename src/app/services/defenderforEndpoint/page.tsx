@@ -26,7 +26,7 @@ export default function DefenderForEndpoint(){
                     {/* Right Illustration */}
                     <div className="relative">
                         {/* Background Elements */}
-                        <img src="Images/Frame (16).png" alt="Background Element" />
+                        <img src="/Images/Frame (16).png" alt="Background Element" />
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ export default function DefenderForEndpoint(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex ">
-                        <img src="Images/Frame (17).png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/Frame (17).png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                 </div>
@@ -55,14 +55,14 @@ export default function DefenderForEndpoint(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex">
-                        <img src="Images/Frame (18).png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/Frame (18).png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                 </div>
                 </div>
 
                 <div className="max-w-7xl mx-auto p-4 mt-8 items-center justify-center flex">
-                    <img src="Images/Group 74.png" className="h-full w-auto"/>
+                    <img src="/Images/Group 74.png" className="h-full w-auto"/>
                     </div>
                     <div className="max-w-7xl mx-auto p-8 mt-10">
                 <div className="flex flex-cols md:flex-row items-center justify-between gap-20">
@@ -74,7 +74,7 @@ export default function DefenderForEndpoint(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex ">
-                        <img src="Images/Frame (19).png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/Frame (19).png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                 </div>

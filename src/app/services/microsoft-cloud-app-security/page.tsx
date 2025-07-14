@@ -28,7 +28,7 @@ export default function MicrosoftCloudeApp() {
                     {/* Right Illustration */}
                     <div className="relative">
                         {/* Background Elements */}
-                        <img src="Images/microsoft-cloud-app.png" alt="Background Element" />
+                        <img src="/Images/microsoft-cloud-app.png" alt="Background Element" />
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ export default function MicrosoftCloudeApp() {
                                     </div>
                                     {/* Right: Illustration */}
                                     <div className="flex justify-center">
-                                        <img src="Images/Frame (20).png" alt="Share Files" className="w-full max-w-xs h-auto" />
+                                        <img src="/Images/Frame (20).png" alt="Share Files" className="w-full max-w-xs h-auto" />
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ export default function MicrosoftCloudeApp() {
                             Ensure that files are accessible to all team members, while also implementing precise permission settings at various levels to restrict editing privileges to authorized individuals.
                         </div>
                         <div className="flex items-center justify-end">
-                            <img src="Images/b.png" className="h-64 w-auto"/>
+                            <img src="/Images/b.png" className="h-64 w-auto"/>
                         </div>
 
                     </div>
@@ -72,7 +72,7 @@ export default function MicrosoftCloudeApp() {
                             Boost efficiency with centralized case file organization and advanced search options for quick and easy access to relevant information.
                         </div>
                         <div className="flex items-center justify-center">
-                            <img src="Images/microsoft-cloud-image.png" className="h-64 w-auto"/>
+                            <img src="/Images/microsoft-cloud-image.png" className="h-64 w-auto"/>
                         </div>
 
                     </div>
@@ -93,7 +93,7 @@ export default function MicrosoftCloudeApp() {
                                     </div>
                                     {/* Right: Illustration */}
                                     <div className="flex justify-center">
-                                        <img src="Images/Frame (21).png" alt="Share Files" className="w-full max-w-xs h-auto" />
+                                        <img src="/Images/Frame (21).png" alt="Share Files" className="w-full max-w-xs h-auto" />
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ export default function MicrosoftCloudeApp() {
                   </div>
                         </div>
                         <div className="h-80 w-auto">
-                            <img src="Images/Mail-bro 2.png" className="w-full h-full" />
+                            <img src="/Images/Mail-bro 2.png" className="w-full h-full" />
                         </div>
                     </div>
                 </div>

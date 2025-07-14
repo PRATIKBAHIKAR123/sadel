@@ -10,7 +10,7 @@ const TeachingTechCarousel = () => {
   const slides = [
     {
       id: 1,
-      icon: <img src="Images/image 14.png" alt="Smartphone Icon" className="w-12 h-12 text-blue-500" />,
+      icon: <img src="/Images/image 14.png" alt="Smartphone Icon" className="w-12 h-12 text-blue-500" />,
       title: "Real - Time Threat Monitoring",
       description: "Their SOC (Security Operations Center) constantly watches over your IT infrastructure—networks, servers, cloud, endpoints, and more—to identify unusual patterns or suspicious activity 24/7."
     },

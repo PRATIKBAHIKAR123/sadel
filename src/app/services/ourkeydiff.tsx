@@ -43,42 +43,42 @@ const FeatureCard: React.FC<{ category: FeatureCategory }> = ({ category }) => {
 export default function OurKey() {
   const categories: FeatureCategory[] = [
     {
-      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
       title: "Be Transparent",
       items: [
         { text: "We believe in open, honest, and consistent communication across all levels.Everyone deserves access to clear information, no matter their role in the organization." }
       ]
     },
     {
-      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
       title: "Calculated Decisions",
       items: [
         { text: "We rely on collaboration and data - driven insights to make smart, strategic decisions that serve the best interest of our business and our people." }
       ]
     },
     {
-      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
       title: "Value Each Other",
       items: [
         { text: "We lift each other up, celebrate wins, and communicate with honesty and respect.We care deeply about our team’s success and support one another through every step." }
       ]
     },
     {
-      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
       title: "Embrace Innovation",
       items: [
         { text: "We welcome new ideas, tools, and technologies to stay ahead.Innovation drives us to keep improving and deliver smarter, future - ready solutions." }
       ]
     },
     {
-      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
       title: "Take Ownership",
       items: [
         { text: "We hold ourselves accountable—from start to finish.Every task, challenge, and achievement is owned with responsibility and integrity." }
       ]
     },
     {
-      icon: <img src="Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
+      icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
       title: "Deliver with Excellence",
       items: [
         { text: "We are committed to quality and precision.Our goal is to consistently exceed expectations and deliver impactful results in everything we do." }

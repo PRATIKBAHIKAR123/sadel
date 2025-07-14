@@ -26,7 +26,7 @@ export default function AzureService(){
                     {/* Right Illustration */}
                     <div className="relative">
                         {/* Background Elements */}
-                        <img src="Images/Frame (13).png" alt="Background Element" />
+                        <img src="/Images/Frame (13).png" alt="Background Element" />
                     </div>
                 </div>
             </div>
@@ -40,14 +40,14 @@ export default function AzureService(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex ">
-                        <img src="Images/Frame (14).png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/Frame (14).png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                 </div>
                 <div className="flex flex-cols md:flex-row items-center justify-between gap-20 mt-10">
                     <div className="flex-1">
                         <div className="items-center justify-center flex">
-                        <img src="Images/Frame (15).png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/Frame (15).png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                     <div className="flex-1">
@@ -70,7 +70,7 @@ export default function AzureService(){
                         </div>
                         <div className="flex-1">
                         <div className="items-center justify-center flex ">
-                        <img src="Images/Group 265.png" alt="first section" className="w-auto h-64"/>
+                        <img src="/Images/Group 265.png" alt="first section" className="w-auto h-64"/>
                     </div>
                     </div>
                     </div>
@@ -87,7 +87,7 @@ export default function AzureService(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex ">
-                        <img src="Images/Frame (14).png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/Frame (14).png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@ export default function AzureService(){
                   </div>
                         </div>
                         <div className="h-80 w-auto">
-                            <img src="Images/Mail-bro 2.png" className="w-full h-full" />
+                            <img src="/Images/Mail-bro 2.png" className="w-full h-full" />
                         </div>
                     </div>
                 </div>

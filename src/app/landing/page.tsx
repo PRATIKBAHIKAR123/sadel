@@ -38,12 +38,12 @@ export default function LandingPage() {
             </div>
             <div className="relative mt-8 sm:mt-12">
               <img
-                src="Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
+                src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
                 alt="Landing Page Image"
                 className="mt-8 w-full max-w-lg h-auto rounded-lg shadow-lg"
               />
               <img
-                src="Images/deupload-feature-mobile 2.png"
+                src="/Images/deupload-feature-mobile 2.png"
                 alt="Landing Page Image"
                 className="mt-8 w-full max-w-38 h-auto absolute -left-15 -bottom-4 hidden sm:block"
               />
@@ -92,7 +92,7 @@ export default function LandingPage() {
               {/* Right Illustration */}
               <div className="relative">
                 {/* Background Elements */}
-                <img src="Images/workings.png" alt="Background Element" className="w-full h-auto" />
+                <img src="/Images/workings.png" alt="Background Element" className="w-full h-auto" />
               </div>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function LandingPage() {
               </div>
               <div className="w-full sm:w-68 h-auto sm:h-68 item-center justify-center mt-6 sm:mt-8">
                 <img
-                  src="Images/deupload-file-sharing 2.png"
+                  src="/Images/deupload-file-sharing 2.png"
                   alt="Sadel It Solutions"
                   className="w-full h-auto max-w-sm sm:max-w-none"
                 />
@@ -264,7 +264,7 @@ export default function LandingPage() {
               </div>
               <div className="w-full sm:w-68 relative item-center justify-center mt-6 sm:mt-8">
                 <img
-                  src="Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
+                  src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
                   alt="Sadel It Solutions"
                 />
                 <img
@@ -297,7 +297,7 @@ export default function LandingPage() {
 
             {/* Device Frame */}
             <img
-              src="Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
+              src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
               alt="Device Frame"
               className="relative z-10 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
@@ -355,7 +355,7 @@ export default function LandingPage() {
 
             {/* Device Frame */}
             <img
-              src="Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
+              src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
               alt="Device Frame"
               className="relative z-10 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
@@ -406,7 +406,7 @@ export default function LandingPage() {
                 Download SDKs
               </button>
               <img
-                src="Images/Hand coding-bro 1.png"
+                src="/Images/Hand coding-bro 1.png"
                 alt="Security & Safety"
                 className=" h-full object-contain"
               />
@@ -431,7 +431,7 @@ export default function LandingPage() {
 
             <div className="relative h-full flex items-center justify-center overflow-hidden">
               <img
-                src="Images/Work chat-bro 1.png"
+                src="/Images/Work chat-bro 1.png"
                 alt="Join Our Community"
                 className="h-full object-contain"
               />
@@ -476,7 +476,7 @@ export default function LandingPage() {
                 <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
-                <img src="Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+                <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
               </div>
             </div>
             {/* Surveillance Cameras */}
@@ -499,12 +499,12 @@ export default function LandingPage() {
               {/* Right: Camera Images */}
               <div className="flex-1 flex flex-col items-center sm:items-end gap-4">
                 <img
-                  src="Images/camera1.png"
+                  src="/Images/camera1.png"
                   alt="Surveillance Camera 1"
                   className="h-24 sm:h-28 md:h-32 w-auto object-contain"
                 />
                 <img
-                  src="Images/camera2.png"
+                  src="/Images/camera2.png"
                   alt="Surveillance Camera 2"
                   className="h-24 sm:h-28 md:h-32 w-auto object-contain"
                 />
@@ -521,7 +521,7 @@ export default function LandingPage() {
                 <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
-                <img src="Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+                <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
               </div>
             </div>
             {/* LED Display */}
@@ -534,7 +534,7 @@ export default function LandingPage() {
                 <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
-                <img src="Images/tv.png" alt="LED Display" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+                <img src="/Images/tv.png" alt="LED Display" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
               </div>
             </div>
           </div>
@@ -617,7 +617,7 @@ export default function LandingPage() {
           </h2>
         </div>
         <img
-          src="Images/Screenshot 2025-06-29 at 9.14.56 PM 1.png"
+          src="/Images/Screenshot 2025-06-29 at 9.14.56 PM 1.png"
           alt="Success Partner"
           className="w-full h-auto object-contain mx-auto"
         />

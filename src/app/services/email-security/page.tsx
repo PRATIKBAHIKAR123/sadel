@@ -1,7 +1,7 @@
 "use client"
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
-import TeachingTechCarousel from "../landing/teachingtech";
+import TeachingTechCarousel from "../../landing/teachingtech";
 import Image from "next/image";
 import { useState } from "react";
 

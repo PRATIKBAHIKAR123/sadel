@@ -26,7 +26,7 @@ export default function EdtechSolutions() {
                         </div>
                         <div className="relative mt-8 sm:mt-12">
                             <img
-                                src="Images/Screenshot 2025-07-02 at 2.29.27 PM 2.png"
+                                src="/Images/Screenshot 2025-07-02 at 2.29.27 PM 2.png"
                                 alt="Landing Page Image"
                                 className="mt-8 w-full max-w-lg h-auto rounded-lg shadow-lg"
                             />
@@ -55,7 +55,7 @@ export default function EdtechSolutions() {
                             </div>
                             <div className="flex-1 md:max-w-[50%] w-full flex items-center justify-center">
                                 <img
-                                    src="Images/a.png"
+                                    src="/Images/a.png"
                                     alt="Streamline data flow"
                                     className="w-full h-auto object-contain max-w-[200px] sm:max-w-[280px]"
                                 />
@@ -75,7 +75,7 @@ export default function EdtechSolutions() {
                             </div>
                             <div className="flex-1 md:max-w-[50%] w-full flex items-center justify-center">
                                 <img
-                                    src="Images/a-1.png"
+                                    src="/Images/a-1.png"
                                     alt="Reduce waiting time"
                                     className="w-full h-auto object-contain max-w-[200px] sm:max-w-[280px]"
                                 />
@@ -97,7 +97,7 @@ export default function EdtechSolutions() {
                             </div>
                             <div className="flex-1 flex items-end justify-center pt-4 sm:pt-8">
                                 <img
-                                    src="Images/Frame.png"
+                                    src="/Images/Frame.png"
                                     alt="The right access for the right team"
                                     className="w-full max-w-[200px] sm:max-w-[320px] h-auto object-contain"
                                 />
@@ -134,14 +134,14 @@ export default function EdtechSolutions() {
                                 {/* TV Screen */}
                                 <div className="relative">
                                     <img
-                                        src="Images/screen1.png"
+                                        src="/Images/screen1.png"
                                         alt="AI Integration Screen"
                                         className="w-full max-w-[300px] sm:max-w-[420px] h-auto object-contain"
                                     />
                                     {/* TV Stand */}
                                     <div className="absolute -bottom-8 sm:-bottom-15 left-1/2 transform -translate-x-1/2">
                                         <img
-                                            src="Images/Group (3).png"
+                                            src="/Images/Group (3).png"
                                             alt="TV Stand"
                                             className="w-full max-w-[250px] sm:max-w-[400px] h-auto object-contain"
                                         />
@@ -151,7 +151,7 @@ export default function EdtechSolutions() {
                                 {/* Standing Person */}
                                 <div className="absolute -bottom-8 sm:-bottom-15 -right-4 sm:-right-8 lg:right-12">
                                     <img
-                                        src="Images/Group (4).png"
+                                        src="/Images/Group (4).png"
                                         alt="Standing Person"
                                         className="w-16 sm:w-20 lg:w-26 h-auto object-contain"
                                     />
@@ -177,14 +177,14 @@ export default function EdtechSolutions() {
                                 {/* TV Screen */}
                                 <div className="relative">
                                     <img
-                                        src="Images/screen2.png"
+                                        src="/Images/screen2.png"
                                         alt="AI Integration Screen"
                                         className="w-full max-w-[300px] sm:max-w-[420px] h-auto object-contain"
                                     />
                                     {/* TV Stand */}
                                     <div className="absolute -bottom-8 sm:-bottom-15 left-1/2 transform -translate-x-1/2">
                                         <img
-                                            src="Images/Group (3).png"
+                                            src="/Images/Group (3).png"
                                             alt="TV Stand"
                                             className="w-full max-w-[250px] sm:max-w-[400px] h-auto object-contain"
                                         />
@@ -194,7 +194,7 @@ export default function EdtechSolutions() {
                                 {/* Standing Person */}
                                 <div className="absolute -bottom-8 sm:-bottom-15 -right-4 sm:-right-8 lg:right-12">
                                     <img
-                                        src="Images/Group (4).png"
+                                        src="/Images/Group (4).png"
                                         alt="Standing Person"
                                         className="w-16 sm:w-20 lg:w-26 h-auto object-contain"
                                     />
@@ -220,14 +220,14 @@ export default function EdtechSolutions() {
                                 {/* TV Screen */}
                                 <div className="relative">
                                     <img
-                                        src="Images/screen3.png"
+                                        src="/Images/screen3.png"
                                         alt="AI Integration Screen"
                                         className="w-full max-w-[300px] sm:max-w-[420px] h-auto object-contain"
                                     />
                                     {/* TV Stand */}
                                     <div className="absolute -bottom-8 sm:-bottom-15 left-1/2 transform -translate-x-1/2">
                                         <img
-                                            src="Images/Group (3).png"
+                                            src="/Images/Group (3).png"
                                             alt="TV Stand"
                                             className="w-full max-w-[250px] sm:max-w-[400px] h-auto object-contain"
                                         />
@@ -237,7 +237,7 @@ export default function EdtechSolutions() {
                                 {/* Standing Person */}
                                 <div className="absolute -bottom-8 sm:-bottom-15 -right-4 sm:-right-8 lg:right-12">
                                     <img
-                                        src="Images/Group (4).png"
+                                        src="/Images/Group (4).png"
                                         alt="Standing Person"
                                         className="w-16 sm:w-20 lg:w-26 h-auto object-contain"
                                     />
@@ -273,7 +273,7 @@ export default function EdtechSolutions() {
               {/* Right Illustration */}
               <div className="relative">
                 {/* Background Elements */}
-                <img src="Images/banner-solutions.png" alt="Background Element" className="w-full h-auto" />
+                <img src="/Images/banner-solutions.png" alt="Background Element" className="w-full h-auto" />
               </div>
             </div>
             </div>

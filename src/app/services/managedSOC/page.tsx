@@ -22,7 +22,7 @@ export default function ManagedSOC(){
                         </div>
                         <div className="relative mt-8">
                             <img
-                                src="Images/managedSOCImage.png"
+                                src="/Images/managedSOCImage.png"
                                 alt="ManagedSOC Image"
                                 className="mt-8 w-full max-w-lg h-auto"
                             />
@@ -48,7 +48,7 @@ export default function ManagedSOC(){
                             </div>
                             <div className="flex-1 md:max-w-[50%] w-full flex items-center justify-center">
                                 <img
-                                    src="Images/a.png"
+                                    src="/Images/a.png"
                                     alt="Streamline data flow"
                                     className="w-full h-auto object-contain max-w-[280px]"
                                 />
@@ -67,7 +67,7 @@ export default function ManagedSOC(){
                             </div>
                             <div className="flex-1 md:max-w-[50%] w-full flex items-center justify-center">
                                 <img
-                                    src="Images/a-1.png"
+                                    src="/Images/a-1.png"
                                     alt="Reduce waiting time"
                                     className="w-full h-auto object-contain max-w-[280px]"
                                 />
@@ -88,7 +88,7 @@ export default function ManagedSOC(){
                             </div>
                             <div className="flex-1 flex items-end justify-center pt-8">
                                 <img
-                                    src="Images/Frame.png"
+                                    src="/Images/Frame.png"
                                     alt="The right access for the right team"
                                     className="w-full max-w-[320px] h-auto object-contain"
                                 />
@@ -109,7 +109,7 @@ export default function ManagedSOC(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex bg-[#fffcec] rounded-3xl p-8">
-                        <img src="Images/SOC first section.png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/SOC first section.png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                 </div>
@@ -122,7 +122,7 @@ export default function ManagedSOC(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex bg-[#fffcec] rounded-3xl p-8">
-                        <img src="Images/second SOC.png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/second SOC.png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@ export default function ManagedSOC(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex bg-[#fffcec] rounded-3xl p-8">
-                        <img src="Images/SOC third section.png" alt="first section" className="w-auto h-80"/>
+                        <img src="/Images/SOC third section.png" alt="first section" className="w-auto h-80"/>
                     </div>
                     </div>
                 </div>

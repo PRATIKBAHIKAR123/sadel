@@ -29,7 +29,7 @@ export default function Services() {
             </div>
           </div>
           <div className="h-auto w-full flex justify-center lg:justify-end">
-            <img src="Images/Group (1).png" alt="About Us" className="w-full max-w-md lg:max-w-none h-auto" />
+            <img src="/Images/Group (1).png" alt="About Us" className="w-full max-w-md lg:max-w-none h-auto" />
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ export default function Services() {
                 <div>
                   <div className="bg-black rounded-full w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center overflow-hidden mb-4 sm:mb-6">
                     <img
-                      src="Images/diagram-project 1.png"
+                      src="/Images/diagram-project 1.png"
                       alt="Distributed Storage Icon"
                       className="w-6 h-6 sm:w-8 sm:h-8"
                     />
@@ -77,7 +77,7 @@ export default function Services() {
                 <div>
                   <div className="bg-black rounded-full w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center overflow-hidden mb-4 sm:mb-6">
                     <img
-                      src="Images/people.png"
+                      src="/Images/people.png"
                       alt="Cloud Manage Security Icon"
                       className="w-6 h-6 sm:w-8 sm:h-8"
                     />
@@ -100,7 +100,7 @@ export default function Services() {
                 <div>
                   <div className="bg-black rounded-full w-12 h-12 sm:w-16 sm:h-16 flex items-center justify-center overflow-hidden mb-4 sm:mb-6">
                     <img
-                      src="Images/sidebar 1.png"
+                      src="/Images/sidebar 1.png"
                       alt="Microsoft Cloud App Security Icon"
                       className="w-6 h-6 sm:w-8 sm:h-8"
                     />
@@ -121,7 +121,7 @@ export default function Services() {
       <div className="p-4 sm:p-8 md:p-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-between gap-6 sm:gap-8 md:gap-4">
           <div className="h-auto flex justify-center order-2 lg:order-1">
-            <img src="Images/Screenshot 2025-07-04 170802.png" alt="About Us" className="w-full max-w-md lg:max-w-none h-auto" />
+            <img src="/Images/Screenshot 2025-07-04 170802.png" alt="About Us" className="w-full max-w-md lg:max-w-none h-auto" />
           </div>
           <div className="justify-start order-1 lg:order-2">
             <div className="text-center lg:text-left">
@@ -144,7 +144,7 @@ export default function Services() {
       
       <section className="bg-[#FBE35A] py-8 sm:py-10 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto relative">
-          <img src="Images/Screenshot 2025-06-29 at 9.22.40 PM 4.png" alt="Illustration" className="w-full h-auto max-w-sm sm:max-w-md mx-auto mb-6 sm:mb-8" />
+          <img src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 4.png" alt="Illustration" className="w-full h-auto max-w-sm sm:max-w-md mx-auto mb-6 sm:mb-8" />
           <div className="text-center justify-start text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[64px] px-4">
             Educational Tech Board You Need
           </div>
@@ -171,7 +171,7 @@ export default function Services() {
                 <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center lg:justify-end items-center mt-4 lg:mt-0">
-                <img src="Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 object-contain" />
+                <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 object-contain" />
               </div>
             </div>
             
@@ -185,8 +185,8 @@ export default function Services() {
                 <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
               </div>
               <div className="flex-1 flex flex-col items-center lg:items-end gap-2 mt-4 lg:mt-0">
-                <img src="Images/camera1.png" alt="Surveillance Camera 1" className="h-24 sm:h-32 md:h-40 object-contain" />
-                <img src="Images/camera2.png" alt="Surveillance Camera 2" className="h-24 sm:h-32 md:h-40 object-contain" />
+                <img src="/Images/camera1.png" alt="Surveillance Camera 1" className="h-24 sm:h-32 md:h-40 object-contain" />
+                <img src="/Images/camera2.png" alt="Surveillance Camera 2" className="h-24 sm:h-32 md:h-40 object-contain" />
               </div>
             </div>
             
@@ -200,7 +200,7 @@ export default function Services() {
                 <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center lg:justify-end items-center mt-4 lg:mt-0">
-                <img src="Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 object-contain" />
+                <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 object-contain" />
               </div>
             </div>
             
@@ -214,7 +214,7 @@ export default function Services() {
                 <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-end items-center">
-                <img src="Images/tv.png" alt="LED Display" className="h-50 object-contain" />
+                <img src="/Images/tv.png" alt="LED Display" className="h-50 object-contain" />
               </div>
             </div>
           </div>
@@ -235,8 +235,8 @@ export default function Services() {
             </div>
           </div>
           <div className="w-full h-full flex items-center justify-center relative">
-            <img src="Images/Screenshot 2025-06-29 at 9.22.40 PM 4.png" className="h-64 w-full" />
-            <img src="Images/Untit design 1.png" alt="Create Account" className="w-auto h-64 absolute -bottom-12 right-5" />
+            <img src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 4.png" className="h-64 w-full" />
+            <img src="/Images/Untit design 1.png" alt="Create Account" className="w-auto h-64 absolute -bottom-12 right-5" />
           </div>
         </div>
         
@@ -253,8 +253,8 @@ export default function Services() {
             </div>
           </div>
           <div className="w-full h-full flex items-center justify-center relative">
-            <img src="Images/Screenshot 2025-06-29 at 9.19.49 PM 3.png" className="h-64 w-full" />
-            <img src="Images/Untit design 3.png" alt="Create Account" className="w-auto h-64 absolute -bottom-12 left-5" />
+            <img src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 3.png" className="h-64 w-full" />
+            <img src="/Images/Untit design 3.png" alt="Create Account" className="w-auto h-64 absolute -bottom-12 left-5" />
           </div>
         </div>
       </div>

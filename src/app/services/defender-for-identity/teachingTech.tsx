@@ -11,19 +11,19 @@ const TeachingTechCarousel = () => {
   const slides = [
     {
       id: 1,
-      icon: <img src="Images/image 14.png" alt="Smartphone Icon" className="w-16 h-16" />,
+      icon: <img src="/Images/image 14.png" alt="Smartphone Icon" className="w-16 h-16" />,
       title: "Hold Meetings Everywhere",
       description: "Have Meetings In You Office Anywhere"
     },
     {
       id: 2,
-      icon: <img src="Images/smart-tv 4.png" alt="Smartphone Icon" className="w-16 h-16" />,
+      icon: <img src="/Images/smart-tv 4.png" alt="Smartphone Icon" className="w-16 h-16" />,
       title: "Interactive Screens",
       description: "Have Touch Screens With Easy Control "
     },
     {
       id: 3,
-      icon: <img src="Images/image 16.png" alt="Smartphone Icon" className="w-18 h-16" />,
+      icon: <img src="/Images/image 16.png" alt="Smartphone Icon" className="w-18 h-16" />,
       title: "Master Series BenQ",
       description: "Advance Master BenQ Series To Enhance Quality"
     },
