@@ -12,7 +12,8 @@ export default function AboutUsPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div className="justify-start">
                             <span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Get </span><span className="text-[#f9d300] text-[56px] font-bold font-['Urbanist'] leading-[72px]">To Know More</span><span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]"> More About Us & About Our Team</span>
-                            <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9">Empower your team and spark productivity with a thoughtfully designed interactive screen. Whether it’s for brainstorming, collaboration, or presentations, this dynamic solution brings clarity, creativity, and efficiency to every task.</div>
+                <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9">We provide a wide range of IT solutions based on internationally recognized vendors.
+                  We also have a highly skilled workforce that can deliver top-notch services and solutions.</div>
                             </div>
                             <div className="h-auto">
                             <img src="/Images/Frame (4).png" alt="About Us" className="w-full h-full" />
@@ -103,24 +104,53 @@ export default function AboutUsPage() {
                         <div className="h-16 w-16">
                         <img src="/Images/Container.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
                         </div>
-                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">CUSTOM-BUILT PROJECTS</div>
-                        <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Providing scalable options to establish digital presence<br /> </div>
+                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">MISSION</div>
+              <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Deliver exceptional IT solutions and services that exceed our clients’ expectations, drive their growth and success<br /> </div>
                     </div>
                     <div className="bg-[#fffcec] rounded-[40px] flex-col flex gap-4 p-8 shadow-lg hover:shadow-lg transition-shadow duration-300">
                         <div className="h-16 w-16">
                         <img src="/Images/Container-1.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
                         </div>
-                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">END-TO-END SOLUTIONS</div>
-                        <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Undergoing brainstorming to execution to reduce workload<br /> </div>
+                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">VISION</div>
+              <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">To be a leading and innovative IT company leveraging technology to enable businesses achieve their goals<br /> </div>
                     </div>
                     <div className="bg-[#fffcec] rounded-[40px] flex-col flex gap-4 p-8 shadow-lg hover:shadow-lg transition-shadow duration-300">
                         <div className="h-16 w-16">
                         <img src="/Images/Container-2.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
                         </div>
-                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">VALUE FOR RUPEE</div>
-                        <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Get credible, high-quality solutions at affordable prices<br /> </div>
+                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">STRENGTH</div>
+              <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Our strength lies in our team of highly skilled and dedicated IT professionals who are committed to delivering quality solutions and providing exceptional customer service<br /> </div>
                     </div>
                 </div>
+        </section>
+            {/* Integrated Maintenance Service Section */}
+            <section className="bg-[#fffcec] rounded-[40px] p-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-center">
+              <div className="flex-1 flex justify-center items-center">
+                <img src="/Images/sadel-team.png" alt="Sadel Service Team" className="w-full max-w-md rounded-2xl shadow-md" />
+              </div>
+              <div className="flex-1 space-y-4">
+                <h2 className="text-[#f9d300] text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight">INTEGRATED MAINTENANCE SERVICE :</h2>
+                <p className="text-black text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed mt-2">
+                  With integrated maintenance services from Sadel Vision your systems will be in safe hands under the supervision of experts. We assure you that all maintenance operations are carried out using original spare parts and through a specialized team trained in the latest technologies.
+                </p>
+              </div>
+            </section>
+        {/* WHY CHOOSE SADEL VISION Section */}
+        <section className="max-w-7xl mx-auto my-16 flex flex-col md:flex-row items-center gap-10 bg-[#fffcec] rounded-[40px] p-8 shadow-lg">
+          {/* Left: Text Content */}
+          <div className="flex-1 space-y-4">
+            <div className="flex items-center gap-3">
+              <span className="bg-[#f9d300] text-black font-bold px-3 py-1 rounded text-base font-['Urbanist']">SADEL VISION</span>
+            </div>
+            <h2 className="text-[#f9d300] text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight mt-2">WHY CHOOSE SADEL VISION?</h2>
+            <p className="text-black text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed mt-2">
+              Sadel Vision is not just a technology company, but a trusted partner that seeks to provide innovative solutions that enhance performance and drive success forward. We provide you with modern and integrated technologies specifically designed to meet your specific needs. Whether you are in the private or educational sector, we are here to help you succeed.
+            </p>
+          </div>
+          {/* Right: Image */}
+          <div className="flex-1 flex justify-center items-center">
+            <img src="/Images/banner-solutions.png" alt="Why Choose Sadel Vision" className="w-full max-w-md rounded-2xl shadow-md" />
+          </div>
         </section>
         <TestimonialSection/>
         <div className="max-w-7xl mx-auto p-8">

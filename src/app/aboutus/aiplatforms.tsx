@@ -1,43 +1,36 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
 
 const AIPlatformSection = () => {
   const features = [
     {
       id: 1,
-      percentage: '76%',
-      title: 'Guests willing to pay a premium for a personalized digital experience.',
-      viewDetails: 'View Details'
+      title: "Integrated and customized technology solutions",
+      description: "We understand that each sector has its own challenges, which is why we design customized technology solutions that perfectly meet the needs of your company or educational institution. Through Sadel Vision you will get the technology that suits you, in an easy-to-use and high performance manner"
     },
     {
       id: 2,
-      percentage: '76%',
-      title: 'Guests willing to pay a premium for a personalized digital experience.',
-      viewDetails: 'View Details'
+      title: "High expertise and professionalism",
+      description: "Our team of experts works around the clock to ensure that your technical systems operate smoothly and efficiently. We provide continuous support and extensive experience in dealing with the latest technological innovations"
     },
     {
       id: 3,
-      percentage: '76%',
-      title: 'Guests willing to pay a premium for a personalized digital experience.',
-      viewDetails: 'View Details'
+      title: "Integrated security and protection",
+      description: "We put the security of your information and data at the top of our priorities. With Sadel Vision&apos;s advanced security solutions, you can rest assured that your data and systems are protected at the highest level of international standards"
     },
     {
       id: 4,
-      percentage: '76%',
-      title: 'Guests willing to pay a premium for a personalized digital experience.',
-      viewDetails: 'View Details'
+      title: "Ease of Use and Training",
+      description: "We don't just provide you with technical solutions, we also provide comprehensive training to ensure that your team benefits from the full potential of the systems we provide. Our programs are designed to be easy to learn and apply, ensuring maximum productivity"
     },
     {
       id: 5,
-      percentage: '76%',
-      title: 'Guests willing to pay a premium for a personalized digital experience.',
-      viewDetails: 'View Details'
+      title: "Save Time and Costs",
+      description: "Through our smart solutions you will be able to automate many processes and reduce operational costs, saving you time and effort and focusing on what is more important: growing your business"
     },
     {
       id: 6,
-      percentage: '76%',
-      title: 'Guests willing to pay a premium for a personalized digital experience.',
-      viewDetails: 'View Details'
+      title: "24/7 Technical Support",
+      description: "Our dedicated support team is available round the clock to provide immediate assistance and resolve any technical issues. We ensure minimal downtime and maximum efficiency for your business operations with our comprehensive support services."
     }
   ];
 
@@ -48,38 +41,27 @@ const AIPlatformSection = () => {
         {/* Main Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-semibold font-['Urbanist'] leading-[58px] max-w-4xl mx-auto">
-            Industrys only AI-Native platform for complex infrastructure management
+            HERE&apos;S WHY SADEL VISION IS THE <span className='text-[#f9d300]'>PERFECT CHOICE FOR YOU :</span>
           </h2>
         </div>
 
-        {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        {/* Features Grid - Two rows of 3 cards each */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
           {features.map((feature) => (
             <div 
               key={feature.id}
-              className="bg-[#fffcec] rounded-[10px] p-6 shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300"
             >
-              
-              {/* Icon and Percentage */}
-              <div className="flex items-center mb-4">
-                <div className="bg-yellow-400 rounded-lg p-3 mr-4">
-                  <img src="/Images/Group.png" alt='Icon' className='w-6 h-6' />
-                </div>
-                <span className="text-[#2d3c58] text-[22px] font-semibold font-['Plus_Jakarta_Sans'] capitalize leading-relaxed">
-                  {feature.percentage}
-                </span>
+              {/* Title */}
+              <div className="text-[#0b0d0e] text-xl font-bold font-['Urbanist'] mb-3">
+                {feature.title}
               </div>
 
               {/* Description */}
-              <p className="justify-center text-[#252525] text-lg font-medium font-['Inter'] leading-[30px] mb-6">
-                {feature.title}
-              </p>
-
-              {/* View Details Link */}
-              <button className="flex items-center text-gray-900 font-medium hover:text-gray-700 transition-colors duration-200 group">
-                <span className="mr-2">{feature.viewDetails}</span>
-                <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
-              </button>
+              <div className="text-[#5c5f6e] text-base font-normal font-['Urbanist'] leading-relaxed">
+                {feature.description}
+              </div>
             </div>
           ))}
         </div>

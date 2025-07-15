@@ -41,14 +41,14 @@ const Header = () => {
       { name: 'Modern WorkPlace', href: '/services/modern-workplace' },
       { name: `Sadel's - AI Solutions`, href: '/services/sadels-ai-solutions' },
       { name: `Sadel's - Data Driven Solutions`, href: '/services/sadels-data-driven-solutions' },
-      { name: 'Software Development Services', href: '#' },
+      { name: 'Software Development Services', href: '/services/custom-software-development' },
     ],
     'Support and Market Research': [
-      { name: 'Cloud Managed Service', href: '#' },
-      { name: 'IT Training', href: '#' },
-      { name: 'Market Research', href: '#' },
-      { name: 'Website & App Development', href: '#' },
-      { name: 'IT Help Desk', href: '#' },
+      { name: 'Cloud Managed Service', href: '/services/cloud-managed-services' },
+      { name: 'IT Training', href: '/services/it-training-services' },
+      { name: 'Market Research', href: '/services/market-research' },
+      { name: 'Website & App Development', href: '/services/website-app-development' },
+      { name: 'IT Help Desk', href: '/services/it-help-desk' },
     ],
   };
 
