@@ -129,3 +129,101 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.hero-title {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.28;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+}
+
+.hero-title-primary {
+  color: #0b0d0e;
+}
+
+.hero-title-accent {
+  color: #f9d300;
+}
+
+.hero-description {
+  color: #5c5f6e;
+  font-size: 1.125rem;
+  font-family: 'Urbanist', sans-serif;
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+
+.feature-section {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.feature-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .feature-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 1.5rem;
+  }
+}
+
+.feature-image {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-image img {
+  width: 100%;
+  max-width: 18rem;
+  height: auto;
+}
+
+.feature-content h2 {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .feature-content h2 {
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .feature-content h2 {
+    font-size: 2.25rem;
+  }
+}
+
+.feature-content p {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .feature-content p {
+    font-size: 1.125rem;
+  }
+}

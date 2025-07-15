@@ -12,10 +12,12 @@ const Header = () => {
     { name: 'Features', href: '#' },
     { name: 'Solutions', href: '#' },
     { name: 'Services', href: '#', hasDropdown: true },
-    { name: 'NFT Store', href: '#' },
-    { name: 'Pricing', href: '#' },
-    { name: 'Developers', href: '#' },
-    { name: 'Resource', href: '#' },
+    // { name: 'NFT Store', href: '#' },
+    // { name: 'Pricing', href: '#' },
+    // { name: 'Developers', href: '#' },
+    { name: 'About Us', href: '/aboutus' },
+    { name: 'Contact Us', href: 'contact-us' },
+    { name: 'Blogs', href: '/blog' },
   ];
 
   const servicesDropdownData = {
@@ -31,9 +33,9 @@ const Header = () => {
       { name: 'Identity and Access Management', href: '#' },
     ],
     'Consulting Services': [
-      { name: 'Azure Consulting Services', href: '#' },
-      { name: 'Azure Virtual Desktop', href: '#' },
-      { name: 'Citrix Consulting', href: '#' },
+      { name: 'Azure Consulting Services', href: '/services/azure-consulting-services' },
+      { name: 'Azure Virtual Desktop', href: '/services/azure-virtual-desktop' },
+      { name: 'Citrix Consulting', href: '/services/citrix-consulting' },
       { name: 'PKI Consulting', href: '#' },
       { name: 'Active Directory Consulting', href: '#' },
       { name: 'Modern WorkPlace', href: '#' },
