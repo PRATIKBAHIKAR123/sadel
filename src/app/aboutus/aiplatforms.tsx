@@ -37,7 +37,7 @@ const AIPlatformSection = () => {
   return (
     <section className="bg-gray-50 py-16 px-6">
       <div className="max-w-7xl mx-auto">
-        
+
         {/* Main Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-semibold font-['Urbanist'] leading-[58px] max-w-4xl mx-auto">
@@ -49,7 +49,7 @@ const AIPlatformSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           
           {features.map((feature) => (
-            <div 
+            <div
               key={feature.id}
               className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300"
             >

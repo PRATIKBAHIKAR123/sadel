@@ -88,7 +88,7 @@ export default function ContactPage() {
             {/* Contact Us Cards Section */}
             <div className="bg-yellow-50 py-12 md:py-20 px-4">
                 <div className="max-w-5xl mx-auto">
-                    <Fade cascade>
+                    <Fade direction="left" triggerOnce>
                         <div className="text-2xl md:text-4xl font-bold text-black font-['Urbanist'] mb-2 text-center md:text-left">Contact us</div>
                         <p className="text-lg md:text-xl text-[#5C5F6E] font-['Urbanist'] mb-8 md:mb-10 text-center md:text-left">Get in touch and let us know how we can help.</p>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8">

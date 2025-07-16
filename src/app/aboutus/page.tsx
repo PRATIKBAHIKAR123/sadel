@@ -3,164 +3,169 @@ import React from "react";
 import AIPlatformSection from "./aiplatforms";
 import TeamProfilesSection from "./teamProfile";
 import TestimonialSection from "./testimonial";
+import { Fade } from "react-awesome-reveal";
 
 export default function AboutUsPage() {
-    return (
-        <div className="flex flex-col gap-16">
-            <div className="p-8">
-                <div className="bg-[#fffcec] rounded-[40px] p-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <div className="justify-start">
-                            <span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Get </span><span className="text-[#f9d300] text-[56px] font-bold font-['Urbanist'] leading-[72px]">To Know More</span><span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]"> More About Us & About Our Team</span>
+  return (
+    <div className="flex flex-col gap-16">
+      <div className="p-8">
+        <Fade direction="down" triggerOnce>
+          <div className="bg-[#fffcec] rounded-[40px] p-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="justify-start">
+                <span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Get </span><span className="text-[#f9d300] text-[56px] font-bold font-['Urbanist'] leading-[72px]">To Know More</span><span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]"> More About Us & About Our Team</span>
                 <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9">We provide a wide range of IT solutions based on internationally recognized vendors.
                   We also have a highly skilled workforce that can deliver top-notch services and solutions.</div>
-                            </div>
-                            <div className="h-auto">
-                            <img src="/Images/Frame (4).png" alt="About Us" className="w-full h-full" />
-                            </div>
-                    </div>
-
-                </div>
+              </div>
+              <div className="h-auto">
+                <img src="/Images/Frame (4).png" alt="About Us" className="w-full h-full" />
+              </div>
             </div>
-            <div className="p-16">
-                
-                    <div className="grid grid-cols-1 md:grid-cols-2 justify-between px-16 gap-4">
-                        <div className="justify-start">
-                            <span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Sadel Simplifies </span><span className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Technology to Empower Teams</span>
-                            <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9 mt-2">Sadel takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.</div>
-                            <div className="flex justify-start gap-4 mt-4">
-                                <Button>Getting Started</Button>
-                                <Button variant="outline">Learn More</Button>
-                            </div>
-                            </div>
-                            <div className="h-84 flex justify-center">
-                            <img src="/Images/Frame (6).png" alt="About Us" className="w-auto h-full" />
-                            </div>
-                    </div>
-
-            </div>
-            <AIPlatformSection/>
-            <div className="p-16">
-                
-                    <div className="grid grid-cols-1 md:grid-cols-2 justify-between px-16 gap-4">
-                        
-                            <div className="h-84 flex justify-center">
-                            <img src="/Images/Frame (7).png" alt="About Us" className="w-auto h-full" />
-                            </div>
-                            <div className="justify-start">
-                            <span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Sadel Simplifies </span><span className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Technology to Empower Teams</span>
-                            <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9 mt-2">Sadel takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.</div>
-                            <div className="flex justify-start gap-4 mt-4">
-                                <Button>Getting Started</Button>
-                                <Button variant="outline">Learn More</Button>
-                            </div>
-                            </div>
-                    </div>
-
-            </div>
-              <section className="bg-[#FBE35A] py-10 px-6">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          
-          {/* Left Content */}
-          <div className="space-y-6">
-            <h2 className="justify-center text-black text-4xl font-bold font-['Urbanist'] leading-[46px]">
-              Upgrade Your Stay: Embrace the New Era of Travel
-            </h2>
-            
-            <p className="text-black text-base font-normal font-['Figtree'] leading-relaxed max-w-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor dolore magna aliqua.
-            </p>
-            
-            <button className="bg-black hover:bg-gray-800 text-white font-medium px-8 py-4 rounded-full transition-colors duration-300 transform hover:scale-105">
-              Contact Us
-            </button>
           </div>
+        </Fade>
+      </div>
+      <div className="p-16">
+        <Fade direction="right" triggerOnce>
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-between px-16 gap-4">
+            <div className="justify-start">
+              <span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Sadel Simplifies </span><span className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Technology to Empower Teams</span>
+              <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9 mt-2">Sadel takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.</div>
+              <div className="flex justify-start gap-4 mt-4">
+                <Button>Getting Started</Button>
+                <Button variant="outline">Learn More</Button>
+              </div>
+            </div>
+            <div className="h-84 flex justify-center">
+              <img src="/Images/Frame (6).png" alt="About Us" className="w-auto h-full" />
+            </div>
+          </div>
+        </Fade>
+      </div>
+      <Fade direction="left" triggerOnce>
+        <AIPlatformSection />
+        <div className="p-16">
 
-          {/* Right Illustration */}
-          <div className="relative flex justify-center items-center">
-            
-            <img src="/Images/div.elementor-element.png" alt="Illustration" className="w-full h-auto max-w-md" />
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-between px-16 gap-4">
+
+            <div className="h-84 flex justify-center">
+              <img src="/Images/Frame (7).png" alt="About Us" className="w-auto h-full" />
+            </div>
+            <div className="justify-start">
+              <span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Sadel Simplifies </span><span className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Technology to Empower Teams</span>
+              <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9 mt-2">Sadel takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.</div>
+              <div className="flex justify-start gap-4 mt-4">
+                <Button>Getting Started</Button>
+                <Button variant="outline">Learn More</Button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section className="max-w-7xl mx-auto">
-   <div className="text-center"><span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Get</span><span className="text-[#0b0d0e] text-5xl font-bold font-['Urbanist'] leading-[64px]"> To Know Us </span></div>
-    <div className="text-center justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
-        Sadel is a 100% remote team. We believe that creative collaboration can happen anywhere and want our team to work where they feel most comfortable and inspired.
+      </Fade>
+      {/* <Fade direction="right" triggerOnce> */ }
+      <section className="bg-[#FBE35A] py-10 px-6">
+        
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+            {/* Left Content */}
+            <div className="space-y-6">
+              <h2 className="justify-center text-black text-4xl font-bold font-['Urbanist'] leading-[46px]">
+                Upgrade Your Stay: Embrace the New Era of Travel
+              </h2>
+
+              <p className="text-black text-base font-normal font-['Figtree'] leading-relaxed max-w-lg">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor dolore magna aliqua.
+              </p>
+
+              <button className="bg-black hover:bg-gray-800 text-white font-medium px-8 py-4 rounded-full transition-colors duration-300 transform hover:scale-105">
+                Contact Us
+              </button>
+            </div>
+
+            {/* Right Illustration */}
+            <div className="relative flex justify-center items-center">
+
+              <img src="/Images/div.elementor-element.png" alt="Illustration" className="w-full h-auto max-w-md" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="max-w-7xl mx-auto">
+        <div className="text-center"><span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Get</span><span className="text-[#0b0d0e] text-5xl font-bold font-['Urbanist'] leading-[64px]"> To Know Us </span></div>
+        <div className="text-center justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
+          Sadel is a 100% remote team. We believe that creative collaboration can happen anywhere and want our team to work where they feel most comfortable and inspired.
+        </div>
+        <TeamProfilesSection />
+      </section>
+      <section className="max-w-7xl mx-auto">
+        <div className="text-center text-[#f9d300] text-xl font-bold font-['Manrope'] leading-snug">
+          Why Choose Us ?
+        </div>
+        <div className="flex gap-3 text-center justify-center text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Mision
+          <div className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Vision</div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-8">
+          <div className="bg-[#fffcec] rounded-[40px] flex-col flex gap-4 p-8 shadow-lg hover:shadow-lg transition-shadow duration-300">
+            <div className="h-16 w-16">
+              <img src="/Images/Container.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
+            </div>
+            <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">MISSION</div>
+            <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Deliver exceptional IT solutions and services that exceed our clients’ expectations, drive their growth and success<br /> </div>
+          </div>
+          <div className="bg-[#fffcec] rounded-[40px] flex-col flex gap-4 p-8 shadow-lg hover:shadow-lg transition-shadow duration-300">
+            <div className="h-16 w-16">
+              <img src="/Images/Container-1.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
+            </div>
+            <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">VISION</div>
+            <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">To be a leading and innovative IT company leveraging technology to enable businesses achieve their goals<br /> </div>
+          </div>
+          <div className="bg-[#fffcec] rounded-[40px] flex-col flex gap-4 p-8 shadow-lg hover:shadow-lg transition-shadow duration-300">
+            <div className="h-16 w-16">
+              <img src="/Images/Container-2.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
+            </div>
+            <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">STRENGTH</div>
+            <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Our strength lies in our team of highly skilled and dedicated IT professionals who are committed to delivering quality solutions and providing exceptional customer service<br /> </div>
+          </div>
+        </div>
+      </section>
+  {/* Integrated Maintenance Service Section */ }
+  <section className="bg-[#fffcec] rounded-[40px] p-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-center">
+    <div className="flex-1 flex justify-center items-center">
+      <img src="/Images/sadel-team.png" alt="Sadel Service Team" className="w-full max-w-md rounded-2xl shadow-md" />
     </div>
-    <TeamProfilesSection/>
-    </section>
-        <section className="max-w-7xl mx-auto">
-            <div className="text-center text-[#f9d300] text-xl font-bold font-['Manrope'] leading-snug">
-                Why Choose Us ?
-            </div>
-            <div className="flex gap-3 text-center justify-center text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Mision
-                <div className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Vision</div>
-            </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-8">
-                    <div className="bg-[#fffcec] rounded-[40px] flex-col flex gap-4 p-8 shadow-lg hover:shadow-lg transition-shadow duration-300">
-                        <div className="h-16 w-16">
-                        <img src="/Images/Container.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
-                        </div>
-                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">MISSION</div>
-              <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Deliver exceptional IT solutions and services that exceed our clients’ expectations, drive their growth and success<br /> </div>
-                    </div>
-                    <div className="bg-[#fffcec] rounded-[40px] flex-col flex gap-4 p-8 shadow-lg hover:shadow-lg transition-shadow duration-300">
-                        <div className="h-16 w-16">
-                        <img src="/Images/Container-1.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
-                        </div>
-                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">VISION</div>
-              <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">To be a leading and innovative IT company leveraging technology to enable businesses achieve their goals<br /> </div>
-                    </div>
-                    <div className="bg-[#fffcec] rounded-[40px] flex-col flex gap-4 p-8 shadow-lg hover:shadow-lg transition-shadow duration-300">
-                        <div className="h-16 w-16">
-                        <img src="/Images/Container-2.png" alt="Mission" className="w-full h-full rounded-t-[40px]" />
-                        </div>
-                        <div className="text-black text-[26px] font-extrabold font-['Urbanist'] leading-7">STRENGTH</div>
-              <div className="justify-center text-black text-base font-medium font-['Urbanist'] leading-relaxed">Our strength lies in our team of highly skilled and dedicated IT professionals who are committed to delivering quality solutions and providing exceptional customer service<br /> </div>
-                    </div>
-                </div>
-        </section>
-            {/* Integrated Maintenance Service Section */}
-            <section className="bg-[#fffcec] rounded-[40px] p-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-center">
-              <div className="flex-1 flex justify-center items-center">
-                <img src="/Images/sadel-team.png" alt="Sadel Service Team" className="w-full max-w-md rounded-2xl shadow-md" />
-              </div>
-              <div className="flex-1 space-y-4">
-                <h2 className="text-[#f9d300] text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight">INTEGRATED MAINTENANCE SERVICE :</h2>
-                <p className="text-black text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed mt-2">
-                  With integrated maintenance services from Sadel Vision your systems will be in safe hands under the supervision of experts. We assure you that all maintenance operations are carried out using original spare parts and through a specialized team trained in the latest technologies.
-                </p>
-              </div>
-            </section>
-        {/* WHY CHOOSE SADEL VISION Section */}
-        <section className="max-w-7xl mx-auto my-16 flex flex-col md:flex-row items-center gap-10 bg-[#fffcec] rounded-[40px] p-8 shadow-lg">
-          {/* Left: Text Content */}
-          <div className="flex-1 space-y-4">
-            <div className="flex items-center gap-3">
-              <span className="bg-[#f9d300] text-black font-bold px-3 py-1 rounded text-base font-['Urbanist']">SADEL VISION</span>
-            </div>
-            <h2 className="text-[#f9d300] text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight mt-2">WHY CHOOSE SADEL VISION?</h2>
-            <p className="text-black text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed mt-2">
-              Sadel Vision is not just a technology company, but a trusted partner that seeks to provide innovative solutions that enhance performance and drive success forward. We provide you with modern and integrated technologies specifically designed to meet your specific needs. Whether you are in the private or educational sector, we are here to help you succeed.
-            </p>
+    <div className="flex-1 space-y-4">
+      <h2 className="text-[#f9d300] text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight">INTEGRATED MAINTENANCE SERVICE :</h2>
+      <p className="text-black text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed mt-2">
+        With integrated maintenance services from Sadel Vision your systems will be in safe hands under the supervision of experts. We assure you that all maintenance operations are carried out using original spare parts and through a specialized team trained in the latest technologies.
+      </p>
+    </div>
+  </section>
+  {/* WHY CHOOSE SADEL VISION Section */ }
+      <section className="max-w-7xl mx-auto my-16 flex flex-col md:flex-row items-center gap-10 bg-[#fffcec] rounded-[40px] p-8 shadow-lg">
+        {/* Left: Text Content */}
+        <div className="flex-1 space-y-4">
+          <div className="flex items-center gap-3">
+            <span className="bg-[#f9d300] text-black font-bold px-3 py-1 rounded text-base font-['Urbanist']">SADEL VISION</span>
           </div>
-          {/* Right: Image */}
-          <div className="flex-1 flex justify-center items-center">
-            <img src="/Images/banner-solutions.png" alt="Why Choose Sadel Vision" className="w-full max-w-md rounded-2xl shadow-md" />
-          </div>
-        </section>
-        <TestimonialSection/>
-        <div className="max-w-7xl mx-auto p-8">
-<div className="text-center mb-12">
-        <h2 className=" text-center justify-start text-black text-4xl font-bold font-['Urbanist'] leading-[54px]">
-          Our Success Partner
-        </h2>
-        <img src="/Images/Screenshot 2025-06-29 at 9.14.56 PM 1.png" alt="Success Partner" className="w-full h-auto mt-4" />
+          <h2 className="text-[#f9d300] text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight mt-2">WHY CHOOSE SADEL VISION?</h2>
+          <p className="text-black text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed mt-2">
+            Sadel Vision is not just a technology company, but a trusted partner that seeks to provide innovative solutions that enhance performance and drive success forward. We provide you with modern and integrated technologies specifically designed to meet your specific needs. Whether you are in the private or educational sector, we are here to help you succeed.
+          </p>
+        </div>
+        {/* Right: Image */}
+        <div className="flex-1 flex justify-center items-center">
+          <img src="/Images/banner-solutions.png" alt="Why Choose Sadel Vision" className="w-full max-w-md rounded-2xl shadow-md" />
+        </div>
+      </section>
+      <TestimonialSection />
+      <div className="max-w-7xl mx-auto p-8">
+        <div className="text-center mb-12">
+          <h2 className=" text-center justify-start text-black text-4xl font-bold font-['Urbanist'] leading-[54px]">
+            Our Success Partner
+          </h2>
+          <img src="/Images/Screenshot 2025-06-29 at 9.14.56 PM 1.png" alt="Success Partner" className="w-full h-auto mt-4" />
+        </div>
       </div>
-        </div>
-        </div>
-    );
+    </div >
+  );
 }
