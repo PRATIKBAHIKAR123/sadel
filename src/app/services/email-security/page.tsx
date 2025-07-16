@@ -16,29 +16,37 @@ export default function EmailSecurityPage() {
     };
     return (
         <div className=" min-h-screen w-full">
+
+
             {/* Header Section */}
             <div className="bg-[#FFFCEC]">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16 flex flex-col md:flex-row items-center gap-8">
-                    {/* Left: Text */}
-                    <div className="flex-1 text-center md:text-left">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                            Email <span className="text-yellow-400">Security</span>
-                        </h1>
-                        <p className="text-gray-700 text-base sm:text-lg mb-6 max-w-xl">
-                            Microsoft provides businesses with an endpoint security platform that can identify, probe, and avert sophisticated attacks. Using several features of Microsoft Azure and Windows 10 enables companies to react quickly to security threats.          </p>
-                        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
-                            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold w-full sm:w-auto">Getting Started</Button>
-                            <Button variant="outline" className="w-full sm:w-auto">Learn More</Button>
+                    <Fade direction="up" triggerOnce>
+                        {/* Left: Text */}
+                        <div className="flex-1 text-center md:text-left">
+                            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                                Email <span className="text-yellow-400">Security</span>
+                            </h1>
+                            <p className="text-gray-700 text-base sm:text-lg mb-6 max-w-xl">
+                                Microsoft provides businesses with an endpoint security platform that can identify, probe, and avert sophisticated attacks. Using several features of Microsoft Azure and Windows 10 enables companies to react quickly to security threats.          </p>
+                            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
+                                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold w-full sm:w-auto">Getting Started</Button>
+                                <Button variant="outline" className="w-full sm:w-auto">Learn More</Button>
+                            </div>
                         </div>
-                    </div>
+                    </Fade>
                     {/* Right: Illustration */}
                     <div className="flex-1 flex justify-center">
-                        <img src="/Images/email.png" alt="Email Security" className="w-full max-w-md h-auto" />
+                        <Fade direction="left" triggerOnce>
+
+                            <img src="/Images/email.png" alt="Email Security" className="w-full max-w-md h-auto" />
+                        </Fade>
                     </div>
                 </div>
+
             </div>
             {/* Securely Share Files Section */}
-            <Fade direction="up">
+            <Fade direction="left" triggerOnce>
                 <div className="py-12 sm:py-16">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-center">
                         {/* Left: Text */}
@@ -59,7 +67,7 @@ export default function EmailSecurityPage() {
             </Fade>
 
             {/* Accessing Data Section */}
-            <Fade direction="up">
+            <Fade direction="right" triggerOnce>
                 <div className=" py-12 sm:py-16">
                     <div className="max-w-7xl bg-[#FFF5B9] mx-auto p-14 rounded-2xl  sm:px-6 grid md:grid-cols-2 gap-12 items-center">
                         {/* Left: Illustration */}
@@ -80,7 +88,7 @@ export default function EmailSecurityPage() {
             </Fade>
 
             {/* Sharing Data with External Collaborators */}
-            <Fade direction="up">
+            <Fade direction="left" triggerOnce>
                 <div className="py-12 sm:py-16">
                     <div className="max-w-7xl bg-[#FFFCEC]  mx-auto p-14 rounded-2xl sm:px-6 grid md:grid-cols-2 gap-12 items-center">
                         {/* Left: Text */}
@@ -102,7 +110,7 @@ export default function EmailSecurityPage() {
 
             <TeachingTechCarousel />
 
-            <Fade direction="up">
+            <Fade direction="right" triggerOnce>
                 <div className="py-12 sm:py-16">
                     <div className="max-w-7xl mt-40 mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-12 items-center">
                         {/* Left: Text */}

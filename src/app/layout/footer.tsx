@@ -78,7 +78,7 @@ const Footer = () => {
           {/* Useful Links */}
           <div>
             <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">Useful Links</h3>
-            <ul className="space-y-2 sm:space-y-3">
+            <ul className="space-y-1 sm:space-y-3">
               <li>
                 <Link href="/" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
                   Home
@@ -95,11 +95,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Services
-                </Link>
-              </li>
-              <li>
                 <Link href="/contact-us" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
                   Contact us
                 </Link>
@@ -109,31 +104,36 @@ const Footer = () => {
 
           {/* Resources */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">Resources</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">Cyber SOC</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Knowledge Base
+                <Link href="/services/managedSOC" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Managed SOC Services
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  API
+                <Link href="/services/azure-security-service" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Azure Security
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Press Release
+                <Link href="/services/defenderforEndpoint" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Defender for Endpoint
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Blog
+                <Link href="/services/email-security" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Email Security
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Support
+                <Link href="/services/microsoft-cloud-app-security" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Microsoft Cloud App Security
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/defender-for-identity" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Defender for Identity
                 </Link>
               </li>
             </ul>
@@ -141,29 +141,50 @@ const Footer = () => {
 
           {/* T&Cs */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">T&Cs</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">Consulting Services</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Privacy Policy
-                </a>
+                <Link href="/services/azure-consulting-services" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Azure Consulting Services
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Terms of Service
-                </a>
+                <Link href="/services/azure-virtual-desktop" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Azure Virtual Desktop
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Terms of Use
-                </a>
+                <Link href="/services/citrix-consulting" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Citrix Consulting
+                </Link>
               </li>
+              <li>
+                <Link href="/services/pki-consulting" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  PKI Consulting
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/active-directory-consulting" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Active Directory Consulting
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/modern-workplace" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Modern WorkPlace
+                </Link>
+              </li>
+              <li>
+                <Link href="/services/custom-software-development" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
+                  Software Development Service
+                </Link>
+              </li>
+              
             </ul>
           </div>
         </div>
 
         {/* Bottom Section with Lorem Ipsum */}
-        <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-200">
+        {/* <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-gray-200">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             <div>
               <h4 className="font-semibold text-gray-800 mb-2 sm:mb-3 text-sm sm:text-base">Lorem Ipsum</h4>
@@ -193,7 +214,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

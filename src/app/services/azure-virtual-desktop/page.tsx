@@ -9,6 +9,7 @@ export default function AzurevirtualDesktop(){
                     {/* Left Content */}
                     <div className="space-y-8">
                         <div>
+                            <Fade direction="up" triggerOnce>
                             <h1 className="hero-title">
                                 <span className="hero-title-accent">Azure</span>{" "}
                                 <span className="hero-title-primary">Virtual Desktop</span>
@@ -23,18 +24,21 @@ export default function AzurevirtualDesktop(){
                                 </Button>
                                 <Button variant="outline">Learn More</Button>
                             </div>
+                            </Fade>
                         </div>
                     </div>
 
                     {/* Right Illustration */}
                     <div className="relative">
+                        <Fade direction="left" triggerOnce>
                         {/* Background Elements */}
                         <img src="/Images/defender-for-identity-banner.png" alt="Background Element" />
+                        </Fade>
                     </div>
                 </div>
             </div>
 
-            <Fade direction="up">
+            <Fade direction="left" triggerOnce>
                                         <div className="feature-section">
                                             <div className="feature-container">
                                                 {/* Right: Illustration */}
@@ -56,7 +60,7 @@ export default function AzurevirtualDesktop(){
                                         </div>
                                     </Fade>
 
-                                    <Fade direction="up">
+                                    <Fade direction="right" triggerOnce>
                                         <div className="feature-section">
                                             <div className="feature-container">
                                                 {/* Right: Illustration */}

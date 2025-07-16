@@ -41,7 +41,7 @@ export default function IdentityAccessManagement() {
             {/* Main Content Sections */}
             <div className="max-w-7xl mx-auto p-8 mt-10">
                 {/* Identity Governance Platform */}
-                <Slide direction="up" triggerOnce>
+                <Slide direction="left" triggerOnce>
                     <div className="flex flex-col md:flex-row items-center justify-between gap-20 mb-20">
                         <div className="flex-1">
                             <div className="text-[#0b0d0e] text-5xl font-bold font-['Urbanist'] leading-[52px] mb-3">
@@ -60,7 +60,7 @@ export default function IdentityAccessManagement() {
                 </Slide>
 
                 {/* Business Activity Approach */}
-                <Slide direction="up" triggerOnce>
+                <Slide direction="right" triggerOnce>
                     <div className="flex flex-col md:flex-row items-center justify-between gap-20 mb-20">
                         <div className="flex-1">
                             <div className="items-center justify-center flex">
@@ -104,7 +104,7 @@ export default function IdentityAccessManagement() {
 
             {/* Solution Components */}
             <div className="max-w-7xl mx-auto p-8 mt-10">
-                <Slide direction="up" triggerOnce>
+                <Slide direction="left" triggerOnce>
                     <div className="flex flex-col md:flex-row items-center justify-between gap-20 mb-20">
                         <div className="flex-1">
                             <div className="text-[#0b0d0e] text-5xl font-bold font-['Urbanist'] leading-[52px] mb-3">
@@ -145,7 +145,7 @@ export default function IdentityAccessManagement() {
                 </Slide>
 
                 {/* Automated Identity Manager */}
-                <Slide direction="up" triggerOnce>
+                <Slide direction="left" triggerOnce>
                     <div className="flex flex-col md:flex-row items-center justify-between gap-20 mb-20">
                         <div className="flex-1">
                             <div className="items-center justify-center flex">

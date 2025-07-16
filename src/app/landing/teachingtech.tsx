@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const TeachingTechCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -27,18 +26,6 @@ const TeachingTechCarousel = () => {
       title: "Certified Dustproof",
       description: "Meeting IP5X Standards, the RE Operates consistently even in dust"
     },
-    { 
-      id: 1,
-      icon: <img src="/Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />,
-      title: "Natural Writing",
-      description: "A Quick Response rate and zero bonding tech makes pen Stroke Smooth"
-    },
-    {
-      id: 2,
-      icon: <img src="/Images/download.png" alt="Smartphone Icon" className="w-16 h-16" />,
-      title: "Built For Speed",
-      description: "High Speed Gigabit Ethernet Ensure Faster Transmission of class files"
-    },
   ];
 
   // Handle responsive breakpoints
@@ -52,14 +39,6 @@ const TeachingTechCarousel = () => {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
 
   const goToSlide = (index: number) => {
     setCurrentSlide(index);
@@ -97,59 +76,20 @@ const TeachingTechCarousel = () => {
         {/* Carousel Container */}
         <div className="w-full px-2 sm:px-4 md:px-8 absolute left-1/2 -translate-x-1/2 -bottom-26">
           <div className="carousel-container">
-            {/* Navigation Buttons - Mobile */}
-            {isMobile && (
-              <>
-                <button
-                  onClick={prevSlide}
-                  className="carousel-nav-mobile prev"
-                  aria-label="Previous slide"
-                >
-                  <ChevronLeft className="text-gray-600" />
-                </button>
-                <button
-                  onClick={nextSlide}
-                  className="carousel-nav-mobile next"
-                  aria-label="Next slide"
-                >
-                  <ChevronRight className="text-gray-600" />
-                </button>
-              </>
-            )}
 
-            {/* Navigation Buttons - Desktop/Tablet */}
-            {!isMobile && (
-              <>
-                <button
-                  onClick={prevSlide}
-                  className="carousel-nav-desktop prev"
-                  aria-label="Previous slide"
-                >
-                  <ChevronLeft className="text-gray-600" />
-                </button>
-                <button
-                  onClick={nextSlide}
-                  className="carousel-nav-desktop next"
-                  aria-label="Next slide"
-                >
-                  <ChevronRight className="text-gray-600" />
-                </button>
-              </>
-            )}
 
-                         {/* Carousel Track */}
-             <div className="carousel-track" style={{ transform: getTransform() }}>
-               {slides.map((slide) => (
-                 <div
-                   key={slide.id}
-                   className={`${
-                     isMobile 
-                       ? 'carousel-slide' 
-                       : isTablet 
-                         ? 'carousel-slide-tablet' 
-                         : 'carousel-slide-desktop'
-                   } px-2`}
-                 >
+            {/* Carousel Track */}
+            <div className="carousel-track" style={{ transform: getTransform() }}>
+              {slides.map((slide) => (
+                <div
+                  key={slide.id}
+                  className={`${isMobile
+                      ? 'carousel-slide'
+                      : isTablet
+                        ? 'carousel-slide-tablet'
+                        : 'carousel-slide-desktop'
+                    } px-2`}
+                >
                   <div className="bg-white p-6 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 min-h-[220px] sm:min-h-[260px] md:min-h-[280px] flex flex-col items-center text-center h-full">
                     {/* Icon Container */}
                     <div className="mb-4 sm:mb-6 p-3 sm:p-4 bg-gray-50 rounded-full">
@@ -175,9 +115,8 @@ const TeachingTechCarousel = () => {
                   <button
                     key={index}
                     onClick={() => goToSlide(index)}
-                    className={`carousel-indicator ${
-                      index === currentSlide ? 'active' : ''
-                    }`}
+                    className={`carousel-indicator ${index === currentSlide ? 'active' : ''
+                      }`}
                     aria-label={`Go to slide ${index + 1}`}
                   />
                 ))}

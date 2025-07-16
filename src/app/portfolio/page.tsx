@@ -80,30 +80,31 @@ export default function PortfolioPage() {
       <div className="bg-yellow-50 py-8 sm:py-12 md:py-16 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-8 sm:gap-12">
           <div className="flex-1 space-y-4 sm:space-y-6 text-center lg:text-left">
-            <Slide direction="left" triggerOnce>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black font-['Urbanist'] leading-tight sm:leading-normal mb-4">
-                Optimize your office <span>operations.</span>
-              </h1>
-              <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 mb-6">
-                Digitalization has streamlined and simplified various manufacturing processes. With SADEL, manufacturers of any scale can build a central repository to improve information integrity at a reduced operational cost.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black font-['Urbanist'] leading-tight sm:leading-normal mb-4">
+              Optimize your office <span>operations.</span>
+            </h1>
+            <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 mb-6">
+              Digitalization has streamlined and simplified various manufacturing processes. With SADEL, manufacturers of any scale can build a central repository to improve information integrity at a reduced operational cost.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+              <Fade direction="left" triggerOnce>
                 <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-md transition-colors w-full sm:w-auto">Get Started</button>
+              </Fade>
+              <Fade direction="right" triggerOnce>
                 <button className="bg-white border border-gray-300 text-black font-semibold px-6 py-3 rounded-md transition-colors w-full sm:w-auto">Learn More</button>
-              </div>
-            </Slide>
+              </Fade>
+            </div>
           </div>
           <div className="flex-1 flex justify-center lg:justify-end relative min-h-[280px] sm:min-h-[340px] md:min-h-[400px]">
             {/* Screen image inside Fade */}
-            <Fade direction="right" triggerOnce>
-              <Image
-                src="/Images/screen.png"
-                alt="Screen"
-                width={480}
-                height={320}
-                className="rounded-2xl shadow-lg object-cover w-full max-w-[320px] sm:max-w-[400px] md:max-w-[480px] h-auto z-0"
-              />
-            </Fade>
+            <Image
+              src="/Images/screen.png"
+              alt="Screen"
+              width={480}
+              height={320}
+              className="rounded-2xl shadow-lg object-cover w-full max-w-[320px] sm:max-w-[400px] md:max-w-[480px] h-auto z-0"
+            />
+
 
             {/* Girl image overlayed */}
             <Image
@@ -113,6 +114,7 @@ export default function PortfolioPage() {
               height={340}
               className="absolute right-0 bottom-0 w-[120px] sm:w-[160px] md:w-[220px] h-auto object-contain z-10"
             />
+
           </div>
         </div>
       </div>

@@ -9,15 +9,14 @@ const Header = () => {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
 
   const navigationItems = [
-    { name: 'Features', href: '#' },
-    { name: 'Solutions', href: '#' },
+    { name: 'Product', href: '/portfolio' },
     { name: 'Services', href: '#', hasDropdown: true },
     // { name: 'NFT Store', href: '#' },
     // { name: 'Pricing', href: '#' },
     // { name: 'Developers', href: '#' },
     { name: 'About Us', href: '/aboutus' },
     { name: 'Contact Us', href: 'contact-us' },
-    { name: 'Blogs', href: '/blog' },
+    { name: 'Blog', href: '/blog' },
   ];
 
   const servicesDropdownData = {
@@ -28,9 +27,9 @@ const Header = () => {
       { name: 'Email Security', href: '/services/email-security' },
       { name: 'Microsoft Cloud App Security', href: '/services/microsoft-cloud-app-security' },
       { name: 'Defender for Identity', href: '/services/defender-for-identity' },
-      { name: 'VAPT', href: '#' },
-      { name: 'Network and Security Services', href: '#' },
-      { name: 'Identity and Access Management', href: '#' },
+      { name: 'VAPT', href: '/services/VAPT' },
+      { name: 'Network and Security Services', href: '/services/network-and-security-services' },
+      { name: 'Identity and Access Management', href: '/services/identity-and-access-management' },
     ],
     'Consulting Services': [
       { name: 'Azure Consulting Services', href: '/services/azure-consulting-services' },

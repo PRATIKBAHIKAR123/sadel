@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
+import { Fade } from "react-awesome-reveal";
 
-export default function AzureService(){
-    return(
-              <div>
-                <div className="bg-[#fffcec] p-8">
+export default function AzureService() {
+    return (
+        <div>
+            <div className="bg-[#fffcec] p-8">
                 <div className="grid lg:grid-cols-2 gap-16 items-center  bg-[#fffcec] rounded-3xl p-12">
                     {/* Left Content */}
                     <div className="space-y-8">
-                        <div>
+                        <Fade direction="up" triggerOnce>
                             <h2 className=" text-5xl font-bold font-['Urbanist'] leading-[64px] mb-6">
                                 <span className="text-[#0b0d0e]">Azure</span> <span className="text-[#f9d300]">Security Service</span>
                             </h2>
@@ -20,13 +21,15 @@ export default function AzureService(){
                                 </Button>
                                 <Button variant="outline">Learn More</Button>
                             </div>
-                        </div>
+                        </Fade>
                     </div>
 
                     {/* Right Illustration */}
                     <div className="relative">
-                        {/* Background Elements */}
-                        <img src="/Images/Frame (13).png" alt="Background Element" />
+                        <Fade direction="left" triggerOnce>
+                            {/* Background Elements */}
+                            <img src="/Images/Frame (13).png" alt="Background Element" />
+                        </Fade>
                     </div>
                 </div>
             </div>
@@ -40,15 +43,15 @@ export default function AzureService(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex ">
-                        <img src="/Images/Frame (14).png" alt="first section" className="w-auto h-80"/>
-                    </div>
+                            <img src="/Images/Frame (14).png" alt="first section" className="w-auto h-80" />
+                        </div>
                     </div>
                 </div>
                 <div className="flex flex-cols md:flex-row items-center justify-between gap-20 mt-10">
                     <div className="flex-1">
                         <div className="items-center justify-center flex">
-                        <img src="/Images/Frame (15).png" alt="first section" className="w-auto h-80"/>
-                    </div>
+                            <img src="/Images/Frame (15).png" alt="first section" className="w-auto h-80" />
+                        </div>
                     </div>
                     <div className="flex-1">
                         <div className="justify-start text-[#0b0d0e] text-5xl font-bold font-['Urbanist'] leading-[52px] mb-3">Identity & Access Management (IAM)</div>
@@ -57,7 +60,7 @@ export default function AzureService(){
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
             <div className="max-w-7xl mx-auto mt-4">
                 <div className="bg-[#f9d300] rounded-3xl p-12">
                     <div className="flex flex-cols md:flex-row items-center justify-between">
@@ -69,10 +72,10 @@ export default function AzureService(){
 
                         </div>
                         <div className="flex-1">
-                        <div className="items-center justify-center flex ">
-                        <img src="/Images/Group 265.png" alt="first section" className="w-auto h-64"/>
-                    </div>
-                    </div>
+                            <div className="items-center justify-center flex ">
+                                <img src="/Images/Group 265.png" alt="first section" className="w-auto h-64" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -87,39 +90,39 @@ export default function AzureService(){
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex ">
-                        <img src="/Images/Frame (14).png" alt="first section" className="w-auto h-80"/>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                
-                <div className="w-full my-10">
-                    <div className="bg-[#fffcec] flex items-center justify-center p-6">
-                        <div>
-                            <div className="justify-start text-[#f9d300] text-lg font-medium font-['Urbanist'] leading-7">Sign up for updates</div>
-                            <div className="justify-start text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[64px]">Cut down on expenses while improving productivity.</div>
-                            <div className="flex">
-                <div className="flex-1 relative">
-                  <input
-                    type="email"
-                    placeholder="Your email address"
-                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
-                  />
-                  <Button className="absolute right-2 top-1/2 -translate-y-1/2 px-8">
-                    Sign Up
-                  </Button>
-                </div>
-                
-              </div>
-              <div className="mt-3">
-                    <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">You can unsubscribe at any time. Read our </span><span className="text-[#f9d300] text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span><span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>
-                  </div>
-                        </div>
-                        <div className="h-80 w-auto">
-                            <img src="/Images/Mail-bro 2.png" className="w-full h-full" />
+                            <img src="/Images/Frame (14).png" alt="first section" className="w-auto h-80" />
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
+
+            <div className="w-full my-10">
+                <div className="bg-[#fffcec] flex items-center justify-center p-6">
+                    <div>
+                        <div className="justify-start text-[#f9d300] text-lg font-medium font-['Urbanist'] leading-7">Sign up for updates</div>
+                        <div className="justify-start text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[64px]">Cut down on expenses while improving productivity.</div>
+                        <div className="flex">
+                            <div className="flex-1 relative">
+                                <input
+                                    type="email"
+                                    placeholder="Your email address"
+                                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                />
+                                <Button className="absolute right-2 top-1/2 -translate-y-1/2 px-8">
+                                    Sign Up
+                                </Button>
+                            </div>
+
+                        </div>
+                        <div className="mt-3">
+                            <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">You can unsubscribe at any time. Read our </span><span className="text-[#f9d300] text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span><span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>
+                        </div>
+                    </div>
+                    <div className="h-80 w-auto">
+                        <img src="/Images/Mail-bro 2.png" className="w-full h-full" />
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }

@@ -9,6 +9,7 @@ export default function Azureconsultingservice(){
                     {/* Left Content */}
                     <div className="space-y-8">
                         <div>
+                            <Fade direction="up" triggerOnce>
                             <h1 className="hero-title">
                                 <span className="hero-title-accent">Azure</span>{" "}
                                 <span className="hero-title-primary">Consulting Services</span>
@@ -21,20 +22,23 @@ export default function Azureconsultingservice(){
                                 <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
                                     Getting Started
                                 </Button>
-                                <Button variant="outline">Learn More</Button>
-                            </div>
+                                    <Button variant="outline">Learn More</Button>
+                                </div>
+                            </Fade>
                         </div>
                     </div>
 
                     {/* Right Illustration */}
                     <div className="relative">
+                        <Fade direction="left" triggerOnce>
                         {/* Background Elements */}
                         <img src="/Images/defender-for-identity-banner.png" alt="Background Element" />
+                        </Fade>
                     </div>
                 </div>
             </div>
 
-            <Fade direction="up">
+            <Fade direction="left" triggerOnce>
                                         <div className="feature-section">
                                             <div className="feature-container">
                                                 {/* Right: Illustration */}
@@ -58,7 +62,7 @@ export default function Azureconsultingservice(){
                                         </div>
                                     </Fade>
 
-                                    <Fade direction="up">
+                                    <Fade direction="right" triggerOnce>
                                         <div className="feature-section">
                                             <div className="feature-container">
                                                 {/* Right: Illustration */}

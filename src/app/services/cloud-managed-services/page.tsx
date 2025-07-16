@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Fade } from "react-awesome-reveal";
 
 export default function CloudManagedServices() {
     return (
@@ -8,66 +9,76 @@ export default function CloudManagedServices() {
                 <div className="grid lg:grid-cols-2 gap-16 items-center bg-[#fffcec] rounded-3xl p-12">
                     {/* Left Content */}
                     <div className="space-y-8">
-                        <div>
-                            <h2 className="text-5xl font-bold font-['Urbanist'] leading-[64px] mb-6">
-                                <span className="text-[#0b0d0e]">Cloud</span> <span className="text-[#f9d300]">Managed Services</span>
-                            </h2>
-                            <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
-                                Transform your cloud operations with our comprehensive managed services. We help businesses unlock the full potential of cloud computing by streamlining critical IT processes and simplifying the management of essential business applications.
-                            </p>
-                            <div className="flex gap-4">
-                                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                    Get Free Consultation
-                                </Button>
-                                <Button variant="outline">Learn More</Button>
+                        <Fade direction="up" triggerOnce>
+                            <div>
+                                <h2 className="text-5xl font-bold font-['Urbanist'] leading-[64px] mb-6">
+                                    <span className="text-[#0b0d0e]">Cloud</span> <span className="text-[#f9d300]">Managed Services</span>
+                                </h2>
+                                <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
+                                    Transform your cloud operations with our comprehensive managed services. We help businesses unlock the full potential of cloud computing by streamlining critical IT processes and simplifying the management of essential business applications.
+                                </p>
+                                <div className="flex gap-4">
+                                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                                        Get Free Consultation
+                                    </Button>
+                                    <Button variant="outline">Learn More</Button>
+                                </div>
                             </div>
-                        </div>
+                        </Fade>
                     </div>
 
                     {/* Right Illustration */}
                     <div className="relative">
-                        <img src="/Images/Frame (13).png" alt="Cloud Infrastructure" />
+                        <Fade direction="left" triggerOnce>
+                            <img src="/Images/Frame (13).png" alt="Cloud Infrastructure" />
+                        </Fade>
                     </div>
                 </div>
             </div>
 
             {/* Mission Section */}
             <div className="max-w-7xl mx-auto p-8 mt-10">
-                <div className="text-center mb-12">
-                    <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
-                        Our Mission: Driving Innovation Through Cloud Excellence
-                    </h3>
-                    <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose max-w-4xl mx-auto">
-                        Managing IT infrastructure can be costly both financially and in terms of personnel resources. By streamlining and simplifying your processes, we help you focus on strategic business initiatives, optimize costs, and delegate day-to-day management to our expert team.
-                    </p>
-                </div>
+                <Fade direction="left" triggerOnce>
+                    <div className="text-center mb-12">
+                        <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
+                            Our Mission: Driving Innovation Through Cloud Excellence
+                        </h3>
+                        <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose max-w-4xl mx-auto">
+                            Managing IT infrastructure can be costly both financially and in terms of personnel resources. By streamlining and simplifying your processes, we help you focus on strategic business initiatives, optimize costs, and delegate day-to-day management to our expert team.
+                        </p>
+                    </div>
+                </Fade>
             </div>
 
             {/* How We Help Section */}
             <div className="max-w-7xl mx-auto p-8">
-                <div className="flex flex-col lg:flex-row items-center justify-between gap-20">
-                    <div className="flex-1">
-                        <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
-                            How We Help Realize Your Cloud Vision
-                        </h3>
-                        <div className="space-y-6 text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
-                            <p>
-                                We take a comprehensive, integrated approach utilizing products and services from leading technology providers including Amazon Web Services (AWS), Microsoft Azure, Google Cloud, and Oracle Cloud to deliver world-class solutions.
-                            </p>
-                            <p>
-                                Our specialized team has successfully delivered numerous rapid, scalable cloud solutions to businesses of all sizes. We accelerate best practices across single, multiple, or hybrid cloud deployments using our advanced cloud management platform.
-                            </p>
-                            <p>
-                                We create turnkey solutions that provide scalability, agility, and rapid deployment capabilities to help you capitalize on the cloud&apos;s transformative value. Our extensive global experience enables us to assist in developing, executing, and managing comprehensive cloud strategies.
-                            </p>
+                <Fade direction="left" triggerOnce>
+                    <div className="flex flex-col lg:flex-row items-center justify-between gap-20">
+                        <div className="flex-1">
+                            <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
+                                How We Help Realize Your Cloud Vision
+                            </h3>
+                            <div className="space-y-6 text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
+                                <p>
+                                    We take a comprehensive, integrated approach utilizing products and services from leading technology providers including Amazon Web Services (AWS), Microsoft Azure, Google Cloud, and Oracle Cloud to deliver world-class solutions.
+                                </p>
+                                <p>
+                                    Our specialized team has successfully delivered numerous rapid, scalable cloud solutions to businesses of all sizes. We accelerate best practices across single, multiple, or hybrid cloud deployments using our advanced cloud management platform.
+                                </p>
+                                <p>
+                                    We create turnkey solutions that provide scalability, agility, and rapid deployment capabilities to help you capitalize on the cloud&apos;s transformative value. Our extensive global experience enables us to assist in developing, executing, and managing comprehensive cloud strategies.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="flex-1">
+                            <div className="items-center justify-center flex">
+                                <Fade direction="right" triggerOnce>
+                                    <img src="/Images/Frame (14).png" alt="Cloud Solutions" className="w-auto h-80" />
+                                </Fade>
+                            </div>
                         </div>
                     </div>
-                    <div className="flex-1">
-                        <div className="items-center justify-center flex">
-                            <img src="/Images/Frame (14).png" alt="Cloud Solutions" className="w-auto h-80"/>
-                        </div>
-                    </div>
-                </div>
+                </Fade>
             </div>
 
             {/* What We Offer Section */}
@@ -75,7 +86,7 @@ export default function CloudManagedServices() {
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-20">
                     <div className="flex-1">
                         <div className="items-center justify-center flex">
-                            <img src="/Images/Frame (15).png" alt="Cloud Services" className="w-auto h-80"/>
+                            <img src="/Images/Frame (15).png" alt="Cloud Services" className="w-auto h-80" />
                         </div>
                     </div>
                     <div className="flex-1">
@@ -110,23 +121,25 @@ export default function CloudManagedServices() {
 
             {/* Yellow Highlight Section */}
             <div className="max-w-7xl mx-auto mt-4">
-                <div className="bg-[#f9d300] rounded-3xl p-12">
-                    <div className="flex flex-col lg:flex-row items-center justify-between">
-                        <div className="flex-1">
-                            <h3 className="text-black text-4xl font-semibold font-['Urbanist'] leading-[64px] mb-6">
-                                Versatile Solutions for Integration and Delivery
-                            </h3>
-                            <p className="text-black text-lg font-normal font-['Urbanist'] leading-loose">
-                                We offer two delivery paths through three phases of designing your optimized cloud environment—either on our advanced cloud management platform or your preferred platform. With either option, you receive our full range of services to deliver and manage the cloud solution that best meets your requirements.
-                            </p>
-                        </div>
-                        <div className="flex-1">
-                            <div className="items-center justify-center flex">
-                                <img src="/Images/Group 265.png" alt="Cloud Platform" className="w-auto h-64"/>
+                <Fade direction="left" triggerOnce>
+                    <div className="bg-[#f9d300] rounded-3xl p-12">
+                        <div className="flex flex-col lg:flex-row items-center justify-between">
+                            <div className="flex-1">
+                                <h3 className="text-black text-4xl font-semibold font-['Urbanist'] leading-[64px] mb-6">
+                                    Versatile Solutions for Integration and Delivery
+                                </h3>
+                                <p className="text-black text-lg font-normal font-['Urbanist'] leading-loose">
+                                    We offer two delivery paths through three phases of designing your optimized cloud environment—either on our advanced cloud management platform or your preferred platform. With either option, you receive our full range of services to deliver and manage the cloud solution that best meets your requirements.
+                                </p>
+                            </div>
+                            <div className="flex-1">
+                                <div className="items-center justify-center flex">
+                                    <img src="/Images/Group 265.png" alt="Cloud Platform" className="w-auto h-64" />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </Fade>
             </div>
 
             {/* Benefits Section */}
@@ -165,7 +178,7 @@ export default function CloudManagedServices() {
                     </div>
                     <div className="flex-1">
                         <div className="items-center justify-center flex">
-                            <img src="/Images/Frame (14).png" alt="Cloud Benefits" className="w-auto h-80"/>
+                            <img src="/Images/Frame (14).png" alt="Cloud Benefits" className="w-auto h-80" />
                         </div>
                     </div>
                 </div>

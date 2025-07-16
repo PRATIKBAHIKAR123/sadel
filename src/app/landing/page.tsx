@@ -7,13 +7,14 @@ import TeachingTechCarousel from "./teachingtech";
 // import FlexibleDeploymentOptions from "./deploymentOptions";
 import { Fade, Slide } from "react-awesome-reveal";
 import TestimonialSection from "../edtechSolutions/testimonials";
+import Link from "next/link";
 
 export default function LandingPage() {
   return (
     <div>
       <div className="min-h-screen bg-[#FFFCEC]">
         <div className="flex flex-col items-center justify-center max-w-screen-xl mx-auto p-4 sm:p-8">
-          <Fade direction="down">
+          <Fade direction="up" triggerOnce>
             <div className="text-center justify-start">
               <span className="text-[#0e0f10] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
                 Give{" "}
@@ -33,10 +34,15 @@ export default function LandingPage() {
               clarity, creativity, and efficiency to every task.
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8">
-              <Button className="w-full sm:w-auto">IT Solutions</Button>
-              <Button className="w-full sm:w-auto">Electronic Solutions</Button>
+              <Link href="/portfolio">
+                <Button className="w-full sm:w-auto">IT Solutions</Button>
+              </Link>
+              <Link href="/edtechSolutions">
+                <Button className="w-full sm:w-auto">Educational Solutions</Button>
+              </Link>
             </div>
             <div className="relative mt-8 sm:mt-12">
+              {/* <Fade direction="left" triggerOnce> */}
               <img
                 src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
                 alt="Landing Page Image"
@@ -47,11 +53,12 @@ export default function LandingPage() {
                 alt="Landing Page Image"
                 className="mt-8 w-full max-w-38 h-auto absolute -left-15 -bottom-4 hidden sm:block"
               />
+              {/* </Fade> */}
             </div>
           </Fade>
         </div>
       </div>
-      <Fade direction="up">
+      <Fade direction="up" triggerOnce>
         <div className="min-h-screen bg-gray-50 py-12 sm:py-16 md:py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
             {/* Header Section */}
@@ -284,7 +291,7 @@ export default function LandingPage() {
           <h3 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
             Experience Smart, Seamless Learning with{" "}
             <span className="text-yellow-400">Sadel&apos;s Interactive Education Board</span>{" "}
-            
+
           </h3>
         </div>
 
@@ -539,6 +546,19 @@ export default function LandingPage() {
             </div>
           </div>
         </Fade>
+      </div>
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+        {/* Section Header */}
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
+            Our Clients
+          </h2>
+        </div>
+        <img
+          src="/Images/clients.jpg"
+          alt="Our Clients"
+          className="w-full h-auto object-contain mx-auto"
+        />
       </div>
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         {/* Section Header */}
