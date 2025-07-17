@@ -267,34 +267,6 @@ const CustomSoftwareDevelopmentPage = () => (
             </div>
         </Fade>
 
-        <div className="w-full my-10">
-            <div className="bg-[#fffcec] flex items-center justify-center p-6">
-                <div>
-                    <div className="justify-start text-[#f9d300] text-lg font-medium font-['Urbanist'] leading-7">Ready to start your digital journey?</div>
-                    <div className="justify-start text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[64px]">Transform your ideas into powerful software solutions.</div>
-                    <div className="flex">
-                        <div className="flex-1 relative">
-                            <input
-                                type="email"
-                                placeholder="Enter your business email"
-                                className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
-                            />
-                            <Button className="absolute right-2 top-1/2 -translate-y-1/2 px-8">
-                                Get Started
-                            </Button>
-                        </div>
-                    </div>
-                    <div className="mt-3">
-                        <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">Contact us at info@sadel.com or reach out here. You can unsubscribe at any time. Read our </span>
-                        <span className="text-[#f9d300] text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span>
-                        <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>
-                    </div>
-                </div>
-                <div className="h-80 w-auto">
-                    <img src="/Images/Mail-bro 2.png" className="w-full h-full" alt="Contact Sadel" />
-                </div>
-            </div>
-        </div>
     </div>
 );
 

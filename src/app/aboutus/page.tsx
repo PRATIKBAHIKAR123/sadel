@@ -4,6 +4,7 @@ import AIPlatformSection from "./aiplatforms";
 import TeamProfilesSection from "./teamProfile";
 import TestimonialSection from "./testimonial";
 import { Fade } from "react-awesome-reveal";
+import TeachingTechCarousel from "../landing/teachingtech";
 
 export default function AboutUsPage() {
   return (
@@ -43,7 +44,86 @@ export default function AboutUsPage() {
       </div>
       <Fade direction="left" triggerOnce>
         <AIPlatformSection />
-        <div className="p-16">
+        <TeachingTechCarousel/>
+
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+          <Fade direction="up" triggerOnce>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+              {/* Digital Kiosks */}
+              <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
+                <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
+                  <div>
+                    <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Digital Kiosks</h2>
+                    <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our Sadel&#39;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
+                  </div>
+                  <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                </div>
+                <div className="flex-1 flex justify-center sm:justify-end items-center">
+                  <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+                </div>
+              </div>
+              {/* Surveillance Cameras */}
+              <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
+                {/* Left: Text Content */}
+                <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0 sm:pr-6">
+                  <div>
+                    <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">
+                      Surveillance Cameras
+                    </h2>
+                    <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">
+                      Our Surveillance Cameras deliver smart, real-time monitoring solutions to secure your spaces and safeguard what matters most.
+                    </p>
+                  </div>
+                  <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
+                    Checkout Product
+                  </button>
+                </div>
+
+                {/* Right: Camera Images */}
+                <div className="flex-1 flex flex-col items-center sm:items-end gap-4">
+                  <img
+                    src="/Images/camera1.png"
+                    alt="Surveillance Camera 1"
+                    className="h-24 sm:h-28 md:h-32 w-auto object-contain"
+                  />
+                  <img
+                    src="/Images/camera2.png"
+                    alt="Surveillance Camera 2"
+                    className="h-24 sm:h-28 md:h-32 w-auto object-contain"
+                  />
+                </div>
+              </div>
+
+              {/* Sound System P.A System */}
+              <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
+                <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
+                  <div>
+                    <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Sound System P.A System</h2>
+                    <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our P.A Systems deliver clear, powerful audio for effective communication across classrooms, campuses, and public spaces.</p>
+                  </div>
+                  <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                </div>
+                <div className="flex-1 flex justify-center sm:justify-end items-center">
+                  <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+                </div>
+              </div>
+              {/* LED Display */}
+              <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
+                <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
+                  <div>
+                    <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">LED Display</h2>
+                    <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Sadel&#39;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
+                  </div>
+                  <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                </div>
+                <div className="flex-1 flex justify-center sm:justify-end items-center">
+                  <img src="/Images/tv.png" alt="LED Display" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+                </div>
+              </div>
+            </div>
+          </Fade>
+        </div>
+        <div className="p-16 mt-16">
 
           <div className="grid grid-cols-1 md:grid-cols-2 justify-between px-16 gap-4">
 
@@ -62,12 +142,11 @@ export default function AboutUsPage() {
         </div>
       </Fade>
       {/* <Fade direction="right" triggerOnce> */ }
-      <section className="bg-[#FBE35A] py-10 px-6">
+      {/* <section className="bg-[#FBE35A] py-10 px-6">
         
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-            {/* Left Content */}
             <div className="space-y-6">
               <h2 className="justify-center text-black text-4xl font-bold font-['Urbanist'] leading-[46px]">
                 Upgrade Your Stay: Embrace the New Era of Travel
@@ -82,14 +161,13 @@ export default function AboutUsPage() {
               </button>
             </div>
 
-            {/* Right Illustration */}
             <div className="relative flex justify-center items-center">
 
               <img src="/Images/div.elementor-element.png" alt="Illustration" className="w-full h-auto max-w-md" />
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="max-w-7xl mx-auto">
         <div className="text-center"><span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Get</span><span className="text-[#0b0d0e] text-5xl font-bold font-['Urbanist'] leading-[64px]"> To Know Us </span></div>
         <div className="text-center justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">

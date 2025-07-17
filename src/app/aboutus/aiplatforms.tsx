@@ -27,11 +27,6 @@ const AIPlatformSection = () => {
       title: "Save Time and Costs",
       description: "Through our smart solutions you will be able to automate many processes and reduce operational costs, saving you time and effort and focusing on what is more important: growing your business"
     },
-    {
-      id: 6,
-      title: "24/7 Technical Support",
-      description: "Our dedicated support team is available round the clock to provide immediate assistance and resolve any technical issues. We ensure minimal downtime and maximum efficiency for your business operations with our comprehensive support services."
-    }
   ];
 
   return (

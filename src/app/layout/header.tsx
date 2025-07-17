@@ -125,9 +125,9 @@ const Header = () => {
           {/* Right Side Actions */}
           <div className="hidden lg:flex items-center space-x-3 xl:space-x-4">
             {/* App Button */}
-            <button className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm xl:text-base font-medium transition-colors duration-200 hover:bg-gray-50 rounded-md">
+            {/* <button className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm xl:text-base font-medium transition-colors duration-200 hover:bg-gray-50 rounded-md">
               App
-            </button>
+            </button> */}
 
             {/* Language Selector */}
             <div className="relative">

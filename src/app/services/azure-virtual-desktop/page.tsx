@@ -1,113 +1,169 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
+import FAQAccordion from "@/components/ui/faq-accordion";
+import { useRouter } from "next/navigation";
 
-export default function AzurevirtualDesktop(){
-    return(
-        <div>
-            <div className="bg-[#fffcec] p-8">
-                <div className="grid lg:grid-cols-2 gap-16 items-center  bg-[#fffcec] rounded-3xl p-12">
-                    {/* Left Content */}
-                    <div className="space-y-8">
-                        <div>
-                            <Fade direction="up" triggerOnce>
-                            <h1 className="hero-title">
-                                <span className="hero-title-accent">Azure</span>{" "}
-                                <span className="hero-title-primary">Virtual Desktop</span>
-                                
-                            </h1>
-                            <p className="hero-description">
-                               The Azure Virtual Desktop client is available for Windows, Mac, iOS, Android, and HTML5, allowing you to access your desktop and apps from any internet-connected device. Pick the right Azure VM for optimal performance and make use of Windows 10 and Windows 11’s multi-session advantage on Azure to support numerous users in a single instance.
-                            </p>
-                            <div className="flex gap-4">
-                                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                    Getting Started
-                                </Button>
-                                <Button variant="outline">Learn More</Button>
-                            </div>
-                            </Fade>
-                        </div>
-                    </div>
+export default function AzureVirtualDesktop() {
+  const router = useRouter();
 
-                    {/* Right Illustration */}
-                    <div className="relative">
-                        <Fade direction="left" triggerOnce>
-                        {/* Background Elements */}
-                        <img src="/Images/defender-for-identity-banner.png" alt="Background Element" />
-                        </Fade>
-                    </div>
-                </div>
-            </div>
+  const handleContactRedirect = () => {
+    router.push('/contact-us');
+  };
 
+  const faqData = [
+    {
+      question: "What is a managed SOC?",
+      answer: "A managed SOC (Security Operations Center) is a subscription-based service where a third-party team of cybersecurity experts monitors, detects, and responds to security threats across your IT infrastructure, endpoints, and data. This proactive approach helps businesses stay ahead of cyber risks and ensures rapid response to incidents."
+    },
+    {
+      question: "What are the services in SOC?",
+      answer: "SOC as a service includes continuous security monitoring, threat detection, vulnerability assessments, incident response, and reporting. These services leverage automation and data science to increase detection speed and reliability, providing 24/7 protection for your organization."
+    },
+    {
+      question: "How does a SOC develop?",
+      answer: "A SOC develops through five main stages: planning, designing, building, operating, and reviewing. Each stage involves defining processes, selecting tools, training staff, and continuously improving operations to adapt to evolving threats."
+    },
+    {
+      question: "What is the role of the SOC Manager?",
+      answer: "The SOC Manager leads the security operations team, oversees daily activities, provides technical guidance, manages staff training, and ensures effective incident response. They report to the CISO and are responsible for the overall performance and improvement of the SOC."
+    },
+    {
+      question: "Is a SOC MSP?",
+      answer: "A SOC can be part of a Managed Service Provider (MSP) offering, giving clients access to a dedicated team of security analysts and advanced security tools. This model allows organizations to enhance their security posture without building an in-house SOC from scratch."
+    }
+  ];
+
+  return (
+    <div>
+      {/* Hero Section */}
+      <div className="bg-[#fffcec] p-8">
+        <div className="grid lg:grid-cols-2 gap-16 items-center bg-[#fffcec] rounded-3xl p-12 max-w-7xl mx-auto">
+
+          {/* Left Content */}
+          <div className="space-y-8">
+            <Fade direction="up" triggerOnce>
+              <h2 className="text-5xl font-bold text-[#0e0f10] leading-[64px] font-['Urbanist'] mb-6">
+                Virtually access a secure remote desktop from anywhere.
+              </h2>
+              <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
+                Enable your team to work securely from any location with Azure Virtual Desktop. Enjoy seamless access to Windows desktops and applications, reduce IT costs, and simplify management with a flexible, cloud-based solution.
+              </p>
+              <div className="flex gap-4">
+                <Button
+                  onClick={handleContactRedirect}
+                  className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold"
+                >
+                  Get a free 30-minute consultation with a Sadel expert
+                </Button>
+              </div>
+            </Fade>
+          </div>
+
+          {/* Right Illustration */}
+          <div className="relative w-full flex justify-center">
             <Fade direction="left" triggerOnce>
-                                        <div className="feature-section">
-                                            <div className="feature-container">
-                                                {/* Right: Illustration */}
-                                                <div className="feature-image">
-                                                    <img src="/Images/Frame (21).png" alt="Share Files" className="w-full max-w-xs h-auto" />
-                                                </div>
-                                                {/* Left: Text */}
-                                                <div className="feature-content">
-                                                    <h2>
-                                                        Get the most out of Microsoft Teams and Microsoft Office
-                                                    </h2>
-                                                    <p>
-                                                        If your company uses Microsoft products, such as Outlook, OneDrive, and Microsoft Teams, you should ensure that your employees can perform these tasks as easily and efficiently on the web as they would on a desktop or laptop computer.
-                                                    </p>
-                                                   
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </Fade>
+              <div className="relative w-full max-w-md">
+                <img
+                  src="/Images/Frame (19).png"
+                  alt="Azure Virtual Desktop"
+                  className="w-full h-auto relative z-10"
+                />
+              </div>
+            </Fade>
+          </div>
 
-                                    <Fade direction="right" triggerOnce>
-                                        <div className="feature-section">
-                                            <div className="feature-container">
-                                                {/* Right: Illustration */}
-                                                
-                                                {/* Left: Text */}
-                                                <div className="feature-content">
-                                                    <h2>
-                                                        Deploy Azure Virtual Desktop with AMMP
-                                                    </h2>
-                                                    <p>
-                                                    The Azure Migration and Modernization Program (AMMP) offers evaluation, proof-of-concept, milestone rewards, Azure credits, and technical training for all three control planes. If a partner meets the requirements for the Advanced Specialization or for Citrix and VMware partners, they will be given the option to enable whichever control planes they like in AMMP.
-                                                    </p>
-                                                </div>
-                                                <div className="feature-image">
-                                                    <img src="/Images/Frame (21).png" alt="Share Files" className="w-full max-w-xs h-auto" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </Fade>
-
-                                    <div className="w-full my-10">
-                                                        <div className="bg-[#fffcec] flex items-center justify-center p-6">
-                                                            <div>
-                                                                <div className="justify-start text-[#f9d300] text-lg font-medium font-['Urbanist'] leading-7">Sign up for updates</div>
-                                                                <div className="justify-start text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[64px]">Cut down on expenses while improving productivity.</div>
-                                                                <div className="flex">
-                                                    <div className="flex-1 relative">
-                                                      <input
-                                                        type="email"
-                                                        placeholder="Your email address"
-                                                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
-                                                      />
-                                                      <Button className="absolute right-2 top-1/2 -translate-y-1/2 px-8">
-                                                        Sign Up
-                                                      </Button>
-                                                    </div>
-                                                    
-                                                  </div>
-                                                  <div className="mt-3">
-                                                        <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">You can unsubscribe at any time. Read our </span><span className="text-[#f9d300] text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span><span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>
-                                                      </div>
-                                                            </div>
-                                                            <div className="h-80 w-auto">
-                                                                <img src="/Images/Mail-bro 2.png" className="w-full h-full" />
-                                                            </div>
-                                                        </div>
-                                                    </div>
         </div>
-    )
+      </div>
+
+
+      {/* Cost & Remote Use Section */}
+      <div className="max-w-7xl mx-auto p-6">
+        <Fade direction="left">
+          <div className="bg-white rounded-3xl p-8 shadow-lg">
+            <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Azure Virtual Desktop Can Reduce Costs</h2>
+            <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-relaxed mb-4">
+              Already have Microsoft 365 or Windows licenses? Azure Virtual Desktop lets you leverage existing investments with no extra cost. Scale resources up or down as needed, and only pay for what you use. Reduce infrastructure expenses by reallocating virtual machine resources and optimizing your cloud spend.
+            </p>
+            <h3 className="text-[#0e0f10] text-xl font-bold font-['Urbanist'] mb-2">Remotely Use Your Windows 10 or 11 Desktop and All Your Favorite Programs</h3>
+            <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist'] mb-2">
+              Access your Windows desktop and applications from any device—Windows, Mac, iOS, Android, or HTML5 browser. Azure Virtual Desktop supports multi-session Windows 10/11, so your team can work efficiently from anywhere.
+            </p>
+            <h3 className="text-[#0e0f10] text-xl font-bold font-['Urbanist'] mb-2">Get the Most Out of Microsoft Teams and Office</h3>
+            <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">
+              Integrate Microsoft Teams, OneDrive, and Office apps for a seamless productivity experience. Employees can collaborate and perform tasks as efficiently as they would on a local desktop or laptop.
+            </p>
+          </div>
+        </Fade>
+      </div>
+
+      {/* Key Capabilities Section */}
+      <div className="max-w-7xl mx-auto p-6">
+        <Fade direction="right">
+          <div className="bg-[#fffcec] rounded-3xl p-8">
+            <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Key Capabilities</h2>
+            <ul className="list-disc pl-6 text-[#5c5f6e] text-base font-normal font-['Urbanist'] space-y-2">
+              <li>Set up a complete desktop virtualization system on Azure without gateway servers.</li>
+              <li>Distribute host pools to handle a wide variety of workloads.</li>
+              <li>Use custom or gallery images for mission-critical or test workloads.</li>
+              <li>Save money by sharing resources across sessions and reducing VM/OS overhead.</li>
+              <li>Empower users with their own (permanent) virtual desktops.</li>
+              <li>Autoscale resources to control costs based on demand, time of day, or week.</li>
+            </ul>
+          </div>
+        </Fade>
+      </div>
+
+      {/* Industries Section */}
+      <div className="max-w-7xl mx-auto p-6">
+        <Fade direction="left">
+          <div className="bg-white rounded-3xl p-8 shadow-lg flex flex-wrap gap-4 justify-center">
+            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Financial Services</span>
+            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Government</span>
+            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Manufacturing</span>
+            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Retail</span>
+            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Health Care</span>
+          </div>
+        </Fade>
+      </div>
+
+      {/* AMMP & Security Section */}
+      <div className="max-w-7xl mx-auto p-6">
+        <Fade direction="right">
+          <div className="bg-[#fff5b9] rounded-3xl p-8">
+            <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Deploy Azure Virtual Desktop with AMMP</h2>
+            <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist'] mb-4">
+              The Azure Migration and Modernization Program (AMMP) offers evaluation, proof-of-concept, milestone rewards, and technical training for all control planes. Partners meeting advanced specialization requirements can enable whichever control planes they prefer.
+            </p>
+            <h3 className="text-[#0e0f10] text-xl font-bold font-['Urbanist'] mb-2">What Makes Azure Virtual Desktop So Trusted?</h3>
+            <ul className="list-disc pl-6 text-[#5c5f6e] text-base font-normal font-['Urbanist'] mb-2">
+              <li>Keep data on Azure, not local PCs, to safeguard employees and company data.</li>
+              <li>Use Azure security services (Firewall, Security Center, Sentinel, Defender for Endpoint) for end-to-end protection.</li>
+              <li>Utilize conditional access and multi-factor authentication for secure logins.</li>
+              <li>Implement role-based access control (RBAC) and detect threats with Azure Security Center.</li>
+              <li>Take advantage of Azure&apos;s many certifications for security and compliance (ISO, PCI, FedRAMP, HIPAA, and more).</li>
+            </ul>
+            <div className="text-center mt-6">
+              <Button 
+                onClick={handleContactRedirect}
+                className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold"
+              >
+                Get a free 30-minute consultation with a Sadel expert
+              </Button>
+            </div>
+          </div>
+        </Fade>
+      </div>
+
+      {/* FAQ Section */}
+      <div className="max-w-7xl mx-auto p-6">
+        <Fade direction="left">
+          <div className="text-center mb-12">
+            <h2 className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px] mb-8">FAQs</h2>
+            <FAQAccordion faqs={faqData} />
+          </div>
+        </Fade>
+      </div>
+    </div>
+  );
 }
