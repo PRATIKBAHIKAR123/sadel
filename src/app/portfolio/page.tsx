@@ -1,10 +1,11 @@
 "use client";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import Image from "next/image";
 import React, { useState } from "react";
-import { Star } from 'lucide-react';
+// import { Star } from 'lucide-react';
 import "../globals.css";
 import TeachingTechCarousel from "../landing/teachingtech";
+import TestimonialSection from "../edtechSolutions/testimonials";
 
 // const products = [
 //   {
@@ -50,22 +51,6 @@ const companies = [
   { id: 21, name: "Company 21", img: "/Images/brands/image 22.png" }
 ];
 
-const testimonials = [
-  {
-    name: "Rodrigo Duarte",
-    role: "Graphic Designer",
-    content: "Our company uses Sadel, and I also use Box personally to store my documents, photos, videos, sensitive data etc. Sadel is amazing - so much more than just cloud storage. You can watch videos, share photos, scan documents, electronic sign and send documents, secure sensitive data and so much more.",
-    avatar: "/Images/Ellipse 84.png",
-    rating: 5
-  },
-  {
-    name: "Ivone Josan",
-    role: "Marketing Assistant",
-    content: "I love using Sadel for work and personally because it is very intuitive to use and easy to share files with anyone. Our company moved from dropbox over to box, due to security purposes which would be my concern but other than that it syncs very quickly and allows collaboration and file sharing alot easier for your team/company.",
-    avatar: "/Images/Ellipse 85.png",
-    rating: 5
-  }
-];
 
 export default function PortfolioPage() {
   const [email, setEmail] = useState('');
@@ -244,14 +229,6 @@ export default function PortfolioPage() {
                     height={200}
                     className="rounded-xl object-contain w-full max-w-[280px] sm:max-w-[340px] h-auto z-0"
                   />
-                  {/* Professional girl image overlayed */}
-                  <Image
-                    src="/Images/professional.png"
-                    alt="Professional Girl"
-                    width={120}
-                    height={200}
-                    className="absolute left-0 bottom-0 w-[70px] sm:w-[90px] md:w-[120px] h-auto object-contain z-10 p-0"
-                  />
                 </div>
 
                 {/* 📝 Text on the right */}
@@ -278,6 +255,84 @@ export default function PortfolioPage() {
             </div>
           </Fade>
         </div>
+      </div>
+
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+        <Fade direction="right" triggerOnce>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            {/* Digital Kiosks */}
+            <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
+              <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
+                <div>
+                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Digital Kiosks</h2>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our Sadel&#39;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
+                </div>
+                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+              </div>
+              <div className="flex-1 flex justify-center sm:justify-end items-center">
+                <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+              </div>
+            </div>
+            {/* Surveillance Cameras */}
+            <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
+              {/* Left: Text Content */}
+              <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0 sm:pr-6">
+                <div>
+                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">
+                    Surveillance Cameras
+                  </h2>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">
+                    Our Surveillance Cameras deliver smart, real-time monitoring solutions to secure your spaces and safeguard what matters most.
+                  </p>
+                </div>
+                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
+                  Checkout Product
+                </button>
+              </div>
+
+              {/* Right: Camera Images */}
+              <div className="flex-1 flex flex-col items-center sm:items-end gap-4">
+                <img
+                  src="/Images/camera1.png"
+                  alt="Surveillance Camera 1"
+                  className="h-24 sm:h-28 md:h-32 w-auto object-contain"
+                />
+                <img
+                  src="/Images/camera2.png"
+                  alt="Surveillance Camera 2"
+                  className="h-24 sm:h-28 md:h-32 w-auto object-contain"
+                />
+              </div>
+            </div>
+
+            {/* Sound System P.A System */}
+            <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
+              <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
+                <div>
+                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Sound System P.A System</h2>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our P.A Systems deliver clear, powerful audio for effective communication across classrooms, campuses, and public spaces.</p>
+                </div>
+                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+              </div>
+              <div className="flex-1 flex justify-center sm:justify-end items-center">
+                <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+              </div>
+            </div>
+            {/* LED Display */}
+            <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
+              <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
+                <div>
+                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">LED Display</h2>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Sadel&#39;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
+                </div>
+                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+              </div>
+              <div className="flex-1 flex justify-center sm:justify-end items-center">
+                <img src="/Images/tv.png" alt="LED Display" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
+              </div>
+            </div>
+          </div>
+        </Fade>
       </div>
 
       {/* Supervise and Control Team Files Section */}
@@ -364,56 +419,12 @@ export default function PortfolioPage() {
         </Fade>
       </div>
 
-      {/* Testimonials Section */}
-      <div className="py-12 sm:py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8">
-          <Fade cascade>
-            <div className="text-center mb-8 sm:mb-12">
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                Testimonial
-              </h2>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
-              {testimonials.map((testimonial, index) => (
-                <Slide direction="up" key={index}>
-                  <div className="bg-white rounded-lg p-6 sm:p-8 shadow-sm border border-gray-100">
-                    <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6">
-                      {testimonial.content}
-                    </p>
-
-                    <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden">
-                          <img
-                            src={testimonial.avatar}
-                            alt={testimonial.name}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                        <div>
-                          <h4 className="font-semibold text-gray-900 text-sm sm:text-base">{testimonial.name}</h4>
-                          <p className="text-xs sm:text-sm text-gray-500">{testimonial.role}</p>
-                        </div>
-                      </div>
-
-                      <div className="flex gap-1">
-                        {[...Array(testimonial.rating)].map((_, i) => (
-                          <Star
-                            key={i}
-                            className="w-3 h-3 sm:w-4 sm:h-4 fill-yellow-400 text-yellow-400"
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </Slide>
-              ))}
-            </div>
-          </Fade>
-        </div>
+      <div className="text-center px-4 sm:px-6">
+        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+          Testimonial
+        </h2>
       </div>
-
+      <TestimonialSection />
       {/* Call to Action Section */}
       <div className="bg-yellow-50 py-8 sm:py-12">
         <div className="max-w-7xl mx-auto p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-6 sm:gap-8">

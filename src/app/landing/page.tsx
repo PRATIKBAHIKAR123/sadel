@@ -479,7 +479,7 @@ export default function LandingPage() {
         </div>
       </div> */}
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
-        <Fade direction="up" triggerOnce>
+        <Fade direction="right" triggerOnce>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             {/* Digital Kiosks */}
             <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
