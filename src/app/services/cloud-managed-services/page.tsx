@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
 import FAQAccordion from "@/components/ui/faq-accordion";
+import Link from "next/link";
 
 export default function CloudManagedServices() {
     return (
@@ -19,10 +20,11 @@ export default function CloudManagedServices() {
                                     Transform your cloud operations with our comprehensive managed services. We help businesses unlock the full potential of cloud computing by streamlining critical IT processes and simplifying the management of essential business applications.
                                 </p>
                                 <div className="flex gap-4">
-                                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                        Get Free Consultation with a Sadel expert
- with a Sadel expert
-                                    </Button>
+                                    <Link href="/contact-us">
+                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                                            Get Free Consultation with a Sadel expert
+                                        </Button>
+                                    </Link>
                                     {/* <Button variant="outline">Learn More</Button> */}
                                 </div>
                             </div>
@@ -195,9 +197,11 @@ export default function CloudManagedServices() {
                     <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose max-w-4xl mx-auto mb-8">
                         Cloud deployment monitoring can be a significant challenge. Let us help you reduce cloud complexities. We collaborate with you to develop transparent, cost-effective cloud management strategies that enable you to build a flexible, scalable cloud ecosystem tailored to your needs, supporting your growth goals while allowing you to focus on delivering value.
                     </p>
-                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                        Learn More About Our Cloud Managed Services
-                    </Button>
+                    <Link href="/contact-us">
+                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                            Learn More About Our Cloud Managed Services
+                        </Button>
+                    </Link>
                 </div>
             </div>
 

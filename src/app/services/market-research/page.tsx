@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import FAQAccordion from "@/components/ui/faq-accordion";
 // import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 export default function MarketResearchService() {
     return (
@@ -22,9 +23,11 @@ export default function MarketResearchService() {
                                     Transform your business decisions with data-driven insights. Our comprehensive market research services provide actionable intelligence about your products, technology, customers, competition, and market landscape.
                                 </p>
                                 <div className="flex gap-4">
-                                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                        Get Expert Consultation
-                                    </Button>
+                                    <Link href="/contact-us">  
+                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                                            Get Expert Consultation
+                                        </Button>
+                                    </Link>
                                     {/* <Button variant="outline">Explore Services</Button> */}
                                 </div>
                             </div>
@@ -280,9 +283,11 @@ export default function MarketResearchService() {
             {/* Consultation Button Section */}
             <div className="max-w-7xl mx-auto p-8 text-center">
                 <Fade direction="up" triggerOnce>
-                    <Button className="bg-[#0b0d0e] hover:bg-[#1a1d1e] text-white px-8 py-4 rounded-lg font-semibold text-lg">
-                        Consult a Market Research Expert Now
-                    </Button>
+                    <Link href="/contact-us">
+                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg">
+                            Consult a Market Research Expert Now
+                        </Button>
+                    </Link>
                 </Fade>
             </div>
 

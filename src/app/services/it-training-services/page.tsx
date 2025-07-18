@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
 import FAQAccordion from "@/components/ui/faq-accordion";
+import Link from "next/link";
 
 export default function ITTrainingServices() {
     return (
@@ -19,9 +20,11 @@ export default function ITTrainingServices() {
                                     At Sadel, we provide comprehensive IT training services designed to help individuals and organizations enhance their technical capabilities and achieve their professional objectives. Our training programs deliver hands-on experience and practical knowledge to prepare you for real-world challenges.
                                 </p>
                                 <div className="flex gap-4">
-                                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                        Enroll for Top-Tier Learning
-                                    </Button>
+                                    <Link href="/contact-us">
+                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                                            Enroll for Top-Tier Learning
+                                        </Button>
+                                    </Link>
                                     {/* <Button variant="outline">Learn More</Button> */}
                                 </div>
                             </div>
@@ -205,9 +208,11 @@ export default function ITTrainingServices() {
             <div className="max-w-7xl mx-auto p-8 mt-10">
                 <Fade direction="left" triggerOnce>
                     <div className="text-center">
-                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold text-lg">
-                            Enroll for Top-Tier Learning
-                        </Button>
+                        <Link href="/contact-us">   
+                            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold text-lg">
+                                Enroll for Top-Tier Learning
+                            </Button>
+                        </Link>
                     </div>
                 </Fade>
             </div>
