@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import FAQAccordion from "@/components/ui/faq-accordion";
 
 const WebsiteAppDevelopmentPage = () => (
     <div>
@@ -19,9 +20,9 @@ const WebsiteAppDevelopmentPage = () => (
                             </p>
                             <div className="flex gap-4">
                                 <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                    Get Free Consultation
+                                    Get a free 30-minute consultation with a Professional Labs expert.
                                 </Button>
-                                <Button variant="outline">Explore Services</Button>
+                                {/* <Button variant="outline">Explore Services</Button> */}
                             </div>
                         </div>
                     </Fade>
@@ -196,6 +197,50 @@ const WebsiteAppDevelopmentPage = () => (
                 </div>
             </div>
         </Fade>
+
+        {/* Consultation Button Section */}
+        <div className="max-w-7xl mx-auto p-8 text-center">
+            <Fade direction="up" triggerOnce>
+                <Button className="bg-[#0b0d0e] hover:bg-[#1a1d1e] text-white px-8 py-4 rounded-lg font-semibold text-lg">
+                    Yes, we can help you with a customized approach
+                </Button>
+            </Fade>
+        </div>
+
+        {/* FAQ Section */}
+        <div className="max-w-7xl mx-auto p-8">
+            <Fade direction="up" triggerOnce>
+                <div className="text-center mb-12">
+                    <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
+                        Frequently Asked Questions about Web Development
+                    </h3>
+                </div>
+            </Fade>
+            <FAQAccordion
+                faqs={[
+                    {
+                        question: "What exactly is web development?",
+                        answer: "Web development encompasses the complete process of creating, building, and maintaining websites and web applications. This comprehensive discipline involves multiple tasks including web page design, programming and coding, server configuration, database management, and integration of various software components to deliver functional digital solutions."
+                    },
+                    {
+                        question: "What different types of web development services do you offer?",
+                        answer: "We provide a comprehensive range of web development services including front-end development for user interfaces, back-end development for server-side functionality, full-stack development for complete solutions, e-commerce development for online stores, content management system (CMS) development for easy content management, and ongoing website maintenance and technical support services."
+                    },
+                    {
+                        question: "What essential skills and technologies are required for modern web development?",
+                        answer: "Modern web development requires proficiency in fundamental programming languages such as HTML, CSS, and JavaScript, along with expertise in popular frameworks like React, Angular, and Node.js. Additionally, successful web developers need strong design sensibilities, analytical problem-solving abilities, effective communication skills, and the ability to adapt to rapidly evolving technologies and industry best practices."
+                    },
+                    {
+                        question: "What is the typical timeline for developing a website?",
+                        answer: "Website development timelines vary significantly based on project complexity and scope. Simple websites with basic functionality can typically be completed within a few weeks, while complex websites featuring advanced features, custom functionality, and sophisticated integrations may require several months or more. Project duration depends on factors such as design complexity, feature requirements, content volume, and testing needs."
+                    },
+                    {
+                        question: "How do web development service costs typically vary?",
+                        answer: "Web development costs depend on project complexity, feature requirements, and the development company's expertise and rates. Basic websites typically range from several hundred to a few thousand dollars, while complex websites with advanced functionality, custom features, and sophisticated integrations can cost tens of thousands or more. We recommend obtaining a detailed quote from your chosen web development company to receive an accurate project estimate tailored to your specific requirements."
+                    }
+                ]}
+            />
+        </div>
 
         {/* <div className="w-full my-10">
                 <div className="bg-[#fffcec] flex items-center justify-center p-6">

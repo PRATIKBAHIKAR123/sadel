@@ -373,7 +373,7 @@ export default function MicrosoftCloudeApp() {
             </Fade>
 
             {/* Call to Action Section */}
-            <Fade direction="up" triggerOnce>
+            {/* <Fade direction="up" triggerOnce>
                 <div className="py-12 sm:py-16 bg-yellow-50">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -390,7 +390,7 @@ export default function MicrosoftCloudeApp() {
                         </Button>
                     </div>
                 </div>
-            </Fade>
+            </Fade> */}
         </div>
     );
 }

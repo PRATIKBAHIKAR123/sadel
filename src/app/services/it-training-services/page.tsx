@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
+import FAQAccordion from "@/components/ui/faq-accordion";
 
 export default function ITTrainingServices() {
     return (
@@ -21,7 +22,7 @@ export default function ITTrainingServices() {
                                     <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
                                         Enroll for Top-Tier Learning
                                     </Button>
-                                    <Button variant="outline">Learn More</Button>
+                                    {/* <Button variant="outline">Learn More</Button> */}
                                 </div>
                             </div>
                         </Fade>
@@ -209,6 +210,41 @@ export default function ITTrainingServices() {
                         </Button>
                     </div>
                 </Fade>
+            </div>
+
+            {/* FAQ Section */}
+            <div className="max-w-7xl mx-auto p-8">
+                <Fade direction="up" triggerOnce>
+                    <div className="text-center mb-12">
+                        <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
+                            Frequently Asked Questions about IT Training Services
+                        </h3>
+                    </div>
+                </Fade>
+                <FAQAccordion
+                    faqs={[
+                        {
+                            question: "What advantages do IT training services offer to individuals and organizations?",
+                            answer: "IT training services provide numerous benefits including skill development, staying current with emerging technologies, enhanced productivity, and improved efficiency. They also boost confidence, increase job satisfaction, and create better career advancement opportunities for professionals."
+                        },
+                        {
+                            question: "What different types of IT training services are available?",
+                            answer: "We offer a comprehensive range of training options including instructor-led classroom sessions, self-paced online courses, interactive webinars, hands-on workplace training, industry-recognized certification programs, and customized training solutions tailored to specific organizational needs. Our specialized programs cover programming languages, cybersecurity, data analytics, cloud computing, and project management."
+                        },
+                        {
+                            question: "How do IT training service costs typically vary?",
+                            answer: "Training costs depend on several factors including the training format, program duration, intensity level, customization requirements, and the training provider. Classroom-based training and certification programs generally have higher costs compared to online courses and webinars. Many providers offer special pricing for students, veterans, or individuals seeking career transitions."
+                        },
+                        {
+                            question: "What qualifications should IT trainers possess?",
+                            answer: "Effective IT trainers should have strong technical expertise in their specific domain, excellent communication skills, and proven teaching abilities. They typically hold degrees or certifications in computer science, information technology, or related fields, along with relevant industry experience. Many trainers also have additional teaching certifications or experience in adult education methodologies."
+                        },
+                        {
+                            question: "How can I select the most suitable IT training service provider?",
+                            answer: "When choosing an IT training provider, evaluate their reputation, industry experience, technical expertise, accreditation status, course offerings, and training methodologies. Consider reading reviews and testimonials from previous clients, and assess their customer support quality, flexibility, and ability to meet your specific learning objectives and career goals."
+                        }
+                    ]}
+                />
             </div>
         </div>
     );

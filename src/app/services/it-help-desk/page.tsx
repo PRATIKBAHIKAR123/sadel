@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import FAQAccordion from "@/components/ui/faq-accordion";
 
 const ITHelpDeskPage = () => (
     <div>
@@ -19,9 +20,10 @@ const ITHelpDeskPage = () => (
                             </p>
                             <div className="flex gap-4">
                                 <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                    Get Free Consultation
+                                    Get Free Consultation with a Sadel expert
+
                                 </Button>
-                                <Button variant="outline">Explore Services</Button>
+                                {/* <Button variant="outline">Explore Services</Button> */}
                             </div>
                         </div>
                     </Fade>
@@ -232,6 +234,15 @@ const ITHelpDeskPage = () => (
             </div>
         </Fade>
 
+        {/* CTA Button Section */}
+        <div className="max-w-7xl mx-auto p-8 text-center">
+            <Fade direction="up" triggerOnce>
+                <Button className="bg-[#0b0d0e] hover:bg-[#1a1d1e] text-white px-8 py-4 rounded-lg font-semibold text-lg">
+                    Get Offshore IT Help Desk Services NOW
+                </Button>
+            </Fade>
+        </div>
+
         {/* FAQ Section */}
         <div className="max-w-7xl mx-auto p-8 mt-10">
             <Fade direction="right" triggerOnce>
@@ -241,9 +252,8 @@ const ITHelpDeskPage = () => (
                     </h3>
                 </div>
             </Fade>
-
-            <div className="space-y-4">
-                {[
+            <FAQAccordion
+                faqs={[
                     {
                         question: "What is IT Help Desk Support Service?",
                         answer: "IT Help Desk Support Service is a centralized resource that provides technical assistance and support to users experiencing IT-related issues. Our service includes troubleshooting, guidance, and resolution for hardware, software, and network problems."
@@ -260,20 +270,8 @@ const ITHelpDeskPage = () => (
                         question: "What are the hard skills of the IT help desk?",
                         answer: "Essential hard skills include technical knowledge of operating systems, networking, hardware troubleshooting, software installation, database management, cybersecurity awareness, and proficiency with help desk software and ticketing systems."
                     }
-                ].map((faq, index) => (
-                    <Fade direction="right" key={index} delay={index * 100}>
-                        <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                            <h4 className="text-lg font-bold text-[#0b0d0e] mb-3 font-['Urbanist'] flex items-center">
-                                <span className="mr-3">▶</span>
-                                {faq.question}
-                            </h4>
-                            <p className="text-[#5c5f6e] text-sm leading-relaxed ml-8">
-                                {faq.answer}
-                            </p>
-                        </div>
-                    </Fade>
-                ))}
-            </div>
+                ]}
+            />
         </div>
 
         <div className="w-full my-10">

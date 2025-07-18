@@ -137,13 +137,16 @@ export default function LandingPage() {
                       />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                      Managed SOC Service
+                      Security
                     </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
                       Ensure your business stays protected with robust, flexible, and scalable security operations that grow with your needs.
                     </p>
                   </div>
-                  <button className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base">
+                  <Link
+                    href="/services/azure-security-service"
+                    className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
+                  >
                     Learn more
                     <svg
                       className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
@@ -158,7 +161,7 @@ export default function LandingPage() {
                         d="M9 5l7 7-7 7"
                       />
                     </svg>
-                  </button>
+                  </Link>
                 </div>
               </Slide>
             </div>
@@ -176,13 +179,16 @@ export default function LandingPage() {
                       />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                      Cloud Managed Services
+                      Consulting Services
                     </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
                       Simplify management, boost performance, and reduce costs by leveraging tailored managed services—designed to optimize, secure
                     </p>
                   </div>
-                  <button className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base">
+                  <Link
+                    href="/services/citrix-consulting"
+                    className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
+                  >
                     Learn more
                     <svg
                       className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
@@ -197,7 +203,7 @@ export default function LandingPage() {
                         d="M9 5l7 7-7 7"
                       />
                     </svg>
-                  </button>
+                  </Link>
                 </div>
               </Slide>
             </div>
@@ -215,13 +221,15 @@ export default function LandingPage() {
                       />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                      Microsoft Cloud Security
-                    </h3>
+                      Support and Market Research                    </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
                       Gain deep visibility, control, and threat protection across your cloud apps—detect risky user behavior, prevent data leaks
                     </p>
                   </div>
-                  <button className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base">
+                  <Link
+                    href="/services/market-research"
+                    className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
+                  >
                     Learn more
                     <svg
                       className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
@@ -236,7 +244,7 @@ export default function LandingPage() {
                         d="M9 5l7 7-7 7"
                       />
                     </svg>
-                  </button>
+                  </Link>
                 </div>
               </Slide>
             </div>

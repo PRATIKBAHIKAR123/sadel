@@ -1,6 +1,7 @@
 "use client";
 import { Fade, Slide } from "react-awesome-reveal";
 import { Button } from "@/components/ui/button";
+import FAQAccordion from "@/components/ui/faq-accordion";
 // import Image from "next/image";
 import React from "react";
 
@@ -24,7 +25,7 @@ export default function MarketResearchService() {
                                     <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
                                         Get Expert Consultation
                                     </Button>
-                                    <Button variant="outline">Explore Services</Button>
+                                    {/* <Button variant="outline">Explore Services</Button> */}
                                 </div>
                             </div>
                         </Fade>
@@ -274,6 +275,50 @@ export default function MarketResearchService() {
                         </div>
                     </div>
                 </Fade>
+            </div>
+
+            {/* Consultation Button Section */}
+            <div className="max-w-7xl mx-auto p-8 text-center">
+                <Fade direction="up" triggerOnce>
+                    <Button className="bg-[#0b0d0e] hover:bg-[#1a1d1e] text-white px-8 py-4 rounded-lg font-semibold text-lg">
+                        Consult a Market Research Expert Now
+                    </Button>
+                </Fade>
+            </div>
+
+            {/* FAQ Section */}
+            <div className="max-w-7xl mx-auto p-8">
+                <Fade direction="up" triggerOnce>
+                    <div className="text-center mb-12">
+                        <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
+                            Frequently Asked Questions about Market Research
+                        </h3>
+                    </div>
+                </Fade>
+                <FAQAccordion
+                    faqs={[
+                        {
+                            question: "What exactly are market research services?",
+                            answer: "Market research services help businesses gain deep insights into potential customers and assess product market interest. These comprehensive studies can be conducted internally by your organization or outsourced to specialized market research firms like ours, providing valuable data-driven intelligence for strategic decision-making."
+                        },
+                        {
+                            question: "What are the key steps in the market research process?",
+                            answer: "The market research process follows a structured approach with seven essential phases: 1) Define the Problem - identify research objectives and business challenges, 2) Develop the Research Strategy - create comprehensive methodology, 3) Acquire Research Materials - gather necessary tools and resources, 4) Collect the Data - implement data gathering methods, 5) Analyze the Data - apply analytical techniques, 6) Compile the Data - organize findings systematically, 7) Implement Data-Driven Strategies - translate insights into actionable business decisions."
+                        },
+                        {
+                            question: "What are the typical costs for hiring market research services?",
+                            answer: "Market research costs vary based on several factors including interview volume, anonymity requirements, and overall project scope. Consumer interviews typically range from $200-$300 per session plus incentives, while corporate interviews generally cost between $300-$500 per session plus incentives. Project complexity, geographic coverage, and specialized requirements can influence final pricing."
+                        },
+                        {
+                            question: "How do market research services benefit business growth?",
+                            answer: "Market research services provide critical insights that drive business growth by identifying market opportunities, understanding customer preferences, analyzing competitive landscapes, and validating product concepts. This intelligence enables data-driven decision-making, reduces business risks, and helps organizations develop strategies that align with market demands and customer needs."
+                        },
+                        {
+                            question: "What types of market research methodologies do you offer?",
+                            answer: "We offer comprehensive market research methodologies including quantitative surveys, qualitative focus groups, in-depth interviews, observational studies, competitive analysis, and secondary research. Our expertise spans both primary and secondary research approaches, allowing us to provide holistic market intelligence tailored to your specific business objectives and industry requirements."
+                        }
+                    ]}
+                />
             </div>
 
             {/* CTA Section */}

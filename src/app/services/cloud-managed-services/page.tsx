@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
+import FAQAccordion from "@/components/ui/faq-accordion";
 
 export default function CloudManagedServices() {
     return (
@@ -19,9 +20,10 @@ export default function CloudManagedServices() {
                                 </p>
                                 <div className="flex gap-4">
                                     <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                        Get Free Consultation
+                                        Get Free Consultation with a Sadel expert
+ with a Sadel expert
                                     </Button>
-                                    <Button variant="outline">Learn More</Button>
+                                    {/* <Button variant="outline">Learn More</Button> */}
                                 </div>
                             </div>
                         </Fade>
@@ -197,6 +199,37 @@ export default function CloudManagedServices() {
                         Learn More About Our Cloud Managed Services
                     </Button>
                 </div>
+            </div>
+
+            {/* FAQ Section */}
+            <div className="max-w-7xl mx-auto p-8">
+                <Fade direction="up" triggerOnce>
+                    <div className="text-center mb-12">
+                        <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
+                            Frequently Asked Questions about Managed Cloud Services
+                        </h3>
+                    </div>
+                </Fade>
+                <FAQAccordion
+                    faqs={[
+                        {
+                            question: "What are the main types of cloud-managed services available to US customers?",
+                            answer: "Cloud-managed services generally fall into three categories: Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). IaaS allows organizations to manage computing, networking, and storage resources in the cloud, removing the need for on-premises hardware."
+                        },
+                        {
+                            question: "How do cloud-managed services benefit organizations?",
+                            answer: "Cloud-managed services provide 24/7 monitoring for suspicious activity, rapid deployment of cloud resources, and enhanced data protection. They also support disaster recovery and can significantly improve your organization’s security posture."
+                        },
+                        {
+                            question: "What’s the difference between cloud-hosted and cloud-managed solutions?",
+                            answer: "Cloud-hosted solutions offer dedicated hosting, either on-site or in a remote data center, with resources reserved solely for your organization. Cloud-managed services, on the other hand, use dedicated servers in remote locations and focus on exclusive access and robust support from managed service providers."
+                        },
+                        {
+                            question: "Which cloud-managed services are most widely used in business today?",
+                            answer: `<div>Some of the most popular cloud-managed services include:<ul class='list-disc ml-6 mt-2'><li>Microsoft Azure</li><li>Amazon Web Services (AWS)</li><li>Oracle Cloud</li><li>Google Cloud Platform (GCP)</li><li>IBM Cloud</li><li>ProLabs Cloud Services</li></ul>These platforms offer 24/7 access to computing resources and power much of the modern internet.</div>`
+                        }
+                    ]}
+                />
             </div>
 
             {/* Newsletter Section */}

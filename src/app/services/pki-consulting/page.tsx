@@ -65,7 +65,7 @@ const PKIConsulting = () => {
                     <div className="feature-container">
                         {/* Right: Illustration */}
                         <div className="feature-image">
-                            <img src="/Images/Frame (21).png" alt="PKI Infrastructure" className="w-full max-w-xs h-auto" />
+                            <img src="/Images/Frame (13).png" alt="PKI Infrastructure" className="w-full max-w-xs h-auto" />
                         </div>
                         {/* Left: Text */}
                         <div className="feature-content">
@@ -99,7 +99,7 @@ const PKIConsulting = () => {
                             </p>
                         </div>
                         <div className="feature-image">
-                            <img src="/Images/Frame (21).png" alt="PKI Security" className="w-full max-w-xs h-auto" />
+                            <img src="/Images/Frame (19).png" alt="PKI Security" className="w-full max-w-xs h-auto" />
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ const PKIConsulting = () => {
                     <div className="feature-container">
                         {/* Right: Illustration */}
                         <div className="feature-image">
-                            <img src="/Images/Frame (21).png" alt="PKI Services" className="w-full max-w-xs h-auto" />
+                            <img src="/Images/Frame (18).png" alt="PKI Services" className="w-full max-w-xs h-auto" />
                         </div>
                         {/* Left: Text */}
                         <div className="feature-content">

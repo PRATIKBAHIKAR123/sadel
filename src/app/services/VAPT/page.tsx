@@ -80,7 +80,7 @@ export default function VAPT() {
 
             {/* Introduction Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="bg-white rounded-3xl p-8 shadow-lg">
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Introduction</h2>
                         <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-relaxed">
@@ -242,7 +242,7 @@ export default function VAPT() {
 
             {/* FAQ Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="text-center mb-12">
                         <h2 className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px] mb-8">FAQs</h2>
                         <FAQAccordion faqs={faqData} />
@@ -251,8 +251,8 @@ export default function VAPT() {
             </div>
 
             {/* Call to Action Section */}
-            <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+            {/* <div className="max-w-7xl mx-auto p-6">
+                <Fade direction="right">
                     <div className="bg-[#fffcec] rounded-3xl p-12 text-center">
                         <h2 className="text-[#0e0f10] text-4xl font-bold font-['Urbanist'] mb-6">
                             Ready to Secure Your Infrastructure?
@@ -268,7 +268,7 @@ export default function VAPT() {
                         </Button>
                     </div>
                 </Fade>
-            </div>
+            </div> */}
         </div>
     );
 } 

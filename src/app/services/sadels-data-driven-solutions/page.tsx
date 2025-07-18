@@ -69,7 +69,7 @@ const SadelsDataDrivensolutions = () => {
                                             Get a free 30-minute consultation with a Sadel expert
                                         </Button>
                                     </Link>
-                                    <Button variant="outline">Explore Data Solutions</Button>
+                                    {/* <Button variant="outline">Explore Data Solutions</Button> */}
                                 </div>
                             </div>
                         </Fade>

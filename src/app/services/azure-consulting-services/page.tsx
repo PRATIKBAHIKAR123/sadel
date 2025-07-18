@@ -79,7 +79,7 @@ export default function Azureconsultingservice(){
 
             {/* What Makes Azure Unique Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="bg-white rounded-3xl p-8 shadow-lg">
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">What Makes Microsoft Azure Unique:</h2>
                         <div className="space-y-4">
@@ -114,7 +114,7 @@ export default function Azureconsultingservice(){
 
             {/* Azure Consulting Services Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="bg-[#fffcec] rounded-3xl p-8">
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Simplify Your Azure Environment with Remote Azure Consulting Services</h2>
                         <div className="space-y-4 text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-relaxed">
@@ -134,7 +134,7 @@ export default function Azureconsultingservice(){
 
             {/* Azure Consulting Services List Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="bg-white rounded-3xl p-8 shadow-lg">
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Discover the Potential of Your Azure Initiative with Our Azure Consulting Services:</h2>
                         <div className="space-y-4">
@@ -177,7 +177,7 @@ export default function Azureconsultingservice(){
 
             {/* Azure Benefits Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="bg-[#fff5b9] rounded-3xl p-8">
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Microsoft Azure Offers Many Benefits, Making It a Top Choice for Businesses Looking to Enhance Their Cloud Computing Capabilities. Here Are Seven Key Benefits of Azure:</h2>
                         <div className="space-y-6">
@@ -216,7 +216,7 @@ export default function Azureconsultingservice(){
 
             {/* Why Choose Sadel Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="bg-[#ffe9db] rounded-3xl p-8">
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Sadel is the Perfect Choice for Your Azure Solutions Partner Due to the Following Reasons:</h2>
                         <div className="space-y-4 mb-6">
@@ -259,7 +259,7 @@ export default function Azureconsultingservice(){
 
             {/* Choose Your Options Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="text-center mb-8">
                         <h2 className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Choose Your Options</h2>
                     </div>
@@ -288,7 +288,7 @@ export default function Azureconsultingservice(){
 
             {/* FAQ Section */}
             <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+                <Fade direction="right">
                     <div className="text-center mb-12">
                         <h2 className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px] mb-8">FAQs</h2>
                         <FAQAccordion faqs={faqData} />
@@ -297,8 +297,8 @@ export default function Azureconsultingservice(){
             </div>
 
             {/* Call to Action Section */}
-            <div className="max-w-7xl mx-auto p-6">
-                <Fade direction="up">
+            {/* <div className="max-w-7xl mx-auto p-6">
+                <Fade direction="right">
                     <div className="bg-[#fffcec] rounded-3xl p-12 text-center">
                         <h2 className="text-[#0e0f10] text-4xl font-bold font-['Urbanist'] mb-6">
                             Ready to Transform Your Azure Environment?
@@ -314,7 +314,7 @@ export default function Azureconsultingservice(){
                         </Button>
                     </div>
                 </Fade>
-            </div>
+            </div> */}
         </div>
     )
 }

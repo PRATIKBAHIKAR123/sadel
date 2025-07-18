@@ -20,9 +20,10 @@ const CustomSoftwareDevelopmentPage = () => (
                             </p>
                             <div className="flex gap-4">
                                 <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                    Get Free Consultation
+                                    Get Free Consultation with a Sadel expert
+
                                 </Button>
-                                <Button variant="outline">Explore Services</Button>
+                                {/* <Button variant="outline">Explore Services</Button> */}
                             </div>
                         </div>
                     </Fade>
@@ -135,7 +136,7 @@ const CustomSoftwareDevelopmentPage = () => (
                 </div>
             </Fade>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid md:grid-cols-2  lg:grid-cols-3 gap-6">
                 {[
                     {
                         category: "Frontend",
@@ -169,7 +170,7 @@ const CustomSoftwareDevelopmentPage = () => (
                     }
                 ].map((stack, index) => (
                     <Fade direction="right" key={index} delay={index * 100}>
-                        <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                        <div className="bg-white min-h-[200px] rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                             <div className="text-3xl mb-4">{stack.icon}</div>
                             <h4 className="text-lg font-bold text-[#0b0d0e] mb-3 font-['Urbanist']">
                                 {stack.category}

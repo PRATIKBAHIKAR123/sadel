@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { Star } from 'lucide-react';
 import "../globals.css";
+import TeachingTechCarousel from "../landing/teachingtech";
 
 // const products = [
 //   {
@@ -164,9 +165,52 @@ export default function PortfolioPage() {
         </div>
       </div>
 
+      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+        <Fade delay={200}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
+            <div className="bg-[#fffcec] rounded-3xl p-4 sm:p-6 text-center flex flex-col items-center">
+              <div className="text-center justify-start text-[#0b0d0e] text-2xl sm:text-3xl md:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[64px]">
+                Sadel IT Solutions
+              </div>
+              <div className="justify-start text-[#838696] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-normal mt-4">
+                At Sadel, we simplify modern tech complexity to drive real business impact—helping you accelerate outcomes and unlock value faster.
+              </div>
+              <div className="w-full sm:w-68 h-auto sm:h-68 item-center justify-center mt-6 sm:mt-8">
+                <img
+                  src="/Images/deupload-file-sharing 2.png"
+                  alt="Sadel It Solutions"
+                  className="w-full h-auto max-w-sm sm:max-w-none"
+                />
+              </div>
+            </div>
+            <div className="bg-[#fffcec] rounded-3xl p-4 sm:p-6 text-center flex flex-col items-center">
+              <div className="text-center justify-start text-[#0b0d0e] text-2xl sm:text-3xl md:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[64px]">
+                Sadel Products
+              </div>
+              <div className="justify-start text-[#838696] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-normal mt-4">
+                We provide a comprehensive range of educational solutions designed to empower learners, support educators, and enhance the overall learning experience
+              </div>
+              <div className="w-full sm:w-68 relative item-center justify-center mt-6 sm:mt-8">
+                <img
+                  src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
+                  alt="Sadel It Solutions"
+                />
+                <img
+                  src="/Images/Untit design 1.png"
+                  alt="Sadel It Solutions"
+                  className="absolute right-2 -bottom-10 h-full hidden sm:block"
+                />
+              </div>
+            </div>
+          </div>
+        </Fade>
+      </div>
+      <div className="mb-16">
+        <TeachingTechCarousel />
+      </div>
       {/* Product Cards Section - Redesigned */}
-      <div className="bg-secondary">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16">
+      <div className="bg-secondary mt-[180px]">
+        <div className="max-w-7xl mx-auto px-4  sm:px-6 md:px-8 py-12 sm:py-16">
           <Fade cascade>
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
@@ -237,11 +281,9 @@ export default function PortfolioPage() {
       </div>
 
       {/* Supervise and Control Team Files Section */}
-      <div className="w-full bg-[#fafbfc] py-12 sm:py-16 md:py-20">
+      {/* <div className="w-full bg-[#fafbfc] py-12 sm:py-16 md:py-20">
         <div className="max-w-5xl mx-auto flex flex-col lg:flex-row gap-8 sm:gap-12 px-4 sm:px-6 md:px-8">
-          {/* Right: Feature cards */}
           <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
-            {/* Card 1 - No shadow */}
             <div className="rounded-2xl p-4 sm:p-6 flex gap-4 items-start md:col-span-2">
               <div>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
@@ -268,7 +310,6 @@ export default function PortfolioPage() {
               </div>
             </div>
 
-            {/* Card 2 */}
             <div className="bg-white rounded-2xl p-4 sm:p-6 flex gap-4 items-start shadow-sm">
               <span className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#F9D400] flex items-center justify-center text-lg sm:text-2xl mt-1">
                 <svg width="24" height="24" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 sm:w-8 sm:h-8">
@@ -284,7 +325,6 @@ export default function PortfolioPage() {
               </div>
             </div>
 
-            {/* Card 3 */}
             <div className="bg-white rounded-2xl p-4 sm:p-6 flex gap-4 items-start shadow-sm md:col-span-2">
               <span className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#F9D400] flex items-center justify-center text-lg sm:text-2xl mt-1">
                 <svg width="24" height="24" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 sm:w-8 sm:h-8">
@@ -301,7 +341,7 @@ export default function PortfolioPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Company Trust Section */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 py-12 sm:py-16">
