@@ -61,7 +61,7 @@ export default function EmailSecurityPage() {
                     {/* Right: Illustration */}
                     <div className="flex-1 flex justify-center">
                         <Fade direction="left" triggerOnce>
-                            <img src="/Images/email.png" alt="Email Security" className="w-full max-w-md h-auto" />
+                            <img src="/Images/Email.png" alt="Email Security" className="w-full max-w-md h-auto" />
                         </Fade>
                     </div>
                 </div>
