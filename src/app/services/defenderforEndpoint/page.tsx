@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
+import FAQAccordion from "@/components/ui/faq-accordion";
 import Link from "next/link";
 
 export default function DefenderForEndpoint() {
@@ -244,8 +245,8 @@ export default function DefenderForEndpoint() {
                     </div>
                 </Fade>
 
-                <div className="space-y-4">
-                    {[
+                <FAQAccordion 
+                    faqs={[
                         {
                             question: "What does Defender for Endpoint do?",
                             answer: "Microsoft Defender for Endpoint is an enterprise endpoint security platform that helps networks prevent, detect, investigate, and respond to advanced threats. It provides best-in-class endpoint security across Windows, macOS, Linux, Android, iOS, and network devices, enabling your enterprise to quickly prevent attacks, scale security resources, and evolve defenses."
@@ -262,20 +263,8 @@ export default function DefenderForEndpoint() {
                             question: "Is Microsoft Defender for Endpoint an antivirus?",
                             answer: "Microsoft Defender Antivirus is a cutting-edge antivirus solution. When coupled with additional Defender for Endpoint features like endpoint detection and response and automated investigation and remediation, you get even more comprehensive security protection."
                         }
-                    ].map((faq, index) => (
-                        <Fade direction="right" key={index} delay={index * 100}>
-                            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                                <h4 className="text-lg font-bold text-[#0b0d0e] mb-3 font-['Urbanist'] flex items-center">
-                                    <span className="mr-3 text-yellow-400">▶</span>
-                                    {faq.question}
-                                </h4>
-                                <p className="text-[#5c5f6e] text-sm leading-relaxed ml-8">
-                                    {faq.answer}
-                                </p>
-                            </div>
-                        </Fade>
-                    ))}
-                </div>
+                    ]}
+                />
             </div>
         </div>
     )

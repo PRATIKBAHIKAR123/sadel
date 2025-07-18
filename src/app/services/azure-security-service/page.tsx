@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
+import FAQAccordion from "@/components/ui/faq-accordion";
 import Link from "next/link";
 
 export default function AzureService() {
@@ -323,8 +324,8 @@ export default function AzureService() {
                     </div>
                 </Fade>
 
-                <div className="space-y-4">
-                    {[
+                <FAQAccordion 
+                    faqs={[
                         {
                             question: "What is Azure Security Service?",
                             answer: "Azure Security Service is Microsoft&apos;s comprehensive cloud security platform that provides identity and access management, threat protection, information protection, and security management capabilities to safeguard your data and applications in the Azure cloud environment."
@@ -345,20 +346,8 @@ export default function AzureService() {
                             question: "Is Azure Security Service suitable for small businesses?",
                             answer: "Yes, Azure Security Service is designed to scale from small businesses to large enterprises. It offers flexible pricing models and security features that can be tailored to meet the specific needs and budget constraints of small businesses while providing enterprise-level protection."
                         }
-                    ].map((faq, index) => (
-                        <Fade direction="left" key={index} delay={index * 100}>
-                            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                                <h4 className="text-lg font-bold text-[#0b0d0e] mb-3 font-['Urbanist'] flex items-center">
-                                    <span className="mr-3 text-yellow-400">▶</span>
-                                    {faq.question}
-                                </h4>
-                                <p className="text-[#5c5f6e] text-sm leading-relaxed ml-8">
-                                    {faq.answer}
-                                </p>
-                            </div>
-                        </Fade>
-                    ))}
-                </div>
+                    ]}
+                />
             </div>
 
             {/* Newsletter Section */}

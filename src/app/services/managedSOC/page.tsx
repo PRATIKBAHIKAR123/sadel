@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Fade } from "react-awesome-reveal";
+import FAQAccordion from "@/components/ui/faq-accordion";
 // import TeachingTechCarousel from "./teachingTech";
 import Link from "next/link";
 
@@ -315,8 +316,8 @@ export default function ManagedSOC(){
                     </div>
                 </Fade>
 
-                <div className="space-y-4">
-                    {[
+                <FAQAccordion 
+                    faqs={[
                         {
                             question: "What is a managed SOC?",
                             answer: "A managed SOC (Security Operations Center) is a subscription service for outsourcing SOC operations to third-party cybersecurity specialists who monitor IT infrastructure, endpoints, software, and data for security flaws, finding threats, responding to alerts, and fixing problems."
@@ -337,20 +338,8 @@ export default function ManagedSOC(){
                             question: "Is a SOC MSP?",
                             answer: "While both provide managed services, a SOC specifically focuses on security operations and threat management, while an MSP (Managed Service Provider) offers broader IT services. Our managed SOC combines the specialized security expertise with the operational benefits of managed services."
                         }
-                    ].map((faq, index) => (
-                        <Fade direction="right" key={index} delay={index * 100}>
-                            <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
-                                <h4 className="text-lg font-bold text-[#0b0d0e] mb-3 font-['Urbanist'] flex items-center">
-                                    <span className="mr-3 text-yellow-400">▶</span>
-                                    {faq.question}
-                                </h4>
-                                <p className="text-[#5c5f6e] text-sm leading-relaxed ml-8">
-                                    {faq.answer}
-                                </p>
-                            </div>
-                        </Fade>
-                    ))}
-                </div>
+                    ]}
+                />
             </div>
         </div>
     )
