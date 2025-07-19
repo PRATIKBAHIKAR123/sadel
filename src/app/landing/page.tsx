@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button";
-import TeachingTechCarousel from "./teachingtech";
+// import TeachingTechCarousel from "./teachingtech";
 // import {
 //   ArrowRight,
 //   Download,
@@ -293,7 +293,7 @@ export default function LandingPage() {
           </div>
         </Fade>
       </div>
-      <TeachingTechCarousel />
+      {/* <TeachingTechCarousel /> */}
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16 mt-16 sm:mt-28">
         {/* Main Heading */}
         <div className="text-center mb-12 sm:mb-16">
