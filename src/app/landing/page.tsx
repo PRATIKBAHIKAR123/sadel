@@ -49,7 +49,7 @@ export default function LandingPage() {
             <div className="relative mt-8 sm:mt-12">
               {/* <Fade direction="left" triggerOnce> */}
               <img
-                src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
+                src="/Images/Screenshot1.png"
                 alt="Landing Page Image"
                 className="mt-8 w-full max-w-lg h-auto rounded-lg shadow-lg"
               />
@@ -280,7 +280,7 @@ export default function LandingPage() {
               </div>
               <div className="w-full sm:w-68 relative item-center justify-center mt-6 sm:mt-8">
                 <img
-                  src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
+                  src="/Images/Screenshot-2.png"
                   alt="Sadel It Solutions"
                 />
                 <img
@@ -311,7 +311,7 @@ export default function LandingPage() {
 
             {/* Device Frame */}
             <img
-              src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
+              src="/Images/Screenshot-2.png"
               alt="Device Frame"
               className="relative z-10 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
@@ -362,7 +362,7 @@ export default function LandingPage() {
 
             {/* Device Frame */}
             <img
-              src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
+              src="/Images/Screenshot1.png"
               alt="Device Frame"
               className="relative z-10 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
@@ -637,7 +637,7 @@ export default function LandingPage() {
           </h2>
         </div>
         <img
-          src="/Images/Screenshot 2025-06-29 at 9.14.56 PM 1.png"
+          src="/Images/success.png"
           alt="Success Partner"
           className="w-full h-auto object-contain mx-auto"
         />
