@@ -3,6 +3,8 @@ import {  Urbanist } from "next/font/google";
 import "./globals.css";
 import Header from "./layout/header";
 import Footer from "./layout/footer";
+import { LanguageProvider } from "@/lib/languageContext";
+import LanguageWrapper from "./layout/languageWrapper";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -33,12 +35,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={`${urbanist.variable} ${urbanist.variable} antialiased`}
       >
-                <Header/>
-                {children}
-                <Footer/>
+        <LanguageProvider>
+          <LanguageWrapper>
+            <Header/>
+            {children}
+            <Footer/>
+          </LanguageWrapper>
+        </LanguageProvider>
       </body>
     </html>
   );

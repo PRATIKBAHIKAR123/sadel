@@ -1,30 +1,35 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
+import { useLanguage } from '@/lib/languageContext';
+import { translations } from '@/lib/translations';
+import './_swiperStyles.css';
 
 const TeachingTechCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
+  const { language } = useLanguage();
+  const t = translations[language];
 
   const slides = [
     {
       id: 1,
       icon: <img src="/Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />,
-      title: "Natural Writing",
-      description: "A Quick Response rate and zero bonding tech makes pen Stroke Smooth"
+      title: t.naturalWritingTitle,
+      description: t.naturalWritingDescription
     },
     {
       id: 2,
       icon: <img src="/Images/download.png" alt="Smartphone Icon" className="w-16 h-16" />,
-      title: "Built For Speed",
-      description: "High Speed Gigabit Ethernet Ensure Faster Transmission of class files"
+      title: t.builtForSpeedTitle,
+      description: t.builtForSpeedDescription
     },
     {
       id: 3,
       icon: <img src="/Images/security.png" alt="Smartphone Icon" className="w-18 h-16" />,
-      title: "Certified Dustproof",
-      description: "Meeting IP5X Standards, the RE Operates consistently even in dust"
+      title: t.certifiedDustproofTitle,
+      description: t.certifiedDustproofDescription
     },
   ];
 
@@ -64,11 +69,10 @@ const TeachingTechCarousel = () => {
         {/* Header */}
         <div className="justify-center text-center mb-12">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Enhancing all aspects of <span className="text-black">Teaching Technology</span> Through our
+            {t.teachingTechTitle} <span className="text-black">{t.teachingTechSubtitle}</span>
           </h1>
           <div className="flex items-center justify-center gap-2">
-            <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">Advance</span>
-            <span className="text-2xl sm:text-3xl md:text-4xl font-normal text-gray-700">Solutions</span>
+            <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">{t.teachingTechSubtitle}</span>
             <div className="w-6 sm:w-8 h-1 bg-blue-500 rounded-full ml-2"></div>
           </div>
         </div>

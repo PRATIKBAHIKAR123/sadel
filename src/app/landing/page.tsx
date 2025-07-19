@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
 import TeachingTechCarousel from "./teachingtech";
 // import {
@@ -8,43 +10,46 @@ import TeachingTechCarousel from "./teachingtech";
 import { Fade, Slide } from "react-awesome-reveal";
 import TestimonialSection from "../edtechSolutions/testimonials";
 import Link from "next/link";
+import { useLanguage } from "@/lib/languageContext";
+import { translations } from "@/lib/translations";
 
 export default function LandingPage() {
+  const { language } = useLanguage();
+  const t = translations[language];
+  const isArabic = language === 'العربية';
+
   return (
-    <div>
+    <div className={isArabic ? 'arabic-font' : ''}>
       <div className="min-h-screen bg-[#FFFCEC]">
         <div className="flex flex-col items-center justify-center max-w-screen-xl mx-auto p-4 sm:p-8">
           <Fade direction="up" triggerOnce>
-            <div className="text-center justify-start">
+            <div className="text-center">
               <span className="text-[#0e0f10] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
-                Give{" "}
+                {t.heroTitle1}{" "}
               </span>
               <span className="text-[#f9d300] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
-                Your Team
+                {t.heroTitle2}
               </span>
               <span className="text-[#0e0f10] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
                 {" "}
-                The Inspiration They Need To Get The Job Done
+                {t.heroTitle3}
               </span>
             </div>
-            <div className="text-center justify-start text-[#5c5f6e] text-base sm:text-lg md:text-xl font-normal font-['Urbanist'] leading-relaxed mt-4 sm:mt-6">
-              Empower your team and spark productivity with a thoughtfully
-              designed interactive screen. Whether it&apos;s for brainstorming,
-              collaboration, or presentations, this dynamic solution brings
-              clarity, creativity, and efficiency to every task.
+            <div className="text-center text-[#5c5f6e] text-base sm:text-lg md:text-xl font-normal font-['Urbanist'] leading-relaxed mt-4 sm:mt-6">
+              {t.heroSubtitle}
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8">
               <Link href="/portfolio">
-                <Button className="w-full sm:w-auto">IT Solutions</Button>
+                <Button className="w-full sm:w-auto">{t.itSolutionsButton}</Button>
               </Link>
               <Link href="/edtechSolutions">
-                <Button className="w-full sm:w-auto">Educational Solutions</Button>
+                <Button className="w-full sm:w-auto">{t.educationalSolutionsButton}</Button>
               </Link>
             </div>
             <div className="relative mt-8 sm:mt-12">
               {/* <Fade direction="left" triggerOnce> */}
               <img
-                src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
+                src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
                 alt="Landing Page Image"
                 className="mt-8 w-full max-w-lg h-auto rounded-lg shadow-lg"
               />
@@ -64,11 +69,10 @@ export default function LandingPage() {
             {/* Header Section */}
             <div className="text-center mb-12 sm:mb-16">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                <span className="text-yellow-400">Sadel</span> Made Tech Easy
+                <span className="text-yellow-400">Sadel</span> {t.madeTechEasyTitle.replace('Sadel Made Tech Easy', '').trim()}
               </h1>
               <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-                Sadel makes technology simple and effortless. We turn complex
-                systems into easy-to-use solutions for everyone.
+                {t.madeTechEasySubtitle}
               </p>
             </div>
 
@@ -78,20 +82,18 @@ export default function LandingPage() {
               <div className="space-y-6 sm:space-y-8">
                 <div>
                   <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                    <span className="text-yellow-400">Sadel Simplifies</span>
+                    <span className="text-yellow-400">{t.simplifiesTitle1}</span>
                     <br />
-                    Technology to Empower Teams
+                    {t.simplifiesTitle2}
                   </h2>
                   <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
-                    Sadel takes the complexity out of technology with smart,
-                    intuitive solutions. Our tools are designed to boost
-                    collaboration, streamline workflows, and save time.
+                    {t.simplifiesSubtitle}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                     <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
-                      Getting Started
+                      {t.gettingStartedButton}
                     </Button>
-                    <Button variant="outline" className="w-full sm:w-auto">Learn More</Button>
+                    <Button variant="outline" className="w-full sm:w-auto">{t.learnMoreButton}</Button>
                   </div>
                 </div>
               </div>
@@ -110,15 +112,13 @@ export default function LandingPage() {
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-              <span className="text-yellow-400">Sadel</span> Expert IT Solutions
+              <span className="text-yellow-400">Sadel</span> {t.expertITTitle.replace('Sadel Expert IT Solutions', '').trim()}
             </h1>
             <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto leading-relaxed">
               <span className="font-semibold text-gray-900">
-                Sadel A Sister Company Of ProlabIT
+                {t.expertITSubtitle.split('delivers')[0].trim()}
               </span>{" "}
-              delivers tailored software and cloud solutions that drive business
-              growth and efficiency. With expert DevOps and IT consulting, we
-              turn complex challenges into seamless digital experiences.
+              {t.expertITSubtitle.split('delivers')[1]}
             </p>
           </div>
 
@@ -137,17 +137,17 @@ export default function LandingPage() {
                       />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                      Security
+                      {t.securityTitle}
                     </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-                      Ensure your business stays protected with robust, flexible, and scalable security operations that grow with your needs.
+                      {t.securityDescription}
                     </p>
                   </div>
                   <Link
                     href="/services/azure-security-service"
                     className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
                   >
-                    Learn more
+                    {t.learnMore}
                     <svg
                       className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
                       fill="none"
@@ -179,17 +179,17 @@ export default function LandingPage() {
                       />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                      Consulting Services
+                      {t.consultingServicesTitle}
                     </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-                      Simplify management, boost performance, and reduce costs by leveraging tailored managed services—designed to optimize, secure
+                      {t.consultingServicesDescription}
                     </p>
                   </div>
                   <Link
                     href="/services/citrix-consulting"
                     className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
                   >
-                    Learn more
+                    {t.learnMore}
                     <svg
                       className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
                       fill="none"
@@ -221,16 +221,17 @@ export default function LandingPage() {
                       />
                     </div>
                     <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
-                      Support and Market Research                    </h3>
+                      {t.supportResearchTitle}
+                    </h3>
                     <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
-                      Gain deep visibility, control, and threat protection across your cloud apps—detect risky user behavior, prevent data leaks
+                      {t.supportResearchDescription}
                     </p>
                   </div>
                   <Link
                     href="/services/market-research"
                     className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
                   >
-                    Learn more
+                    {t.learnMore}
                     <svg
                       className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform"
                       fill="none"
@@ -256,11 +257,11 @@ export default function LandingPage() {
         <Fade delay={200}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
             <div className="bg-[#fffcec] rounded-3xl p-4 sm:p-6 text-center flex flex-col items-center">
-              <div className="text-center justify-start text-[#0b0d0e] text-2xl sm:text-3xl md:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[64px]">
-                Sadel IT Solutions
+              <div className="text-center text-[#0b0d0e] text-2xl sm:text-3xl md:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[64px]">
+                {t.sadelITTitle}
               </div>
-              <div className="justify-start text-[#838696] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-normal mt-4">
-                At Sadel, we simplify modern tech complexity to drive real business impact—helping you accelerate outcomes and unlock value faster.
+              <div className="text-center text-[#838696] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-normal mt-4">
+                {t.sadelITDescription}
               </div>
               <div className="w-full sm:w-68 h-auto sm:h-68 item-center justify-center mt-6 sm:mt-8">
                 <img
@@ -271,15 +272,15 @@ export default function LandingPage() {
               </div>
             </div>
             <div className="bg-[#fffcec] rounded-3xl p-4 sm:p-6 text-center flex flex-col items-center">
-              <div className="text-center justify-start text-[#0b0d0e] text-2xl sm:text-3xl md:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[64px]">
-                Sadel Products
+              <div className="text-center text-[#0b0d0e] text-2xl sm:text-3xl md:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[64px]">
+                {t.sadelProductsTitle}
               </div>
-              <div className="justify-start text-[#838696] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-normal mt-4">
-                We provide a comprehensive range of educational solutions designed to empower learners, support educators, and enhance the overall learning experience
+              <div className="text-center text-[#838696] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-normal mt-4">
+                {t.sadelProductsDescription}
               </div>
               <div className="w-full sm:w-68 relative item-center justify-center mt-6 sm:mt-8">
                 <img
-                  src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
+                  src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
                   alt="Sadel It Solutions"
                 />
                 <img
@@ -297,9 +298,7 @@ export default function LandingPage() {
         {/* Main Heading */}
         <div className="text-center mb-12 sm:mb-16">
           <h3 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
-            Experience Smart, Seamless Learning with{" "}
-            <span className="text-yellow-400">Sadel&apos;s Interactive Education Board</span>{" "}
-
+            {t.interactiveBoardTitle}
           </h3>
         </div>
 
@@ -312,7 +311,7 @@ export default function LandingPage() {
 
             {/* Device Frame */}
             <img
-              src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
+              src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
               alt="Device Frame"
               className="relative z-10 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
@@ -322,20 +321,16 @@ export default function LandingPage() {
           <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
             <div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                Supports <span className="text-yellow-400">Free</span> <span className="text-yellow-400">educational</span> programs
+                {t.supportsFreeTitle}
               </h2>
 
               <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
-                Stay connected and productive wherever you are with Sodars
-                on-the-go solutions. Whether youre traveling, working remotely,
-                or switching between locations, our tools keep your workflow
-                seamless. Access, collaborate, and manage tasks anytime—without
-                being tied to a desk.
+                {t.supportsFreeDescription}
               </p>
 
               {/* CTA Button */}
               <button className="bg-white border-2 border-gray-300 text-gray-800 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 hover:scale-105 shadow-sm w-full sm:w-auto">
-                View Product
+                {t.viewProduct}
               </button>
             </div>
           </div>
@@ -346,19 +341,16 @@ export default function LandingPage() {
           <div className="space-y-6 sm:space-y-8 order-1">
             <div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                Seamless <span className="text-yellow-400">Collaboration</span> <span className="text-yellow-400"> & </span> <span className="text-yellow-400">Control</span>
+                {t.seamlessCollaborationTitle}
               </h2>
 
               <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
-                Access your important folders even without an internet
-                connection.Sadel lets you stay organized and in control,
-                anytime, anywhere.Work seamlessly offline and sync
-                automatically when youre back online.
+                {t.seamlessCollaborationDescription}
               </p>
 
               {/* CTA Button */}
               <button className="bg-white border-2 border-gray-300 text-gray-800 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 hover:scale-105 shadow-sm w-full sm:w-auto">
-                View Product
+                {t.viewProduct}
               </button>
             </div>
           </div>
@@ -370,7 +362,7 @@ export default function LandingPage() {
 
             {/* Device Frame */}
             <img
-              src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
+              src="/Images/Screenshot 2025-06-29 at 9.19.49 PM 1.png"
               alt="Device Frame"
               className="relative z-10 w-full max-w-md mx-auto rounded-lg shadow-lg"
             />
@@ -485,10 +477,10 @@ export default function LandingPage() {
             <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
               <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
                 <div>
-                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Digital Kiosks</h2>
-                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our Sadel&#39;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
+                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">{t.digitalKiosksTitle}</h2>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">{t.digitalKiosksDescription}</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -500,14 +492,14 @@ export default function LandingPage() {
               <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0 sm:pr-6">
                 <div>
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">
-                    Surveillance Cameras
+                    {t.surveillanceCamerasTitle}
                   </h2>
                   <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">
-                    Our Surveillance Cameras deliver smart, real-time monitoring solutions to secure your spaces and safeguard what matters most.
+                    {t.surveillanceCamerasDescription}
                   </p>
                 </div>
                 <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
-                  Checkout Product
+                  {t.checkoutProduct}
                 </button>
               </div>
 
@@ -530,10 +522,10 @@ export default function LandingPage() {
             <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
               <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
                 <div>
-                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Sound System P.A System</h2>
-                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our P.A Systems deliver clear, powerful audio for effective communication across classrooms, campuses, and public spaces.</p>
+                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">{t.soundSystemTitle}</h2>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">{t.soundSystemDescription}</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -543,10 +535,10 @@ export default function LandingPage() {
             <div className="bg-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-center shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300 min-h-[280px] sm:min-h-[320px]">
               <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
                 <div>
-                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">LED Display</h2>
-                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Sadel&#39;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
+                  <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">{t.ledDisplayTitle}</h2>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">{t.ledDisplayDescription}</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/tv.png" alt="LED Display" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -559,7 +551,7 @@ export default function LandingPage() {
         {/* Section Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Our Clients
+            {t.ourClientsTitle}
           </h2>
         </div>
         <img
@@ -572,7 +564,7 @@ export default function LandingPage() {
         {/* Section Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Our Blogs
+            {t.ourBlogsTitle}
           </h2>
         </div>
 
@@ -592,7 +584,7 @@ export default function LandingPage() {
               <div className="flex items-center space-x-2 sm:space-x-3">
                 <div className="w-1 h-6 sm:h-8 bg-yellow-400 rounded-full"></div>
                 <h3 className="text-[#1e1e1e] text-sm sm:text-base md:text-xl font-semibold font-['Figtree'] leading-tight sm:leading-7">
-                  Elevated Meeting experiences
+                  {t.elevatedMeetingTitle}
                 </h3>
               </div>
             </div>
@@ -611,7 +603,7 @@ export default function LandingPage() {
               <div className="flex items-center space-x-2 sm:space-x-3">
                 <div className="w-1 h-6 sm:h-8 bg-yellow-400 rounded-full"></div>
                 <h3 className="text-[#1e1e1e] text-sm sm:text-base md:text-xl font-semibold font-['Figtree'] leading-tight sm:leading-7">
-                  Learn In Immersive Way
+                  {t.learnImmersiveTitle}
                 </h3>
               </div>
             </div>
@@ -629,7 +621,7 @@ export default function LandingPage() {
               <div className="flex items-center space-x-2 sm:space-x-3">
                 <div className="w-1 h-6 sm:h-8 bg-yellow-400 rounded-full"></div>
                 <h3 className="text-[#1e1e1e] text-sm sm:text-base md:text-xl font-semibold font-['Figtree'] leading-tight sm:leading-7">
-                  Interactive Screens Transform
+                  {t.interactiveScreensTitle}
                 </h3>
               </div>
             </div>
@@ -641,18 +633,18 @@ export default function LandingPage() {
         {/* Section Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
-            Our Success Partner
+            {t.ourSuccessPartnerTitle}
           </h2>
         </div>
         <img
-          src="/Images/Screenshot 2025-06-29 at 9.14.56 PM 1.png"
+          src="/Images/Screenshot 2025-06-29 at 9.14.56 PM 1.png"
           alt="Success Partner"
           className="w-full h-auto object-contain mx-auto"
         />
       </div>
       <div className="text-center px-4 sm:px-6">
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
-          Testimonial
+          {t.testimonialTitle}
         </h2>
       </div>
       <TestimonialSection />

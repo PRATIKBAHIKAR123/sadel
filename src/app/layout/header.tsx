@@ -3,10 +3,13 @@
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import { useLanguage } from '@/lib/languageContext';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+  const { language, setLanguage } = useLanguage();
 
   const navigationItems = [
     { name: 'Product', href: '/portfolio' },
@@ -49,6 +52,11 @@ const Header = () => {
       { name: 'Website & App Development', href: '/services/website-app-development' },
       { name: 'IT Help Desk', href: '/services/it-help-desk' },
     ],
+  };
+
+  const handleLanguageChange = (newLanguage: 'English' | 'العربية') => {
+    setLanguage(newLanguage);
+    setIsLanguageDropdownOpen(false);
   };
 
   return (
@@ -131,10 +139,33 @@ const Header = () => {
 
             {/* Language Selector */}
             <div className="relative">
-              <button className="flex items-center text-gray-600 hover:text-gray-900 px-3 py-2 text-sm xl:text-base font-medium transition-colors duration-200 hover:bg-gray-50 rounded-md">
-                English
+              <button 
+                onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
+                className="flex items-center text-gray-600 hover:text-gray-900 px-3 py-2 text-sm xl:text-base font-medium transition-colors duration-200 hover:bg-gray-50 rounded-md"
+              >
+                {language}
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
+              
+              {/* Language Dropdown */}
+              {isLanguageDropdownOpen && (
+                <div className="absolute top-full right-0 mt-1 w-32 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+                  <div className="py-1">
+                    <button
+                      onClick={() => handleLanguageChange('English')}
+                      className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                    >
+                      English
+                    </button>
+                    <button
+                      onClick={() => handleLanguageChange('العربية')}
+                      className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200"
+                    >
+                      العربية
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
@@ -217,12 +248,20 @@ const Header = () => {
                 >
                   App
                 </button>
-                <button 
-                  className="w-full text-left text-gray-600 hover:text-gray-900 block px-3 py-3 text-base font-medium rounded-md hover:bg-gray-50 transition-colors duration-200"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  English
-                </button>
+                <div className="space-y-1">
+                  <button 
+                    onClick={() => handleLanguageChange('English')}
+                    className="w-full text-left text-gray-600 hover:text-gray-900 block px-3 py-3 text-base font-medium rounded-md hover:bg-gray-50 transition-colors duration-200"
+                  >
+                    English
+                  </button>
+                  <button 
+                    onClick={() => handleLanguageChange('العربية')}
+                    className="w-full text-left text-gray-600 hover:text-gray-900 block px-3 py-3 text-base font-medium rounded-md hover:bg-gray-50 transition-colors duration-200"
+                  >
+                    العربية
+                  </button>
+                </div>
               </div>
             </div>
           </div>

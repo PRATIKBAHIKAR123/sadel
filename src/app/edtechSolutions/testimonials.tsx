@@ -1,5 +1,9 @@
+"use client"
+
 import React from 'react';
 import { Star } from 'lucide-react';
+import { useLanguage } from '@/lib/languageContext';
+import { translations } from '@/lib/translations';
 
 interface TestimonialProps {
   name: string;
@@ -45,18 +49,21 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ name, role, content, avat
 };
 
 const TestimonialSection: React.FC = () => {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   const testimonials = [
     {
-      name: "Rodrigo Duarte",
-      role: "Graphic Designer",
-      content: "Our company uses Sadel, and I also use Box personally to store my documents, photos, videos, sensitive data etc. Sadel is amazing - so much more than just cloud storage. You can watch videos, share photos, scan documents, electronic sign and send documents, secure sensitive data and so much more.",
+      name: t.testimonial1Name,
+      role: t.testimonial1Role,
+      content: t.testimonial1Content,
       avatar: "/Images/Ellipse 84.png",
       rating: 5
     },
     {
-      name: "Ivone Josan",
-      role: "Marketing Assistant",
-      content: "I love using Sadel for work and personally because it is very intuitive to use and easy to share files with anyone. Our company moved from dropbox over to box, due to security purposes which would be my concern but other than that it syncs very quickly and allows collaboration and file sharing alot easier for your team/company.",
+      name: t.testimonial2Name,
+      role: t.testimonial2Role,
+      content: t.testimonial2Content,
       avatar: "/Images/Ellipse 85.png",
       rating: 5
     }
@@ -65,7 +72,14 @@ const TestimonialSection: React.FC = () => {
   return (
     <section className="py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+            {t.testimonialSectionTitle}
+          </h2>
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            {t.testimonialSubtitle}
+          </p>
+        </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (

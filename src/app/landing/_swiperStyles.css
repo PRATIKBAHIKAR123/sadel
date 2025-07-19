@@ -18,3 +18,73 @@
   transform: scale(0.92);
   z-index: 1;
 }
+
+/* Carousel Styles */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+}
+
+.carousel-slide-tablet {
+  flex: 0 0 50%;
+  min-width: 50%;
+}
+
+.carousel-slide-desktop {
+  flex: 0 0 33.333333%;
+  min-width: 33.333333%;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.carousel-indicator {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background-color: #d1d5db;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-indicator.active {
+  background-color: #3b82f6;
+}
+
+.carousel-indicator:hover {
+  background-color: #9ca3af;
+}
+
+/* Arabic carousel overrides */
+[lang="ar"] .carousel-track {
+  direction: ltr;
+}
+
+[lang="ar"] .carousel-slide {
+  direction: ltr;
+}
+
+[lang="ar"] .carousel-slide-tablet {
+  direction: ltr;
+}
+
+[lang="ar"] .carousel-slide-desktop {
+  direction: ltr;
+}
