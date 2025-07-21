@@ -148,7 +148,7 @@ export const translations = {
     deliverWithExcellenceDescription: "We are committed to quality and precision.Our goal is to consistently exceed expectations and deliver impactful results in everything we do.",
 
     // Azure Security Service Page
-    azureSecurityTitle: "Safeguard your data and applications with Azure's reliable security services",
+    azureSecurityTitle: "Azure security",
     azureSecurityDescription: "Azure Security Services manage and protect your data and applications, ensuring comprehensive business security during app development and backend operations in the cloud.",
     getFreeConsultationButton: "Get a free 30-minute consultation with a Sadel expert",
     azureSecurityServicesTitle: "Azure Security Services: Keeping Your Business Secure in the Cloud",
