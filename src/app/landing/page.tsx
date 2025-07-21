@@ -12,6 +12,7 @@ import TestimonialSection from "../edtechSolutions/testimonials";
 import Link from "next/link";
 import { useLanguage } from "@/lib/languageContext";
 import { translations } from "@/lib/translations";
+// import TeachingTechCarousel from "./teachingtech";
 
 export default function LandingPage() {
   const { language } = useLanguage();
@@ -293,183 +294,48 @@ export default function LandingPage() {
           </div>
         </Fade>
       </div>
-      {/* <TeachingTechCarousel /> */}
-      <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16 mt-16 sm:mt-28">
-        {/* Main Heading */}
-        <div className="text-center mb-12 sm:mb-16">
-          <h3 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
-            {t.interactiveBoardTitle}
-          </h3>
-        </div>
-
-        {/* Content Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-          {/* Left Side - Product Display */}
-          <div className="relative order-2 lg:order-1">
-            {/* Background Circle */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 sm:w-80 sm:h-80 bg-yellow-100 rounded-full opacity-50"></div>
-
-            {/* Device Frame */}
-            <img
-              src="/Images/Screenshot-2.png"
-              alt="Device Frame"
-              className="relative z-10 w-full max-w-md mx-auto rounded-lg shadow-lg"
-            />
-          </div>
-
-          {/* Right Side - Content */}
-          <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
-            <div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                {t.supportsFreeTitle}
-              </h2>
-
-              <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
-                {t.supportsFreeDescription}
-              </p>
-
-              {/* CTA Button */}
-              <button className="bg-white border-2 border-gray-300 text-gray-800 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 hover:scale-105 shadow-sm w-full sm:w-auto">
-                {t.viewProduct}
-              </button>
+      {/* Teaching Technology Section (3 Cards) */}
+      <div className="w-full bg-primary py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          {/* Header */}
+          <div className="text-center mb-12">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+              {t.teachingTechTitle} <span className="text-black">{t.teachingTechSubtitle}</span>
+            </h1>
+            <div className="flex items-center justify-center gap-2">
+              <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">{t.teachingTechSubtitle}</span>
+              <div className="w-6 sm:w-8 h-1 bg-blue-500 rounded-full ml-2"></div>
             </div>
           </div>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center mt-16 sm:mt-30">
-          {/* Right Side - Content */}
-          <div className="space-y-6 sm:space-y-8 order-1">
-            <div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                {t.seamlessCollaborationTitle}
-              </h2>
-
-              <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
-                {t.seamlessCollaborationDescription}
-              </p>
-
-              {/* CTA Button */}
-              <button className="bg-white border-2 border-gray-300 text-gray-800 px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-gray-50 hover:border-gray-400 transition-all duration-200 hover:scale-105 shadow-sm w-full sm:w-auto">
-                {t.viewProduct}
-              </button>
+          {/* Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Card 1 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center">
+              <div className="mb-4 p-4 bg-gray-50 rounded-full">
+                <img src="/Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />
+              </div>
+              <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{t.naturalWritingTitle}</h3>
+              <p className="text-gray-600 text-sm">{t.naturalWritingDescription}</p>
             </div>
-          </div>
-
-          {/* Left Side - Product Display */}
-          <div className="relative order-2">
-            {/* Background Circle */}
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 sm:w-80 sm:h-80 bg-yellow-100 rounded-full opacity-50"></div>
-
-            {/* Device Frame */}
-            <img
-              src="/Images/Screenshot1.png"
-              alt="Device Frame"
-              className="relative z-10 w-full max-w-md mx-auto rounded-lg shadow-lg"
-            />
+            {/* Card 2 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center">
+              <div className="mb-4 p-4 bg-gray-50 rounded-full">
+                <img src="/Images/download.png" alt="Download Icon" className="w-16 h-16" />
+              </div>
+              <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{t.builtForSpeedTitle}</h3>
+              <p className="text-gray-600 text-sm">{t.builtForSpeedDescription}</p>
+            </div>
+            {/* Card 3 */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center">
+              <div className="mb-4 p-4 bg-gray-50 rounded-full">
+                <img src="/Images/security.png" alt="Security Icon" className="w-18 h-16" />
+              </div>
+              <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{t.certifiedDustproofTitle}</h3>
+              <p className="text-gray-600 text-sm">{t.certifiedDustproofDescription}</p>
+            </div>
           </div>
         </div>
       </div>
-      {/* <div className="w-full max-w-7xl mx-auto px-6 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-4">
-          
-          <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300">
-            <div className="mb-4 w-68">
-              <h2 className="text-[#0b0d0e] text-[32px] font-normal font-['Urbanist'] leading-loose">
-                Security & Safety
-              </h2>
-              <p className="justify-start text-[#838696] text-base font-normal font-['Urbanist'] leading-normal">
-                Leverage the power of our REST API to bring Sodar file into your
-                external tools and products.
-              </p>
-            </div>
-
-            <div className="relative h-42 flex items-center justify-between">
-              <button className="flex items-center text-gray-800 font-medium hover:text-gray-600 transition-colors">
-                Read documents
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </button>
-              <img
-                src="/Images/Reading glasses-bro 1.png"
-                alt="Security & Safety"
-                className="h-full object-contain"
-              />
-            </div>
-          </div>
-
-          <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300">
-            <div className="mb-4 w-60">
-              <h2 className="text-[#0b0d0e] text-[32px] font-normal font-['Urbanist'] leading-loose">
-                Development kits
-              </h2>
-              <p className="justify-start text-[#838696] text-base font-normal font-['Urbanist'] leading-normal mb-6">
-                We offer several official SDKs for certain programming languages
-                that you can use in your apps.
-              </p>
-            </div>
-
-            <div className="relative h-42 flex items-center justify-between">
-              <button className="flex items-center text-gray-800 font-medium hover:text-gray-600 transition-colors">
-                <Download className="w-4 h-4 mr-2" />
-                Download SDKs
-              </button>
-              <img
-                src="/Images/Hand coding-bro 1.png"
-                alt="Security & Safety"
-                className=" h-full object-contain"
-              />
-            </div>
-          </div>
-
-          <div className="bg-white flex justify-between p-8 shadow-sm rounded-2xl border border-gray-100 flex hover:shadow-lg transition-shadow duration-300">
-            <div className="flex flex-col justify-between h-full">
-              <div className="mb-8">
-                <h2 className="text-[#0b0d0e] text-[32px] font-normal font-['Urbanist'] leading-loose">
-                  Join our community
-                </h2>
-                <p className="justify-start text-[#838696] text-base font-normal font-['Urbanist'] leading-normal mb-6">
-                  Learn from others, share your work, and extend your tool set
-                  with a diverse group of developers from around the world.
-                </p>
-                <button className="bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors">
-                  Submit a question
-                </button>
-              </div>
-            </div>
-
-            <div className="relative h-full flex items-center justify-center overflow-hidden">
-              <img
-                src="/Images/Work chat-bro 1.png"
-                alt="Join Our Community"
-                className="h-full object-contain"
-              />
-            </div>
-          </div>
-
-          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300">
-            <div className="mb-4">
-              <h2 className="text-[#0b0d0e] text-[32px] font-normal font-['Urbanist'] leading-loose">
-                Our Technology
-              </h2>
-              <p className="justify-start text-[#838696] text-base font-normal font-['Urbanist'] leading-normal mb-6">
-                Keep track of changes and upgrades to the DevProud API.
-              </p>
-              <button className="flex items-center text-gray-800 font-medium hover:text-gray-600 transition-colors">
-                Releases
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </button>
-            </div>
-
-            <div className="relative h-38 flex items-center justify-center">
-
-              <img
-                src="/Images/Reading glasses-bro 1.png"
-                alt="Our Technology"
-                className="h-full object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         <Fade direction="right" triggerOnce>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">

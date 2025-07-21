@@ -3,9 +3,13 @@
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
+import { useLanguage } from "@/lib/languageContext";
+import { translations } from "@/lib/translations";
 
 const Footer = () => {
   const [email, setEmail] = useState('');
+  const { language } = useLanguage();
+  const t = translations[language];
 
   const handleSubscribe = () => {
     // Handle newsletter subscription
@@ -27,30 +31,30 @@ const Footer = () => {
                 className="h-10 sm:h-12 mb-3 sm:mb-4" 
               />
               <p className="text-[#7f7f7f] text-sm sm:text-base font-normal font-['Figtree'] leading-relaxed">
-                Smart Infrastructure Simplified
+                {t.smartInfrastructureSimplified}
               </p>
             </div>
 
             {/* Newsletter Subscription */}
             <div>
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-3 sm:mb-4">
-                Subscribe to Our Newsletter
+                {t.subscribeToOurNewsletter}
               </h3>
-              <div className="flex flex-col sm:flex-row gap-2 sm:gap-0">
+              <div className={`flex flex-col ${language === 'العربية' ? 'sm:flex-row-reverse' : 'sm:flex-row'} gap-2 sm:gap-0`}>
                 <div className="flex-1 relative">
                   <input
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    placeholder="Your email address"
-                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-200 rounded-md sm:rounded-l-md sm:rounded-r-none focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-sm sm:text-base"
+                    placeholder={t.yourEmailAddress}
+                    className={`w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-200 ${language === 'العربية' ? 'rounded-md sm:rounded-r-md sm:rounded-l-none' : 'rounded-md sm:rounded-l-md sm:rounded-r-none'} focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-sm sm:text-base`}
                   />
                 </div>
                 <button
                   onClick={handleSubscribe}
-                  className="bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-md sm:rounded-l-none sm:rounded-r-md transition-colors duration-200 text-sm sm:text-base"
+                  className={`bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-md transition-colors duration-200 text-sm sm:text-base ${language === 'العربية' ? 'sm:rounded-l-none sm:rounded-l-md' : 'sm:rounded-l-none sm:rounded-r-md'}`}
                 >
-                  Subscribe
+                  {t.subscribe}
                 </button>
               </div>
             </div>
@@ -77,26 +81,26 @@ const Footer = () => {
 
           {/* Useful Links */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">Useful Links</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">{t.usefulLinks}</h3>
             <ul className="space-y-1 sm:space-y-3">
               <li>
                 <Link href="/" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Home
+                  {t.home}
                 </Link>
               </li>
               <li>
                 <Link href="/portfolio" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Product
+                  {t.sadelProductsTitle || 'Products'}
                 </Link>
               </li>
               <li>
                 <Link href="/aboutus" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  About us
+                  About Us
                 </Link>
               </li>
               <li>
                 <Link href="/contact-us" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Contact us
+                  {t.contactUsButton || 'Contact Us'}
                 </Link>
               </li>
             </ul>
@@ -104,16 +108,16 @@ const Footer = () => {
 
           {/* Resources */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">Cyber SOC</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">{t.cyberSOC}</h3>
             <ul className="space-y-2 sm:space-y-3">
               <li>
                 <Link href="/services/managedSOC" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Managed SOC Services
+                  {t.manageSOCServicesTitle || 'Manage SOC Services'}
                 </Link>
               </li>
               <li>
                 <Link href="/services/azure-security-service" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Azure Security
+                  {t.azureSecurityTitle || 'Azure Security'}
                 </Link>
               </li>
               <li>
@@ -128,7 +132,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/services/microsoft-cloud-app-security" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Microsoft Cloud App Security
+                  {t.microsoftCloudAppSecurityTitle || 'Microsoft Cloud App Security'}
                 </Link>
               </li>
               <li>
@@ -141,13 +145,8 @@ const Footer = () => {
 
           {/* T&Cs */}
           <div>
-            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">Consulting Services</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4 sm:mb-6">{t.consultingServicesTitle || 'Consulting Services'}</h3>
             <ul className="space-y-2 sm:space-y-3">
-              <li>
-                <Link href="/services/azure-consulting-services" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Azure Consulting Services
-                </Link>
-              </li>
               <li>
                 <Link href="/services/azure-virtual-desktop" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
                   Azure Virtual Desktop
@@ -175,7 +174,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/services/custom-software-development" className="text-gray-600 hover:text-gray-800 transition-colors text-sm sm:text-base block py-1">
-                  Software Development Service
+                  {t.softwareDevelopmentService}
                 </Link>
               </li>
               

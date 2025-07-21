@@ -1,12 +1,14 @@
+"use client"
+
 import {
-  
-  
   // Users,
   // Upload,
   // Share2,
   // FileText,
   // CheckCircle
 } from 'lucide-react';
+import { useLanguage } from "@/lib/languageContext";
+import { translations } from "@/lib/translations";
 
 interface FeatureItem {
   text: string;
@@ -41,58 +43,68 @@ const FeatureCard: React.FC<{ category: FeatureCategory }> = ({ category }) => {
 };
 
 export default function OurKey() {
+  const { language } = useLanguage();
+  const t = translations[language];
+  const isArabic = language === 'العربية';
+
   const categories: FeatureCategory[] = [
     {
       icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
-      title: "Be Transparent",
+      title: t.beTransparentTitle,
       items: [
-        { text: "We believe in open, honest, and consistent communication across all levels.Everyone deserves access to clear information, no matter their role in the organization." }
+        { text: t.beTransparentDescription }
       ]
     },
     {
       icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
-      title: "Calculated Decisions",
+      title: t.calculatedDecisionsTitle,
       items: [
-        { text: "We rely on collaboration and data - driven insights to make smart, strategic decisions that serve the best interest of our business and our people." }
+        { text: t.calculatedDecisionsDescription }
       ]
     },
     {
       icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
-      title: "Value Each Other",
+      title: t.valueEachOtherTitle,
       items: [
-        { text: "We lift each other up, celebrate wins, and communicate with honesty and respect.We care deeply about our team’s success and support one another through every step." }
+        { text: t.valueEachOtherDescription }
       ]
     },
     {
       icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
-      title: "Embrace Innovation",
+      title: t.embraceInnovationTitle,
       items: [
-        { text: "We welcome new ideas, tools, and technologies to stay ahead.Innovation drives us to keep improving and deliver smarter, future - ready solutions." }
+        { text: t.embraceInnovationDescription }
       ]
     },
     {
       icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
-      title: "Take Ownership",
+      title: t.takeOwnershipTitle,
       items: [
-        { text: "We hold ourselves accountable—from start to finish.Every task, challenge, and achievement is owned with responsibility and integrity." }
+        { text: t.takeOwnershipDescription }
       ]
     },
     {
       icon: <img src="/Images/key 1.png" alt="Transparency" className="w-5 h-5" />,
-      title: "Deliver with Excellence",
+      title: t.deliverWithExcellenceTitle,
       items: [
-        { text: "We are committed to quality and precision.Our goal is to consistently exceed expectations and deliver impactful results in everything we do." }
+        { text: t.deliverWithExcellenceDescription }
       ]
     },
   ];
+  
   return (
-    <div className="max-w-7xl mx-auto px-8 flex flex-col">
-      <div className="text-center text-5xl font-semibold font-['Urbanist'] leading-[64px]"><span className="text-[#0b0d0e]">Our</span><span className="text-[#f9d300]"> Key Differentiators</span></div>
-      <div className="text-center max-w-5xl justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis tincidunt sem. Sed interdum eget tellus vel aliquet. Vestibulum nibh dolor</div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {categories.map((category, index) => (
-          <FeatureCard key={index} category={category} />
-        ))}
+    <div className={isArabic ? 'arabic-font' : ''}>
+      <div className="max-w-7xl mx-auto px-8 flex flex-col">
+        <div className="text-center text-5xl font-semibold font-['Urbanist'] leading-[64px]">
+          <span className="text-[#0b0d0e]">{t.ourKeyDifferentiatorsTitle.split('Key Differentiators')[0]}</span>
+          <span className="text-[#f9d300]">{t.ourKeyDifferentiatorsTitle.split('Key Differentiators')[1] || 'Key Differentiators'}</span>
+        </div>
+        <div className="text-center max-w-5xl justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">{t.ourKeyDifferentiatorsSubtitle}</div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {categories.map((category, index) => (
+            <FeatureCard key={index} category={category} />
+          ))}
+        </div>
       </div>
     </div>
   )

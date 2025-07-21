@@ -74,17 +74,31 @@
 
 /* Arabic carousel overrides */
 [lang="ar"] .carousel-track {
-  direction: ltr;
+  direction: ltr !important;
 }
 
 [lang="ar"] .carousel-slide {
-  direction: ltr;
+  direction: ltr !important;
 }
 
 [lang="ar"] .carousel-slide-tablet {
-  direction: ltr;
+  direction: ltr !important;
 }
 
 [lang="ar"] .carousel-slide-desktop {
-  direction: ltr;
+  direction: ltr !important;
+}
+
+/* Ensure carousel works properly in both languages */
+.carousel-track[style*="direction: rtl"] {
+  direction: ltr !important;
+}
+
+.carousel-slide[style*="direction: rtl"] {
+  direction: ltr !important;
+}
+
+/* Force LTR for carousel elements regardless of language */
+.carousel-container * {
+  direction: ltr !important;
 }

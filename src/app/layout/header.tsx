@@ -4,52 +4,51 @@ import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { useLanguage } from '@/lib/languageContext';
+import { translations } from '@/lib/translations';
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const { language, setLanguage } = useLanguage();
+  const t = translations[language];
 
   const navigationItems = [
-    { name: 'Product', href: '/portfolio' },
-    { name: 'Services', href: '#', hasDropdown: true },
-    // { name: 'NFT Store', href: '#' },
-    // { name: 'Pricing', href: '#' },
-    // { name: 'Developers', href: '#' },
+    { name: t.sadelProductsTitle || 'Products', href: '/portfolio' },
+    { name: t.techServicesTitle || 'Services', href: '#', hasDropdown: true },
     { name: 'About Us', href: '/aboutus' },
-    { name: 'Contact Us', href: 'contact-us' },
-    { name: 'Blog', href: '/blog' },
+    { name: t.contactUsButton || 'Contact Us', href: '/contact-us' },
+    { name: t.ourBlogsTitle || 'Blog', href: '/blog' },
   ];
 
   const servicesDropdownData = {
-    'Security': [
-      { name: 'Managed SOC Services', href: '/services/managedSOC' },
-      { name: 'Azure Security', href: '/services/azure-security-service' },
+    [t.securityTitle || 'Security']: [
+      { name: t.manageSOCServicesTitle || 'Manage SOC Services', href: '/services/managedSOC' },
+      { name: t.azureSecurityTitle || 'Azure Security', href: '/services/azure-security-service' },
       { name: 'Defender for Endpoint', href: '/services/defenderforEndpoint' },
       { name: 'Email Security', href: '/services/email-security' },
-      { name: 'Microsoft Cloud App Security', href: '/services/microsoft-cloud-app-security' },
+      { name: t.microsoftCloudAppSecurityTitle || 'Microsoft Cloud App Security', href: '/services/microsoft-cloud-app-security' },
       { name: 'Defender for Identity', href: '/services/defender-for-identity' },
       { name: 'VAPT', href: '/services/VAPT' },
-      { name: 'Network and Security Services', href: '/services/network-and-security-services' },
+      { name: t.networkAndSecurityTitle || 'Network and Security', href: '/services/network-and-security-services' },
       { name: 'Identity and Access Management', href: '/services/identity-and-access-management' },
     ],
-    'Consulting Services': [
+    [t.consultingServicesTitle || 'Consulting Services']: [
       { name: 'Azure Consulting Services', href: '/services/azure-consulting-services' },
       { name: 'Azure Virtual Desktop', href: '/services/azure-virtual-desktop' },
       { name: 'Citrix Consulting', href: '/services/citrix-consulting' },
       { name: 'PKI Consulting', href: '/services/pki-consulting' },
       { name: 'Active Directory Consulting', href: '/services/active-directory-consulting' },
       { name: 'Modern WorkPlace', href: '/services/modern-workplace' },
-      { name: `Sadel's - AI Solutions`, href: '/services/sadels-ai-solutions' },
-      { name: `Sadel's - Data Driven Solutions`, href: '/services/sadels-data-driven-solutions' },
-      { name: 'Software Development Services', href: '/services/custom-software-development' },
+      { name: "Sadel's - AI Solutions", href: '/services/sadels-ai-solutions' },
+      { name: "Sadel's - Data Driven Solutions", href: '/services/sadels-data-driven-solutions' },
+      { name: t.softwareDevelopmentService || 'Software Development Service', href: '/services/custom-software-development' },
     ],
-    'Support and Market Research': [
-      { name: 'Cloud Managed Service', href: '/services/cloud-managed-services' },
+    [t.supportResearchTitle || 'Support and Market Research']: [
+      { name: t.cloudManagedServicesTitle || 'Cloud Managed Services', href: '/services/cloud-managed-services' },
       { name: 'IT Training', href: '/services/it-training-services' },
       { name: 'Market Research', href: '/services/market-research' },
-      { name: 'Website & App Development', href: '/services/website-app-development' },
+      { name: t.websiteAppDevelopmentTitle || 'Website & App Development', href: '/services/website-app-development' },
       { name: 'IT Help Desk', href: '/services/it-help-desk' },
     ],
   };
