@@ -71,7 +71,7 @@ export default function ContactPage() {
                         </span>
                         <div>
                             <div className="font-bold text-black text-sm md:text-base">Email</div>
-                            <div className="text-gray-700 font-semibold text-sm md:text-base">hello@SADEL.com</div>
+                            <div className="text-gray-700 font-semibold text-sm md:text-base">hello@AFAQ.com</div>
                         </div>
                     </div>
                     <div className="flex items-center gap-3 md:gap-4">
@@ -130,7 +130,7 @@ export default function ContactPage() {
                                     </div>
                                     <div className="font-bold text-base md:text-lg">Media & Press</div>
                                 </div>
-                                <div className="text-gray-600 mb-4 text-sm md:text-base">Get SADEL news, company info, and media resources.</div>
+                                <div className="text-gray-600 mb-4 text-sm md:text-base">Get AFAQ news, company info, and media resources.</div>
                                 <Button  className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-4 md:px-6 py-2 md:py-3 rounded-full transition-colors font-semibold text-sm md:text-base w-full md:w-auto">
                                     Visit Newsroom
                                     <img src="/Images/arrow-right 3.png" alt="arrow" className="w-3 h-3 md:w-4 md:h-4 ml-2" />
@@ -146,7 +146,7 @@ export default function ContactPage() {
                                     </span>
                                     <div className="font-bold text-white text-sm md:text-base">Join us on Discord</div>
                                 </div>
-                                <div className="text-white text-xs md:text-sm">If you have technical questions, chat live in #developers in the official SADEL Discord server.</div>
+                                <div className="text-white text-xs md:text-sm">If you have technical questions, chat live in #developers in the official AFAQ Discord server.</div>
                             </div>
                             <div className="flex-1 rounded-2xl p-6 md:p-8 flex flex-col gap-3 md:gap-4 bg-transparent">
                                 <div className="flex items-center gap-3">
@@ -155,7 +155,7 @@ export default function ContactPage() {
                                     </span>
                                     <div className="font-bold text-white text-sm md:text-base">General communications</div>
                                 </div>
-                                <div className="text-white text-xs md:text-sm">For general queries, including partnership opportunities, please email info@SADEL.com</div>
+                                <div className="text-white text-xs md:text-sm">For general queries, including partnership opportunities, please email info@AFAQ.com</div>
                             </div>
                         </div>
                     </Fade>

@@ -70,7 +70,7 @@ export default function PortfolioPage() {
               Optimize your office <span>operations.</span>
             </h1>
             <p className="text-gray-600 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 mb-6">
-              Digitalization has streamlined and simplified various manufacturing processes. With SADEL, manufacturers of any scale can build a central repository to improve information integrity at a reduced operational cost.
+              Digitalization has streamlined and simplified various manufacturing processes. With AFAQ, manufacturers of any scale can build a central repository to improve information integrity at a reduced operational cost.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
               <Fade direction="left" triggerOnce>
@@ -114,7 +114,7 @@ export default function PortfolioPage() {
                 Unique Software <span className="text-primary">Designed For Users</span>
               </h2>
               <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto">
-                SADEL, a platform that adheres to ISO 27001 and SOC-2 compliance, enables you to effectively create, organize, and manage your resources, while getting rid of any outdated or duplicated information from your system.
+                AFAQ, a platform that adheres to ISO 27001 and SOC-2 compliance, enables you to effectively create, organize, and manage your resources, while getting rid of any outdated or duplicated information from your system.
               </p>
             </div>
 
@@ -125,7 +125,7 @@ export default function PortfolioPage() {
                   <img src="/Images/diagram.png" alt="icon" className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold mb-2 text-black">Reduce cost</h3>
-                <p className="text-gray-500 text-sm sm:text-base">Manage all files, from quality manuals and SOPs to contracts and orders, cost-effectively with SADEL.</p>
+                <p className="text-gray-500 text-sm sm:text-base">Manage all files, from quality manuals and SOPs to contracts and orders, cost-effectively with AFAQ.</p>
               </div>
 
               {/* Card 2 */}
@@ -202,7 +202,7 @@ export default function PortfolioPage() {
                 Our Top Featured <span className="text-primary">You Won&apos;t Find Anywhere</span>
               </h2>
               <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto">
-                SADEL provides a platform for employees from different departments to collaborate using real-time data. By collaborating at every stage, from concept to production, teams can produce products more efficiently.
+                AFAQ provides a platform for employees from different departments to collaborate using real-time data. By collaborating at every stage, from concept to production, teams can produce products more efficiently.
               </p>
             </div>
             <div className="flex flex-col gap-6 sm:gap-8 max-w-5xl mx-auto">
@@ -237,7 +237,7 @@ export default function PortfolioPage() {
                     Offer specific<br />access levels
                   </h3>
                   <p className="text-gray-600 text-sm sm:text-base max-w-md mx-auto lg:mx-0">
-                    Give your production team the resources they need. With SADEL, grant them access to design files without giving them access to the main folder.
+                    Give your production team the resources they need. With AFAQ, grant them access to design files without giving them access to the main folder.
                   </p>
                 </div>
               </div>
@@ -375,7 +375,7 @@ export default function PortfolioPage() {
               <div>
                 <h3 className="font-bold text-base sm:text-lg text-black mb-1">Restrict external sharing</h3>
                 <p className="text-gray-600 text-xs sm:text-sm font-['Urbanist']">
-                  An organization can incur significant costs when designs are leaked before launch. SADEL offers the ability to control file sharing outside of the team, giving you the option to decide whether employees can share files externally.
+                  An organization can incur significant costs when designs are leaked before launch. AFAQ offers the ability to control file sharing outside of the team, giving you the option to decide whether employees can share files externally.
                 </p>
               </div>
             </div>
@@ -390,7 +390,7 @@ export default function PortfolioPage() {
               <div>
                 <h3 className="font-bold text-base sm:text-lg text-black mb-1">Restrict external sharing</h3>
                 <p className="text-gray-600 text-xs sm:text-sm font-['Urbanist']">
-                  An organization can incur significant costs when designs are leaked before launch. SADEL offers the ability to control file sharing outside of the team, giving you the option to decide whether employees can share files externally.
+                  An organization can incur significant costs when designs are leaked before launch. AFAQ offers the ability to control file sharing outside of the team, giving you the option to decide whether employees can share files externally.
                 </p>
               </div>
             </div>
