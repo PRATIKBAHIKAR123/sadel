@@ -40,8 +40,8 @@ const Header = () => {
       { name: 'PKI Consulting', href: '/services/pki-consulting' },
       { name: 'Active Directory Consulting', href: '/services/active-directory-consulting' },
       { name: 'Modern WorkPlace', href: '/services/modern-workplace' },
-      { name: "Sadel's - AI Solutions", href: '/services/sadels-ai-solutions' },
-      { name: "Sadel's - Data Driven Solutions", href: '/services/sadels-data-driven-solutions' },
+      { name: "AFAQ's - AI Solutions", href: '/services/sadels-ai-solutions' },
+      { name: "AFAQ's - Data Driven Solutions", href: '/services/sadels-data-driven-solutions' },
       { name: t.softwareDevelopmentService || 'Software Development Service', href: '/services/custom-software-development' },
     ],
     [t.supportResearchTitle || 'Support and Market Research']: [
@@ -66,8 +66,8 @@ const Header = () => {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <img 
-              src="/Images/Untdesign 1.png" 
-              alt="Sadel Logo" 
+              src="/Images/لو لو .png" 
+              alt="AFAQ Logo" 
               className="h-8 sm:h-10 w-auto cursor-pointer transition-transform hover:scale-105" 
             />
           </Link>

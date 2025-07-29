@@ -60,9 +60,9 @@ export default function IdentityAccessManagement() {
                             <div className="flex gap-4">
                                 <Button
                                     onClick={handleContactRedirect}
-                                    className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold"
+                                    className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold"
                                 >
-                                    Get a free 30-minute consultation with a Sadel expert
+                                    Get a free 30-minute consultation with a AFAQ expert
                                 </Button>
                             </div>
                         </Fade>
@@ -95,23 +95,23 @@ export default function IdentityAccessManagement() {
                         </p>
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">A single identity governance foundation platform to help organizations understand, control, and make business decisions related to user access and access risks.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">A business-activity-based approach to facilitate communication between auditors and IT staff and to help determine segregation of duties violations across enterprise applications, including SAP.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Better visibility and user access control through consolidating access entitlements from target applications and employing sophisticated algorithms for role mining, modeling, and optimization.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Access request management that delivers easier-to-implement, business-friendly, self-service access request functions.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Target integration that automates the process of data collection and fulfillment of identity and access from distributed target systems.</p>
                             </div>
                         </div>
@@ -126,20 +126,20 @@ export default function IdentityAccessManagement() {
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">IAM Services Can:</h2>
                         <div className="space-y-4 mb-6">
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Enable enterprises to manage access risks by governing access control lifecycles and administration of digital identities.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Dynamically define roles, automate data authorization, and access management processes.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Reduce operational costs, mitigate risks while managing large amounts of data & identities across geographic locations.</p>
                             </div>
                         </div>
                         <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-relaxed">
-                            Our Sadel Identity Governance Fast Track is a bundled solution offering that ensures a strong foundation for enterprise IAM initiatives and can cut planning and deployment times significantly.
+                            Our AFAQ Identity Governance Fast Track is a bundled solution offering that ensures a strong foundation for enterprise IAM initiatives and can cut planning and deployment times significantly.
                         </p>
                     </div>
                 </Fade>
@@ -152,23 +152,23 @@ export default function IdentityAccessManagement() {
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Solution Components:</h2>
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Plug and play IAM policy and procedure toolkits.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Seamlessly integration with multiple standards & HRMS systems.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Non-employee account modules.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Easily configurable approval workflow templates.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Ensure common alerts and essential report sets.</p>
                             </div>
                         </div>
@@ -207,19 +207,19 @@ export default function IdentityAccessManagement() {
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Outcomes You Can Experience:</h2>
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Comprehensive governance of access controls across business functions.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Transform IAM through preventive and detective controls, onboard apps, and ensure continuous audit readiness.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Service capabilities to move IAM to the cloud and manage cloud-based workloads.</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Decentralized access control solutions for microservices; these solutions are based on open protocols and built for scale & interoperability.</p>
                             </div>
                         </div>
@@ -295,9 +295,9 @@ export default function IdentityAccessManagement() {
                         </p>
                         <Button 
                             onClick={handleContactRedirect}
-                            className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg"
+                            className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-4 rounded-lg font-semibold text-lg"
                         >
-                            Get a free 30-minute consultation with a Sadel expert
+                            Get a free 30-minute consultation with a AFAQ expert
                         </Button>
                     </div>
                 </Fade>

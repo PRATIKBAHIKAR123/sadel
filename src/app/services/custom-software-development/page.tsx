@@ -16,11 +16,11 @@ const CustomSoftwareDevelopmentPage = () => (
                                 <span className="hero-title-accent">Secure Your Digital Future.</span>
                             </h1>
                             <p className="hero-description">
-                                At Sadel, we transform your ideas into enterprise-grade applications that are fast, scalable, and secure. Whether you&apos;re building a new digital product or modernizing a legacy system, our custom software development services ensure performance, flexibility, and business value on time and within budget.
+                                At AFAQ, we transform your ideas into enterprise-grade applications that are fast, scalable, and secure. Whether you&apos;re building a new digital product or modernizing a legacy system, our custom software development services ensure performance, flexibility, and business value on time and within budget.
                             </p>
                             <div className="flex gap-4">
-                                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                    Get Free Consultation with a Sadel expert
+                                <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                    Get Free Consultation with a AFAQ expert
 
                                 </Button>
                                 {/* <Button variant="outline">Explore Services</Button> */}
@@ -51,7 +51,7 @@ const CustomSoftwareDevelopmentPage = () => (
                             Our Capabilities
                         </h2>
                         <p>
-                            At Sadel, we offer a comprehensive suite of software development services tailored to meet the unique needs of your business. Whether you&apos;re a startup or an enterprise, our capabilities span across various technologies and platforms to deliver innovative and scalable digital solutions that drive real business value.
+                            At AFAQ, we offer a comprehensive suite of software development services tailored to meet the unique needs of your business. Whether you&apos;re a startup or an enterprise, our capabilities span across various technologies and platforms to deliver innovative and scalable digital solutions that drive real business value.
                             <br /><br />
                             Our team of experienced developers and architects work collaboratively to understand your specific requirements and deliver solutions that not only meet your current needs but also scale with your future growth.
                         </p>
@@ -108,7 +108,7 @@ const CustomSoftwareDevelopmentPage = () => (
                     <Fade direction="right" key={index} delay={index * 100}>
                         <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                             <div className="flex items-start gap-4">
-                                <div className="bg-[#f9d300] text-black w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">
+                                <div className="bg-[#8a78bd] text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">
                                     {capability.number}
                                 </div>
                                 <div>
@@ -194,7 +194,7 @@ const CustomSoftwareDevelopmentPage = () => (
                     {/* Left: Text */}
                     <div className="feature-content">
                         <h2>
-                            Why Choose Sadel for Software Development?
+                            Why Choose AFAQ for Software Development?
                         </h2>
                         <p>
                             Our software development services are built on a foundation of technical excellence, industry expertise, and unwavering commitment to client success. Here&apos;s what sets us apart:
@@ -209,7 +209,7 @@ const CustomSoftwareDevelopmentPage = () => (
                         </ul>
                     </div>
                     <div className="feature-image">
-                        <img src="/Images/Frame (6).png" alt="Why Choose Sadel" className="w-full max-w-xs h-auto" />
+                        <img src="/Images/Frame (6).png" alt="Why Choose AFAQ" className="w-full max-w-xs h-auto" />
                     </div>
                 </div>
             </div>

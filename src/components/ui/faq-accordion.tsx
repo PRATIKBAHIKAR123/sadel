@@ -30,7 +30,7 @@ const FAQAccordion: React.FC<FAQAccordionProps> = ({ faqs }) => {
               className="w-full p-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
             >
               <h4 className="text-lg font-bold text-[#0b0d0e] font-['Urbanist'] flex items-center">
-                <span className="mr-3 text-yellow-400">▶</span>
+                <span className="mr-3 text-primary">▶</span>
                 {faq.question}
               </h4>
               <ChevronDown 

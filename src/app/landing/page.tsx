@@ -28,7 +28,7 @@ export default function LandingPage() {
               <span className="text-[#0e0f10] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
                 {t.heroTitle1}{" "}
               </span>
-              <span className="text-[#f9d300] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
+              <span className="text-primary text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
                 {t.heroTitle2}
               </span>
               <span className="text-[#0e0f10] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
@@ -41,10 +41,10 @@ export default function LandingPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8">
               <Link href="/portfolio">
-                <Button className="w-full sm:w-auto">{t.itSolutionsButton}</Button>
+                <Button className="w-full sm:w-auto text-white">{t.itSolutionsButton}</Button>
               </Link>
               <Link href="/edtechSolutions">
-                <Button className="w-full sm:w-auto">{t.educationalSolutionsButton}</Button>
+                <Button className="w-full sm:w-auto text-white">{t.educationalSolutionsButton}</Button>
               </Link>
             </div>
             <div className="relative mt-8 sm:mt-12">
@@ -69,10 +69,10 @@ export default function LandingPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
             {/* Header Section */}
             <div className="text-center mb-12 sm:mb-16">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                <span className="text-yellow-400">Sadel</span> {t.madeTechEasyTitle.replace('Sadel Made Tech Easy', '').trim()}
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
+                <span className="text-primary">AFAQ</span> {t.madeTechEasyTitle.replace('AFAQ Made Tech Easy', '').trim()}
               </h1>
-              <p className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+              <p className="text-black text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
                 {t.madeTechEasySubtitle}
               </p>
             </div>
@@ -82,16 +82,16 @@ export default function LandingPage() {
               {/* Left Content */}
               <div className="space-y-6 sm:space-y-8">
                 <div>
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-                    <span className="text-yellow-400">{t.simplifiesTitle1}</span>
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-4 sm:mb-6">
+                    <span className="text-primary">{t.simplifiesTitle1}</span>
                     <br />
                     {t.simplifiesTitle2}
                   </h2>
-                  <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
+                  <p className="text-black text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
                     {t.simplifiesSubtitle}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
+                    <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
                       {t.gettingStartedButton}
                     </Button>
                     <Button variant="outline" className="w-full sm:w-auto">{t.learnMoreButton}</Button>
@@ -112,11 +112,11 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-              <span className="text-yellow-400">Sadel</span> {t.expertITTitle.replace('Sadel Expert IT Solutions', '').trim()}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
+              <span className="text-primary">AFAQ</span> {t.expertITTitle.replace('AFAQ Expert IT Solutions', '').trim()}
             </h1>
-            <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto leading-relaxed">
-              <span className="font-semibold text-gray-900">
+            <p className="text-white text-base sm:text-lg max-w-4xl mx-auto leading-relaxed">
+              <span className="font-semibold text-white">
                 {t.expertITSubtitle.split('delivers')[0].trim()}
               </span>{" "}
               {t.expertITSubtitle.split('delivers')[1]}
@@ -128,25 +128,25 @@ export default function LandingPage() {
             {/* Managed SOC Service */}
             <div className="h-full flex">
               <Slide>
-                <div className="bg-yellow-50 rounded-2xl p-6 sm:p-8 hover:shadow-lg transition-shadow flex flex-col justify-between h-full">
+                <div className="bg-[#8a78bd] rounded-2xl p-6 sm:p-8 hover:shadow-lg transition-shadow flex flex-col justify-between h-full">
                   <div>
-                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-yellow-400 rounded-full flex items-center justify-center mb-4 sm:mb-6 overflow-hidden">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full flex items-center justify-center mb-4 sm:mb-6 overflow-hidden">
                       <img
                         src="/Images/manage.png"
                         alt="Managed SOC"
                         className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
                       />
                     </div>
-                    <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
                       {t.securityTitle}
                     </h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
+                    <p className="text-white mb-6 leading-relaxed text-sm sm:text-base">
                       {t.securityDescription}
                     </p>
                   </div>
                   <Link
                     href="/services/azure-security-service"
-                    className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
+                    className="flex items-center text-white font-semibold hover:text-gray-100 transition-colors group mt-auto text-sm sm:text-base"
                   >
                     {t.learnMore}
                     <svg
@@ -170,25 +170,25 @@ export default function LandingPage() {
             {/* Cloud Managed Services */}
             <div className="h-full flex">
               <Slide>
-                <div className="bg-yellow-50 rounded-2xl p-6 sm:p-8 hover:shadow-lg transition-shadow flex flex-col justify-between h-full">
+                <div className="bg-[#8a78bd] rounded-2xl p-6 sm:p-8 hover:shadow-lg transition-shadow flex flex-col justify-between h-full">
                   <div>
-                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-yellow-400 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full flex items-center justify-center mb-4 sm:mb-6">
                       <img
                         src="/Images/cloud.png"
                         alt="Cloud Managed Services"
                         className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
                       />
                     </div>
-                    <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
                       {t.consultingServicesTitle}
                     </h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
+                    <p className="text-white mb-6 leading-relaxed text-sm sm:text-base">
                       {t.consultingServicesDescription}
                     </p>
                   </div>
                   <Link
                     href="/services/citrix-consulting"
-                    className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
+                    className="flex items-center text-white font-semibold hover:text-gray-100 transition-colors group mt-auto text-sm sm:text-base"
                   >
                     {t.learnMore}
                     <svg
@@ -212,25 +212,25 @@ export default function LandingPage() {
             {/* Microsoft Cloud Security */}
             <div className="h-full flex">
               <Slide>
-                <div className="bg-yellow-50 rounded-2xl p-6 sm:p-8 hover:shadow-lg transition-shadow flex flex-col justify-between h-full">
+                <div className="bg-[#8a78bd] rounded-2xl p-6 sm:p-8 hover:shadow-lg transition-shadow flex flex-col justify-between h-full">
                   <div>
-                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-yellow-400 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                    <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full flex items-center justify-center mb-4 sm:mb-6">
                       <img
                         src="/Images/microsoft.png"
                         alt="Microsoft Cloud Security"
                         className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
                       />
                     </div>
-                    <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+                    <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
                       {t.supportResearchTitle}
                     </h3>
-                    <p className="text-gray-600 mb-6 leading-relaxed text-sm sm:text-base">
+                    <p className="text-white mb-6 leading-relaxed text-sm sm:text-base">
                       {t.supportResearchDescription}
                     </p>
                   </div>
                   <Link
                     href="/services/market-research"
-                    className="flex items-center text-gray-800 font-semibold hover:text-yellow-600 transition-colors group mt-auto text-sm sm:text-base"
+                    className="flex items-center text-white font-semibold hover:text-gray-100 transition-colors group mt-auto text-sm sm:text-base"
                   >
                     {t.learnMore}
                     <svg
@@ -267,7 +267,7 @@ export default function LandingPage() {
               <div className="w-full sm:w-68 h-auto sm:h-68 item-center justify-center mt-6 sm:mt-8">
                 <img
                   src="/Images/deupload-file-sharing 2.png"
-                  alt="Sadel It Solutions"
+                  alt="AFAQ It Solutions"
                   className="w-full h-auto max-w-sm sm:max-w-none"
                 />
               </div>
@@ -282,11 +282,11 @@ export default function LandingPage() {
               <div className="w-full sm:w-68 relative item-center justify-center mt-6 sm:mt-8">
                 <img
                   src="/Images/Screenshot-2.png"
-                  alt="Sadel It Solutions"
+                  alt="AFAQ It Solutions"
                 />
                 <img
                   src="/Images/Untit design 1.png"
-                  alt="Sadel It Solutions"
+                  alt="AFAQ It Solutions"
                   className="absolute right-2 -bottom-10 h-full hidden sm:block"
                 />
               </div>
@@ -299,11 +299,11 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           {/* Header */}
           <div className="text-center mb-12">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              {t.teachingTechTitle} <span className="text-black">{t.teachingTechSubtitle}</span>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
+              {t.teachingTechTitle} <span className="text-white">{t.teachingTechSubtitle}</span>
             </h1>
             <div className="flex items-center justify-center gap-2">
-              <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">{t.teachingTechSubtitle}</span>
+              <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">{t.teachingTechSubtitle}</span>
               <div className="w-6 sm:w-8 h-1 bg-blue-500 rounded-full ml-2"></div>
             </div>
           </div>
@@ -314,24 +314,24 @@ export default function LandingPage() {
               <div className="mb-4 p-4 bg-gray-50 rounded-full">
                 <img src="/Images/pencil (1).png" alt="Smartphone Icon" className="w-16 h-16" />
               </div>
-              <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{t.naturalWritingTitle}</h3>
-              <p className="text-gray-600 text-sm">{t.naturalWritingDescription}</p>
+              <h3 className="text-lg sm:text-xl font-bold text-black mb-2">{t.naturalWritingTitle}</h3>
+              <p className="text-black text-sm">{t.naturalWritingDescription}</p>
             </div>
             {/* Card 2 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center">
               <div className="mb-4 p-4 bg-gray-50 rounded-full">
                 <img src="/Images/download.png" alt="Download Icon" className="w-16 h-16" />
               </div>
-              <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{t.builtForSpeedTitle}</h3>
-              <p className="text-gray-600 text-sm">{t.builtForSpeedDescription}</p>
+              <h3 className="text-lg sm:text-xl font-bold text-black mb-2">{t.builtForSpeedTitle}</h3>
+              <p className="text-black text-sm">{t.builtForSpeedDescription}</p>
             </div>
             {/* Card 3 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg flex flex-col items-center text-center">
               <div className="mb-4 p-4 bg-gray-50 rounded-full">
                 <img src="/Images/security.png" alt="Security Icon" className="w-18 h-16" />
               </div>
-              <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{t.certifiedDustproofTitle}</h3>
-              <p className="text-gray-600 text-sm">{t.certifiedDustproofDescription}</p>
+              <h3 className="text-lg sm:text-xl font-bold text-black mb-2">{t.certifiedDustproofTitle}</h3>
+              <p className="text-black text-sm">{t.certifiedDustproofDescription}</p>
             </div>
           </div>
         </div>
@@ -346,7 +346,7 @@ export default function LandingPage() {
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">{t.digitalKiosksTitle}</h2>
                   <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">{t.digitalKiosksDescription}</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
+                <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -364,7 +364,7 @@ export default function LandingPage() {
                     {t.surveillanceCamerasDescription}
                   </p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
+                <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
                   {t.checkoutProduct}
                 </button>
               </div>
@@ -391,7 +391,7 @@ export default function LandingPage() {
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">{t.soundSystemTitle}</h2>
                   <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">{t.soundSystemDescription}</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
+                <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -404,7 +404,7 @@ export default function LandingPage() {
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">{t.ledDisplayTitle}</h2>
                   <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">{t.ledDisplayDescription}</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
+                <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">{t.checkoutProduct}</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/tv.png" alt="LED Display" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -416,7 +416,7 @@ export default function LandingPage() {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         {/* Section Header */}
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
             {t.ourClientsTitle}
           </h2>
         </div>
@@ -429,7 +429,7 @@ export default function LandingPage() {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         {/* Section Header */}
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
             {t.ourBlogsTitle}
           </h2>
         </div>
@@ -448,7 +448,7 @@ export default function LandingPage() {
             {/* Content Overlay */}
             <div className="mx-4 sm:mx-6 absolute bottom-3 sm:bottom-5 left-0 right-0 bg-white p-3 sm:p-4">
               <div className="flex items-center space-x-2 sm:space-x-3">
-                <div className="w-1 h-6 sm:h-8 bg-yellow-400 rounded-full"></div>
+                <div className="w-1 h-6 sm:h-8 bg-[#8a78bd] rounded-full"></div>
                 <h3 className="text-[#1e1e1e] text-sm sm:text-base md:text-xl font-semibold font-['Figtree'] leading-tight sm:leading-7">
                   {t.elevatedMeetingTitle}
                 </h3>
@@ -467,7 +467,7 @@ export default function LandingPage() {
             {/* Content Overlay */}
             <div className="mx-4 sm:mx-6 absolute bottom-3 sm:bottom-5 left-0 right-0 bg-white p-3 sm:p-4">
               <div className="flex items-center space-x-2 sm:space-x-3">
-                <div className="w-1 h-6 sm:h-8 bg-yellow-400 rounded-full"></div>
+                <div className="w-1 h-6 sm:h-8 bg-[#8a78bd] rounded-full"></div>
                 <h3 className="text-[#1e1e1e] text-sm sm:text-base md:text-xl font-semibold font-['Figtree'] leading-tight sm:leading-7">
                   {t.learnImmersiveTitle}
                 </h3>
@@ -485,7 +485,7 @@ export default function LandingPage() {
             {/* Content Overlay */}
             <div className="mx-4 sm:mx-6 absolute bottom-3 sm:bottom-5 left-0 right-0 bg-white p-3 sm:p-4">
               <div className="flex items-center space-x-2 sm:space-x-3">
-                <div className="w-1 h-6 sm:h-8 bg-yellow-400 rounded-full"></div>
+                <div className="w-1 h-6 sm:h-8 bg-[#8a78bd] rounded-full"></div>
                 <h3 className="text-[#1e1e1e] text-sm sm:text-base md:text-xl font-semibold font-['Figtree'] leading-tight sm:leading-7">
                   {t.interactiveScreensTitle}
                 </h3>
@@ -498,7 +498,7 @@ export default function LandingPage() {
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         {/* Section Header */}
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
             {t.ourSuccessPartnerTitle}
           </h2>
         </div>
@@ -509,7 +509,7 @@ export default function LandingPage() {
         />
       </div>
       <div className="text-center px-4 sm:px-6">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+        <h2 className="text-2xl sm:text-3xl font-bold text-black">
           {t.testimonialTitle}
         </h2>
       </div>

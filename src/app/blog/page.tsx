@@ -71,13 +71,13 @@ export default function BlogPage() {
           </div>
         </Fade>
         <Slide direction="up" triggerOnce>
-          <div className="flex flex-col lg:flex-row bg-[#F9D400] rounded-2xl overflow-hidden mb-8 sm:mb-10 lg:mb-12">
+          <div className="flex flex-col lg:flex-row bg-[#a895d2] rounded-2xl overflow-hidden mb-8 sm:mb-10 lg:mb-12">
             <div className="flex-1 p-4 sm:p-6 lg:p-8 flex flex-col justify-center">
               <div className="text-xs sm:text-sm mb-3 sm:mb-4 font-semibold">FEATURE</div>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3 sm:mb-4 font-['Urbanist'] leading-tight sm:leading-normal">Don&apos;t underestimate the outsized impact of short-term goals</h2>
               <div className="text-white mb-4 sm:mb-6 text-sm sm:text-base">If long-term goals are the destination, short-term goals are the roadmap.</div>
               <Link href="/blog/details">
-                <Button className="bg-white text-black rounded-l px-6 sm:px-8 py-2 sm:py-3 mt-4 w-fit font-semibold text-sm sm:text-base">
+                <Button className="bg-[#8a78bd] text-white rounded-l px-6 sm:px-8 py-2 sm:py-3 mt-4 w-fit font-semibold text-sm sm:text-base">
                   Read Now
                 </Button>
               </Link>            

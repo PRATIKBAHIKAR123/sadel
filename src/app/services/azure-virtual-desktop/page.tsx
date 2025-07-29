@@ -52,9 +52,9 @@ export default function AzureVirtualDesktop() {
               <div className="flex gap-4">
                 <Button
                   onClick={handleContactRedirect}
-                  className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold"
+                  className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold"
                 >
-                  Get a free 30-minute consultation with a Sadel expert
+                  Get a free 30-minute consultation with a AFAQ expert
                 </Button>
               </div>
             </Fade>
@@ -118,11 +118,11 @@ export default function AzureVirtualDesktop() {
       <div className="max-w-7xl mx-auto p-6">
         <Fade direction="left">
           <div className="bg-white rounded-3xl p-8 shadow-lg flex flex-wrap gap-4 justify-center">
-            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Financial Services</span>
-            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Government</span>
-            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Manufacturing</span>
-            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Retail</span>
-            <span className="bg-[#f9d300] text-black px-6 py-2 rounded-full font-semibold">Health Care</span>
+            <span className="bg-[#8a78bd] text-white px-6 py-2 rounded-full font-semibold">Financial Services</span>
+            <span className="bg-[#8a78bd] text-white px-6 py-2 rounded-full font-semibold">Government</span>
+            <span className="bg-[#8a78bd] text-white px-6 py-2 rounded-full font-semibold">Manufacturing</span>
+            <span className="bg-[#8a78bd] text-white px-6 py-2 rounded-full font-semibold">Retail</span>
+            <span className="bg-[#8a78bd] text-white px-6 py-2 rounded-full font-semibold">Health Care</span>
           </div>
         </Fade>
       </div>
@@ -146,9 +146,9 @@ export default function AzureVirtualDesktop() {
             <div className="text-center mt-6">
               <Button 
                 onClick={handleContactRedirect}
-                className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold"
+                className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-6 py-3 rounded-lg font-semibold"
               >
-                Get a free 30-minute consultation with a Sadel expert
+                Get a free 30-minute consultation with a AFAQ expert
               </Button>
             </div>
           </div>

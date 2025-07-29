@@ -42,14 +42,14 @@ export default function VAPT() {
                                 Vulnerability Assessment and Penetration Testing (VAPT) Services
                             </h2>
                             <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
-                                At Sadel, we specialize in comprehensive VAPT services to identify, analyze, and fortify your IT infrastructure against potential security vulnerabilities. Our mission is to ensure robust and resilient digital defenses for your business.
+                                At AFAQ, we specialize in comprehensive VAPT services to identify, analyze, and fortify your IT infrastructure against potential security vulnerabilities. Our mission is to ensure robust and resilient digital defenses for your business.
                             </p>
                             <div className="flex gap-4">
                                 <Button
                                     onClick={handleContactRedirect}
-                                    className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold"
+                                    className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold"
                                 >
-                                    Get a free 30-minute consultation with a Sadel expert
+                                    Get a free 30-minute consultation with a AFAQ expert
                                 </Button>
                             </div>
                         </Fade>
@@ -84,7 +84,7 @@ export default function VAPT() {
                     <div className="bg-white rounded-3xl p-8 shadow-lg">
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Introduction</h2>
                         <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-relaxed">
-                            At Sadel, we specialize in offering comprehensive Vulnerability Assessment and Penetration Testing (VAPT) services. Our mission is to identify, analyze, and fortify against potential security vulnerabilities in your IT infrastructure, ensuring robust and resilient digital defenses.
+                            At AFAQ, we specialize in offering comprehensive Vulnerability Assessment and Penetration Testing (VAPT) services. Our mission is to identify, analyze, and fortify against potential security vulnerabilities in your IT infrastructure, ensuring robust and resilient digital defenses.
                         </p>
                     </div>
                 </Fade>
@@ -183,7 +183,7 @@ export default function VAPT() {
 
             {/* Why Choose VAPT Section */}
             <div className="max-w-7xl mx-auto p-3">
-                <div className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Why Choose Sadel for VAPT?</div>
+                <div className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Why Choose AFAQ for VAPT?</div>
             </div>
             <div className="flex flex-col gap-10 max-w-7xl mx-auto p-8">
                 <div className="flex flex-cols md:flex-row items-center justify-between gap-20">
@@ -262,9 +262,9 @@ export default function VAPT() {
                         </p>
                         <Button 
                             onClick={handleContactRedirect}
-                            className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg"
+                            className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-black px-8 py-4 rounded-lg font-semibold text-lg"
                         >
-                            Get a free 30-minute consultation with a Sadel expert
+                            Get a free 30-minute consultation with a AFAQ expert
                         </Button>
                     </div>
                 </Fade>

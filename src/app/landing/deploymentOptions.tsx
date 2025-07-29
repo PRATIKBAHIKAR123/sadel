@@ -53,7 +53,7 @@ export default function FlexibleDeploymentOptions() {
                   onClick={() => setActiveTab(tab as TabKey)}
                   className={`px-6 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
                     activeTab === tab
-                      ? "bg-yellow-400 text-gray-900 shadow-sm"
+                      ? "bg-[#8a78bd] text-gray-900 shadow-sm"
                       : "text-gray-600 hover:text-gray-900"
                   }`}
                 >

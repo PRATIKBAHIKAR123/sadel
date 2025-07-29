@@ -16,12 +16,12 @@ export default function ManagedSOC(){
                                 Keep Your Security Operations Strong and Scalable
                             </h2>
                             <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
-                                Sadel Vision delivers a comprehensive managed Security Operations Center (SOC) service that identifies and responds to intrusions across your PCs, servers, networks, cloud security, and email accounts. Our expert security professionals provide real-time monitoring, proactive prevention, and rapid response to security threats of varying complexity.
+                                AFAQ delivers a comprehensive managed Security Operations Center (SOC) service that identifies and responds to intrusions across your PCs, servers, networks, cloud security, and email accounts. Our expert security professionals provide real-time monitoring, proactive prevention, and rapid response to security threats of varying complexity.
                             </p>
                             <div className="flex gap-4">
                                 <Link href="/contact-us">
-                                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                        Get a free consultation with a Sadel expert
+                                    <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                        Get a free consultation with a AFAQ expert
                                     </Button>
                                 </Link>
                                 {/* <Button variant="outline">Learn More</Button> */}
@@ -43,11 +43,11 @@ export default function ManagedSOC(){
             </div>
 
 
-            {/* Why Choose Sadel Section */}
+            {/* Why Choose AFAQ Section */}
             <div className="max-w-7xl mx-auto p-3">
                 <Fade direction="up" triggerOnce>
                     <div className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px] mb-6">
-                        Why Choose Sadel for Your Managed SOC Service?
+                        Why Choose AFAQ for Your Managed SOC Service?
                     </div>
                     <div className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-1">
                         We help companies enhance their security operations and provide superior asset safeguarding compared to internal SOCs through our readily available team of cybersecurity experts.
@@ -71,8 +71,8 @@ export default function ManagedSOC(){
                         <Fade direction="up" key={index} delay={index * 100}>
                             <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                                 <div className="flex items-center gap-3">
-                                    <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                                        <span className="text-black font-bold text-sm">✓</span>
+                                    <div className="w-8 h-8 bg-[#8a78bd] rounded-full flex items-center justify-center">
+                                        <span className="text-white font-bold text-sm">✓</span>
                                     </div>
                                     <p className="text-[#5c5f6e] text-sm leading-relaxed font-medium">
                                         {benefit}
@@ -215,8 +215,8 @@ export default function ManagedSOC(){
                         <Fade direction="up" key={index} delay={index * 100}>
                             <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                                 <div className="flex items-center gap-3">
-                                    <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                                        <span className="text-black font-bold text-sm">✓</span>
+                                    <div className="w-8 h-8 bg-[#8a78bd] rounded-full flex items-center justify-center">
+                                        <span className="text-white font-bold text-sm">✓</span>
                                     </div>
                                     <p className="text-[#5c5f6e] text-sm leading-relaxed font-medium">
                                         {benefit}
@@ -229,8 +229,8 @@ export default function ManagedSOC(){
 
                 <div className="text-center">
                     <Link href="/contact-us">
-                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                            Get a free 30-minute consultation with a Sadel expert
+                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                            Get a free 30-minute consultation with a AFAQ expert
                         </Button>
                     </Link>
                 </div>
@@ -257,7 +257,7 @@ export default function ManagedSOC(){
                             ))}
                         </div>
                         <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
-                            Learn how to maximize your company&apos;s technological and financial potential with a free consultation from Sadel.
+                            Learn how to maximize your company&apos;s technological and financial potential with a free consultation from AFAQ.
                         </p>
                     </div>
                 </Fade>

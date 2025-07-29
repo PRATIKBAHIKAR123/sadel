@@ -18,7 +18,7 @@ export default function MicrosoftCloudeApp() {
         },
         {
             question: "Are Microsoft apps secure?",
-            answer: "Microsoft apps provide a solid security foundation, but they benefit from additional layers of protection. Sadel enhances Microsoft's built-in security with advanced threat detection, user behavior monitoring, and comprehensive compliance features to ensure your cloud applications remain secure against evolving threats."
+            answer: "Microsoft apps provide a solid security foundation, but they benefit from additional layers of protection. AFAQ enhances Microsoft's built-in security with advanced threat detection, user behavior monitoring, and comprehensive compliance features to ensure your cloud applications remain secure against evolving threats."
         },
         {
             question: "How do I set up Microsoft Cloud App Security?",
@@ -39,7 +39,7 @@ export default function MicrosoftCloudeApp() {
                     <div className="space-y-8">
                         <Fade direction="up" triggerOnce>
                             <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-[64px] font-['Urbanist']">
-                                Securing User Behavior with <span className="text-yellow-400">Microsoft Cloud App Security</span>
+                                Securing User Behavior with <span className="text-primary">Microsoft Cloud App Security</span>
                             </h1>
                             <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
                                 Microsoft Cloud App Security, now known as Microsoft Defender for Cloud Apps, is a comprehensive Cloud Access Security Broker (CASB) that protects your data, detects cyber threats, and controls access across cloud environments.
@@ -47,9 +47,9 @@ export default function MicrosoftCloudeApp() {
                             <div className="flex gap-4 flex-col sm:flex-row">
                                 <Button
                                     onClick={handleContactRedirect}
-                                    className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold w-full sm:w-auto"
+                                    className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold w-full sm:w-auto"
                                 >
-                                    Get a free 30-minute consultation with a Sadel expert
+                                    Get a free 30-minute consultation with a AFAQ expert
                                 </Button>
                                 {/* <Button variant="outline" className="w-full sm:w-auto">Learn More</Button> */}
                             </div>
@@ -92,7 +92,7 @@ export default function MicrosoftCloudeApp() {
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">Core Features</h3>
                                 <div className="space-y-4">
                                     <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
-                                        <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center">
                                             <span className="text-white font-bold">✓</span>
                                         </div>
                                         <div>
@@ -101,7 +101,7 @@ export default function MicrosoftCloudeApp() {
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
-                                        <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center">
                                             <span className="text-white font-bold">⚙</span>
                                         </div>
                                         <div>
@@ -110,7 +110,7 @@ export default function MicrosoftCloudeApp() {
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
-                                        <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center">
                                             <span className="text-white font-bold">☁</span>
                                         </div>
                                         <div>
@@ -119,7 +119,7 @@ export default function MicrosoftCloudeApp() {
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
-                                        <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center">
                                             <span className="text-white font-bold">📊</span>
                                         </div>
                                         <div>
@@ -135,7 +135,7 @@ export default function MicrosoftCloudeApp() {
                                 <h3 className="text-xl font-bold text-gray-900 mb-4">Security Capabilities</h3>
                                 <div className="space-y-4">
                                     <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
-                                        <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center">
                                             <span className="text-white font-bold">🔍</span>
                                         </div>
                                         <div>
@@ -144,7 +144,7 @@ export default function MicrosoftCloudeApp() {
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
-                                        <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center">
                                             <span className="text-white font-bold">🔄</span>
                                         </div>
                                         <div>
@@ -153,7 +153,7 @@ export default function MicrosoftCloudeApp() {
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
-                                        <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center">
                                             <span className="text-white font-bold">👤</span>
                                         </div>
                                         <div>
@@ -162,7 +162,7 @@ export default function MicrosoftCloudeApp() {
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
-                                        <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center">
+                                        <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center">
                                             <span className="text-white font-bold">🛡</span>
                                         </div>
                                         <div>
@@ -208,32 +208,32 @@ export default function MicrosoftCloudeApp() {
                         {/* Left: Text */}
                         <div>
                             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                                How Sadel Helps Secure Your Cloud Environment
+                                How AFAQ Helps Secure Your Cloud Environment
                             </h2>
                             <p className="text-gray-600 text-base sm:text-lg mb-6">
                                 Our expert team helps organizations uncover Shadow IT, monitor user activities, limit access to sensitive data, prevent information leaks, and ensure compliance with industry regulations.
                             </p>
                             <div className="space-y-3">
                                 <div className="flex items-center gap-3">
-                                    <div className="bg-yellow-400 w-6 h-6 rounded-full flex items-center justify-center">
+                                    <div className="bg-[#8a78bd] w-6 h-6 rounded-full flex items-center justify-center">
                                         <span className="text-white text-sm">✓</span>
                                     </div>
                                     <span className="text-gray-700">Uncover and manage Shadow IT</span>
                                 </div>
                                 <div className="flex items-center gap-3">
-                                    <div className="bg-yellow-400 w-6 h-6 rounded-full flex items-center justify-center">
+                                    <div className="bg-[#8a78bd] w-6 h-6 rounded-full flex items-center justify-center">
                                         <span className="text-white text-sm">✓</span>
                                     </div>
                                     <span className="text-gray-700">Monitor user activities in real-time</span>
                                 </div>
                                 <div className="flex items-center gap-3">
-                                    <div className="bg-yellow-400 w-6 h-6 rounded-full flex items-center justify-center">
+                                    <div className="bg-[#8a78bd] w-6 h-6 rounded-full flex items-center justify-center">
                                         <span className="text-white text-sm">✓</span>
                                     </div>
                                     <span className="text-gray-700">Prevent sensitive information leaks</span>
                                 </div>
                                 <div className="flex items-center gap-3">
-                                    <div className="bg-yellow-400 w-6 h-6 rounded-full flex items-center justify-center">
+                                    <div className="bg-[#8a78bd] w-6 h-6 rounded-full flex items-center justify-center">
                                         <span className="text-white text-sm">✓</span>
                                     </div>
                                     <span className="text-gray-700">Ensure regulatory compliance</span>
@@ -257,28 +257,28 @@ export default function MicrosoftCloudeApp() {
                         </h2>
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                             <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <div className="bg-[#8a78bd] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <span className="text-white text-2xl">👥</span>
                                 </div>
                                 <h3 className="font-bold text-gray-900 mb-2">Access Control</h3>
                                 <p className="text-gray-600 text-sm">See who has access to what data and applications</p>
                             </div>
                             <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <div className="bg-[#8a78bd] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <span className="text-white text-2xl">📊</span>
                                 </div>
                                 <h3 className="font-bold text-gray-900 mb-2">Activity Monitoring</h3>
                                 <p className="text-gray-600 text-sm">Keep tabs on what people are doing in your cloud apps</p>
                             </div>
                             <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <div className="bg-[#8a78bd] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <span className="text-white text-2xl">🔒</span>
                                 </div>
                                 <h3 className="font-bold text-gray-900 mb-2">Data Protection</h3>
                                 <p className="text-gray-600 text-sm">Use categories to keep private data safe and secure</p>
                             </div>
                             <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <div className="bg-[#8a78bd] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <span className="text-white text-2xl">📋</span>
                                 </div>
                                 <h3 className="font-bold text-gray-900 mb-2">Compliance</h3>
@@ -351,7 +351,7 @@ export default function MicrosoftCloudeApp() {
                             <h3 className="text-xl font-bold text-gray-900 mb-4">Future-proof yourself. Discover security measures today.</h3>
                             <Button 
                                 onClick={handleContactRedirect}
-                                className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg"
+                                className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-4 rounded-lg font-semibold text-lg"
                             >
                                 Contact Sales
                             </Button>
@@ -374,7 +374,7 @@ export default function MicrosoftCloudeApp() {
 
             {/* Call to Action Section */}
             {/* <Fade direction="up" triggerOnce>
-                <div className="py-12 sm:py-16 bg-yellow-50">
+                <div className="py-12 sm:py-16 bg-[#8a78bd]">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                             Ready to secure your cloud applications?
@@ -384,9 +384,9 @@ export default function MicrosoftCloudeApp() {
                         </p>
                         <Button 
                             onClick={handleContactRedirect}
-                            className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg"
+                            className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-black px-8 py-4 rounded-lg font-semibold text-lg"
                         >
-                            Get a free 30-minute consultation with a Sadel expert
+                            Get a free 30-minute consultation with a AFAQ expert
                         </Button>
                     </div>
                 </div>

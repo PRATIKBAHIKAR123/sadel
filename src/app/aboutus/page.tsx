@@ -14,7 +14,7 @@ export default function AboutUsPage() {
           <div className="bg-[#fffcec] rounded-[40px] p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="justify-start">
-                <span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Get </span><span className="text-[#f9d300] text-[56px] font-bold font-['Urbanist'] leading-[72px]">To Know More</span><span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]"> More About Us & About Our Team</span>
+                <span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Get </span><span className="text-primary text-[56px] font-bold font-['Urbanist'] leading-[72px]">To Know More</span><span className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]"> More About Us & About Our Team</span>
                 <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9">We provide a wide range of IT solutions based on internationally recognized vendors.
                   We also have a highly skilled workforce that can deliver top-notch services and solutions.</div>
               </div>
@@ -29,10 +29,10 @@ export default function AboutUsPage() {
         <Fade direction="right" triggerOnce>
           <div className="grid grid-cols-1 md:grid-cols-2 justify-between px-16 gap-4">
             <div className="justify-start">
-              <span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Sadel Simplifies </span><span className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Technology to Empower Teams</span>
-              <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9 mt-2">Sadel takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.</div>
+              <span className="text-primary text-5xl font-bold font-['Urbanist'] leading-[64px]">AFAQ Simplifies </span><span className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Technology to Empower Teams</span>
+              <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9 mt-2">AFAQ takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.</div>
               <div className="flex justify-start gap-4 mt-4">
-                <Button>Getting Started</Button>
+                <Button className="text-white">Getting Started</Button>
                 <Button variant="outline">Learn More</Button>
               </div>
             </div>
@@ -54,9 +54,9 @@ export default function AboutUsPage() {
                 <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
                   <div>
                     <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Digital Kiosks</h2>
-                    <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our Sadel&#39;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
+                    <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our AFAQ&#39;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
                   </div>
-                  <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                  <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
                 </div>
                 <div className="flex-1 flex justify-center sm:justify-end items-center">
                   <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -74,7 +74,7 @@ export default function AboutUsPage() {
                       Our Surveillance Cameras deliver smart, real-time monitoring solutions to secure your spaces and safeguard what matters most.
                     </p>
                   </div>
-                  <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
+                  <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
                     Checkout Product
                   </button>
                 </div>
@@ -101,7 +101,7 @@ export default function AboutUsPage() {
                     <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Sound System P.A System</h2>
                     <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our P.A Systems deliver clear, powerful audio for effective communication across classrooms, campuses, and public spaces.</p>
                   </div>
-                  <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                  <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
                 </div>
                 <div className="flex-1 flex justify-center sm:justify-end items-center">
                   <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -112,9 +112,9 @@ export default function AboutUsPage() {
                 <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
                   <div>
                     <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">LED Display</h2>
-                    <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Sadel&#39;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
+                    <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">AFAQ&#39;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
                   </div>
-                  <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                  <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
                 </div>
                 <div className="flex-1 flex justify-center sm:justify-end items-center">
                   <img src="/Images/tv.png" alt="LED Display" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -131,10 +131,10 @@ export default function AboutUsPage() {
               <img src="/Images/Frame (7).png" alt="About Us" className="w-auto h-full" />
             </div>
             <div className="justify-start">
-              <span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Sadel Simplifies </span><span className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Technology to Empower Teams</span>
-              <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9 mt-2">Sadel takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.</div>
+              <span className="text-primary text-5xl font-bold font-['Urbanist'] leading-[64px]">AFAQ Simplifies </span><span className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Technology to Empower Teams</span>
+              <div className="justify-start text-[#5c5f6e] text-xl font-normal font-['Urbanist'] leading-9 mt-2">AFAQ takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.</div>
               <div className="flex justify-start gap-4 mt-4">
-                <Button>Getting Started</Button>
+                <Button className="text-white">Getting Started</Button>
                 <Button variant="outline">Learn More</Button>
               </div>
             </div>
@@ -169,17 +169,17 @@ export default function AboutUsPage() {
         </div>
       </section> */}
       <section className="max-w-7xl mx-auto">
-        <div className="text-center"><span className="text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Get</span><span className="text-[#0b0d0e] text-5xl font-bold font-['Urbanist'] leading-[64px]"> To Know Us </span></div>
+        <div className="text-center"><span className="text-primary text-5xl font-bold font-['Urbanist'] leading-[64px]">Get</span><span className="text-[#0b0d0e] text-5xl font-bold font-['Urbanist'] leading-[64px]"> To Know Us </span></div>
         <div className="text-center justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
-          Sadel is a 100% remote team. We believe that creative collaboration can happen anywhere and want our team to work where they feel most comfortable and inspired.
+          AFAQ is a 100% remote team. We believe that creative collaboration can happen anywhere and want our team to work where they feel most comfortable and inspired.
         </div>
         <TeamProfilesSection />
       </section>
       <section className="max-w-7xl mx-auto">
-        <div className="text-center text-[#f9d300] text-xl font-bold font-['Manrope'] leading-snug">
+        <div className="text-center text-primary text-xl font-bold font-['Manrope'] leading-snug">
           Why Choose Us ?
         </div>
-        <div className="flex gap-3 text-center justify-center text-[#f9d300] text-5xl font-bold font-['Urbanist'] leading-[64px]">Mision
+        <div className="flex gap-3 text-center justify-center text-primary text-5xl font-bold font-['Urbanist'] leading-[64px]">Mision
           <div className="text-black text-5xl font-bold font-['Urbanist'] leading-[64px]">Vision</div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 mt-8">
@@ -209,30 +209,30 @@ export default function AboutUsPage() {
   {/* Integrated Maintenance Service Section */ }
   <section className="bg-[#fffcec] rounded-[40px] p-8 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-center">
     <div className="flex-1 flex justify-center items-center">
-      <img src="/Images/sadel-team.png" alt="Sadel Service Team" className="w-full max-w-md rounded-2xl shadow-md" />
+      <img src="/Images/sadel-team.png" alt="AFAQ Service Team" className="w-full max-w-md rounded-2xl shadow-md" />
     </div>
     <div className="flex-1 space-y-4">
-      <h2 className="text-[#f9d300] text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight">INTEGRATED MAINTENANCE SERVICE :</h2>
+      <h2 className="text-primary text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight">INTEGRATED MAINTENANCE SERVICE :</h2>
       <p className="text-black text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed mt-2">
-        With integrated maintenance services from Sadel Vision your systems will be in safe hands under the supervision of experts. We assure you that all maintenance operations are carried out using original spare parts and through a specialized team trained in the latest technologies.
+        With integrated maintenance services from AFAQ your systems will be in safe hands under the supervision of experts. We assure you that all maintenance operations are carried out using original spare parts and through a specialized team trained in the latest technologies.
       </p>
     </div>
   </section>
-  {/* WHY CHOOSE SADEL VISION Section */ }
+  {/* WHY CHOOSE AFAQ Section */ }
       <section className="max-w-7xl mx-auto my-16 flex flex-col md:flex-row items-center gap-10 bg-[#fffcec] rounded-[40px] p-8 shadow-lg">
         {/* Left: Text Content */}
         <div className="flex-1 space-y-4">
           <div className="flex items-center gap-3">
-            <span className="bg-[#f9d300] text-black font-bold px-3 py-1 rounded text-base font-['Urbanist']">SADEL VISION</span>
+            <span className="bg-[#f9d300] text-black font-bold px-3 py-1 rounded text-base font-['Urbanist']">AFAQ</span>
           </div>
-          <h2 className="text-[#f9d300] text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight mt-2">WHY CHOOSE SADEL VISION?</h2>
+          <h2 className="text-primary text-3xl md:text-4xl font-bold font-['Urbanist'] leading-tight mt-2">WHY CHOOSE AFAQ?</h2>
           <p className="text-black text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed mt-2">
-            Sadel Vision is not just a technology company, but a trusted partner that seeks to provide innovative solutions that enhance performance and drive success forward. We provide you with modern and integrated technologies specifically designed to meet your specific needs. Whether you are in the private or educational sector, we are here to help you succeed.
+            AFAQ is not just a technology company, but a trusted partner that seeks to provide innovative solutions that enhance performance and drive success forward. We provide you with modern and integrated technologies specifically designed to meet your specific needs. Whether you are in the private or educational sector, we are here to help you succeed.
           </p>
         </div>
         {/* Right: Image */}
         <div className="flex-1 flex justify-center items-center">
-          <img src="/Images/banner-solutions.png" alt="Why Choose Sadel Vision" className="w-full max-w-md rounded-2xl shadow-md" />
+          <img src="/Images/banner-solutions.png" alt="Why Choose AFAQ" className="w-full max-w-md rounded-2xl shadow-md" />
         </div>
       </section>
       <TestimonialSection />

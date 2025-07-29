@@ -52,9 +52,9 @@ export default function Azureconsultingservice(){
                             <div className="flex gap-4">
                                 <Button
                                     onClick={handleContactRedirect}
-                                    className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold"
+                                    className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold"
                                 >
-                                    Get a free 30-minute consultation with a Sadel expert
+                                    Get a free 30-minute consultation with a AFAQ expert
                                 </Button>
                             </div>
                         </Fade>
@@ -84,27 +84,27 @@ export default function Azureconsultingservice(){
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">What Makes Microsoft Azure Unique:</h2>
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">IaaS, PaaS, and SaaS compatibility in a single public computing platform</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Flexibility to scale computing resources up or down as needed</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Supports all operating systems, languages, tools, and frameworks</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">99.95% availability and 24/7 tech support for uninterrupted service</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Geosynchronous data centers for seamless global accessibility</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Cost-efficient pay-as-you-go model for optimal resource management</p>
                             </div>
                         </div>
@@ -119,10 +119,10 @@ export default function Azureconsultingservice(){
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Simplify Your Azure Environment with Remote Azure Consulting Services</h2>
                         <div className="space-y-4 text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-relaxed">
                             <p>
-                                In today&apos;s fast-paced digital landscape, managing your Azure environment while keeping up with evolving technology can be overwhelming. Balancing workloads and learning new platforms shouldn&apos;t slow you down. That&apos;s where Sadel&apos;s Azure Consulting Services come in.
+                                In today&apos;s fast-paced digital landscape, managing your Azure environment while keeping up with evolving technology can be overwhelming. Balancing workloads and learning new platforms shouldn&apos;t slow you down. That&apos;s where AFAQ&apos;s Azure Consulting Services come in.
                             </p>
                             <p>
-                                At Sadel, we help businesses of all sizes simplify, optimize, and grow their Azure environments. As a trusted Microsoft partner, our experienced team of cloud experts ensures your Azure operations run seamlessly — giving you the freedom to focus on strategic goals.
+                                At AFAQ, we help businesses of all sizes simplify, optimize, and grow their Azure environments. As a trusted Microsoft partner, our experienced team of cloud experts ensures your Azure operations run seamlessly — giving you the freedom to focus on strategic goals.
                             </p>
                             <p>
                                 Our remote-managed IT services include monitoring, maintenance, security, backup, and disaster recovery, all customized to your specific needs and requirements.
@@ -139,35 +139,35 @@ export default function Azureconsultingservice(){
                         <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Discover the Potential of Your Azure Initiative with Our Azure Consulting Services:</h2>
                         <div className="space-y-4">
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Evaluate TCO, ROI, development time, and costs for feasibility</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Consultations for executive staff with Q&A sessions and emails</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Design cloud architectures for Azure-based apps and data warehouses</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Azure and hybrid infrastructure design, CI/CD pipeline design</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Azure migration strategy tailored to your business goals, timeframes, and development capabilities</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Risk management plan</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Process descriptions and policies for IT service provisioning after Azure migration</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Infrastructure configuration and code reviews</p>
                             </div>
                         </div>
@@ -214,43 +214,43 @@ export default function Azureconsultingservice(){
                 </Fade>
             </div>
 
-            {/* Why Choose Sadel Section */}
+            {/* Why Choose AFAQ Section */}
             <div className="max-w-7xl mx-auto p-6">
                 <Fade direction="right">
                     <div className="bg-[#ffe9db] rounded-3xl p-8">
-                        <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Sadel is the Perfect Choice for Your Azure Solutions Partner Due to the Following Reasons:</h2>
+                        <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">AFAQ is the Perfect Choice for Your Azure Solutions Partner Due to the Following Reasons:</h2>
                         <div className="space-y-4 mb-6">
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Microsoft Partner with Competencies</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Member of Microsoft Cloud Solution Provider (CSP) program</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">More than 50 IT professionals on board</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">20 years of experience in Azure development and migration services</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">Established a mature quality management system based on ISO 9001 certification</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <span className="text-[#f9d300] font-bold">•</span>
+                                <span className="text-primary font-bold">•</span>
                                 <p className="text-[#5c5f6e] text-base font-normal font-['Urbanist']">ISO 27001-based information security management system to safeguard customer data</p>
                             </div>
                         </div>
                         <div className="text-center">
                             <Button 
                                 onClick={handleContactRedirect}
-                                className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold"
+                                className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-6 py-3 rounded-lg font-semibold"
                             >
-                                Get a free 30-minute consultation with a Sadel expert
+                                Get a free 30-minute consultation with a AFAQ expert
                             </Button>
                         </div>
                     </div>
@@ -308,9 +308,9 @@ export default function Azureconsultingservice(){
                         </p>
                         <Button 
                             onClick={handleContactRedirect}
-                            className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg"
+                            className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-black px-8 py-4 rounded-lg font-semibold text-lg"
                         >
-                            Get a free 30-minute consultation with a Sadel expert
+                            Get a free 30-minute consultation with a AFAQ expert
                         </Button>
                     </div>
                 </Fade>

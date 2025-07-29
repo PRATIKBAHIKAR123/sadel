@@ -74,7 +74,7 @@ export default function PortfolioPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
               <Fade direction="left" triggerOnce>
-                <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-6 py-3 rounded-md transition-colors w-full sm:w-auto">Get Started</button>
+                <button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white font-semibold px-6 py-3 rounded-md transition-colors w-full sm:w-auto">Get Started</button>
               </Fade>
               <Fade direction="right" triggerOnce>
                 <button className="bg-white border border-gray-300 text-black font-semibold px-6 py-3 rounded-md transition-colors w-full sm:w-auto">Learn More</button>
@@ -111,7 +111,7 @@ export default function PortfolioPage() {
           <Fade direction="left" triggerOnce>
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
-                Unique Software <span className="text-yellow-400">Designed For Users</span>
+                Unique Software <span className="text-primary">Designed For Users</span>
               </h2>
               <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto">
                 SADEL, a platform that adheres to ISO 27001 and SOC-2 compliance, enables you to effectively create, organize, and manage your resources, while getting rid of any outdated or duplicated information from your system.
@@ -121,7 +121,7 @@ export default function PortfolioPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 p-4 sm:p-6">
               {/* Card 1 */}
               <div className="bg-[#FFFFFF] rounded-2xl p-6 sm:p-8 shadow-sm flex flex-col items-start">
-                <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
+                <div className="bg-[#8a78bd] rounded-full p-3 mb-4 flex items-center justify-center">
                   <img src="/Images/diagram.png" alt="icon" className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold mb-2 text-black">Reduce cost</h3>
@@ -130,7 +130,7 @@ export default function PortfolioPage() {
 
               {/* Card 2 */}
               <div className="bg-[#FFFFFF] rounded-2xl p-6 sm:p-8 shadow-sm flex flex-col items-start">
-                <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
+                <div className="bg-[#8a78bd] rounded-full p-3 mb-4 flex items-center justify-center">
                   <img src="/Images/peoples.png" alt="icon" className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold mb-2 text-black">Reduce clutter</h3>
@@ -139,7 +139,7 @@ export default function PortfolioPage() {
 
               {/* Card 3 */}
               <div className="bg-[#FFFFFF] rounded-2xl p-6 sm:p-8 shadow-sm flex flex-col items-start md:col-span-2 lg:col-span-1">
-                <div className="bg-[#F9D400] rounded-full p-3 mb-4 flex items-center justify-center">
+                <div className="bg-[#8a78bd] rounded-full p-3 mb-4 flex items-center justify-center">
                   <img src="/Images/sidebar.png" alt="icon" className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold mb-2 text-black">Reduce the error</h3>
@@ -155,22 +155,22 @@ export default function PortfolioPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
             <div className="bg-[#fffcec] rounded-3xl p-4 sm:p-6 text-center flex flex-col items-center">
               <div className="text-center justify-start text-[#0b0d0e] text-2xl sm:text-3xl md:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[64px]">
-                Sadel IT Solutions
+                AFAQ IT Solutions
               </div>
               <div className="justify-start text-[#838696] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-normal mt-4">
-                At Sadel, we simplify modern tech complexity to drive real business impact—helping you accelerate outcomes and unlock value faster.
+                At AFAQ, we simplify modern tech complexity to drive real business impact—helping you accelerate outcomes and unlock value faster.
               </div>
               <div className="w-full sm:w-68 h-auto sm:h-68 item-center justify-center mt-6 sm:mt-8">
                 <img
                   src="/Images/deupload-file-sharing 2.png"
-                  alt="Sadel It Solutions"
+                  alt="AFAQ It Solutions"
                   className="w-full h-auto max-w-sm sm:max-w-none"
                 />
               </div>
             </div>
             <div className="bg-[#fffcec] rounded-3xl p-4 sm:p-6 text-center flex flex-col items-center">
               <div className="text-center justify-start text-[#0b0d0e] text-2xl sm:text-3xl md:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[64px]">
-                Sadel Products
+                AFAQ Products
               </div>
               <div className="justify-start text-[#838696] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-normal mt-4">
                 We provide a comprehensive range of educational solutions designed to empower learners, support educators, and enhance the overall learning experience
@@ -178,11 +178,11 @@ export default function PortfolioPage() {
               <div className="w-full sm:w-68 relative item-center justify-center mt-6 sm:mt-8">
                 <img
                   src="/Images/Screenshot 2025-06-29 at 9.22.40 PM 2.png"
-                  alt="Sadel It Solutions"
+                  alt="AFAQ It Solutions"
                 />
                 <img
                   src="/Images/Untit design 1.png"
-                  alt="Sadel It Solutions"
+                  alt="AFAQ It Solutions"
                   className="absolute right-2 -bottom-10 h-full hidden sm:block"
                 />
               </div>
@@ -199,7 +199,7 @@ export default function PortfolioPage() {
           <Fade cascade>
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black font-['Urbanist'] mb-4">
-                Our Top Featured <span className="text-yellow-400">You Won&apos;t Find Anywhere</span>
+                Our Top Featured <span className="text-primary">You Won&apos;t Find Anywhere</span>
               </h2>
               <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto">
                 SADEL provides a platform for employees from different departments to collaborate using real-time data. By collaborating at every stage, from concept to production, teams can produce products more efficiently.
@@ -265,9 +265,9 @@ export default function PortfolioPage() {
               <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
                 <div>
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Digital Kiosks</h2>
-                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our Sadel&#39;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our AFAQ&#39;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -285,7 +285,7 @@ export default function PortfolioPage() {
                     Our Surveillance Cameras deliver smart, real-time monitoring solutions to secure your spaces and safeguard what matters most.
                   </p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
+                <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">
                   Checkout Product
                 </button>
               </div>
@@ -312,7 +312,7 @@ export default function PortfolioPage() {
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">Sound System P.A System</h2>
                   <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Our P.A Systems deliver clear, powerful audio for effective communication across classrooms, campuses, and public spaces.</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -323,9 +323,9 @@ export default function PortfolioPage() {
               <div className="flex-1 flex flex-col justify-between h-full mb-6 sm:mb-0">
                 <div>
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center sm:text-left">LED Display</h2>
-                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">Sadel&#39;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center sm:text-left">AFAQ&#39;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
+                <button className="bg-[#8a78bd] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-full sm:w-fit text-center sm:text-left mt-2">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center sm:justify-end items-center">
                 <img src="/Images/tv.png" alt="LED Display" className="h-32 sm:h-40 md:h-50 w-auto object-contain" />
@@ -430,7 +430,7 @@ export default function PortfolioPage() {
         <div className="max-w-7xl mx-auto p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-6 sm:gap-8">
           <div className="flex-1 text-center lg:text-left">
             <Fade direction="left" triggerOnce>
-              <p className="text-yellow-400 text-xs sm:text-sm">Sign up for updates</p>
+              <p className="text-primary text-xs sm:text-sm">Sign up for updates</p>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 font-['Urbanist']">Cut down on expenses while improving productivity.</h2>
               <div>
                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-3 sm:mb-4">
@@ -448,13 +448,13 @@ export default function PortfolioPage() {
                   </div>
                   <button
                     onClick={handleSubscribe}
-                    className="bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-md sm:rounded-l-none sm:rounded-r-md transition-colors duration-200 text-sm sm:text-base"
+                    className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-md sm:rounded-l-none sm:rounded-r-md transition-colors duration-200 text-sm sm:text-base"
                   >
                     Sign Up
                   </button>
                 </div>
               </div>
-              <p className="text-gray-400 text-xs mt-2">You can unsubscribe anytime. Read our <span className="text-yellow-400">privacy policy</span></p>
+              <p className="text-gray-400 text-xs mt-2">You can unsubscribe anytime. Read our <span className="text-primary">privacy policy</span></p>
             </Fade>
           </div>
           <div className="flex-1 flex justify-center">

@@ -20,8 +20,8 @@ export default function DefenderForEndpoint() {
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                            Get a free 30-minute consultation with a Sadel expert
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                            Get a free 30-minute consultation with a AFAQ expert
                                         </Button>
                                     </Link>
                                     {/* <Button variant="outline">Learn More</Button> */}
@@ -101,7 +101,7 @@ export default function DefenderForEndpoint() {
                     ].map((process, index) => (
                         <Fade direction="up" key={index} delay={index * 100}>
                             <div className="bg-[#0b0d0e] text-white rounded-2xl p-6 text-center hover:shadow-xl transition-shadow duration-300">
-                                <div className="text-3xl font-bold mb-3 text-yellow-400">{process.step}</div>
+                                <div className="text-3xl font-bold mb-3 text-primary">{process.step}</div>
                                 <h4 className="text-lg font-bold mb-3 font-['Urbanist']">{process.title}</h4>
                                 <p className="text-sm text-gray-300">{process.description}</p>
                             </div>
@@ -115,12 +115,12 @@ export default function DefenderForEndpoint() {
                 <Fade direction="up" triggerOnce>
                     <div className="text-center mb-12">
                         <h3 className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[52px] mb-6">
-                            Sadel Vision Endpoint Protection: Preventing, Detecting, and Protecting
+                            AFAQ Endpoint Protection: Preventing, Detecting, and Protecting
 
 
                         </h3>
                         <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose max-w-4xl mx-auto">
-                            Sadel Vision delivers a comprehensive security solution that combines next-generation antivirus protection, automated incident response, and advanced Endpoint Detection and Response (EDR) capabilities. Embracing an “all-in-one” security approach, it streamlines the deployment of a modern cybersecurity toolkit. Beyond traditional endpoint protection, Sadel Vision extends its capabilities with integrated network analytics, User and Entity Behavior Analytics (UEBA), and deception-based defense technologies.                        </p>
+                            AFAQ delivers a comprehensive security solution that combines next-generation antivirus protection, automated incident response, and advanced Endpoint Detection and Response (EDR) capabilities. Embracing an “all-in-one” security approach, it streamlines the deployment of a modern cybersecurity toolkit. Beyond traditional endpoint protection, AFAQ extends its capabilities with integrated network analytics, User and Entity Behavior Analytics (UEBA), and deception-based defense technologies.                        </p>
                     </div>
                 </Fade>
             </div>
@@ -228,7 +228,7 @@ export default function DefenderForEndpoint() {
             <div className="max-w-7xl mx-auto p-8 text-center">
                 <Fade direction="up" triggerOnce>
                     <Link href="/contact-us">
-                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
                             Get Endpoint Protection Now.
                         </Button>
                     </Link>

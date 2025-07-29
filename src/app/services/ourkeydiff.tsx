@@ -97,7 +97,7 @@ export default function OurKey() {
       <div className="max-w-7xl mx-auto px-8 flex flex-col">
         <div className="text-center text-5xl font-semibold font-['Urbanist'] leading-[64px]">
           <span className="text-[#0b0d0e]">{t.ourKeyDifferentiatorsTitle.split('Key Differentiators')[0]}</span>
-          <span className="text-[#f9d300]">{t.ourKeyDifferentiatorsTitle.split('Key Differentiators')[1] || 'Key Differentiators'}</span>
+          <span className="text-primary">{t.ourKeyDifferentiatorsTitle.split('Key Differentiators')[1] || 'Key Differentiators'}</span>
         </div>
         <div className="text-center max-w-5xl justify-start text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">{t.ourKeyDifferentiatorsSubtitle}</div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

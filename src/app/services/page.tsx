@@ -13,7 +13,7 @@ export default function Services() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-4">
           <div className="justify-start">
             <div className="text-center lg:text-left">
-              <span className="text-[#f9d300] text-2xl sm:text-3xl md:text-4xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">Know More</span>
+              <span className="text-primary text-2xl sm:text-3xl md:text-4xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">Know More</span>
               <span className="text-[#0e0f10] text-2xl sm:text-3xl md:text-4xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]"> About Both Our Services</span>
             </div>
             <div className="justify-start text-[#5c5f6e] text-base sm:text-lg md:text-xl font-normal font-['Urbanist'] leading-relaxed mt-4 sm:mt-6 text-center lg:text-left">
@@ -38,7 +38,7 @@ export default function Services() {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-            See what you can do with<span className="text-yellow-400"> Our Tech Services</span>
+            See what you can do with<span className="text-primary"> Our Tech Services</span>
           </h1>
           <p className="text-gray-600 text-base sm:text-lg max-w-4xl mx-auto leading-relaxed px-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis tincidunt sem. Sed interdum eget tellus vel aliquet. Vestibulum nibh dolor, porta in dignissim.
@@ -125,11 +125,11 @@ export default function Services() {
           </div>
           <div className="justify-start order-1 lg:order-2">
             <div className="text-center lg:text-left">
-              <span className="text-[#f9d300] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[64px]">Get to Know Sadels </span>
+              <span className="text-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[64px]">Get to Know Sadels </span>
               <span className="text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[64px]">IT Business Solutions</span>
             </div>
             <div className="justify-start text-[#5c5f6e] text-base sm:text-lg md:text-xl font-normal font-['Urbanist'] leading-relaxed mt-2 sm:mt-4 text-center lg:text-left">
-              The modern world relies on a complex array of technologies to keep moving—Sadel aims to simplify that complexity. Our IT expertise helps organizations accelerate their time to value and achieve meaningful business impact.
+              The modern world relies on a complex array of technologies to keep moving—AFAQ aims to simplify that complexity. Our IT expertise helps organizations accelerate their time to value and achieve meaningful business impact.
               Founded in [Founding Year] and headquartered in [Location], we specialize in solving complex challenges with smart IT solutions, including Cloud Services, Cyber Security, Managed Services, and Infrastructure Support.
             </div>
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-3 sm:gap-4 mt-4 sm:mt-6">
@@ -149,7 +149,7 @@ export default function Services() {
             Educational Tech Board You Need
           </div>
           <div className="text-center justify-start text-[#5c5f6e] text-base sm:text-lg font-normal font-['Urbanist'] leading-relaxed px-4 mt-4 sm:mt-6">
-            Experience a smarter way to teach with Sadel&apos;s interactive tech boards. Designed for seamless collaboration, engaging lessons, and real-time feedback.
+            Experience a smarter way to teach with AFAQ&apos;s interactive tech boards. Designed for seamless collaboration, engaging lessons, and real-time feedback.
           </div>
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mt-6 sm:mt-8">
             <Button variant={'outline'} className="bg-transparent w-full sm:w-auto">Contact Us</Button>
@@ -166,9 +166,9 @@ export default function Services() {
               <div className="flex-1 flex flex-col justify-between h-full w-full">
                 <div>
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center lg:text-left">Digital Kiosks</h2>
-                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center lg:text-left">Our Sadel&apos;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center lg:text-left">Our AFAQ&apos;s Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
+                <button className="bg-[#8a78bd] text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center lg:justify-end items-center mt-4 lg:mt-0">
                 <img src="/Images/kiosk.png" alt="Digital Kiosks" className="h-32 sm:h-40 md:h-50 object-contain" />
@@ -182,7 +182,7 @@ export default function Services() {
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center lg:text-left">Surveillance Cameras</h2>
                   <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center lg:text-left">Our Surveillance Cameras deliver smart, real-time monitoring solutions to secure your spaces and safeguard what matters most.</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
+                <button className="bg-[#8a78bd] text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
               </div>
               <div className="flex-1 flex flex-col items-center lg:items-end gap-2 mt-4 lg:mt-0">
                 <img src="/Images/camera1.png" alt="Surveillance Camera 1" className="h-24 sm:h-32 md:h-40 object-contain" />
@@ -197,7 +197,7 @@ export default function Services() {
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center lg:text-left">Sound System P.A System</h2>
                   <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center lg:text-left">Our P.A Systems deliver clear, powerful audio for effective communication across classrooms, campuses, and public spaces.</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
+                <button className="bg-[#8a78bd] text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-center lg:justify-end items-center mt-4 lg:mt-0">
                 <img src="/Images/speaker.png" alt="Sound System P.A System" className="h-32 sm:h-40 md:h-50 object-contain" />
@@ -209,9 +209,9 @@ export default function Services() {
               <div className="flex-1 flex flex-col justify-between h-full w-full">
                 <div>
                   <h2 className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl font-bold font-['Urbanist'] mb-2 text-center lg:text-left">LED Display</h2>
-                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center lg:text-left">Sadel&apos;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
+                  <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] mb-4 sm:mb-6 text-center lg:text-left">AFAQ&apos;s LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.</p>
                 </div>
-                <button className="bg-yellow-400 text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
+                <button className="bg-[#8a78bd] text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-[#6f5ea0] transition-colors w-fit mx-auto lg:mx-0 text-sm sm:text-base">Checkout Product</button>
               </div>
               <div className="flex-1 flex justify-end items-center">
                 <img src="/Images/tv.png" alt="LED Display" className="h-50 object-contain" />
@@ -231,7 +231,7 @@ export default function Services() {
           <div className="flex flex-col gap-3 sm:gap-4 max-w-2xl">
             <div className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-9 text-center lg:text-left">You can Hold Meetings Anywhere</div>
             <div className="text-[#5c5f6e] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed text-center lg:text-left">
-              With Sadel&apos;s smart meeting solutions, you can hold meetings anywhere—whether you&apos;re in the office, at home, or on the move. Our technology ensures seamless collaboration with clear audio, high-quality visuals, and easy connectivity across devices. Stay productive and connected, no matter where you are.
+              With AFAQ&apos;s smart meeting solutions, you can hold meetings anywhere—whether you&apos;re in the office, at home, or on the move. Our technology ensures seamless collaboration with clear audio, high-quality visuals, and easy connectivity across devices. Stay productive and connected, no matter where you are.
             </div>
           </div>
           <div className="w-full h-full flex items-center justify-center relative">
@@ -249,7 +249,7 @@ export default function Services() {
           <div className="flex flex-col gap-3 sm:gap-4 max-w-2xl">
             <div className="text-[#0b0d0e] text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-9 text-center lg:text-left">Interactive Screens Transform Classrooms Into Innovative Learning Environments</div>
             <div className="text-[#5c5f6e] text-sm sm:text-base md:text-lg font-normal font-['Urbanist'] leading-relaxed text-center lg:text-left">
-              Interactive screens from Sadel transform traditional classrooms into dynamic, innovative learning environments. By enabling real-time collaboration, engaging multimedia content, and hands-on participation, these screens empower teachers to deliver impactful lessons while keeping students actively involved. It&apos;s where technology meets education for a smarter tomorrow.
+              Interactive screens from AFAQ transform traditional classrooms into dynamic, innovative learning environments. By enabling real-time collaboration, engaging multimedia content, and hands-on participation, these screens empower teachers to deliver impactful lessons while keeping students actively involved. It&apos;s where technology meets education for a smarter tomorrow.
             </div>
           </div>
           <div className="w-full h-full flex items-center justify-center relative">
@@ -260,17 +260,17 @@ export default function Services() {
       </div>
       
       {/* Call to Action Section */}
-      <div className="bg-yellow-50 py-6 sm:py-8">
+      <div className="bg-[#8a78bd] py-6 sm:py-8">
         <div className="max-w-7xl mx-auto p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-6 sm:gap-8">
           <div className="flex-1">
             <Fade direction="left" triggerOnce>
               <p className="text-black text-xs sm:text-sm mt-2">Sign up for developer updates.</p>
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-3 sm:mb-4 font-['Urbanist']">Try something fresh and new on next version.</h2>
               <form className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-4">
-                <input type="email" placeholder="Enter your email" className="px-3 sm:px-4 py-2 sm:py-3 border border-gray-200 rounded-md sm:rounded-l-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent w-full max-w-xs" />
-                <button type="submit" className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-4 sm:px-6 py-2 sm:py-3 rounded-md sm:rounded-r-md transition-colors text-sm sm:text-base">Notify Me</button>
+                <input type="email" placeholder="Enter your email" className="px-3 sm:px-4 py-2 sm:py-3 border border-gray-200 rounded-md sm:rounded-l-md focus:outline-none focus:ring-2 focus:ring-[#8a78bd] focus:border-transparent w-full max-w-xs" />
+                <button type="submit" className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-black font-semibold px-4 sm:px-6 py-2 sm:py-3 rounded-md sm:rounded-r-md transition-colors text-sm sm:text-base">Notify Me</button>
               </form>
-              <p className="text-gray-400 text-xs mt-2">You can unsubscribe at any time. Read our <a href="#" className="text-yellow-500">privacy policy</a>.</p>
+              <p className="text-gray-400 text-xs mt-2">You can unsubscribe at any time. Read our <a href="#" className="text-[#8a78bd]">privacy policy</a>.</p>
             </Fade>
           </div>
           <div className="flex-1 flex justify-center">

@@ -13,7 +13,7 @@ export default function EdtechSolutions() {
                             <span className="text-[#0e0f10] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
                                 Compliance-focused{" "}
                             </span>
-                            <span className="text-[#f9d300] text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
+                            <span className="text-primary text-2xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[72px]">
                                 Education system
                             </span>
                         </div>
@@ -21,7 +21,7 @@ export default function EdtechSolutions() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis tincidunt sem. Sed interdum eget tellus vel aliquet. Vestibulum nibh dolor
                         </div>
                         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6 sm:mt-8">
-                            <Button className="w-full sm:w-auto">Getting Started</Button>{" "}
+                            <Button className="w-full sm:w-auto text-white">Getting Started</Button>{" "}
                             <Button variant={'outline'} className="w-full sm:w-auto">Learn More</Button>
                         </div>
                         <div className="relative mt-8 sm:mt-12">
@@ -262,7 +262,7 @@ export default function EdtechSolutions() {
                     Ensure robust and secure document management for digital health environments.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
+                    <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-black px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
                       Getting Started
                     </Button>
                     <Button variant="outline" className="w-full sm:w-auto">Get $10 credit</Button>

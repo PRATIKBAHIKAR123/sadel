@@ -31,7 +31,7 @@ export default function NetworkSecurityServices() {
       answer: "Yes, businesses of all sizes should implement data encryption to protect sensitive information from unauthorized access and breaches. Data encryption is a fundamental security measure that safeguards your information whether it's stored locally or transmitted across networks."
     },
     {
-      question: "Can Sadel support remote access for a distributed workforce?",
+      question: "Can AFAQ support remote access for a distributed workforce?",
       answer: "Absolutely. Our secure remote access solutions are specifically designed to support distributed teams, ensuring reliable and secure access to network resources from various locations. We implement VPNs, multi-factor authentication, and other security measures to maintain protection regardless of where your team works."
     },
     {
@@ -50,17 +50,17 @@ export default function NetworkSecurityServices() {
           <div className="space-y-8">
             <Fade direction="up" triggerOnce>
               <h2 className="text-5xl font-bold text-[#0e0f10] leading-[64px] font-['Urbanist'] mb-6">
-                Network and Security Services from Sadel
+                Network and Security Services from AFAQ
               </h2>
               <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
-                At Sadel, we offer specialized Network and Security services, expertly designed to fortify your organization&apos;s digital infrastructure against the evolving landscape of cyber threats. Our services ensure not only the security of your network but also its optimal performance and resilience.
+                At AFAQ, we offer specialized Network and Security services, expertly designed to fortify your organization&apos;s digital infrastructure against the evolving landscape of cyber threats. Our services ensure not only the security of your network but also its optimal performance and resilience.
               </p>
               <div className="flex gap-4">
                 <Button
                   onClick={handleContactRedirect}
-                  className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold"
+                  className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold"
                 >
-                  Get a free 30-minute consultation with a Sadel expert
+                  Get a free 30-minute consultation with a AFAQ expert
                 </Button>
               </div>
             </Fade>
@@ -90,7 +90,7 @@ export default function NetworkSecurityServices() {
           <div className="bg-white rounded-3xl p-8 shadow-lg">
             <h2 className="text-[#0e0f10] text-3xl font-bold font-['Urbanist'] mb-4">Introduction</h2>
             <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-relaxed">
-              At Sadel, we offer specialized Network and Security services, expertly designed to fortify your organization&apos;s digital infrastructure against the evolving landscape of cyber threats. Our services ensure not only the security of your network but also its optimal performance and resilience.
+              At AFAQ, we offer specialized Network and Security services, expertly designed to fortify your organization&apos;s digital infrastructure against the evolving landscape of cyber threats. Our services ensure not only the security of your network but also its optimal performance and resilience.
             </p>
           </div>
         </Fade>
@@ -198,7 +198,7 @@ export default function NetworkSecurityServices() {
 
       {/* Why Choose Section */}
       <div className="max-w-7xl mx-auto p-3">
-        <div className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Why Choose Sadel for Network and Security?</div>
+        <div className="text-[#0e0f10] text-[56px] font-bold font-['Urbanist'] leading-[72px]">Why Choose AFAQ for Network and Security?</div>
       </div>
       <div className="flex flex-col gap-10 max-w-7xl mx-auto p-8">
         <div className="flex flex-cols md:flex-row items-center justify-between gap-20">
@@ -277,9 +277,9 @@ export default function NetworkSecurityServices() {
             </p>
             <Button 
               onClick={handleContactRedirect}
-              className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg"
+              className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-4 rounded-lg font-semibold text-lg"
             >
-              Get a free 30-minute consultation with a Sadel expert
+              Get a free 30-minute consultation with a AFAQ expert
             </Button>
           </div>
         </Fade>

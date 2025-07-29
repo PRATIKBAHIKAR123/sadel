@@ -41,7 +41,7 @@ const CitrixConsultingPage = () => {
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
                                             Get a free 30-minute consultation with a Professional Labs expert
                                         </Button>
                                     </Link>
@@ -76,7 +76,7 @@ const CitrixConsultingPage = () => {
                                 Our approach follows a five-step repeating process for every Citrix solution: Plan, Develop, Rollout, Manage, and Optimize. Each stage includes opportunities and milestones to increase the value of solutions, and our &ldquo;Citrix Consulting Kits&rdquo; enable high-value outcomes that ensure critical milestones are met and investment value is optimized.
                             </p>
                             <Link href="/contact-us">
-                                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold mt-4">
+                                <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold mt-4">
                                     Get assistance from Citrix consulting experts at every step of your Citrix journey
                                 </Button>
                             </Link>
@@ -151,7 +151,7 @@ const CitrixConsultingPage = () => {
                                 <li>Domain expertise</li>
                             </ul>
                             <Link href="/contact-us">
-                                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold mt-4">
+                                <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold mt-4">
                                     Talk to our Citrix Expert Now
                                 </Button>
                             </Link>

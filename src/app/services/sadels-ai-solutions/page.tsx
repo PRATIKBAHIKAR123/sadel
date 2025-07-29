@@ -11,15 +11,15 @@ const AIConsultingServices = () => {
             answer: "AI Consulting involves strategic guidance and implementation of artificial intelligence solutions to solve business challenges. It can benefit your business by automating processes, improving decision-making, enhancing customer experiences, reducing costs, and providing competitive advantages through data-driven insights and predictive analytics."
         },
         {
-            question: "What kind of AI services does Sadel offer?",
-            answer: "Sadel offers comprehensive AI services including AI strategy consulting, custom AI solution development, data engineering, machine learning and deep learning implementation, natural language processing, AI integration services, and continuous support and maintenance. We provide end-to-end AI solutions tailored to your specific business needs."
+            question: "What kind of AI services does AFAQ offer?",
+            answer: "AFAQ offers comprehensive AI services including AI strategy consulting, custom AI solution development, data engineering, machine learning and deep learning implementation, natural language processing, AI integration services, and continuous support and maintenance. We provide end-to-end AI solutions tailored to your specific business needs."
         },
         {
             question: "Is my business data safe when implementing AI solutions?",
             answer: "Absolutely. We prioritize data security and privacy in all our AI implementations. We follow industry best practices for data protection, implement robust security measures, ensure compliance with relevant regulations, and maintain strict confidentiality protocols to keep your business data secure throughout the AI development and deployment process."
         },
         {
-            question: "How does Sadel ensure the AI solution fits my specific business needs?",
+            question: "How does AFAQ ensure the AI solution fits my specific business needs?",
             answer: "We follow a collaborative approach that begins with a thorough assessment of your current systems, business objectives, and challenges. Our experts work closely with your team to understand your unique requirements, develop customized AI roadmaps, and create tailored solutions that align with your specific business goals and operational needs."
         },
         {
@@ -35,7 +35,7 @@ const AIConsultingServices = () => {
             answer: "Implementation timelines vary based on the complexity and scope of the AI solution. Simple AI integrations can be completed in 4-8 weeks, while comprehensive AI transformations may take 3-6 months. We provide detailed project timelines during the planning phase and keep you updated throughout the implementation process."
         },
         {
-            question: "What kind of post-implementation support does Sadel offer?",
+            question: "What kind of post-implementation support does AFAQ offer?",
             answer: "We provide comprehensive post-implementation support including 24/7 monitoring, regular maintenance, performance optimization, system updates, and ongoing training for your team. Our support extends beyond deployment to ensure your AI solutions continue performing optimally and adapting to new business challenges."
         },
         {
@@ -43,7 +43,7 @@ const AIConsultingServices = () => {
             answer: "We establish clear KPIs and metrics during the planning phase to measure AI implementation success. These typically include efficiency improvements, cost reductions, accuracy enhancements, processing time reductions, and ROI metrics. We provide regular reports and analytics to track performance and demonstrate the value of your AI investment."
         },
         {
-            question: "I'm new to AI. How does Sadel ensure I understand the technology and its impact?",
+            question: "I'm new to AI. How does AFAQ ensure I understand the technology and its impact?",
             answer: "We provide comprehensive education and training throughout the AI implementation process. Our team explains complex AI concepts in simple terms, offers hands-on training for your staff, provides detailed documentation, and ensures you understand how the AI solution works and its business impact. We're committed to your success and knowledge."
         }
     ];
@@ -61,12 +61,12 @@ const AIConsultingServices = () => {
                                     <span className="hero-title-primary">Harness the Power of Cutting-Edge AI Solutions!</span>
                                 </h1>
                                 <p className="hero-description">
-                                    Transform your organization with Sadel&apos;s comprehensive AI consulting services designed to unlock new potentials for your business. Our cutting-edge AI solutions ensure you stay ahead in an ever-evolving digital landscape.
+                                    Transform your organization with AFAQ&apos;s comprehensive AI consulting services designed to unlock new potentials for your business. Our cutting-edge AI solutions ensure you stay ahead in an ever-evolving digital landscape.
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                            Get a free 30-minute consultation with a Sadel expert
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                            Get a free 30-minute consultation with a AFAQ expert
                                         </Button>
                                     </Link>
                                     {/* <Button variant="outline">Explore AI Solutions</Button> */}
@@ -97,7 +97,7 @@ const AIConsultingServices = () => {
                                 Empowering Your Business with AI
                             </h2>
                             <p>
-                                At Sadel, we harness the power of Artificial Intelligence to unlock new potentials for your business. Our comprehensive AI consulting services are designed to cater to your unique needs, ensuring you stay ahead in an ever-evolving digital landscape.
+                                At AFAQ, we harness the power of Artificial Intelligence to unlock new potentials for your business. Our comprehensive AI consulting services are designed to cater to your unique needs, ensuring you stay ahead in an ever-evolving digital landscape.
                             </p>
                         </div>
                     </div>
@@ -252,12 +252,12 @@ const AIConsultingServices = () => {
                     <div className="feature-container">
                         {/* Right: Illustration */}
                         <div className="feature-image">
-                            <img src="/Images/Frame (21).png" alt="Why Choose Sadel" className="w-full max-w-xs h-auto" />
+                            <img src="/Images/Frame (21).png" alt="Why Choose AFAQ" className="w-full max-w-xs h-auto" />
                         </div>
                         {/* Left: Text */}
                         <div className="feature-content">
                             <h2>
-                                Why Choose Sadel?
+                                Why Choose AFAQ?
                             </h2>
                             <div className="space-y-6">
                                 <div>
@@ -290,7 +290,7 @@ const AIConsultingServices = () => {
                     <div className="max-w-5xl mx-auto px-4">
                         <div className="text-center mb-12">
                             <h2 className="feature-content h2">
-                                Frequently Asked Questions (FAQs) for AI Consulting at Sadel
+                                Frequently Asked Questions (FAQs) for AI Consulting at AFAQ
                             </h2>
                         </div>
                         <FAQAccordion faqs={faqs} />

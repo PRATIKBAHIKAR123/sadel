@@ -14,14 +14,14 @@ export default function ITTrainingServices() {
                         <Fade direction="up" triggerOnce>
                             <div>
                                 <h2 className="text-5xl font-bold font-['Urbanist'] leading-[64px] mb-6">
-                                    <span className="text-[#0b0d0e]">IT Training</span> <span className="text-[#f9d300]">Services</span>
+                                    <span className="text-[#0b0d0e]">IT Training</span> <span className="text-primary">Services</span>
                                 </h2>
                                 <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
-                                    At Sadel, we provide comprehensive IT training services designed to help individuals and organizations enhance their technical capabilities and achieve their professional objectives. Our training programs deliver hands-on experience and practical knowledge to prepare you for real-world challenges.
+                                    At AFAQ, we provide comprehensive IT training services designed to help individuals and organizations enhance their technical capabilities and achieve their professional objectives. Our training programs deliver hands-on experience and practical knowledge to prepare you for real-world challenges.
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
                                             Enroll for Top-Tier Learning
                                         </Button>
                                     </Link>
@@ -165,13 +165,13 @@ export default function ITTrainingServices() {
             {/* Yellow Highlight Section */}
             <div className="max-w-7xl mx-auto mt-4">
                 <Fade direction="left" triggerOnce>
-                    <div className="bg-[#f9d300] rounded-3xl p-12">
+                    <div className="bg-[#a895d2] rounded-3xl p-12">
                         <div className="flex flex-col lg:flex-row items-center justify-between">
                             <div className="flex-1">
-                                <h3 className="text-black text-4xl font-semibold font-['Urbanist'] leading-[64px] mb-6">
+                                <h3 className="text-white    text-4xl font-semibold font-['Urbanist'] leading-[64px] mb-6">
                                     Why Choose Us
                                 </h3>
-                                <div className="space-y-4 text-black text-lg font-normal font-['Urbanist'] leading-loose">
+                                <div className="space-y-4 text-white text-lg font-normal font-['Urbanist'] leading-loose">
                                     <div className="flex items-start gap-3">
                                         <div className="w-6 h-6 bg-black text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 mt-1">1</div>
                                         <p><strong>Industry-Standard Training:</strong> Our courses meet current industry standards and equip you with the latest skills and knowledge that employers actively seek.</p>
@@ -209,7 +209,7 @@ export default function ITTrainingServices() {
                 <Fade direction="left" triggerOnce>
                     <div className="text-center">
                         <Link href="/contact-us">   
-                            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold text-lg">
+                            <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold text-lg">
                                 Enroll for Top-Tier Learning
                             </Button>
                         </Link>

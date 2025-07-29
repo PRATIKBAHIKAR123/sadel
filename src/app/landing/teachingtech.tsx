@@ -68,11 +68,11 @@ const TeachingTechCarousel = () => {
       <div className="p-8 overflow-hidden">
         {/* Header */}
         <div className="justify-center text-center mb-12">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            {t.teachingTechTitle} <span className="text-black">{t.teachingTechSubtitle}</span>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
+            {t.teachingTechTitle} <span className="text-white">{t.teachingTechSubtitle}</span>
           </h1>
           <div className="flex items-center justify-center gap-2">
-            <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">{t.teachingTechSubtitle}</span>
+            <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">{t.teachingTechSubtitle}</span>
             <div className="w-6 sm:w-8 h-1 bg-blue-500 rounded-full ml-2"></div>
           </div>
         </div>

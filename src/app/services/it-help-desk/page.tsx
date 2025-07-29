@@ -21,8 +21,8 @@ const ITHelpDeskPage = () => (
                             </p>
                             <div className="flex gap-4">
                                 <Link href="/contact-us">
-                                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                        Get Free Consultation with a Sadel expert
+                                    <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                        Get Free Consultation with a AFAQ expert
                                     </Button>
                                 </Link>
                                 {/* <Button variant="outline">Explore Services</Button> */}
@@ -104,7 +104,7 @@ const ITHelpDeskPage = () => (
                     {/* Left: Text */}
                     <div className="feature-content">
                         <h2>
-                            Sadel Core IT Help Desk Services
+                            AFAQ Core IT Help Desk Services
                         </h2>
                         <p>
                             Our comprehensive IT support services are designed to protect your IT infrastructure and ensure uninterrupted productivity. We provide end-to-end solutions that address both immediate technical issues and long-term infrastructure optimization.
@@ -240,7 +240,7 @@ const ITHelpDeskPage = () => (
         <div className="max-w-7xl mx-auto p-8 text-center">
             <Fade direction="up" triggerOnce>
                 <Link href="/contact-us">
-                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg">
+                    <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-4 rounded-lg font-semibold text-lg">
                         Get Offshore IT Help Desk Services NOW
                     </Button>
                 </Link>
@@ -281,28 +281,28 @@ const ITHelpDeskPage = () => (
         <div className="w-full my-10">
             <div className="bg-[#fffcec] flex items-center justify-center p-6">
                 <div>
-                    <div className="justify-start text-[#f9d300] text-lg font-medium font-['Urbanist'] leading-7">Ready for Reliable IT Support?</div>
+                    <div className="justify-start text-primary text-lg font-medium font-['Urbanist'] leading-7">Ready for Reliable IT Support?</div>
                     <div className="justify-start text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[64px]">Get offshore IT Help Desk Services NOW.</div>
                     <div className="flex">
                         <div className="flex-1 relative">
                             <input
                                 type="email"
                                 placeholder="Enter your business email"
-                                className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8a78bd] focus:border-transparent"
                             />
-                            <Button className="absolute right-2 top-1/2 -translate-y-1/2 px-8">
+                            <Button className="absolute text-white right-2 top-1/2 -translate-y-1/2 px-8">
                                 Get Started
                             </Button>
                         </div>
                     </div>
                     <div className="mt-3">
                         <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">You can unsubscribe at any time. Read our </span>
-                        <span className="text-[#f9d300] text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span>
+                        <span className="text-primary text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span>
                         <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>
                     </div>
                 </div>
                 <div className="h-80 w-auto">
-                    <img src="/Images/Mail-bro 2.png" className="w-full h-full" alt="Contact Sadel" />
+                    <img src="/Images/Mail-bro 2.png" className="w-full h-full" alt="Contact AFAQ" />
                 </div>
             </div>
         </div>

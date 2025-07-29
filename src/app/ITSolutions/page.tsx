@@ -8,7 +8,7 @@ export default function ItSolutions() {
       id: 1,
       iconSrc: "/Images/database 1.png", // Replace with your actual icon path
       title: "Managed SOC Service",
-      description: "Ensure 24/7 monitoring and threat detection with Sadel's Managed SOC, giving your organization full control over data access and real-time security incident response."
+      description: "Ensure 24/7 monitoring and threat detection with AFAQ's Managed SOC, giving your organization full control over data access and real-time security incident response."
     },
     {
       id: 2,
@@ -52,9 +52,9 @@ export default function ItSolutions() {
                 Professional Managed Security and IT Support Services Provider
               </h2>
               <p className="text-[#5c5f6e] text-base sm:text-lg font-normal font-['Urbanist'] leading-relaxed mb-6 sm:mb-8">
-                Sadel is your trusted partner for professional managed security and IT support services. We provide end-to-end solutions that protect your digital infrastructure, ensure system uptime, and streamline your IT operations. With proactive monitoring, expert support, and tailored strategies, we help your business stay secure, efficient, and future-ready.                            </p>
+                AFAQ is your trusted partner for professional managed security and IT support services. We provide end-to-end solutions that protect your digital infrastructure, ensure system uptime, and streamline your IT operations. With proactive monitoring, expert support, and tailored strategies, we help your business stay secure, efficient, and future-ready.                            </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
+                <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
                   Getting Started
                 </Button>
                 <Button variant="outline" className="w-full sm:w-auto">Learn More</Button>
@@ -93,7 +93,7 @@ export default function ItSolutions() {
                 </div>
               </div>
               <div className="flex flex-col gap-3 sm:gap-4">
-                <div className="text-[#0b0d0e] text-xl sm:text-2xl md:text-[32px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[48px]">Why Choose Sadel</div>
+                <div className="text-[#0b0d0e] text-xl sm:text-2xl md:text-[32px] font-bold font-['Urbanist'] leading-tight sm:leading-normal md:leading-[48px]">Why Choose AFAQ</div>
 
                 <div className="text-[#5c5f6e] text-sm sm:text-base font-normal font-['Urbanist'] leading-relaxed">
                   Backed by years of industry experience and a skilled team, we deliver reliable and future-ready solutions.
@@ -125,7 +125,7 @@ export default function ItSolutions() {
             <div className="text-[#263238] text-xl sm:text-2xl md:text-3xl lg:text-[40px] font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[52px]">
               Secure. Scalable. Smart.            </div>
             <p className="text-[#838696] text-sm sm:text-base font-normal font-['Urbanist'] leading-normal">
-              Sadel delivers future-ready IT solutions that protect, grow, and adapt with your business.            </p>
+              AFAQ delivers future-ready IT solutions that protect, grow, and adapt with your business.            </p>
             <div className="h-48 sm:h-64 mt-4 sm:mt-6">
               <img src="/Images/Frame (12).png" alt="image" className="h-full w-auto" />
             </div>
@@ -149,7 +149,7 @@ export default function ItSolutions() {
           Streamlined operations with better Services
         </div>
                  <p className="text-[#5c5f6e] text-base sm:text-lg font-normal font-['Urbanist'] leading-relaxed">
-           Protect your data, enhance visibility, and ensure business continuity with Sadel&apos;s smart security and IT service solutions—designed to keep your operations smooth, secure, and scalable.
+           Protect your data, enhance visibility, and ensure business continuity with AFAQ&apos;s smart security and IT service solutions—designed to keep your operations smooth, secure, and scalable.
          </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 mt-6 sm:mt-8">
           {services.map((service) => (
@@ -187,10 +187,10 @@ export default function ItSolutions() {
                 Securing Your Business, Powering Your Growth
               </h2>
               <p className="text-[#5c5f6e] text-base sm:text-lg font-normal font-['Urbanist'] leading-relaxed mb-6 sm:mb-8">
-                At Sadel, we combine advanced security solutions with reliable IT support to protect your operations and fuel long-term success. From cloud protection to endpoint security, we help your business stay one step ahead—always connected, always secure.
+                At AFAQ, we combine advanced security solutions with reliable IT support to protect your operations and fuel long-term success. From cloud protection to endpoint security, we help your business stay one step ahead—always connected, always secure.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
+                <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-6 sm:px-8 py-3 rounded-lg font-semibold w-full sm:w-auto">
                   Getting Started
                 </Button>
                 <Button variant="outline" className="w-full sm:w-auto">Get $10 credit</Button>

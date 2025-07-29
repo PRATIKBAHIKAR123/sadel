@@ -42,12 +42,12 @@ const ActiveDirectoryConsulting = () => {
 
                                 </h1>
                                 <p className="hero-description">
-                                    Transform your identity management infrastructure with expert Active Directory solutions. Sadel delivers comprehensive AD consulting services to optimize security, streamline administration, and ensure seamless integration across your hybrid cloud environment.
+                                    Transform your identity management infrastructure with expert Active Directory solutions. AFAQ delivers comprehensive AD consulting services to optimize security, streamline administration, and ensure seamless integration across your hybrid cloud environment.
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                            Get a free 30-minute consultation with a Sadel expert
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                            Get a free 30-minute consultation with a AFAQ expert
                                         </Button>
                                     </Link>
                                     <Button variant="outline">Explore AD Solutions</Button>
@@ -81,7 +81,7 @@ const ActiveDirectoryConsulting = () => {
                             <p>
                                 Active Directory Web Services (AD) serves as Microsoft&apos;s cornerstone identity management platform, enabling centralized single sign-on (SSO) across applications and services. It seamlessly integrates with critical infrastructure components including DNS, DHCP, IPsec, Wi-Fi, NPS, and VPN services.
                                 <br /><br />
-                                Azure Active Directory extends these capabilities to the cloud as Microsoft&apos;s Identity-as-a-Service (IDaaS) solution. With Azure AD Connect, Sadel helps organizations create robust hybrid environments that synchronize on-premises credentials with cloud services, delivering unified access management across your entire IT ecosystem.
+                                Azure Active Directory extends these capabilities to the cloud as Microsoft&apos;s Identity-as-a-Service (IDaaS) solution. With Azure AD Connect, AFAQ helps organizations create robust hybrid environments that synchronize on-premises credentials with cloud services, delivering unified access management across your entire IT ecosystem.
                             </p>
 
                         </div>
@@ -98,12 +98,12 @@ const ActiveDirectoryConsulting = () => {
                         {/* Left: Text */}
                         <div className="feature-content">
                             <h2>
-                                How Sadel Streamlines AD Administration & Security
+                                How AFAQ Streamlines AD Administration & Security
                             </h2>
                             <p>
-                                Our Active Directory solutions leverage domain controllers (DCs) with intelligent replication strategies to ensure consistent, reliable directory services across your organization. Sadel&apos;s expertise in Global Catalog server configuration and forest management guarantees optimal performance and scalability.
+                                Our Active Directory solutions leverage domain controllers (DCs) with intelligent replication strategies to ensure consistent, reliable directory services across your organization. AFAQ&apos;s expertise in Global Catalog server configuration and forest management guarantees optimal performance and scalability.
                                 <br /><br />
-                                With over two decades of experience in AD DS deployments, Sadel understands the intricate protocols including LDAP, Kerberos, and DNS integration. We specialize in designing hybrid architectures that seamlessly bridge on-premises Active Directory with Azure Active Directory, creating unified identity management solutions that scale with your business growth.
+                                With over two decades of experience in AD DS deployments, AFAQ understands the intricate protocols including LDAP, Kerberos, and DNS integration. We specialize in designing hybrid architectures that seamlessly bridge on-premises Active Directory with Azure Active Directory, creating unified identity management solutions that scale with your business growth.
                             </p>
                         </div>
                         <div className="feature-image">
@@ -126,7 +126,7 @@ const ActiveDirectoryConsulting = () => {
                                 Enterprise Security with Azure Advanced Protection
                             </h2>
                             <p>
-                                Sadel implements Azure Advanced Protection to deliver real-time security monitoring at enterprise scale. Our solutions leverage cloud-powered threat detection to safeguard against increasingly sophisticated security threats while maintaining optimal performance.
+                                AFAQ implements Azure Advanced Protection to deliver real-time security monitoring at enterprise scale. Our solutions leverage cloud-powered threat detection to safeguard against increasingly sophisticated security threats while maintaining optimal performance.
                                 <br /><br />
                                 Key security features include:
                             </p>
@@ -150,7 +150,7 @@ const ActiveDirectoryConsulting = () => {
                         {/* Left: Text */}
                         <div className="feature-content">
                             <h2>
-                                Sadel&apos;s Active Directory Advantages
+                                AFAQ&apos;s Active Directory Advantages
                             </h2>
                             <p>
                                 Our comprehensive Active Directory consulting services deliver measurable business value through:
@@ -184,7 +184,7 @@ const ActiveDirectoryConsulting = () => {
                                 Expert AD Troubleshooting & Optimization
                             </h2>
                             <p>
-                                Sadel&apos;s proactive monitoring and troubleshooting services ensure your Active Directory infrastructure operates at peak performance. Our comprehensive approach addresses critical vulnerabilities before they impact your business operations.
+                                AFAQ&apos;s proactive monitoring and troubleshooting services ensure your Active Directory infrastructure operates at peak performance. Our comprehensive approach addresses critical vulnerabilities before they impact your business operations.
                                 <br /><br />
                                 Our specialized services include:
                             </p>
@@ -207,8 +207,8 @@ const ActiveDirectoryConsulting = () => {
                 <div className="text-white py-8 px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <Link href="/contact-us">
-                            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold text-lg">
-                                Get a free 30-minute consultation with a Sadel expert
+                            <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold text-lg">
+                                Get a free 30-minute consultation with a AFAQ expert
                             </Button>
                         </Link>
                     </div>

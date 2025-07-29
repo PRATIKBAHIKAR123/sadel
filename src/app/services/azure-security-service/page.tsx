@@ -19,8 +19,8 @@ export default function AzureService() {
                             </p>
                             <div className="flex gap-4">
                                 <Link href="/contact-us">
-                                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                        Get a free 30-minute consultation with a Sadel expert
+                                    <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                        Get a free 30-minute consultation with a AFAQ expert
                                     </Button>
                                 </Link>
                                 {/* <Button variant="outline">Learn More</Button> */}
@@ -307,8 +307,8 @@ export default function AzureService() {
             <div className="max-w-7xl mx-auto p-8 text-center">
                 <Fade direction="up" triggerOnce>
                     <Link href="/contact-us">
-                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                            Get a free 30-minute consultation with a Sadel expert
+                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                            Get a free 30-minute consultation with a AFAQ expert
                         </Button>
                     </Link>
                 </Fade>
@@ -354,14 +354,14 @@ export default function AzureService() {
             {/* <div className="w-full my-10">
                 <div className="bg-[#fffcec] flex items-center justify-center p-6">
                     <div>
-                        <div className="justify-start text-[#f9d300] text-lg font-medium font-['Urbanist'] leading-7">Sign up for updates</div>
+                        <div className="justify-start text-primary text-lg font-medium font-['Urbanist'] leading-7">Sign up for updates</div>
                         <div className="justify-start text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[64px]">Cut down on expenses while improving productivity.</div>
                         <div className="flex">
                             <div className="flex-1 relative">
                                 <input
                                     type="email"
                                     placeholder="Your email address"
-                                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8a78bd] focus:border-transparent"
                                 />
                                 <Button className="absolute right-2 top-1/2 -translate-y-1/2 px-8">
                                     Sign Up
@@ -369,7 +369,7 @@ export default function AzureService() {
                             </div>
                         </div>
                         <div className="mt-3">
-                            <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">You can unsubscribe at any time. Read our </span><span className="text-[#f9d300] text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span><span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>
+                            <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">You can unsubscribe at any time. Read our </span><span className="text-primary text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span><span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>
                         </div>
                     </div>
                     <div className="h-80 w-auto">

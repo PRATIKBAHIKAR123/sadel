@@ -5,7 +5,7 @@ const AIPlatformSection = () => {
     {
       id: 1,
       title: "Integrated and customized technology solutions",
-      description: "We understand that each sector has its own challenges, which is why we design customized technology solutions that perfectly meet the needs of your company or educational institution. Through Sadel Vision you will get the technology that suits you, in an easy-to-use and high performance manner"
+      description: "We understand that each sector has its own challenges, which is why we design customized technology solutions that perfectly meet the needs of your company or educational institution. Through AFAQ you will get the technology that suits you, in an easy-to-use and high performance manner"
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ const AIPlatformSection = () => {
     {
       id: 3,
       title: "Integrated security and protection",
-      description: "We put the security of your information and data at the top of our priorities. With Sadel Vision&apos;s advanced security solutions, you can rest assured that your data and systems are protected at the highest level of international standards"
+      description: "We put the security of your information and data at the top of our priorities. With AFAQ&apos;s advanced security solutions, you can rest assured that your data and systems are protected at the highest level of international standards"
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const AIPlatformSection = () => {
         {/* Main Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-semibold font-['Urbanist'] leading-[58px] max-w-4xl mx-auto">
-            HERE&apos;S WHY SADEL VISION IS THE <span className='text-[#f9d300]'>PERFECT CHOICE FOR YOU :</span>
+            HERE&apos;S WHY AFAQ IS THE <span className='text-primary'>PERFECT CHOICE FOR YOU :</span>
           </h2>
         </div>
 

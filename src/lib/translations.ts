@@ -8,18 +8,18 @@ export const translations = {
     itSolutionsButton: "IT Solutions",
     educationalSolutionsButton: "Educational Solutions",
 
-    // Sadel Made Tech Easy Section
-    madeTechEasyTitle: "Sadel Made Tech Easy",
-    madeTechEasySubtitle: "Sadel makes technology simple and effortless. We turn complex systems into easy-to-use solutions for everyone.",
-    simplifiesTitle1: "Sadel Simplifies",
+    // AFAQ Made Tech Easy Section
+    madeTechEasyTitle: "AFAQ Made Tech Easy",
+    madeTechEasySubtitle: "AFAQ makes technology simple and effortless. We turn complex systems into easy-to-use solutions for everyone.",
+    simplifiesTitle1: "AFAQ Simplifies",
     simplifiesTitle2: "Technology to Empower Teams",
-    simplifiesSubtitle: "Sadel takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.",
+    simplifiesSubtitle: "AFAQ takes the complexity out of technology with smart, intuitive solutions. Our tools are designed to boost collaboration, streamline workflows, and save time.",
     gettingStartedButton: "Getting Started",
     learnMoreButton: "Learn More",
 
     // Expert IT Solutions Section
-    expertITTitle: "Sadel Expert IT Solutions",
-    expertITSubtitle: "Sadel delivers tailored software and cloud solutions that drive business growth and efficiency. With expert DevOps and IT consulting, we turn complex challenges into seamless digital experiences.",
+    expertITTitle: "AFAQ Expert IT Solutions",
+    expertITSubtitle: "AFAQ delivers tailored software and cloud solutions that drive business growth and efficiency. With expert DevOps and IT consulting, we turn complex challenges into seamless digital experiences.",
     
     // Service Cards
     securityTitle: "Security",
@@ -30,29 +30,29 @@ export const translations = {
     supportResearchDescription: "Gain deep visibility, control, and threat protection across your cloud apps—detect risky user behavior, prevent data leaks",
     learnMore: "Learn more",
 
-    // Sadel Solutions Section
-    sadelITTitle: "Sadel IT Solutions",
-    sadelITDescription: "At Sadel, we simplify modern tech complexity to drive real business impact—helping you accelerate outcomes and unlock value faster.",
+    // AFAQ Solutions Section
+    sadelITTitle: "AFAQ IT Solutions",
+    sadelITDescription: "At AFAQ, we simplify modern tech complexity to drive real business impact—helping you accelerate outcomes and unlock value faster.",
     sadelProductsTitle: "Product",
     sadelProductsDescription: "We provide a comprehensive range of educational solutions designed to empower learners, support educators, and enhance the overall learning experience",
 
     // Interactive Education Board Section
-    interactiveBoardTitle: "Experience Smart, Seamless Learning with Sadel's Interactive Education Board",
+    interactiveBoardTitle: "Experience Smart, Seamless Learning with AFAQ's Interactive Education Board",
     supportsFreeTitle: "Supports Free educational programs",
     supportsFreeDescription: "Stay connected and productive wherever you are with Sodars on-the-go solutions. Whether youre traveling, working remotely, or switching between locations, our tools keep your workflow seamless. Access, collaborate, and manage tasks anytime—without being tied to a desk.",
     seamlessCollaborationTitle: "Seamless Collaboration & Control",
-    seamlessCollaborationDescription: "Access your important folders even without an internet connection.Sadel lets you stay organized and in control, anytime, anywhere.Work seamlessly offline and sync automatically when youre back online.",
+    seamlessCollaborationDescription: "Access your important folders even without an internet connection.AFAQ lets you stay organized and in control, anytime, anywhere.Work seamlessly offline and sync automatically when youre back online.",
     viewProduct: "View Product",
 
     // Product Cards
     digitalKiosksTitle: "Digital Kiosks",
-    digitalKiosksDescription: "Our Sadel's Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.",
+    digitalKiosksDescription: "Our AFAQ's Digital Kiosks offer seamless self-service experiences, enabling quick access to information, services, and interactive content.",
     surveillanceCamerasTitle: "Surveillance Cameras",
     surveillanceCamerasDescription: "Our Surveillance Cameras deliver smart, real-time monitoring solutions to secure your spaces and safeguard what matters most.",
     soundSystemTitle: "Sound System P.A System",
     soundSystemDescription: "Our P.A Systems deliver clear, powerful audio for effective communication across classrooms, campuses, and public spaces.",
     ledDisplayTitle: "LED Display",
-    ledDisplayDescription: "Sadel's LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.",
+    ledDisplayDescription: "AFAQ's LED Displays offer vibrant, high-resolution visuals for impactful communication in any environment.",
     checkoutProduct: "Checkout Product",
 
     // Other Sections
@@ -78,13 +78,13 @@ export const translations = {
 
     // Testimonial Section
     testimonialSectionTitle: "What Our Clients Say",
-    testimonialSubtitle: "Discover why leading organizations choose Sadel for their technology needs",
+    testimonialSubtitle: "Discover why leading organizations choose AFAQ for their technology needs",
     testimonial1Name: "Rodrigo Duarte",
     testimonial1Role: "Graphic Designer",
-    testimonial1Content: "Our company uses Sadel, and I also use Box personally to store my documents, photos, videos, sensitive data etc. Sadel is amazing - so much more than just cloud storage. You can watch videos, share photos, scan documents, electronic sign and send documents, secure sensitive data and so much more.",
+    testimonial1Content: "Our company uses AFAQ, and I also use Box personally to store my documents, photos, videos, sensitive data etc. AFAQ is amazing - so much more than just cloud storage. You can watch videos, share photos, scan documents, electronic sign and send documents, secure sensitive data and so much more.",
     testimonial2Name: "Ivone Josan",
     testimonial2Role: "Marketing Assistant",
-    testimonial2Content: "I love using Sadel for work and personally because it is very intuitive to use and easy to share files with anyone. Our company moved from dropbox over to box, due to security purposes which would be my concern but other than that it syncs very quickly and allows collaboration and file sharing alot easier for your team/company.",
+    testimonial2Content: "I love using AFAQ for work and personally because it is very intuitive to use and easy to share files with anyone. Our company moved from dropbox over to box, due to security purposes which would be my concern but other than that it syncs very quickly and allows collaboration and file sharing alot easier for your team/company.",
 
     // Services Page
     knowMoreTitle: "Know More",
@@ -104,24 +104,24 @@ export const translations = {
     microsoftCloudAppSecurityTitle: "Microsoft Cloud App Security",
     microsoftCloudAppSecurityDescription: "Gain deep visibility, control, and threat protection across your cloud apps—detect risky user behavior, prevent data leaks",
     
-    // About Sadel Section
+    // About AFAQ Section
     getToKnowSadelTitle: "Get to Know Sadels",
     itBusinessSolutionsTitle: "IT Business Solutions",
-    aboutSadelDescription: "The modern world relies on a complex array of technologies to keep moving—Sadel aims to simplify that complexity. Our IT expertise helps organizations accelerate their time to value and achieve meaningful business impact. Founded in [Founding Year] and headquartered in [Location], we specialize in solving complex challenges with smart IT solutions, including Cloud Services, Cyber Security, Managed Services, and Infrastructure Support.",
+    aboutSadelDescription: "The modern world relies on a complex array of technologies to keep moving—AFAQ aims to simplify that complexity. Our IT expertise helps organizations accelerate their time to value and achieve meaningful business impact. Founded in [Founding Year] and headquartered in [Location], we specialize in solving complex challenges with smart IT solutions, including Cloud Services, Cyber Security, Managed Services, and Infrastructure Support.",
     quickStartButton: "Quick Start",
     liveExamplesButton: "Live Examples",
     
     // Educational Tech Board Section
     educationalTechBoardTitle: "Educational Tech Board You Need",
-    educationalTechBoardDescription: "Experience a smarter way to teach with Sadel's interactive tech boards. Designed for seamless collaboration, engaging lessons, and real-time feedback.",
+    educationalTechBoardDescription: "Experience a smarter way to teach with AFAQ's interactive tech boards. Designed for seamless collaboration, engaging lessons, and real-time feedback.",
     contactUsButton: "Contact Us",
     downloadBrochureButton: "Download Brochure",
     
     // Features Section
     meetingsAnywhereTitle: "You can Hold Meetings Anywhere",
-    meetingsAnywhereDescription: "With Sadel's smart meeting solutions, you can hold meetings anywhere—whether you're in the office, at home, or on the move. Our technology ensures seamless collaboration with clear audio, high-quality visuals, and easy connectivity across devices. Stay productive and connected, no matter where you are.",
+    meetingsAnywhereDescription: "With AFAQ's smart meeting solutions, you can hold meetings anywhere—whether you're in the office, at home, or on the move. Our technology ensures seamless collaboration with clear audio, high-quality visuals, and easy connectivity across devices. Stay productive and connected, no matter where you are.",
     interactiveScreensTitle2: "Interactive Screens Transform Classrooms Into Innovative Learning Environments",
-    interactiveScreensDescription: "Interactive screens from Sadel transform traditional classrooms into dynamic, innovative learning environments. By enabling real-time collaboration, engaging multimedia content, and hands-on participation, these screens empower teachers to deliver impactful lessons while keeping students actively involved. It's where technology meets education for a smarter tomorrow.",
+    interactiveScreensDescription: "Interactive screens from AFAQ transform traditional classrooms into dynamic, innovative learning environments. By enabling real-time collaboration, engaging multimedia content, and hands-on participation, these screens empower teachers to deliver impactful lessons while keeping students actively involved. It's where technology meets education for a smarter tomorrow.",
     
     // Call to Action Section
     signUpText: "Sign up for developer updates.",
@@ -150,7 +150,7 @@ export const translations = {
     // Azure Security Service Page
     azureSecurityTitle: "Azure security",
     azureSecurityDescription: "Azure Security Services manage and protect your data and applications, ensuring comprehensive business security during app development and backend operations in the cloud.",
-    getFreeConsultationButton: "Get a free 30-minute consultation with a Sadel expert",
+    getFreeConsultationButton: "Get a free 30-minute consultation with a AFAQ expert",
     azureSecurityServicesTitle: "Azure Security Services: Keeping Your Business Secure in the Cloud",
     azureSecurityServicesDescription: "As businesses increasingly migrate to the cloud, security becomes paramount. Azure provides a comprehensive security framework that protects your data and applications throughout their lifecycle.",
     importanceOfAzureSecurityTitle: "The Importance of Azure Cloud Security for Business Operations",
@@ -191,9 +191,9 @@ export const translations = {
     driveInnovationTitle: "Drive Innovation.",
     scaleEfficientlyTitle: "Scale Efficiently.",
     secureDigitalFutureTitle: "Secure Your Digital Future.",
-    customSoftwareDescription: "At Sadel, we transform your ideas into enterprise-grade applications that are fast, scalable, and secure. Whether you're building a new digital product or modernizing a legacy system, our custom software development services ensure performance, flexibility, and business value on time and within budget.",
+    customSoftwareDescription: "At AFAQ, we transform your ideas into enterprise-grade applications that are fast, scalable, and secure. Whether you're building a new digital product or modernizing a legacy system, our custom software development services ensure performance, flexibility, and business value on time and within budget.",
     ourCapabilitiesTitle: "Our Capabilities",
-    ourCapabilitiesDescription1: "At Sadel, we offer a comprehensive suite of software development services tailored to meet the unique needs of your business. Whether you're a startup or an enterprise, our capabilities span across various technologies and platforms to deliver innovative and scalable digital solutions that drive real business value.",
+    ourCapabilitiesDescription1: "At AFAQ, we offer a comprehensive suite of software development services tailored to meet the unique needs of your business. Whether you're a startup or an enterprise, our capabilities span across various technologies and platforms to deliver innovative and scalable digital solutions that drive real business value.",
     ourCapabilitiesDescription2: "Our team of experienced developers and architects work collaboratively to understand your specific requirements and deliver solutions that not only meet your current needs but also scale with your future growth.",
     customApplicationDevelopmentTitle: "Custom Application Development",
     customApplicationDevelopmentDescription: "We specialize in creating bespoke software solutions for desktop, web, and mobile platforms. Our applications feature robust architecture, exceptional user experience, and seamless integration capabilities that align perfectly with your business processes and objectives.",
@@ -218,13 +218,13 @@ export const translations = {
     cloudCategory: "Cloud",
     databaseCategory: "Database",
     devopsCategory: "DevOps",
-    whyChooseSadelTitle: "Why Choose Sadel for Software Development?",
+    whyChooseSadelTitle: "Why Choose AFAQ for Software Development?",
     whyChooseSadelDescription: "Our software development services are built on a foundation of technical excellence, industry expertise, and unwavering commitment to client success. Here's what sets us apart:",
 
     // Managed SOC Page
     keepSecurityOperationsTitle: "Keep Your Security Operations Strong and Scalable",
-    managedSOCDescription: "Sadel Vision delivers a comprehensive managed Security Operations Center (SOC) service that identifies and responds to intrusions across your PCs, servers, networks, cloud security, and email accounts. Our expert security professionals provide real-time monitoring, proactive prevention, and rapid response to security threats of varying complexity.",
-    whyChooseSadelSOCTitle: "Why Choose Sadel for Your Managed SOC Service?",
+    managedSOCDescription: "AFAQ delivers a comprehensive managed Security Operations Center (SOC) service that identifies and responds to intrusions across your PCs, servers, networks, cloud security, and email accounts. Our expert security professionals provide real-time monitoring, proactive prevention, and rapid response to security threats of varying complexity.",
+    whyChooseSadelSOCTitle: "Why Choose AFAQ for Your Managed SOC Service?",
     whyChooseSadelSOCDescription: "We help companies enhance their security operations and provide superior asset safeguarding compared to internal SOCs through our readily available team of cybersecurity experts.",
     benefit1: "15+ years of experience in cybersecurity",
     benefit2: "24/7, India/UAE-based experienced SOC team",
@@ -301,7 +301,7 @@ export const translations = {
     // IT Training Services Page
     itTrainingTitle: "IT Training",
     itTrainingServicesPageTitle: "Services", // Renamed to avoid duplicate
-    itTrainingDescription: "At Sadel, we provide comprehensive IT training services designed to help individuals and organizations enhance their technical capabilities and achieve their professional objectives. Our training programs deliver hands-on experience and practical knowledge to prepare you for real-world challenges.",
+    itTrainingDescription: "At AFAQ, we provide comprehensive IT training services designed to help individuals and organizations enhance their technical capabilities and achieve their professional objectives. Our training programs deliver hands-on experience and practical knowledge to prepare you for real-world challenges.",
     enrollForTopTierLearningButton: "Enroll for Top-Tier Learning",
     ourServicesTitle: "Our Services",
     certificationFocusedTrainingTitle: "Certification-Focused Training",
@@ -499,8 +499,8 @@ export const translations = {
     pkiConsulting: "PKI Consulting",
     activeDirectoryConsulting: "Active Directory Consulting",
     modernWorkplace: "Modern WorkPlace",
-    sadelsAISolutions: "Sadel's - AI Solutions",
-    sadelsDataDrivenSolutions: "Sadel's - Data Driven Solutions",
+    sadelsAISolutions: "AFAQ's - AI Solutions",
+    sadelsDataDrivenSolutions: "AFAQ's - Data Driven Solutions",
     softwareDevelopmentServices: "Software Development Services",
     supportAndMarketResearch: "Support and Market Research",
     cloudManagedService: "Cloud Managed Service",
@@ -520,7 +520,7 @@ export const translations = {
     // IT Training Services
     // itTrainingTitle: "IT Training",
     // itTrainingServicesPageTitle: "Services", // Renamed to avoid duplicate
-    // itTrainingDescription: "At Sadel, we provide comprehensive IT training services designed to help individuals and organizations enhance their technical capabilities and achieve their professional objectives. Our training programs deliver hands-on experience and practical knowledge to prepare you for real-world challenges.",
+    // itTrainingDescription: "At AFAQ, we provide comprehensive IT training services designed to help individuals and organizations enhance their technical capabilities and achieve their professional objectives. Our training programs deliver hands-on experience and practical knowledge to prepare you for real-world challenges.",
     // enrollForTopTierLearningButton: "Enroll for Top-Tier Learning",
     // ourServicesTitle: "Our Services",
     // certificationFocusedTrainingTitle: "Certification-Focused Training",
@@ -620,7 +620,7 @@ export const translations = {
     // emailSupportDescription: "Comprehensive email-based technical assistance",
     // virtualAssistantTitle: "Virtual Assistant",
     // virtualAssistantDescription: "AI-powered chatbot for instant basic support",
-    // sadelCoreITHelpDeskServicesTitle: "Sadel Core IT Help Desk Services",
+    // sadelCoreITHelpDeskServicesTitle: "AFAQ Core IT Help Desk Services",
     // sadelCoreITHelpDeskServicesDescription1: "Our comprehensive IT support services are designed to protect your IT infrastructure and ensure uninterrupted productivity. We provide end-to-end solutions that address both immediate technical issues and long-term infrastructure optimization.",
     // sadelCoreITHelpDeskServicesDescription2: "Our global businesses' outsourced IT support services include:",
     // remoteITSupportServicesTitle: "Remote IT Support Services",
@@ -674,13 +674,13 @@ export const translations = {
     // trustedCommunicationTitle: "Trusted Communication:",
     // powerOfPKITitle: "The Power of PKI",
     // pkiSolutionsDescription: "PKI Solutions: Providing Trust and Security for the Digital World. Security leaders often face challenges in modernizing their Public Key Infrastructure (PKI) due to limited resources, such as staff, expertise, and budget. To address these issues, many turn to Encryption Consulting for professional guidance, analysis, and services to effectively update their PKI.",
-    // whatDistinguishesSadelPKIServicesTitle: "What distinguishes Sadel PKI services from others?",
+    // whatDistinguishesSadelPKIServicesTitle: "What distinguishes AFAQ PKI services from others?",
     // whatDistinguishesSadelPKIServicesDescription1: "Our solution incorporates the necessary controls and processes to guarantee a secure PKI. At the same time, our full systems integration capability offers end-to-end support from scoping and design to building and deploying the PKI solution. Additionally, we educate consumers about certificates to ensure proper use and handling of the PKI.",
-    // whatDistinguishesSadelPKIServicesDescription2: "Sadel consulting services offer unparalleled expertise and experience building secure PKI solutions. What sets us apart is our unique ability to provide PKI professional services not just as a consultant but as an active user of our own PKI to support our services and those of our clients.",
+    // whatDistinguishesSadelPKIServicesDescription2: "AFAQ consulting services offer unparalleled expertise and experience building secure PKI solutions. What sets us apart is our unique ability to provide PKI professional services not just as a consultant but as an active user of our own PKI to support our services and those of our clients.",
     // advancedPKISecurityExpertiseTitle: "Advanced PKI Security & Expertise",
     // advancedPKISecurityExpertiseDescription1: "With our extensive knowledge of Hardware Security Modules (HSMS) - one of the most critical components of a secure PKI solution - we can ensure the highest level of security for the very heart of your PKI.",
     // advancedPKISecurityExpertiseDescription2: "We have a proven track record of designing and building PKI solutions for the most demanding security requirements, including government, transport industry, and Critical National Infrastructure users. Our expertise allows us to recommend the best-of-breed suppliers, or work with your preferred vendor, to ensure a PKI solution that meets your specific needs.",
-    // advancedPKISecurityExpertiseDescription3: "Sadel consulting services offer a unique combination of experience, expertise, and flexibility to deliver a secure and effective PKI solution.",
+    // advancedPKISecurityExpertiseDescription3: "AFAQ consulting services offer a unique combination of experience, expertise, and flexibility to deliver a secure and effective PKI solution.",
     // weOfferVariousPKIConsultingServicesTitle: "We offer various PKI consulting services, including:",
     // pkiConsultingServicesItem: "PKI consulting services",
     // professionalImplementationServicesItem: "Professional implementation services for PKI solutions",
@@ -765,7 +765,7 @@ export const translations = {
     itSolutionsButton: "حلول تكنولوجيا المعلومات",
     educationalSolutionsButton: "الحلول التعليمية",
 
-    // Sadel Made Tech Easy Section
+    // AFAQ Made Tech Easy Section
     madeTechEasyTitle: "سادل جعل التكنولوجيا سهلة",
     madeTechEasySubtitle: "سادل تجعل التكنولوجيا بسيطة وسهلة. نحن نحول الأنظمة المعقدة إلى حلول سهلة الاستخدام للجميع.",
     simplifiesTitle1: "سادل تبسط",
@@ -787,7 +787,7 @@ export const translations = {
     supportResearchDescription: "احصل على رؤية عميقة وتحكم وحماية من التهديدات عبر تطبيقاتك السحابية - اكتشف سلوك المستخدم المحفوف بالمخاطر وامنع تسريب البيانات",
     learnMore: "اعرف المزيد",
 
-    // Sadel Solutions Section
+    // AFAQ Solutions Section
     sadelITTitle: "حلول سادل لتكنولوجيا المعلومات",
     sadelITDescription: "في سادل، نبسط تعقيد التكنولوجيا الحديثة لدفع التأثير التجاري الحقيقي - مما يساعدك على تسريع النتائج وإطلاق القيمة بشكل أسرع.",
     sadelProductsTitle: "منتجات سادل",
@@ -861,7 +861,7 @@ export const translations = {
     microsoftCloudAppSecurityTitle: "أمان تطبيقات مايكروسوفت السحابية",
     microsoftCloudAppSecurityDescription: "احصل على رؤية عميقة وتحكم وحماية من التهديدات عبر تطبيقاتك السحابية - اكتشف سلوك المستخدم المحفوف بالمخاطر وامنع تسريب البيانات",
     
-    // About Sadel Section
+    // About AFAQ Section
     getToKnowSadelTitle: "تعرف على سادل",
     itBusinessSolutionsTitle: "حلول تكنولوجيا المعلومات التجارية",
     aboutSadelDescription: "يعتمد العالم الحديث على مجموعة معقدة من التقنيات للاستمرار في التحرك - تهدف سادل إلى تبسيط هذا التعقيد. خبرتنا في تكنولوجيا المعلومات تساعد المؤسسات على تسريع وقتها للقيمة وتحقيق تأثير تجاري هادف. تأسست في [سنة التأسيس] ومقرها في [الموقع]، نتخصص في حل التحديات المعقدة بحلول تكنولوجيا المعلومات الذكية، بما في ذلك الخدمات السحابية والأمن السيبراني والخدمات المدارة ودعم البنية التحتية.",
@@ -1146,7 +1146,7 @@ export const translations = {
     emailSupportDescription: "Comprehensive email-based technical assistance",
     virtualAssistantTitle: "Virtual Assistant",
     virtualAssistantDescription: "AI-powered chatbot for instant basic support",
-    sadelCoreITHelpDeskServicesTitle: "Sadel Core IT Help Desk Services",
+    sadelCoreITHelpDeskServicesTitle: "AFAQ Core IT Help Desk Services",
     sadelCoreITHelpDeskServicesDescription1: "Our comprehensive IT support services are designed to protect your IT infrastructure and ensure uninterrupted productivity. We provide end-to-end solutions that address both immediate technical issues and long-term infrastructure optimization.",
     sadelCoreITHelpDeskServicesDescription2: "Our global businesses' outsourced IT support services include:",
     remoteITSupportServicesTitle: "Remote IT Support Services",
@@ -1200,13 +1200,13 @@ export const translations = {
     trustedCommunicationTitle: "Trusted Communication:",
     powerOfPKITitle: "The Power of PKI",
     pkiSolutionsDescription: "PKI Solutions: Providing Trust and Security for the Digital World. Security leaders often face challenges in modernizing their Public Key Infrastructure (PKI) due to limited resources, such as staff, expertise, and budget. To address these issues, many turn to Encryption Consulting for professional guidance, analysis, and services to effectively update their PKI.",
-    whatDistinguishesSadelPKIServicesTitle: "What distinguishes Sadel PKI services from others?",
+    whatDistinguishesSadelPKIServicesTitle: "What distinguishes AFAQ PKI services from others?",
     whatDistinguishesSadelPKIServicesDescription1: "Our solution incorporates the necessary controls and processes to guarantee a secure PKI. At the same time, our full systems integration capability offers end-to-end support from scoping and design to building and deploying the PKI solution. Additionally, we educate consumers about certificates to ensure proper use and handling of the PKI.",
-    whatDistinguishesSadelPKIServicesDescription2: "Sadel consulting services offer unparalleled expertise and experience building secure PKI solutions. What sets us apart is our unique ability to provide PKI professional services not just as a consultant but as an active user of our own PKI to support our services and those of our clients.",
+    whatDistinguishesSadelPKIServicesDescription2: "AFAQ consulting services offer unparalleled expertise and experience building secure PKI solutions. What sets us apart is our unique ability to provide PKI professional services not just as a consultant but as an active user of our own PKI to support our services and those of our clients.",
     advancedPKISecurityExpertiseTitle: "Advanced PKI Security & Expertise",
     advancedPKISecurityExpertiseDescription1: "With our extensive knowledge of Hardware Security Modules (HSMS) - one of the most critical components of a secure PKI solution - we can ensure the highest level of security for the very heart of your PKI.",
     advancedPKISecurityExpertiseDescription2: "We have a proven track record of designing and building PKI solutions for the most demanding security requirements, including government, transport industry, and Critical National Infrastructure users. Our expertise allows us to recommend the best-of-breed suppliers, or work with your preferred vendor, to ensure a PKI solution that meets your specific needs.",
-    advancedPKISecurityExpertiseDescription3: "Sadel consulting services offer a unique combination of experience, expertise, and flexibility to deliver a secure and effective PKI solution.",
+    advancedPKISecurityExpertiseDescription3: "AFAQ consulting services offer a unique combination of experience, expertise, and flexibility to deliver a secure and effective PKI solution.",
     weOfferVariousPKIConsultingServicesTitle: "We offer various PKI consulting services, including:",
     pkiConsultingServicesItem: "PKI consulting services",
     professionalImplementationServicesItem: "Professional implementation services for PKI solutions",

@@ -35,7 +35,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ name, role, content, avat
           {[...Array(rating)].map((_, i) => (
             <Star 
               key={i} 
-              className="w-4 h-4 fill-yellow-400 text-yellow-400" 
+              className="w-4 h-4 fill-[#8a78bd] text-primary" 
             />
           ))}
         </div>
@@ -49,14 +49,14 @@ const TestimonialSection: React.FC = () => {
     {
       name: "Rodrigo Duarte",
       role: "Graphic Designer",
-      content: "Our company uses Sadel, and I also use Box personally to store my documents, photos, videos, sensitive data etc. Sadel is amazing - so much more than just cloud storage. You can watch videos, share photos, scan documents, electronic sign and send documents, secure sensitive data and so much more.",
+      content: "Our company uses AFAQ, and I also use Box personally to store my documents, photos, videos, sensitive data etc. AFAQ is amazing - so much more than just cloud storage. You can watch videos, share photos, scan documents, electronic sign and send documents, secure sensitive data and so much more.",
       avatar: "/Images/Ellipse 84.png",
       rating: 5
     },
     {
       name: "Ivone Josan",
       role: "Marketing Assistant",
-      content: "I love using Sadel for work and personally because it is very intuitive to use and easy to share files with anyone. Our company moved from dropbox over to box, due to security purposes which would be my concern but other than that it syncs very quickly and allows collaboration and file sharing alot easier for your team/company.",
+      content: "I love using AFAQ for work and personally because it is very intuitive to use and easy to share files with anyone. Our company moved from dropbox over to box, due to security purposes which would be my concern but other than that it syncs very quickly and allows collaboration and file sharing alot easier for your team/company.",
       avatar: "/Images/Ellipse 85.png",
       rating: 5
     }

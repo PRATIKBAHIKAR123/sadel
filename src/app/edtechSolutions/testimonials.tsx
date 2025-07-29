@@ -39,7 +39,7 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ name, role, content, avat
           {[...Array(rating)].map((_, i) => (
             <Star 
               key={i} 
-              className="w-4 h-4 fill-yellow-400 text-yellow-400" 
+              className="w-4 h-4 fill-[#8a78bd] text-primary" 
             />
           ))}
         </div>

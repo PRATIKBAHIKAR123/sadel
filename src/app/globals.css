@@ -247,7 +247,7 @@ html, body {
 }
 
 :root {
-  --primary: #FBE35A;
+  --primary: #8a78bd;
   --secondary: #FFFCEC;
   --radius: 0.625rem;
   --background: #ffffff;
@@ -389,7 +389,7 @@ body {
 }
 
 .hero-title-accent {
-  color: #f9d300;
+  color: #8a78bd;
 }
 
 .hero-description {

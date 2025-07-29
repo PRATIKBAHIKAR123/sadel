@@ -12,7 +12,7 @@ const ModernWorkplaceConsulting = () => {
             answer: "A Modern Workplace solution is an integrated approach that combines technology, processes, and culture to create a flexible, secure, and productive work environment. It enables employees to work seamlessly from anywhere while maintaining security and collaboration standards."
         },
         {
-            question: "How does Sadel's Modern Workplace solution improve productivity?",
+            question: "How does AFAQ's Modern Workplace solution improve productivity?",
             answer: "Our solution boosts productivity through centralized workplace services, AI-driven digital assistants, predictive analytics, and seamless cross-device experiences. We eliminate IT bottlenecks and provide instant access to tools and resources your team needs."
         },
         {
@@ -50,8 +50,8 @@ const ModernWorkplaceConsulting = () => {
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                            Get a free 30-minute consultation with a Sadel expert
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                            Get a free 30-minute consultation with a AFAQ expert
                                         </Button>
                                     </Link>
                                     <Button variant="outline">Explore Solutions</Button>
@@ -83,7 +83,7 @@ const ModernWorkplaceConsulting = () => {
                                 Connect, Collaborate, and Work Securely
                             </h2>
                             <p>
-                                Transform your workplace with Sadel&apos;s Modern Workplace solutions that empower your team to connect, collaborate, and work securely on any device, anywhere. Say goodbye to the hassle of IT issues and embrace a centralized workplace service that gives your employees instant access to the tools they need to stay focused and productive.
+                                Transform your workplace with AFAQ&apos;s Modern Workplace solutions that empower your team to connect, collaborate, and work securely on any device, anywhere. Say goodbye to the hassle of IT issues and embrace a centralized workplace service that gives your employees instant access to the tools they need to stay focused and productive.
                                 <br /><br />
                                 In today&apos;s hybrid work environments, your team needs solutions that adapt to their dynamic needs. Our Modern Workplace platform enables seamless work experiences whether your employees are in the office, working from home, or collaborating on the go - all without compromising security or productivity.
                             </p>

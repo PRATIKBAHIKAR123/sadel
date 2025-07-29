@@ -17,14 +17,14 @@ export default function MarketResearchService() {
                         <Fade direction="up" triggerOnce>
                             <div>
                                 <h2 className="text-5xl font-bold font-['Urbanist'] leading-[64px] mb-6">
-                                    <span className="text-[#0b0d0e]">Market</span> <span className="text-[#f9d300]">Research</span> <span className="text-[#0b0d0e]">Solutions</span>
+                                    <span className="text-[#0b0d0e]">Market</span> <span className="text-primary">Research</span> <span className="text-[#0b0d0e]">Solutions</span>
                                 </h2>
                                 <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
                                     Transform your business decisions with data-driven insights. Our comprehensive market research services provide actionable intelligence about your products, technology, customers, competition, and market landscape.
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">  
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
                                             Get Expert Consultation
                                         </Button>
                                     </Link>
@@ -151,14 +151,14 @@ export default function MarketResearchService() {
 
             {/* Research Expertise Section */}
             <div className="max-w-7xl mx-auto mt-4">
-                <div className="bg-[#f9d300] rounded-3xl p-12">
+                <div className="bg-[#a895d2] rounded-3xl p-12">
                     <div className="flex flex-col md:flex-row items-center justify-between">
                         <div className="flex-1">
                             <Fade direction="up" triggerOnce>
-                                <div className="text-black text-4xl font-semibold font-['Urbanist'] leading-[64px] mb-6">
+                                <div className="text-white text-4xl font-semibold font-['Urbanist'] leading-[64px] mb-6">
                                     Research Experts at Your Service
                                 </div>
-                                <p className="text-black text-lg font-normal font-['Urbanist'] leading-loose">
+                                <p className="text-white text-lg font-normal font-['Urbanist'] leading-loose">
                                     We handle everything from project planning to execution and final reporting. Our team specializes in advanced research methodologies including cluster analysis, Van Westendorp pricing studies, and custom survey design to meet your specific research objectives.
                                 </p>
                             </Fade>
@@ -284,7 +284,7 @@ export default function MarketResearchService() {
             <div className="max-w-7xl mx-auto p-8 text-center">
                 <Fade direction="up" triggerOnce>
                     <Link href="/contact-us">
-                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg">
+                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-4 rounded-lg font-semibold text-lg">
                             Consult a Market Research Expert Now
                         </Button>
                     </Link>
@@ -331,7 +331,7 @@ export default function MarketResearchService() {
                 <div className="bg-[#fffcec] flex items-center justify-center p-6">
                     <div>
                         <Fade direction="up" triggerOnce>
-                            <div className="text-[#f9d300] text-lg font-medium font-['Urbanist'] leading-7 mb-4">
+                            <div className="text-primary text-lg font-medium font-['Urbanist'] leading-7 mb-4">
                                 Ready to transform your business decisions?
                             </div>
                             <div className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[64px] mb-6">
@@ -342,7 +342,7 @@ export default function MarketResearchService() {
                                     <input
                                         type="email"
                                         placeholder="Your email address"
-                                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                        className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8a78bd] focus:border-transparent"
                                     />
                                     <Button className="absolute right-2 top-1/2 -translate-y-1/2 px-8">
                                         Get Started
@@ -353,7 +353,7 @@ export default function MarketResearchService() {
                                 <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">
                                     You can unsubscribe at any time. Read our{" "}
                                 </span>
-                                <span className="text-[#f9d300] text-base font-normal font-['Urbanist'] leading-loose">
+                                <span className="text-primary text-base font-normal font-['Urbanist'] leading-loose">
                                     privacy policy
                                 </span>
                                 <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>

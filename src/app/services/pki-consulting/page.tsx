@@ -41,8 +41,8 @@ const PKIConsulting = () => {
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                            Get a free 30-minute consultation with a Sadel expert
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                            Get a free 30-minute consultation with a AFAQ expert
                                         </Button>
                                     </Link>
                                 </div>
@@ -70,12 +70,12 @@ const PKIConsulting = () => {
                         {/* Left: Text */}
                         <div className="feature-content">
                             <h2>
-                                What distinguishes Sadel PKI services from others?
+                                What distinguishes AFAQ PKI services from others?
                             </h2>
                             <p>
                                 Our solution incorporates the necessary controls and processes to guarantee a secure PKI. At the same time, our full systems integration capability offers end-to-end support from scoping and design to building and deploying the PKI solution. Additionally, we educate consumers about certificates to ensure proper use and handling of the PKI.
                                 <br /><br />
-                                Sadel consulting services offer unparalleled expertise and experience building secure PKI solutions. What sets us apart is our unique ability to provide PKI professional services not just as a consultant but as an active user of our own PKI to support our services and those of our clients.
+                                AFAQ consulting services offer unparalleled expertise and experience building secure PKI solutions. What sets us apart is our unique ability to provide PKI professional services not just as a consultant but as an active user of our own PKI to support our services and those of our clients.
                             </p>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const PKIConsulting = () => {
                                 <br /><br />
                                 We have a proven track record of designing and building PKI solutions for the most demanding security requirements, including government, transport industry, and Critical National Infrastructure users. Our expertise allows us to recommend the best-of-breed suppliers, or work with your preferred vendor, to ensure a PKI solution that meets your specific needs.
                                 <br /><br />
-                                Sadel consulting services offer a unique combination of experience, expertise, and flexibility to deliver a secure and effective PKI solution.
+                                AFAQ consulting services offer a unique combination of experience, expertise, and flexibility to deliver a secure and effective PKI solution.
                             </p>
                         </div>
                         <div className="feature-image">
@@ -124,7 +124,7 @@ const PKIConsulting = () => {
                                 <li>Training on PKI and cryptographic security</li>
                             </ul>
                             <Link href="/contact-us">
-                                <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold mt-4">
+                                <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold mt-4">
                                     Get a free 30-minute consultation with a sadel expert
                                 </Button>
                             </Link>

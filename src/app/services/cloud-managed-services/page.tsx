@@ -14,15 +14,15 @@ export default function CloudManagedServices() {
                         <Fade direction="up" triggerOnce>
                             <div>
                                 <h2 className="text-5xl font-bold font-['Urbanist'] leading-[64px] mb-6">
-                                    <span className="text-[#0b0d0e]">Cloud</span> <span className="text-[#f9d300]">Managed Services</span>
+                                    <span className="text-[#0b0d0e]">Cloud</span> <span className="text-primary">Managed Services</span>
                                 </h2>
                                 <p className="text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose mb-8">
                                     Transform your cloud operations with our comprehensive managed services. We help businesses unlock the full potential of cloud computing by streamlining critical IT processes and simplifying the management of essential business applications.
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                            Get Free Consultation with a Sadel expert
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                            Get Free Consultation with a AFAQ expert
                                         </Button>
                                     </Link>
                                     {/* <Button variant="outline">Learn More</Button> */}
@@ -99,23 +99,23 @@ export default function CloudManagedServices() {
                         </h3>
                         <div className="space-y-4 text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Deep business understanding to help you move quickly and capitalize on market changes</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>SAP application migration, cloud-native applications, analytics, and IoT solutions tailored to your needs</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Comprehensive automation and self-service capabilities that are cost-effective and flexible</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Built-in security and compliance capabilities across industries and geographies</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Flexible pricing, integration, delivery, and management models with world-class methodologies</p>
                             </div>
                         </div>
@@ -126,13 +126,13 @@ export default function CloudManagedServices() {
             {/* Yellow Highlight Section */}
             <div className="max-w-7xl mx-auto mt-4">
                 <Fade direction="left" triggerOnce>
-                    <div className="bg-[#f9d300] rounded-3xl p-12">
+                    <div className="bg-[#a895d2] rounded-3xl p-12">
                         <div className="flex flex-col lg:flex-row items-center justify-between">
                             <div className="flex-1">
-                                <h3 className="text-black text-4xl font-semibold font-['Urbanist'] leading-[64px] mb-6">
+                                <h3 className="text-white text-4xl font-semibold font-['Urbanist'] leading-[64px] mb-6">
                                     Versatile Solutions for Integration and Delivery
                                 </h3>
-                                <p className="text-black text-lg font-normal font-['Urbanist'] leading-loose">
+                                <p className="text-white text-lg font-normal font-['Urbanist'] leading-loose">
                                     We offer two delivery paths through three phases of designing your optimized cloud environment—either on our advanced cloud management platform or your preferred platform. With either option, you receive our full range of services to deliver and manage the cloud solution that best meets your requirements.
                                 </p>
                             </div>
@@ -155,27 +155,27 @@ export default function CloudManagedServices() {
                         </h3>
                         <div className="space-y-4 text-[#5c5f6e] text-lg font-normal font-['Urbanist'] leading-loose">
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Cost optimization of up to 30% with restructured expenses and pay-as-you-go models</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Rapid cloud deployments tailored to your demands and financial objectives</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Enhanced compliance and security capabilities for complete peace of mind</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Improved performance and efficiency that frees resources for business value creation</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Ongoing guidance and support from strategy to implementation to operation</p>
                             </div>
                             <div className="flex items-start gap-3">
-                                <div className="w-2 h-2 bg-[#f9d300] rounded-full mt-3 flex-shrink-0"></div>
+                                <div className="w-2 h-2 bg-[#8a78bd] rounded-full mt-3 flex-shrink-0"></div>
                                 <p>Optimized workloads that scale without additional hiring or training requirements</p>
                             </div>
                         </div>
@@ -198,7 +198,7 @@ export default function CloudManagedServices() {
                         Cloud deployment monitoring can be a significant challenge. Let us help you reduce cloud complexities. We collaborate with you to develop transparent, cost-effective cloud management strategies that enable you to build a flexible, scalable cloud ecosystem tailored to your needs, supporting your growth goals while allowing you to focus on delivering value.
                     </p>
                     <Link href="/contact-us">
-                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
+                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
                             Learn More About Our Cloud Managed Services
                         </Button>
                     </Link>
@@ -240,14 +240,14 @@ export default function CloudManagedServices() {
             {/* <div className="w-full my-10">
                 <div className="bg-[#fffcec] flex items-center justify-center p-6">
                     <div>
-                        <div className="text-[#f9d300] text-lg font-medium font-['Urbanist'] leading-7">Sign up for updates</div>
+                        <div className="text-primary text-lg font-medium font-['Urbanist'] leading-7">Sign up for updates</div>
                         <div className="text-[#0b0d0e] text-4xl font-bold font-['Urbanist'] leading-[64px]">Cut down on expenses while improving productivity.</div>
                         <div className="flex">
                             <div className="flex-1 relative">
                                 <input
                                     type="email"
                                     placeholder="Your email address"
-                                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
+                                    className="w-full px-4 py-3 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-[#8a78bd] focus:border-transparent"
                                 />
                                 <Button className="absolute right-2 top-1/2 -translate-y-1/2 px-8">
                                     Sign Up
@@ -256,7 +256,7 @@ export default function CloudManagedServices() {
                         </div>
                         <div className="mt-3">
                             <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">You can unsubscribe at any time. Read our </span>
-                            <span className="text-[#f9d300] text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span>
+                            <span className="text-primary text-base font-normal font-['Urbanist'] leading-loose">privacy policy</span>
                             <span className="text-[#838696] text-base font-normal font-['Urbanist'] leading-loose">.</span>
                         </div>
                     </div>

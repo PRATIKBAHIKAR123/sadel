@@ -11,11 +11,11 @@ const SadelsDataDrivensolutions = () => {
             answer: "Data-driven solutions use advanced analytics, machine learning, and business intelligence to transform raw data into actionable insights. They benefit your business by improving decision-making, identifying new opportunities, optimizing operations, reducing costs, and providing competitive advantages through predictive analytics and real-time insights."
         },
         {
-            question: "What types of data-driven services does Sadel offer?",
-            answer: "Sadel offers comprehensive data-driven services including data strategy consulting, advanced analytics implementation, business intelligence development, predictive modeling, data visualization, real-time analytics, data engineering, and continuous optimization. We provide end-to-end solutions tailored to your specific business needs and objectives."
+            question: "What types of data-driven services does AFAQ offer?",
+            answer: "AFAQ offers comprehensive data-driven services including data strategy consulting, advanced analytics implementation, business intelligence development, predictive modeling, data visualization, real-time analytics, data engineering, and continuous optimization. We provide end-to-end solutions tailored to your specific business needs and objectives."
         },
         {
-            question: "How does Sadel ensure data quality and accuracy in analytics?",
+            question: "How does AFAQ ensure data quality and accuracy in analytics?",
             answer: "We implement robust data quality frameworks that include data validation, cleansing, standardization, and governance processes. Our solutions use advanced algorithms to detect anomalies, ensure data consistency, and maintain high accuracy standards. We also provide regular data quality audits and monitoring to maintain reliability."
         },
         {
@@ -27,7 +27,7 @@ const SadelsDataDrivensolutions = () => {
             answer: "Implementation timelines vary based on complexity and scope. Simple analytics dashboards can be completed in 4-6 weeks, while comprehensive data-driven transformations may take 2-4 months. We provide detailed project timelines and keep you updated throughout the implementation process."
         },
         {
-            question: "What kind of support and training does Sadel provide?",
+            question: "What kind of support and training does AFAQ provide?",
             answer: "We provide comprehensive support including user training, technical documentation, ongoing maintenance, performance optimization, and 24/7 monitoring. Our team ensures your staff understands how to use the analytics tools effectively and can interpret insights to drive business decisions."
         },
         {
@@ -43,7 +43,7 @@ const SadelsDataDrivensolutions = () => {
             answer: "We implement enterprise-grade security measures including data encryption, access controls, audit trails, and compliance with relevant regulations (GDPR, HIPAA, etc.). We ensure data privacy through anonymization techniques and secure data handling practices throughout the analytics process."
         },
         {
-            question: "What makes Sadel's data-driven approach different from others?",
+            question: "What makes AFAQ's data-driven approach different from others?",
             answer: "Our approach combines deep technical expertise with business acumen. We focus on actionable insights rather than just data visualization, provide customized solutions rather than off-the-shelf products, and ensure long-term success through continuous optimization and support."
         }
     ];
@@ -61,12 +61,12 @@ const SadelsDataDrivensolutions = () => {
                                     <span className="hero-title-primary">Harness the Power of Data-Driven Solutions!</span>
                                 </h1>
                                 <p className="hero-description">
-                                    Transform your organization with Sadel&apos;s comprehensive data-driven consulting services designed to unlock new potentials for your business. Our cutting-edge analytics solutions ensure you stay ahead in an ever-evolving digital landscape.
+                                    Transform your organization with AFAQ&apos;s comprehensive data-driven consulting services designed to unlock new potentials for your business. Our cutting-edge analytics solutions ensure you stay ahead in an ever-evolving digital landscape.
                                 </p>
                                 <div className="flex gap-4">
                                     <Link href="/contact-us">
-                                        <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                            Get a free 30-minute consultation with a Sadel expert
+                                        <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                            Get a free 30-minute consultation with a AFAQ expert
                                         </Button>
                                     </Link>
                                     {/* <Button variant="outline">Explore Data Solutions</Button> */}
@@ -97,7 +97,7 @@ const SadelsDataDrivensolutions = () => {
                                 Empowering Your Business with Data-Driven Insights
                             </h2>
                             <p>
-                                At Sadel, we harness the power of advanced analytics and business intelligence to unlock new potentials for your business. Our comprehensive data-driven consulting services are designed to cater to your unique needs, ensuring you stay ahead in an ever-evolving digital landscape.
+                                At AFAQ, we harness the power of advanced analytics and business intelligence to unlock new potentials for your business. Our comprehensive data-driven consulting services are designed to cater to your unique needs, ensuring you stay ahead in an ever-evolving digital landscape.
                             </p>
                         </div>
                     </div>
@@ -252,12 +252,12 @@ const SadelsDataDrivensolutions = () => {
                     <div className="feature-container">
                         {/* Right: Illustration */}
                         <div className="feature-image">
-                            <img src="/Images/Frame (21).png" alt="Why Choose Sadel" className="w-full max-w-xs h-auto" />
+                            <img src="/Images/Frame (21).png" alt="Why Choose AFAQ" className="w-full max-w-xs h-auto" />
                         </div>
                         {/* Left: Text */}
                         <div className="feature-content">
                             <h2>
-                                Why Choose Sadel for Data-Driven Solutions?
+                                Why Choose AFAQ for Data-Driven Solutions?
                             </h2>
                             <div className="space-y-6">
                                 <div>
@@ -290,7 +290,7 @@ const SadelsDataDrivensolutions = () => {
                     <div className="max-w-5xl mx-auto px-4">
                         <div className="text-center mb-12">
                             <h2 className="feature-content h2">
-                                Frequently Asked Questions (FAQs) for Data-Driven Solutions at Sadel
+                                Frequently Asked Questions (FAQs) for Data-Driven Solutions at AFAQ
                             </h2>
                         </div>
                         <FAQAccordion faqs={faqs} />

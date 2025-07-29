@@ -27,7 +27,7 @@ export default function DefenderForIdentityPage() {
         },
         {
             question: "How do I turn on Microsoft Defender for Identity?",
-            answer: "To enable Microsoft Defender for Identity, you need to install sensors on your domain controllers, configure the service in the Microsoft 365 Defender portal, and set up the necessary permissions. Sadel can help you with the complete setup process, including sensor deployment and policy configuration."
+            answer: "To enable Microsoft Defender for Identity, you need to install sensors on your domain controllers, configure the service in the Microsoft 365 Defender portal, and set up the necessary permissions. AFAQ can help you with the complete setup process, including sensor deployment and policy configuration."
         },
         {
             question: "What is the benefit of a Defender for Identity?",
@@ -54,8 +54,8 @@ export default function DefenderForIdentityPage() {
 Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security solution that leverages signals from your on-premises Active Directory to detect and investigate advanced threats, compromised user identities, and malicious insider activities.                            </p>
                             <div className="flex gap-4">
                                 <Link href="/contact-us">
-                                    <Button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-lg font-semibold">
-                                        Get a free 30-minute consultation with a Sadel expert
+                                    <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold">
+                                        Get a free 30-minute consultation with a AFAQ expert
                                     </Button>
                                 </Link>
                                 {/* <Button variant="outline">Learn More</Button> */}
@@ -88,28 +88,28 @@ Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security s
 
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                             <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
-                                {/* <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                {/* <div className="bg-[#8a78bd] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <img src="/Images/security.png" alt="Analytics" className="w-8 h-8" />
                                 </div> */}
                                 <h3 className="font-bold text-gray-900 mb-2">Learning-based Analytics</h3>
                                 <p className="text-gray-600 text-sm">Monitors user and entity activity and behavior patterns</p>
                             </div>
                             <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
-                                {/* <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                {/* <div className="bg-[#8a78bd] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <img src="/Images/security.png" alt="Login Protection" className="w-8 h-8" />
                                 </div> */}
                                 <h3 className="font-bold text-gray-900 mb-2">Active Directory Protection</h3>
                                 <p className="text-gray-600 text-sm">Safeguards Active Directory login information</p>
                             </div>
                             <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
-                                {/* <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                {/* <div className="bg-[#8a78bd] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <img src="/Images/security.png" alt="Threat Detection" className="w-8 h-8" />
                                 </div> */}
                                 <h3 className="font-bold text-gray-900 mb-2">Advanced Threat Detection</h3>
                                 <p className="text-gray-600 text-sm">Identifies malicious behavior and sophisticated attacks</p>
                             </div>
                             <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
-                                {/* <div className="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                                {/* <div className="bg-[#8a78bd] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                                     <img src="/Images/security.png" alt="Incident Response" className="w-8 h-8" />
                                 </div> */}
                                 <h3 className="font-bold text-gray-900 mb-2">Clear Incident Details</h3>
@@ -135,37 +135,37 @@ Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security s
                         
                         <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
                             <div className="bg-white p-4 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                                     <img src="/Images/security.png" alt="Secure Posture" className="w-6 h-6" />
                                 </div>
                                 <h3 className="font-bold text-gray-900 text-sm">Secure Posture</h3>
                             </div>
                             <div className="bg-white p-4 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                                     <img src="/Images/security.png" alt="Prevention" className="w-6 h-6" />
                                 </div>
                                 <h3 className="font-bold text-gray-900 text-sm">Prevention</h3>
                             </div>
                             <div className="bg-white p-4 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                                     <img src="/Images/security.png" alt="Detection" className="w-6 h-6" />
                                 </div>
                                 <h3 className="font-bold text-gray-900 text-sm">Detection</h3>
                             </div>
                             <div className="bg-white p-4 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                                     <img src="/Images/security.png" alt="Investigation" className="w-6 h-6" />
                                 </div>
                                 <h3 className="font-bold text-gray-900 text-sm">Investigation</h3>
                             </div>
                             <div className="bg-white p-4 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                                     <img src="/Images/security.png" alt="Response" className="w-6 h-6" />
                                 </div>
                                 <h3 className="font-bold text-gray-900 text-sm">Response</h3>
                             </div>
                             <div className="bg-white p-4 rounded-2xl shadow-lg text-center">
-                                <div className="bg-yellow-400 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
+                                <div className="bg-[#8a78bd] w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-3">
                                     <img src="/Images/security.png" alt="Training" className="w-6 h-6" />
                                 </div>
                                 <h3 className="font-bold text-gray-900 text-sm">Training</h3>
@@ -252,7 +252,7 @@ Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security s
                 <div className="py-12 sm:py-16">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
-                            Microsoft Defender for Identity from Sadel offers the following benefits:
+                            Microsoft Defender for Identity from AFAQ offers the following benefits:
                         </h2>
                         <div className="grid md:grid-cols-2 gap-8">
                             <div className="bg-white p-6 rounded-2xl shadow-lg">
@@ -286,7 +286,7 @@ Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security s
 
             {/* Call to Action Section */}
             <Fade direction="up" triggerOnce>
-                <div className="py-12 sm:py-16 bg-yellow-50">
+                <div className="py-12 sm:py-16 bg-[#FFFCEC]">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                             Ready to secure your identity infrastructure?
@@ -296,9 +296,9 @@ Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security s
                         </p>
                         <Button
                             onClick={handleContactRedirect}
-                            className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg"
+                            className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-4 rounded-lg font-semibold text-lg"
                         >
-                            Get a free 30-minute consultation with a Sadel expert
+                            Get a free 30-minute consultation with a AFAQ expert
                         </Button>
                     </div>
                 </div>
@@ -319,11 +319,11 @@ Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security s
             {/* <TeachingTechCarousel /> */}
 
             {/* Newsletter Section */}
-            {/* <div className="bg-yellow-50 py-8 sm:py-12">
+            {/* <div className="bg-[#8a78bd] py-8 sm:py-12">
                 <div className="max-w-7xl mx-auto p-6 sm:p-8 md:p-12 flex flex-col lg:flex-row items-center gap-6 sm:gap-8">
                     <div className="flex-1 text-center lg:text-left">
                         <Fade direction="left" triggerOnce>
-                            <p className="text-yellow-400 text-xs sm:text-sm">Sign up for updates</p>
+                            <p className="text-primary text-xs sm:text-sm">Sign up for updates</p>
                             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 font-['Urbanist']">Stay informed about identity security threats and solutions.</h2>
                             <div>
                                 <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-3 sm:mb-4">
@@ -336,18 +336,18 @@ Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security s
                                             value={email}
                                             onChange={(e) => setEmail(e.target.value)}
                                             placeholder="Your email address"
-                                            className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-200 rounded-md sm:rounded-l-md sm:rounded-r-none focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent text-sm sm:text-base"
+                                            className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-gray-200 rounded-md sm:rounded-l-md sm:rounded-r-none focus:outline-none focus:ring-2 focus:ring-[#8a78bd] focus:border-transparent text-sm sm:text-base"
                                         />
                                     </div>
                                     <button
                                         onClick={handleSubscribe}
-                                        className="bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-md sm:rounded-l-none sm:rounded-r-md transition-colors duration-200 text-sm sm:text-base"
+                                        className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-gray-800 font-medium px-4 sm:px-6 py-2 sm:py-3 rounded-md sm:rounded-l-none sm:rounded-r-md transition-colors duration-200 text-sm sm:text-base"
                                     >
                                         Sign Up
                                     </button>
                                 </div>
                             </div>
-                            <p className="text-gray-400 text-xs mt-2">You can unsubscribe anytime. Read our <span className="text-yellow-400">privacy policy</span></p>
+                            <p className="text-gray-400 text-xs mt-2">You can unsubscribe anytime. Read our <span className="text-primary">privacy policy</span></p>
                         </Fade>
                     </div>
                     <div className="flex-1 flex justify-center">
