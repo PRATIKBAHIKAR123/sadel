@@ -125,7 +125,7 @@ export default function Services() {
           </div>
           <div className="justify-start order-1 lg:order-2">
             <div className="text-center lg:text-left">
-              <span className="text-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[64px]">Get to Know Sadels </span>
+              <span className="text-primary text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[64px]">Get to Know AFAQ&apos;s </span>
               <span className="text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold font-['Urbanist'] leading-tight sm:leading-normal lg:leading-[64px]">IT Business Solutions</span>
             </div>
             <div className="justify-start text-[#5c5f6e] text-base sm:text-lg md:text-xl font-normal font-['Urbanist'] leading-relaxed mt-2 sm:mt-4 text-center lg:text-left">

@@ -125,7 +125,7 @@ const PKIConsulting = () => {
                             </ul>
                             <Link href="/contact-us">
                                 <Button className="bg-[#8a78bd] hover:bg-[#6f5ea0] text-white px-8 py-3 rounded-lg font-semibold mt-4">
-                                    Get a free 30-minute consultation with a sadel expert
+                                    Get a free 30-minute consultation with a AFAQ&apos;s expert
                                 </Button>
                             </Link>
                         </div>
