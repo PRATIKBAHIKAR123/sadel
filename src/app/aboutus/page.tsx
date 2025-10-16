@@ -390,7 +390,7 @@ export default function AboutUsPage() {
               Strategic Partnership
             </h2>
             <p className="text-black text-lg md:text-xl font-normal font-['Urbanist'] leading-relaxed max-w-4xl mx-auto">
-              Sadel Tech is proud to announce our strategic partnership with
+              AFAQ is proud to announce our strategic partnership with
               Professional Labs, combining our expertise in IT solutions with
               their innovative approach to deliver enhanced services and
               cutting-edge technology solutions to our clients.
@@ -424,7 +424,7 @@ export default function AboutUsPage() {
               <div className="bg-white rounded-2xl p-6 shadow-md">
                 <div className="text-center">
                   <div className="text-primary text-xl font-bold font-['Urbanist'] mb-2">
-                    Sadel Tech
+                    AFAQ
                   </div>
                   <div className="text-gray-600 text-sm mb-4">
                     Partners with
